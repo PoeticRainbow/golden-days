@@ -1,0 +1,255 @@
+{
+	"entity.player.attack.crit": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.player.attack.knockback": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.player.attack.nodamage": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.player.attack.strong": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.player.attack.sweep": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.player.attack.weak": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+    "entity.player.hurt_drown": {
+		"replace": "true",
+		"sounds": [{
+            "name": "damage/hit1",
+            "name": "damage/hit2",
+            "name": "damage/hit3"
+		}]
+	},
+    "entity.player.hurt_on_fire": {
+		"replace": "true",
+		"sounds": [{
+            "name": "damage/hit1",
+            "name": "damage/hit2",
+            "name": "damage/hit3"
+		}]
+	},
+    "entity.player.hurt_sweet_berry_bush": {
+		"replace": "true",
+		"sounds": [{
+            "name": "damage/hit1",
+            "name": "damage/hit2",
+            "name": "damage/hit3"
+		}]
+	},
+	"entity.boat.paddle_land": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.boat.paddle_water": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"ambient.underwater.exit": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"ambient.underwater.enter": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"ambient.underwater.loop": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"ambient.underwater.loop.additions": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"ambient.underwater.loop.additions.rare": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"ambient.underwater.loop.additions.ultra_rare": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.generic.swim": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.hostile.swim": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.player.swim": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"block.water.ambient": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"block.ladder.step": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.minecart.inside": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"item.bucket.empty": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"item.bucket.empty_fish": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"item.bucket.empty_lava": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"item.bucket.fill": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"item.bucket.fill_fish": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"item.bucket.fill_lava": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"block.lava.pop": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"block.lava.ambient": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.minecart.riding": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.player.splash.high_speed": {
+		"replace": "true",
+		"sounds": [{
+			"name": "liquid/splash",
+            "name": "liquid/splash2"
+		}]
+	},
+	"block.iron_door.open": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/door/open"
+		}]
+	},
+	"block.iron_door.close": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/door/close"
+		}]
+	},
+	"block.iron_trapdoor.open": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/door/open"
+		}]
+	},
+	"block.iron_trapdoor.close": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/door/close"
+		}]
+	},
+	"block.wooden_door.open": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/door/open"
+		}]
+	},
+	"block.wooden_door.close": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/door/close"
+		}]
+	},
+	"block.wooden_trapdoor.open": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/door/open"
+		}]
+	},
+	"block.wooden_trapdoor.close": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/door/close"
+		}]
+	}
+}
