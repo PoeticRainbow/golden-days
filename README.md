@@ -1,6 +1,8 @@
 # Golden Days Base
 Golden Days is a Minecraft resource pack meant to bring back old textures, lighting, names, and sounds from older versions of Minecraft.
 
+<img src="./pack.png">
+
 Golden Days is split into 3 packs:
 ## Golden Days Base    
 The main pack, meant to be usable in survival gameplay and does not remove any newer features in order to make it functional. Lighting, sounds, textures, and models! Everything you need for an authentic feeling experience. Use this pack on top of Programmer Art in order for it to work.
