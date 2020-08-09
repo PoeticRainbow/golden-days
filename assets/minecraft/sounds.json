@@ -225,6 +225,15 @@
             "step/stone6"
 		]
 	},
+	"block.ladder.hit": {
+		"replace": "true",
+		"sounds": [
+            "dig/wood1",
+            "dig/wood2",
+            "dig/wood3",
+            "dig/wood4"
+		]
+	},
 	"entity.minecart.riding": {
 		"replace": "true",
 		"sounds": [{
