@@ -37,27 +37,27 @@
 	},
     "entity.player.hurt_drown": {
 		"replace": "true",
-		"sounds": [{
-            "name": "damage/hit1",
-            "name": "damage/hit2",
-            "name": "damage/hit3"
-		}]
+		"sounds": [
+            "damage/hit1",
+            "damage/hit2",
+            "damage/hit3"
+		]
 	},
     "entity.player.hurt_on_fire": {
 		"replace": "true",
-		"sounds": [{
-            "name": "damage/hit1",
-            "name": "damage/hit2",
-            "name": "damage/hit3"
-		}]
+		"sounds": [
+            "damage/hit1",
+            "damage/hit2",
+            "damage/hit3"
+		]
 	},
     "entity.player.hurt_sweet_berry_bush": {
 		"replace": "true",
-		"sounds": [{
-            "name": "damage/hit1",
-            "name": "damage/hit2",
-            "name": "damage/hit3"
-		}]
+		"sounds": [
+            "damage/hit1",
+            "damage/hit2",
+            "damage/hit3"
+		]
 	},
 	"entity.boat.paddle_land": {
 		"replace": "true",
@@ -191,6 +191,46 @@
 			"name": "goldendays/blank"
 		}]
 	},
+	"block.netherrack.break": {
+		"replace": "true",
+		"sounds": [
+			"dig/stone1",
+			"dig/stone2",
+			"dig/stone3",
+			"dig/stone4"
+		]
+	},
+	"block.netherrack.place": {
+		"replace": "true",
+		"sounds": [
+			"dig/stone1",
+			"dig/stone2",
+			"dig/stone3",
+			"dig/stone4"
+		]
+	},
+	"block.netherrack.hit": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+		]
+	},
+	"block.netherrack.step": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+		]
+	},
 	"entity.minecart.riding": {
 		"replace": "true",
 		"sounds": [{
@@ -199,10 +239,10 @@
 	},
 	"entity.player.splash.high_speed": {
 		"replace": "true",
-		"sounds": [{
-			"name": "liquid/splash",
-            "name": "liquid/splash2"
-		}]
+		"sounds": [
+			"liquid/splash",
+            "liquid/splash2"
+		]
 	},
 	"block.iron_door.open": {
 		"replace": "true",
