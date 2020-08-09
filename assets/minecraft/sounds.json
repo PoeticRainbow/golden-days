@@ -125,12 +125,6 @@
 			"name": "goldendays/blank"
 		}]
 	},
-	"block.water.ambient": {
-		"replace": "true",
-		"sounds": [{
-			"name": "goldendays/blank"
-		}]
-	},
 	"block.ladder.step": {
 		"replace": "true",
 		"sounds": [{
@@ -345,5 +339,14 @@
 		"sounds": [{
 			"name": "goldendays/blank"
 		}]
+	},
+	"weather.rain": {
+		"replace": "true",
+		"sounds": [
+			"goldendays/weather/rain/rain1",
+			"goldendays/weather/rain/rain2",
+			"goldendays/weather/rain/rain3",
+			"goldendays/weather/rain/rain4"
+		]
 	}
 }
