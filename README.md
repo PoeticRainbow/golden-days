@@ -3,11 +3,11 @@ Golden Days is a Minecraft resource pack meant to bring back old textures, light
 
 Golden Days is split into 3 packs:
 ## Golden Days Base    
-    The main pack, meant to be usable in survival gameplay and does not remove any newer features in order to make it functional. Lighting, sounds, textures, and models! Everything you need for an authentic feeling experience. Use this pack on top of Programmer Art in order for it to work.
+The main pack, meant to be usable in survival gameplay and does not remove any newer features in order to make it functional. Lighting, sounds, textures, and models! Everything you need for an authentic feeling experience. Use this pack on top of Programmer Art in order for it to work.
 ## Golden Days Alpha Addon
-    The Alpha Addon changes a few things, the main one being the iconic Alpha grass foliage color! Use this pack on top of the Base in order for an amazing Alpha-like experience in Modern Minecraft!
+The Alpha Addon changes a few things, the main one being the iconic Alpha grass foliage color! Use this pack on top of the Base in order for an amazing Alpha-like experience in Modern Minecraft!
 ## Golden Days Picture Perfect
-    Picture Perfect is the most recent addon, made specifically for taking screenshots! This pack makes blocks such as Granite, Blue Orchids, or Tall Grass appear as blocks you could find in Beta and Alpha! Granite shows as stone, tall grass appears as normal grass, and more! This pack is not recommended for survival gameplay, as many blocks are not as they appear. Use this pack on top of the Base and/or Alpha Addon and take authentic screenshots!
+Picture Perfect is the most recent addon, made specifically for taking screenshots! This pack makes blocks such as Granite, Blue Orchids, or Tall Grass appear as blocks you could find in Beta and Alpha! Granite shows as stone, tall grass appears as normal grass, and more! This pack is not recommended for survival gameplay, as many blocks are not as they appear. Use this pack on top of the Base and/or Alpha Addon and take authentic screenshots!
     
 ## IMPORTANT (UPDATED): 
 For 1.15 and below: This pack requires features provided in Optifine! 
