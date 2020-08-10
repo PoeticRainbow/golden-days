@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=lower": { "model": "block/poppy" },
+        "half=upper":    { "model": "block/air" }
+    }
+}

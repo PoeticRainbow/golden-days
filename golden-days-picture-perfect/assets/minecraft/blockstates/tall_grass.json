@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=lower": { "model": "block/grass" },
+        "half=upper":    { "model": "block/air" }
+    }
+}
