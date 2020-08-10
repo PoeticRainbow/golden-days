@@ -22,6 +22,7 @@ For 1.16 and above: As Optifine updates grow longer and longer, I am growing imp
 - Lithium, and Phosphor: Performance mods to keep your game running smooth.
 - Sodium: A performance mod that increases performance dramatically. Not compatible with Fabric Renderer API as of 7/22/20. (Not compatible with Canvas).
 - Canvas: A performance mod that also aims to implement shader support. Compatible with Fabric Renderer API. (Not compatible with Sodium).
+- Soaring Clouds: Fabric mod that allows you to change the cloud height. Set to 108 for the Beta experience!
 - Custom Entity Model Support: None available.
 
 Please, please, please tell me when/if you use my resource pack in a video! Not because I'm a control freak, but instead because I would love to see you using it! <3
