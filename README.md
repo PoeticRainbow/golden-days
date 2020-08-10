@@ -18,7 +18,7 @@ In order to have the full experience, it is required. This pack uses the followi
 - Custom Entity Models
 
 For 1.16 and above: As Optifine updates grow longer and longer, I am growing impatient. As a member of the Fabric modding community, Optifine is going farther out of the picture. OptiFabric, a mod made to implement Optifine support, is going under. This is because as Optifine implements more changes, we cannot keep up with the support. Optifine is closed source, so we cannot reference the code. Unless Optifine adds Fabric support, please try alternatives. Here is my list of alternative mods for Fabric:
-- Colormatic (Adds Custom Colors support): Required for water colors, grass colors, sky colors, and lightmap colors.
+- [Colormatic](https://www.curseforge.com/minecraft/mc-mods/colormatic) (Adds Custom Colors support): Required for water colors, grass colors, sky colors, and lightmap colors.
 - Lithium, and Phosphor: Performance mods to keep your game running smooth.
 - Sodium: A performance mod that increases performance dramatically. Not compatible with Fabric Renderer API as of 7/22/20. (Not compatible with Canvas).
 - Canvas: A performance mod that also aims to implement shader support. Compatible with Fabric Renderer API. (Not compatible with Sodium).
