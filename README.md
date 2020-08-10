@@ -1,7 +1,7 @@
 # Golden Days
 Golden Days is a Minecraft resource pack meant to bring back old textures, lighting, names, and sounds from older versions of Minecraft.
 
-<img src="./pack.png">
+<img src="./cover.png">
 
 Golden Days is split into 3 packs:
 ## Golden Days Base    
