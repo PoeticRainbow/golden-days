@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/ore_block",
+	"textures": {
+		"bottom": "block/diamond_block_bottom",
+		"side": "block/diamond_block_side",
+		"top": "block/diamond_block_top",
+		"particle": "block/diamond_block_top"
+	}
+}
