@@ -1,0 +1,124 @@
+{
+	"texture": "red.png",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [-8, -32, 0],
+			"boxes": [
+				{
+					"coordinates": [-8, 16, 0, 16, 16, 6],
+					"uvNorth": [6, 6, 22, 22],
+					"uvEast": [0, 6, 6, 22],
+					"uvSouth": [28, 6, 44, 22],
+					"uvWest": [22, 6, 28, 22],
+					"uvUp": [22, 6, 6, 0],
+					"uvDown": [0, 0, 1, 1]
+				}
+			],
+			"submodels": [
+				{
+					"id": "bone4",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"rotate": [-90, 0, -180],
+					"boxes": [
+						{
+							"coordinates": [5, -9, -32, 3, 3, 3],
+							"uvNorth": [53, 3, 50, 6],
+							"uvEast": [50, 3, 53, 6],
+							"uvUp": [0, 0, 1, 1]
+						}
+					]
+				},
+				{
+					"id": "bone3",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"rotate": [-90, 0, 90],
+					"boxes": [
+						{
+							"coordinates": [29, -9, -8, 3, 3, 3],
+							"uvNorth": [53, 9, 50, 12],
+							"uvEast": [50, 9, 53, 12],
+							"uvUp": [0, 0, 1, 1]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "foot",
+			"id": "foot",
+			"invertAxis": "xy",
+			"translate": [-8, -16, 0],
+			"boxes": [
+				{
+					"coordinates": [-8, 0, 0, 16, 16, 6],
+					"uvNorth": [5, 28, 21, 44],
+					"uvEast": [0, 28, 6, 44],
+					"uvSouth": [28, 28, 44, 44],
+					"uvWest": [22, 28, 28, 44],
+					"uvUp": [0, 0, 1, 1],
+					"uvDown": [38, 22, 22, 28]
+				}
+			],
+			"submodels": [
+				{
+					"id": "bone2",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"rotate": [-90, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [5, -9, 0, 3, 3, 3],
+							"uvNorth": [53, 15, 50, 18],
+							"uvEast": [50, 15, 53, 18],
+							"uvUp": [0, 0, 1, 1]
+						}
+					]
+				},
+				{
+					"id": "bone",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"rotate": [-90, 0, -90],
+					"boxes": [
+						{
+							"coordinates": [-3, -9, -8, 3, 3, 3],
+							"uvNorth": [53, 21, 50, 24],
+							"uvEast": [50, 21, 53, 24],
+							"uvUp": [0, 0, 1, 1]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [-8, -9, -8]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [-8, -9, -21]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [21, -9, -8]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [21, -9, -21]
+		}
+	]
+}

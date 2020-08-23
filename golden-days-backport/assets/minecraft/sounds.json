@@ -1,0 +1,361 @@
+{
+	"entity.player.attack.crit": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.player.attack.knockback": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.player.attack.nodamage": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.player.attack.strong": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.player.attack.sweep": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.player.attack.weak": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+    "entity.player.hurt_drown": {
+		"replace": "true",
+		"sounds": [
+            "damage/hit1",
+            "damage/hit2",
+            "damage/hit3"
+		]
+	},
+    "entity.player.hurt_on_fire": {
+		"replace": "true",
+		"sounds": [
+            "damage/hit1",
+            "damage/hit2",
+            "damage/hit3"
+		]
+	},
+    "entity.player.hurt_sweet_berry_bush": {
+		"replace": "true",
+		"sounds": [
+            "damage/hit1",
+            "damage/hit2",
+            "damage/hit3"
+		]
+	},
+	"entity.boat.paddle_land": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.boat.paddle_water": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"ambient.underwater.exit": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"ambient.underwater.enter": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"ambient.underwater.loop": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"ambient.underwater.loop.additions": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"ambient.underwater.loop.additions.rare": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"ambient.underwater.loop.additions.ultra_rare": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.generic.swim": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.hostile.swim": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.player.swim": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"block.ladder.step": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.minecart.inside": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"item.bucket.empty": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"item.bucket.empty_fish": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"item.bucket.empty_lava": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"item.bucket.fill": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"item.bucket.fill_fish": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"item.bucket.fill_lava": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"block.lava.pop": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"block.lava.ambient": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"block.netherrack.break": {
+		"replace": "true",
+		"sounds": [
+			"dig/stone1",
+			"dig/stone2",
+			"dig/stone3",
+			"dig/stone4"
+		]
+	},
+	"block.netherrack.place": {
+		"replace": "true",
+		"sounds": [
+			"dig/stone1",
+			"dig/stone2",
+			"dig/stone3",
+			"dig/stone4"
+		]
+	},
+	"block.netherrack.hit": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+		]
+	},
+	"block.netherrack.step": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+		]
+	},
+	"block.ladder.hit": {
+		"replace": "true",
+		"sounds": [
+            "dig/wood1",
+            "dig/wood2",
+            "dig/wood3",
+            "dig/wood4"
+		]
+	},
+	"entity.minecart.riding": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"entity.player.splash.high_speed": {
+		"replace": "true",
+		"sounds": [
+			"liquid/splash",
+            "liquid/splash2"
+		]
+	},
+	"block.iron_door.open": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/door/open"
+		}]
+	},
+	"block.iron_door.close": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/door/close"
+		}]
+	},
+	"block.iron_trapdoor.open": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/door/open"
+		}]
+	},
+	"block.iron_trapdoor.close": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/door/close"
+		}]
+	},
+	"block.wooden_door.open": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/door/open"
+		}]
+	},
+	"block.wooden_door.close": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/door/close"
+		}]
+	},
+	"block.wooden_trapdoor.open": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/door/open"
+		}]
+	},
+	"block.wooden_trapdoor.close": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/door/close"
+		}]
+	},
+	"item.armor.equip_generic": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"item.armor.equip_elytra": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"item.armor.equip_diamond": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"item.armor.equip_chain": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"item.armor.equip_gold": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"item.armor.equip_iron": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"item.armor.equip_leather": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"item.armor.equip_netherite": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"item.armor.equip_turtle": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"weather.rain": {
+		"replace": "true",
+		"sounds": [
+			"goldendays/weather/rain/rain1",
+			"goldendays/weather/rain/rain2",
+			"goldendays/weather/rain/rain3",
+			"goldendays/weather/rain/rain4"
+		]
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"models": 
+	[
+	{
+		"part": "base",
+		"attach": false,
+		
+		# Defining a new texture path will break the block destroy overlay
+		# Texture dimensions must be same as vanilla
+		# Otherwise the overlay will squash, stretch and tile
+		"textureSize": [128, 64],
+		"boxes":
+		[
+		{
+			"coordinates": [-1.0, -6.0, -1.0, 32.0, 16.0, 16.0], # Compensate xyz coords for chest base
+			
+			# UV map must be offset by 8 pixels along the x axis and 44 along the y axis to center overlay
+			# To compensate, the texture is offset by this same amount
+			"uvDown":  [8.0, 44.0, 40.0, 60.0],
+			"uvUp":    [40.0, 60.0, 8.0, 44.0],
+			
+			"uvNorth": [88.0, 44.0, 120.0, 60.0], # Front
+			"uvSouth": [56.0, 44.0, 88.0, 60.0], # Back
+			"uvWest":  [40.0, 44.0, 56.0, 60.0],
+			"uvEast":  [40.0, 44.0, 56.0, 60.0]
+		}
+		]
+	},
+	# Disable lid and knob so they don't show while opening
+	{
+		"part": "lid",
+		"attach": false
+	},
+	{
+		"part": "knob",
+		"attach": false
+	}
+	]
+}

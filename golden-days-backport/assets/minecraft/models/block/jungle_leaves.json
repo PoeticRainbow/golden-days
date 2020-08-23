@@ -1,0 +1,7 @@
+{
+    "parent": "block/leaves",
+    "textures": {
+        "all": "block/jungle_leaves",
+		"particle": "block/jungle_leaves"
+    }
+}
