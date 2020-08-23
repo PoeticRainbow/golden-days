@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "item/brown_bed"
+        "layer0": "items/brown_bed"
     }
 }
