@@ -247,6 +247,12 @@
             "liquid/splash2"
 		]
 	},
+	"entity.experience_orb.pickup": {
+		"replace": "true",
+		"sounds": [{
+			"name": "random/pop"
+		}]
+	},
 	"block.iron_door.open": {
 		"replace": "true",
 		"sounds": [{
