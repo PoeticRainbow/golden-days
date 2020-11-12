@@ -20,5 +20,16 @@
   "block.minecraft.potted_oak_sapling": "Potted Sapling",
   "block.minecraft.potted_dandelion": "Potted Flower",
   "block.minecraft.potted_poppy": "Potted Rose",
+  "block.minecraft.ancient_debris": "Netherite Ore",
+  "block.minecraft.crimson_nylium": "Crimson Nethergrass",
+  "block.minecraft.warped_nylium": "Warped Nethergrass",
+  "block.minecraft.crimson_fungus": "Crimson Mushroom",
+  "block.minecraft.warped_fungus": "Warped Mushroom",
+  "block.minecraft.crimson_stem": "Crimson Log",
+  "block.minecraft.warped_stem": "Warped Log",
+  "block.minecraft.stripped_crimson_stem": "Stripped Crimson Log",
+  "block.minecraft.stripped_warped_stem": "Stripped Warped Log",
+  "block.minecraft.crimson_hyphae": "Crimson Wood",
+  "block.minecraft.warped_hyphae": "Warped Wood",
   "container.chestDouble": "Large chest"
 }
