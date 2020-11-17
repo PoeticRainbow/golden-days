@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/repeating_command_block" }
+        ]
+    }
+}
