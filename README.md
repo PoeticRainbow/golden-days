@@ -26,6 +26,7 @@ For 1.16 and above: As Optifine updates grow longer and longer, I am growing imp
 - [Modern Beta](https://www.curseforge.com/minecraft/mc-mods/modern-beta): Adds accurate beta and alpha generation back into Minecraft!
 - [Custom Stars](https://www.curseforge.com/minecraft/mc-mods/custom-stars): Allows you to adjust the star size to make it look like Beta!
 - [Custom Void](https://www.curseforge.com/minecraft/mc-mods/custom-void): Allows you to change the void color, allowing you to change it to the classic blue void!
+- [Damage Tilt](https://www.curseforge.com/minecraft/mc-mods/damage-tilt): Restore the old damage animation!
 - Custom Entity Model Support: None available.
 
 Please, please, please tell me when/if you use my resource pack in a video! Not because I'm a control freak, but instead because I would love to see you using it! <3
