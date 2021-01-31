@@ -1,5 +1,6 @@
 Mojang - Creating Minecraft and all the old textures
 E404NNF (shota) - Creating the Piglin Leather textures
 tygical - Creating older style wood variant textures
+zippa - Lightmap tweaking
 
 Any missing person should contact ASAP!
