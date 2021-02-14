@@ -246,10 +246,10 @@
 	"block.soul_sand.place": {
 		"replace": "true",
 		"sounds": [
-            "step/gravel1",
-            "step/gravel2",
-            "step/gravel3",
-            "step/gravel4"
+            "step/sand1",
+            "step/sand2",
+            "step/sand3",
+            "step/sand4"
 		]
 	},
 	"block.soul_sand.hit": {
@@ -655,6 +655,15 @@
             "dig/stone2",
             "dig/stone3",
             "dig/stone4"
+		]
+	},
+	"block.sand.place": {
+		"replace": "true",
+		"sounds": [
+            "step/sand1",
+            "step/sand2",
+            "step/sand3",
+            "step/sand4"
 		]
 	},
 	"entity.minecart.riding": {
