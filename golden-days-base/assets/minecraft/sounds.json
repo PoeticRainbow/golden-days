@@ -234,6 +234,429 @@
             "dig/wood4"
 		]
 	},
+	"block.soul_sand.break": {
+		"replace": "true",
+		"sounds": [
+            "step/gravel1",
+            "step/gravel2",
+            "step/gravel3",
+            "step/gravel4"
+		]
+	},
+	"block.soul_sand.place": {
+		"replace": "true",
+		"sounds": [
+            "step/gravel1",
+            "step/gravel2",
+            "step/gravel3",
+            "step/gravel4"
+		]
+	},
+	"block.soul_sand.hit": {
+		"replace": "true",
+		"sounds": [
+            "step/sand1",
+            "step/sand2",
+            "step/sand3",
+            "step/sand4"
+		]
+	},
+	"block.soul_sand.step": {
+		"replace": "true",
+		"sounds": [
+            "step/sand1",
+            "step/sand2",
+            "step/sand3",
+            "step/sand4"
+		]
+	},
+	"block.soul_soil.break": {
+		"replace": "true",
+		"sounds": [
+            "step/gravel1",
+            "step/gravel2",
+            "step/gravel3",
+            "step/gravel4"
+		]
+	},
+	"block.soul_soil.place": {
+		"replace": "true",
+		"sounds": [
+            "step/gravel1",
+            "step/gravel2",
+            "step/gravel3",
+            "step/gravel4"
+		]
+	},
+	"block.soul_soil.hit": {
+		"replace": "true",
+		"sounds": [
+            "step/sand1",
+            "step/sand2",
+            "step/sand3",
+            "step/sand4"
+		]
+	},
+	"block.soul_soil.step": {
+		"replace": "true",
+		"sounds": [
+            "step/gravel1",
+            "step/gravel2",
+            "step/gravel3",
+            "step/gravel4"
+		]
+	},
+	"block.nylium.break": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"block.nylium.place": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"block.nylium.hit": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"block.nylium.step": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.roots.break": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.roots.place": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.roots.hit": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.roots.step": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.weeping_vines.break": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.weeping_vines.place": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.weeping_vines.hit": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.fungus.break": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.fungus.place": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.fungus.hit": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.fungus.step": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.stem.break": {
+		"replace": "true",
+		"sounds": [
+            "step/wood1",
+            "step/wood2",
+            "step/wood3",
+            "step/wood4"
+		]
+	},
+	"block.stem.place": {
+		"replace": "true",
+		"sounds": [
+            "step/wood1",
+            "step/wood2",
+            "step/wood3",
+            "step/wood4"
+		]
+	},
+	"block.stem.hit": {
+		"replace": "true",
+		"sounds": [
+            "step/wood1",
+            "step/wood2",
+            "step/wood3",
+            "step/wood4"
+		]
+	},
+	"block.stem.step": {
+		"replace": "true",
+		"sounds": [
+            "dig/wood1",
+            "dig/wood2",
+            "dig/wood3",
+            "dig/wood4"
+		]
+	},
+    "block.gilded_blackstone.break": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"block.gilded_blackstone.place": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"block.gilded_blackstone.hit": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"block.gilded_blackstone.step": {
+		"replace": "true",
+		"sounds": [
+            "dig/stone1",
+            "dig/stone2",
+            "dig/stone3",
+            "dig/stone4"
+		]
+	},
+    "block.nether_gold_ore.break": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"block.nether_gold_ore.place": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"block.nether_gold_ore.hit": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"block.nether_gold_ore.step": {
+		"replace": "true",
+		"sounds": [
+            "dig/stone1",
+            "dig/stone2",
+            "dig/stone3",
+            "dig/stone4"
+		]
+	},
+    "block.nether_ore.break": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"block.nether_ore.place": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"block.nether_ore.hit": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"block.nether_ore.step": {
+		"replace": "true",
+		"sounds": [
+            "dig/stone1",
+            "dig/stone2",
+            "dig/stone3",
+            "dig/stone4"
+		]
+	},
+    "block.nether_bricks.break": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"block.nether_bricks.place": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"block.nether_bricks.hit": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"block.nether_bricks.step": {
+		"replace": "true",
+		"sounds": [
+            "dig/stone1",
+            "dig/stone2",
+            "dig/stone3",
+            "dig/stone4"
+		]
+	},
+    "block.basalt.break": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"block.basalt.place": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"block.basalt.hit": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"block.basalt.step": {
+		"replace": "true",
+		"sounds": [
+            "dig/stone1",
+            "dig/stone2",
+            "dig/stone3",
+            "dig/stone4"
+		]
+	},
 	"entity.minecart.riding": {
 		"replace": "true",
 		"sounds": [{
