@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"1": "block/stonecutter_side",
+		"2": "block/stonecutter_top",
+		"3": "block/furnace_top",
+		"4": "block/stonecutter_front",
+		"5": "block/stonecutter_saw",
+		"particle": "block/stonecutter_top"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 9, 16],
+			"faces": {
+				"north": {"uv": [0, 7, 16, 16], "texture": "#4", "cullface": "north"},
+				"east": {"uv": [0, 7, 16, 16], "texture": "#1", "cullface": "east"},
+				"south": {"uv": [0, 7, 16, 16], "texture": "#1", "cullface": "south"},
+				"west": {"uv": [0, 7, 16, 16], "texture": "#1", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0, 1, 8],
+			"to": [16, 17, 8],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 2.5, 16]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#5"},
+				"south": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#5"}
+			}
+		}
+	]
+}

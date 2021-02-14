@@ -1,0 +1,25 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"0": "block/fletching_table_front",
+		"1": "block/fletching_table_side",
+		"2": "block/fletching_table_top",
+		"3": "block/oak_planks",
+		"particle": "block/fletching_table_front"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#3", "cullface": "down"}
+			}
+		}
+	]
+}
