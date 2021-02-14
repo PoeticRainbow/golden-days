@@ -51,6 +51,11 @@
 						{"coordinates": [-3, -11, -3, 4, 12, 4], "textureOffset": [40, 16]}
 					]
 				}
+			],
+			"animations": [
+				{
+					"left_arm:left_arm2.rx": "-torad(10)"
+				}
 			]
 		},
 		{
@@ -66,6 +71,11 @@
 					"boxes": [
 						{"coordinates": [0, -11, -3, 4, 12, 4], "textureOffset": [40, 16]}
 					]
+				}
+			],
+			"animations": [
+				{
+					"right_arm:right_arm2.rx": "-torad(10)"
 				}
 			]
 		},
