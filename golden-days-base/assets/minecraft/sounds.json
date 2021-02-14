@@ -657,6 +657,75 @@
             "dig/stone4"
 		]
 	},
+    "block.bone_block.break": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"block.bone_block.place": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"block.bone_block.hit": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"block.bone_block.step": {
+		"replace": "true",
+		"sounds": [
+            "dig/stone1",
+            "dig/stone2",
+            "dig/stone3",
+            "dig/stone4"
+		]
+	},
+    "block.nether_wart.break": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"item.nether_wart.plant": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
+	"block.nether_wart.hit": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4"
+		]
+	},
+	"block.nether_wart.step": {
+		"replace": "true",
+		"sounds": [
+            "dig/stone1",
+            "dig/stone2",
+            "dig/stone3",
+            "dig/stone4"
+		]
+	},
 	"block.sand.place": {
 		"replace": "true",
 		"sounds": [
