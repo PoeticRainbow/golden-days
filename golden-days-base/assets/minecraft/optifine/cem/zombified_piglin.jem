@@ -24,8 +24,7 @@
 			"invertAxis": "xy",
 			"translate": [0, -24, 0],
 			"boxes": [
-				{"coordinates": [-4, 12, -2, 8, 12, 4], "textureOffset": [16, 16]},
-				{"coordinates": [-4, 12, -2, 8, 12, 4], "textureOffset": [16, 16], "sizeAdd": 0.25}
+				{"coordinates": [-4, 12, -2, 8, 12, 4], "textureOffset": [16, 16]}
 			]
 		},
 		{
@@ -35,7 +34,9 @@
 			"translate": [5, -22, 0],
 			"submodels": [
 				{
+					"id": "left_arm_sub_0",
 					"invertAxis": "xy",
+					"translate": [0, 0, 0],
 					"mirrorTexture": "u",
 					"boxes": [
 						{"coordinates": [-8, 12, -2, 4, 12, 4], "textureOffset": [40, 16]}
@@ -59,7 +60,9 @@
 			"translate": [2, -12, 0],
 			"submodels": [
 				{
+					"id": "left_leg_sub_0",
 					"invertAxis": "xy",
+					"translate": [0, 0, 0],
 					"mirrorTexture": "u",
 					"boxes": [
 						{"coordinates": [-4, 0, -2, 4, 12, 4], "textureOffset": [0, 16]}
