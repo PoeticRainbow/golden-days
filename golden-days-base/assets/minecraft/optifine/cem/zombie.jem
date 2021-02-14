@@ -1,5 +1,4 @@
 {
-	"texture": "pigzombie.png",
 	"textureSize": [64, 64],
 	"models": [
 		{
@@ -95,18 +94,6 @@
 			"boxes": [
 				{"coordinates": [0, 0, -2, 4, 12, 4], "textureOffset": [0, 16]}
 			]
-		},
-		{
-			"part": "left_ear",
-			"id": "left_ear",
-			"invertAxis": "xy",
-			"translate": [5.25, -30, 0]
-		},
-		{
-			"part": "right_ear",
-			"id": "right_ear",
-			"invertAxis": "xy",
-			"translate": [-5.5, -30, 0]
 		}
 	]
 }
