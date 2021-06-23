@@ -1,5 +1,5 @@
 {
-	"texture": "ender.png",
+	"texture": "ender_chest.png",
 	"textureSize": [16, 16],
 	"models": [
 		{
@@ -10,12 +10,12 @@
 			"boxes": [
 				{
 					"coordinates": [-16, -16, 0, 16, 16, 16],
-					"uvNorth": [11, 15, 7, 11],
-					"uvEast": [11, 15, 7, 11],
-					"uvSouth": [15, 15, 11, 11],
-					"uvWest": [11, 15, 7, 11],
-					"uvUp": [7, 15, 3, 11],
-					"uvDown": [7, 15, 3, 11]
+					"uvNorth": [8, 16, 4, 12],
+					"uvEast": [12, 8, 8, 4],
+					"uvSouth": [16, 8, 12, 4],
+					"uvWest": [12, 8, 8, 4],
+					"uvUp": [16, 4, 12, 0],
+					"uvDown": [16, 4, 12, 0]
 				}
 			]
 		},
