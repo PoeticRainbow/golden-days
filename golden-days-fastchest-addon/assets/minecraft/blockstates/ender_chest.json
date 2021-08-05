@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minecraft:block/ender_chest"
+    },
+    "facing=east": {
+      "model": "minecraft:block/ender_chest",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minecraft:block/ender_chest",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minecraft:block/ender_chest",
+      "y": 270
+    }
+  }
+}
