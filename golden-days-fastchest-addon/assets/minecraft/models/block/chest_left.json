@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/template_chest_left",
+	"texture_size": [64, 64],
+	"textures": {
+		"particle": "block/chest_top.png",
+		"chest": "minecraft:optifine/cem/chest.png"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [4, 4, 8, 8], "texture": "#chest"},
+				"east": {"uv": [8, 4, 12, 8], "texture": "#chest"},
+				"south": {"uv": [0, 8, 4, 12], "texture": "#chest"},
+				"west": {"uv": [8, 4, 12, 8], "texture": "#chest"},
+				"up": {"uv": [4, 0, 8, 4], "texture": "#chest"},
+				"down": {"uv": [4, 0, 8, 4], "texture": "#chest"}
+			}
+		}
+	]
+}
