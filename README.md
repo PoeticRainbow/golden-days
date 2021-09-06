@@ -12,12 +12,11 @@ The Alpha Addon changes a few things, the main one being the iconic Alpha grass 
 Picture Perfect is the most recent addon, made specifically for taking screenshots! This pack makes blocks such as Granite, Blue Orchids, or Tall Grass appear as blocks you could find in Beta and Alpha! Granite shows as stone, tall grass appears as normal grass, and more! This pack is not recommended for survival gameplay, as many blocks are not as they appear. Use this pack on top of the Base and/or Alpha Addon and take authentic screenshots!
     
 ## IMPORTANT (UPDATED): 
-For 1.15 and below: This pack requires features provided in Optifine! 
-In order to have the full experience, it is required. This pack uses the following features:
+This pack uses the following features:
 - Custom Colors
 - Custom Entity Models
 
-For 1.16 and above: As Optifine updates grow longer and longer, I am growing impatient. As a member of the Fabric modding community, Optifine is going farther out of the picture. OptiFabric, a mod made to implement Optifine support, is going under. This is because as Optifine implements more changes, we cannot keep up with the support. Optifine is closed source, so we cannot reference the code. Unless Optifine adds Fabric support, please try alternatives. Here is my list of alternative mods for Fabric:
+If you use OptiFine, those will be included. However, if you use other mods; I have a list of mods that add those features AND more!
 
 Performance:
 - [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium): A performance mod that increases performance dramatically.
