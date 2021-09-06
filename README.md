@@ -18,17 +18,22 @@ In order to have the full experience, it is required. This pack uses the followi
 - Custom Entity Models
 
 For 1.16 and above: As Optifine updates grow longer and longer, I am growing impatient. As a member of the Fabric modding community, Optifine is going farther out of the picture. OptiFabric, a mod made to implement Optifine support, is going under. This is because as Optifine implements more changes, we cannot keep up with the support. Optifine is closed source, so we cannot reference the code. Unless Optifine adds Fabric support, please try alternatives. Here is my list of alternative mods for Fabric:
-- [Colormatic](https://www.curseforge.com/minecraft/mc-mods/colormatic) (Adds Custom Colors support): Required for water colors, grass colors, sky colors, and lightmap colors.
+
+Performance:
+- [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium): A performance mod that increases performance dramatically.
+- [Indium](https://github.com/comp500/Indium): A mod that adds FRAPI support to Sodium.
 - [Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium), and [Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor): Performance mods to keep your game running smooth.
-- [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium): A performance mod that increases performance dramatically. Not compatible with Fabric Renderer API as of 7/22/20. (Not compatible with Canvas).
-- [Canvas](https://www.curseforge.com/minecraft/mc-mods/canvas-renderer): A performance mod that also aims to implement shader support. Compatible with Fabric Renderer API. (Not compatible with Sodium).
+
+Features:
+- [Colormatic](https://www.curseforge.com/minecraft/mc-mods/colormatic) (Adds Custom Colors support): Required for water colors, grass colors, sky colors, and lightmap colors.
 - [Soaring Clouds](https://www.curseforge.com/minecraft/mc-mods/soaring-clouds): Fabric mod that allows you to change the cloud height. Set to 108 for the Beta experience!
 - [Modern Beta](https://www.curseforge.com/minecraft/mc-mods/modern-beta): Adds accurate beta and alpha generation back into Minecraft!
 - [Custom Stars](https://www.curseforge.com/minecraft/mc-mods/custom-stars): Allows you to adjust the star size to make it look like Beta!
 - [Custom Void](https://www.curseforge.com/minecraft/mc-mods/custom-void): Allows you to change the void color, allowing you to change it to the classic blue void!
-- [Damage Tilt](https://www.curseforge.com/minecraft/mc-mods/damage-tilt): Restore the old damage animation!
-- Custom Entity Model Support: None available.
+- [Fabrication](https://www.curseforge.com/minecraft/mc-mods/fabrication): Allows you to have 2D dropped items, turn off Nether Fog (Beware as some servers might ban this), restore damage tilt, and have a true procedurally generated lava texture; among a multitude of other features.
+- [Custom Entity Models (CEM)](https://www.curseforge.com/minecraft/mc-mods/custom-entity-models-cem): This mod implements OptiFine CEM! It is in Alpha right now and does NOT support chests, for that please refer to the next listing.
+- [FastChest](https://www.curseforge.com/minecraft/mc-mods/fastchest): This mod adds true block models for chests and beds! This means they can have ambient occlusion and truly look amazing! Please use the Golden Days FastCraft compat addon if you use this mod.
 
 Please, please, please tell me when/if you use my resource pack in a video! Not because I'm a control freak, but instead because I would love to see you using it! <3
 
-You are not allowed to redistribute my resource pack without official download links.You are not allowed to repackage my assets into your own resource pack without explicit permission.
+You are not allowed to redistribute my resource pack without official download links. You are not allowed to repackage my assets into your own resource pack without explicit permission.
