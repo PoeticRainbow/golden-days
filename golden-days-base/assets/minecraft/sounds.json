@@ -441,6 +441,192 @@
             "dig/grass4"
 		]
 	},
+	"block.moss.step": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.moss.place": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.moss.break": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.moss_carpet.step": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.moss_carpet.place": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.moss_carpet.break": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.azalea.step": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.azalea.place": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.azalea.break": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.flowering_azalea.step": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.flowering_azalea.place": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.flowering_azalea.break": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.big_dripleaf.step": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.big_dripleaf.place": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.big_dripleaf.break": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.small_dripleaf.step": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.small_dripleaf.place": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.small_dripleaf.break": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+    "block.chest.close": {
+        "replace": "true",
+        "sounds": [{
+            "name": "block/chest/close"
+        }]
+    },
+    "block.chest.open": {
+        "replace": "true",
+        "sounds": [{
+            "name": "block/chest/open"
+        }]
+    },
+    "block.ender_chest.close": {
+        "replace": "true",
+        "sounds": [{
+            "name": "block/chest/close"
+        }]
+    },
+    "block.ender_chest.open": {
+        "replace": "true",
+        "sounds": [{
+            "name": "block/chest/open"
+        }]
+    },
 	"block.stem.break": {
 		"replace": "true",
 		"sounds": [
