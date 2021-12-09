@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "block/block",
+	"parent": "block/template_chest_left",
 	"texture_size": [64, 64],
 	"textures": {
 		"particle": "block/chest_top.png",
@@ -11,12 +11,12 @@
 			"from": [0, 0, 0],
 			"to": [16, 16, 16],
 			"faces": {
-				"north": {"uv": [12, 4, 16, 8], "texture": "#chest"},
+				"north": {"uv": [0, 4, 4, 8], "texture": "#chest"},
 				"east": {"uv": [8, 4, 12, 8], "texture": "#chest"},
-				"south": {"uv": [8, 4, 12, 8], "texture": "#chest"},
+				"south": {"uv": [4, 8, 8, 12], "texture": "#chest"},
 				"west": {"uv": [8, 4, 12, 8], "texture": "#chest"},
-				"up": {"uv": [12, 0, 16, 4], "texture": "#chest"},
-				"down": {"uv": [12, 0, 16, 4], "texture": "#chest"}
+				"up": {"uv": [0, 0, 4, 4], "texture": "#chest"},
+				"down": {"uv": [0, 0, 4, 4], "texture": "#chest"}
 			}
 		}
 	]
