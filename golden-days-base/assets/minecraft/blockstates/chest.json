@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "facing=north,type=single": {
+      "model": "minecraft:block/chest"
+    },
+    "facing=east,type=single": {
+      "model": "minecraft:block/chest",
+      "y": 90
+    },
+    "facing=south,type=single": {
+      "model": "minecraft:block/chest",
+      "y": 180
+    },
+    "facing=west,type=single": {
+      "model": "minecraft:block/chest",
+      "y": 270
+    },
+    "facing=north,type=left": {
+      "model": "minecraft:block/chest_left"
+    },
+    "facing=east,type=left": {
+      "model": "minecraft:block/chest_left",
+      "y": 90
+    },
+    "facing=south,type=left": {
+      "model": "minecraft:block/chest_left",
+      "y": 180
+    },
+    "facing=west,type=left": {
+      "model": "minecraft:block/chest_left",
+      "y": 270
+    },
+    "facing=north,type=right": {
+      "model": "minecraft:block/chest_right"
+    },
+    "facing=east,type=right": {
+      "model": "minecraft:block/chest_right",
+      "y": 90
+    },
+    "facing=south,type=right": {
+      "model": "minecraft:block/chest_right",
+      "y": 180
+    },
+    "facing=west,type=right": {
+      "model": "minecraft:block/chest_right",
+      "y": 270
+    }
+  }
+}
