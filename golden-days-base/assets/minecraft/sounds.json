@@ -131,6 +131,12 @@
 			"name": "goldendays/blank"
 		}]
 	},
+	"block.vine.step": {
+		"replace": "true",
+		"sounds": [{
+			"name": "goldendays/blank"
+		}]
+	},
 	"entity.minecart.inside": {
 		"replace": "true",
 		"sounds": [{
@@ -215,6 +221,257 @@
 		]
 	},
 	"block.netherrack.step": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+		]
+	},
+	"block.deepslate.break": {
+		"replace": "true",
+		"sounds": [
+			"dig/deepslate1",
+			"dig/deepslate2",
+			"dig/deepslate3",
+			"dig/deepslate4"
+		]
+	},
+	"block.deepslate.place": {
+		"replace": "true",
+		"sounds": [
+			"dig/deepslate1",
+			"dig/deepslate2",
+			"dig/deepslate3",
+			"dig/deepslate4"
+		]
+	},
+	"block.deepslate.hit": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+		]
+	},
+	"block.deepslate.step": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+		]
+	},
+	"block.deepslate_tiles.break": {
+		"replace": "true",
+		"sounds": [
+			"dig/deepslate1",
+			"dig/deepslate2",
+			"dig/deepslate3",
+			"dig/deepslate4"
+		]
+	},
+	"block.deepslate_tiles.place": {
+		"replace": "true",
+		"sounds": [
+			"dig/deepslate1",
+			"dig/deepslate2",
+			"dig/deepslate3",
+			"dig/deepslate4"
+		]
+	},
+	"block.deepslate_tiles.hit": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+		]
+	},
+	"block.deepslate_tiles.step": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+		]
+	},
+	"block.tuff.break": {
+		"replace": "true",
+		"sounds": [
+			"dig/stone1",
+			"dig/stone2",
+			"dig/stone3",
+			"dig/stone4"
+		]
+	},
+	"block.tuff.place": {
+		"replace": "true",
+		"sounds": [
+			"dig/stone1",
+			"dig/stone2",
+			"dig/stone3",
+			"dig/stone4"
+		]
+	},
+	"block.tuff.hit": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+		]
+	},
+	"block.tuff.step": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+		]
+	},
+	"block.calcite.break": {
+		"replace": "true",
+		"sounds": [
+			"dig/stone1",
+			"dig/stone2",
+			"dig/stone3",
+			"dig/stone4"
+		]
+	},
+	"block.calcite.place": {
+		"replace": "true",
+		"sounds": [
+			"dig/stone1",
+			"dig/stone2",
+			"dig/stone3",
+			"dig/stone4"
+		]
+	},
+	"block.calcite.hit": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+		]
+	},
+	"block.calcite.step": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+		]
+	},
+	"block.dripstone_block.break": {
+		"replace": "true",
+		"sounds": [
+			"dig/stone1",
+			"dig/stone2",
+			"dig/stone3",
+			"dig/stone4"
+		]
+	},
+	"block.dripstone_block.place": {
+		"replace": "true",
+		"sounds": [
+			"dig/stone1",
+			"dig/stone2",
+			"dig/stone3",
+			"dig/stone4"
+		]
+	},
+	"block.dripstone_block.hit": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+		]
+	},
+	"block.dripstone_block.step": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+		]
+	},
+	"block.pointed_dripstone.break": {
+		"replace": "true",
+		"sounds": [
+			"dig/stone1",
+			"dig/stone2",
+			"dig/stone3",
+			"dig/stone4"
+		]
+	},
+	"block.pointed_dripstone.place": {
+		"replace": "true",
+		"sounds": [
+			"dig/stone1",
+			"dig/stone2",
+			"dig/stone3",
+			"dig/stone4"
+		]
+	},
+	"block.pointed_dripstone.hit": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+		]
+	},
+	"block.pointed_dripstone.step": {
+		"replace": "true",
+		"sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+		]
+	},
+	"block.pointed_dripstone.land": {
 		"replace": "true",
 		"sounds": [
             "step/stone1",
@@ -376,6 +633,42 @@
             "dig/grass2",
             "dig/grass3",
             "dig/grass4"
+		]
+	},
+	"block.wet_grass.break": {
+		"replace": "true",
+		"sounds": [
+            "goldendays/seagrass1",
+            "goldendays/seagrass2",
+            "goldendays/seagrass3",
+            "goldendays/seagrass4"
+		]
+	},
+	"block.wet_grass.place": {
+		"replace": "true",
+		"sounds": [
+            "goldendays/seagrass1",
+            "goldendays/seagrass2",
+            "goldendays/seagrass3",
+            "goldendays/seagrass4"
+		]
+	},
+	"block.wet_grass.step": {
+		"replace": "true",
+		"sounds": [
+            "goldendays/seagrass1",
+            "goldendays/seagrass2",
+            "goldendays/seagrass3",
+            "goldendays/seagrass4"
+		]
+	},
+	"block.wet_grass.hit": {
+		"replace": "true",
+		"sounds": [
+            "goldendays/seagrass1",
+            "goldendays/seagrass2",
+            "goldendays/seagrass3",
+            "goldendays/seagrass4"
 		]
 	},
 	"block.weeping_vines.break": {

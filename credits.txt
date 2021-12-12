@@ -4,5 +4,6 @@ tygical - Creating older style wood variant textures
 zippa - Lightmap tweaking
 coyo-t - Inital grayscale lighting using shaders
 InboundBark - Fixed black hand issue with shaders
+shmoobalizer - Teaching me how to make the vanilla water texture
 
 Any missing person should contact ASAP!
