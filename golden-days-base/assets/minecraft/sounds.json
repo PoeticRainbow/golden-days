@@ -671,6 +671,24 @@
             "goldendays/seagrass4"
 		]
 	},
+	"block.lily_pad.break": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.lily_pad.place": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
 	"block.weeping_vines.break": {
 		"replace": "true",
 		"sounds": [
