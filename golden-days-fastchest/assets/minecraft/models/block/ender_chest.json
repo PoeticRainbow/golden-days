@@ -3,8 +3,8 @@
 	"parent": "block/block",
 	"texture_size": [64, 64],
 	"textures": {
-		"particle": "block/obsidian.png",
-		"chest": "minecraft:optifine/cem/ender_chest.png"
+		"particle": "block/obsidian",
+		"chest": "block/ender_chest"
 	},
 	"elements": [
 		{
