@@ -3,8 +3,8 @@
 	"parent": "block/template_chest_left",
 	"texture_size": [64, 64],
 	"textures": {
-		"particle": "block/chest_top.png",
-		"chest": "minecraft:optifine/cem/trapped_chest.png"
+		"particle": "block/chest_top",
+		"chest": "block/trapped_chest"
 	},
 	"elements": [
 		{
