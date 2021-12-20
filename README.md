@@ -6,10 +6,14 @@ Golden Days is a Minecraft resource pack meant to bring back old textures, light
 Golden Days is split into 3 packs:
 ## Golden Days Base    
 The main pack, meant to be usable in survival gameplay and does not remove any newer features in order to make it functional. Lighting, sounds, textures, and models! Everything you need for an authentic feeling experience. Use this pack on top of Programmer Art in order for it to work.
-## Golden Days Alpha Addon
-The Alpha Addon changes a few things, the main one being the iconic Alpha grass foliage color! Use this pack on top of the Base in order for an amazing Alpha-like experience in Modern Minecraft!
-## Golden Days Picture Perfect
-Picture Perfect is the most recent addon, made specifically for taking screenshots! This pack makes blocks such as Granite, Blue Orchids, or Tall Grass appear as blocks you could find in Beta and Alpha! Granite shows as stone, tall grass appears as normal grass, and more! This pack is not recommended for survival gameplay, as many blocks are not as they appear. Use this pack on top of the Base and/or Alpha Addon and take authentic screenshots!
+## Golden Days Alpha
+The Alpha addon changes a few things, the main one being the iconic Alpha grass foliage color! Use this pack on top of Golden Days Base in order for an amazing Alpha-like experience in Modern Minecraft!
+## Golden Days FastChest
+FastChest is a mod created by fake_domi on CurseForge that allows Chests to be rendered using a block model. If you use this addon and that mod, your chests will look stunning.
+## Golden Days Music
+Golden Days Music is a new addon being created, inspired by SalC1's video on [The History of Minecraft's Music](https://www.youtube.com/watch?v=PX5LW6ICYY0). This pack removes all of the newer biome-specific music in the Overworld, and replaced it with good ol' music from C418.
+## Golden Days Picture Perfect (Not currently being updated)
+Picture Perfect is made specifically for taking screenshots! This pack makes blocks such as Granite, Blue Orchids, or Tall Grass appear as blocks you could find in Beta and Alpha! Granite shows as stone, tall grass appears as normal grass, and more! This pack is not recommended for survival gameplay, as many blocks are not as they appear. Use this pack on top of the Base and/or Alpha Addon and take authentic screenshots!
     
 ## IMPORTANT (UPDATED): 
 This pack uses the following features:
