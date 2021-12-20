@@ -39,4 +39,4 @@ Features:
 
 Please, please, please tell me when/if you use my resource pack in a video! Not because I'm a control freak, but instead because I would love to see you using it! <3
 
-You are not allowed to redistribute my resource pack without official download links. You are not allowed to repackage my assets into your own resource pack without explicit permission.
+You are not allowed to redistribute my resource pack without official download links. You are not allowed to repackage my assets into your own resource pack without explicit permission. Please contact me on Discord in order to work out permissions for your own projects.
