@@ -35,7 +35,7 @@ Features:
 - [Custom Void](https://www.curseforge.com/minecraft/mc-mods/custom-void): Allows you to change the void color, allowing you to change it to the classic blue void!
 - [Fabrication](https://www.curseforge.com/minecraft/mc-mods/fabrication): Allows you to have 2D dropped items, turn off Nether Fog (Beware as some servers might ban this), restore damage tilt, and have a true procedurally generated lava texture; among a multitude of other features.
 - [Custom Entity Models (CEM)](https://www.curseforge.com/minecraft/mc-mods/custom-entity-models-cem): This mod implements OptiFine CEM! It is in Alpha right now and does NOT support chests, for that please refer to the next listing.
-- [FastChest](https://www.curseforge.com/minecraft/mc-mods/fastchest): This mod adds true block models for chests and beds! This means they can have ambient occlusion and truly look amazing! Please use the Golden Days FastCraft compat addon if you use this mod.
+- [FastChest](https://www.curseforge.com/minecraft/mc-mods/fastchest): This mod adds true block models for chests! This means they can have ambient occlusion and truly look amazing! Please use the Golden Days FastCraft compat addon if you use this mod.
 
 Please, please, please tell me when/if you use my resource pack in a video! Not because I'm a control freak, but instead because I would love to see you using it! <3
 
