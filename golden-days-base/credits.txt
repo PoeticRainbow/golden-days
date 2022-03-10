@@ -2,7 +2,7 @@ Mojang - Creating Minecraft and all the old textures
 E404NNF (shota) - Creating the Piglin Leather textures
 tygical - Creating older style wood variant textures
 zippa - Lightmap tweaking
-coyo-t - Inital grayscale lighting using shaders
+coyo-t - Inital grayscale lighting using shaders (Moved to it's own addon due to issues)
 InboundBark - Fixed black hand issue with shaders
 shmoobalizer - Teaching me how to make the vanilla water texture
 
