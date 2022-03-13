@@ -5,5 +5,6 @@ zippa - Lightmap tweaking
 coyo-t - Inital grayscale lighting using shaders (Moved to it's own addon due to issues)
 InboundBark - Fixed black hand issue with shaders
 shmoobalizer - Teaching me how to make the vanilla water texture
+Adrenix - Creating the Nostalgic Tweaks mod and supplying the fog.glsl file
 
-Any missing person should contact ASAP!
+Any missing person should contact PoeticRainbow ASAP!
