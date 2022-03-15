@@ -19,6 +19,6 @@ float linear_fog_fade(float vertexDistance, float fogStart, float fogEnd) {
     return smoothstep(fogEnd, fogStart, vertexDistance);
 }
 
-float fog_distance(mat4 modelViewMat, vec3 pos, int shape) {
+float cylindrical_distance(mat4 modelViewMat, vec3 pos) {
     return length((modelViewMat * vec4(pos, 1.0)).xyz);
 }
