@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "block/muddy_mangrove_roots_side",
+		"particle": "block/muddy_mangrove_roots_side"
+    }
+}
