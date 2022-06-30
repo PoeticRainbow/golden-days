@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/template_trapdoor_item_low",
   "textures": {
-    "texture": "minecraft:block/acacia_trapdoor"
+    "texture": "minecraft:block/mangrove_trapdoor"
   }
 }

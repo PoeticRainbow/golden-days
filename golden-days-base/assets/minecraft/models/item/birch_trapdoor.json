@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/template_trapdoor_item",
+  "parent": "minecraft:item/template_trapdoor_item_low",
   "textures": {
     "texture": "minecraft:block/birch_trapdoor"
   }
