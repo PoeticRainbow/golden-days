@@ -1,0 +1,7 @@
+{
+    "parent": "block/leaves",
+    "textures": {
+        "all": "block/mangrove_leaves",
+		"particle": "block/mangrove_leaves"
+    }
+}
