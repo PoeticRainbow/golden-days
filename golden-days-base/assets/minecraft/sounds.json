@@ -914,6 +914,87 @@
             "dig/grass4"
 		]
 	},
+	"block.mud.break": {
+		"replace": "true",
+		"sounds": [
+            "dig/sand1",
+            "dig/sand2",
+            "dig/sand3",
+            "dig/sand4"
+		]
+	},
+	"block.mud.place": {
+		"replace": "true",
+		"sounds": [
+            "dig/sand1",
+            "dig/sand2",
+            "dig/sand3",
+            "dig/sand4"
+		]
+	},
+	"block.mud.step": {
+		"replace": "true",
+		"sounds": [
+            "dig/sand1",
+            "dig/sand2",
+            "dig/sand3",
+            "dig/sand4"
+		]
+	},
+	"block.mangrove_roots.break": {
+		"replace": "true",
+		"sounds": [
+            "dig/wood1",
+            "dig/wood2",
+            "dig/wood3",
+            "dig/wood4"
+		]
+	},
+	"block.mangrove_roots.place": {
+		"replace": "true",
+		"sounds": [
+            "dig/wood1",
+            "dig/wood2",
+            "dig/wood3",
+            "dig/wood4"
+		]
+	},
+	"block.mangrove_roots.step": {
+		"replace": "true",
+		"sounds": [
+            "dig/wood1",
+            "dig/wood2",
+            "dig/wood3",
+            "dig/wood4"
+		]
+	},
+	"block.muddy_mangrove_roots.break": {
+		"replace": "true",
+		"sounds": [
+            "dig/sand1",
+            "dig/sand2",
+            "dig/sand3",
+            "dig/sand4"
+		]
+	},
+	"block.muddy_mangrove_roots.place": {
+		"replace": "true",
+		"sounds": [
+            "dig/sand1",
+            "dig/sand2",
+            "dig/sand3",
+            "dig/sand4"
+		]
+	},
+	"block.muddy_mangrove_roots.step": {
+		"replace": "true",
+		"sounds": [
+            "dig/sand1",
+            "dig/sand2",
+            "dig/sand3",
+            "dig/sand4"
+		]
+	},
     "block.chest.close": {
         "replace": "true",
         "sounds": [{
