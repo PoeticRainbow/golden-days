@@ -7,7 +7,7 @@
 			"id": "body",
 			"invertAxis": "xy",
 			"translate": [0, -10, -1],
-			"rotate": [-180, 0, 0],
+			"rotate": [0, 0, 0],
 			"mirrorTexture": "u",
 			"boxes": [
 				{
@@ -30,7 +30,9 @@
 			],
 			"animations": [
 				{
-					"this.rx": "torad(90)"
+					"this.rx": "torad(-90)",
+                    "this.tz": "22",
+                    "this.ty": "7"
 				}
 			]
 		},
