@@ -941,6 +941,141 @@
             "dig/sand4"
 		]
 	},
+	"block.cherry_wood.break": {
+		"replace": "true",
+		"sounds": [
+            "dig/wood1",
+            "dig/wood2",
+            "dig/wood3",
+            "dig/wood4"
+		]
+	},
+	"block.cherry_wood.place": {
+		"replace": "true",
+		"sounds": [
+            "dig/wood1",
+            "dig/wood2",
+            "dig/wood3",
+            "dig/wood4"
+		]
+	},
+	"block.cherry_wood.hit": {
+		"replace": "true",
+		"sounds": [
+            "step/wood1",
+            "step/wood2",
+            "step/wood3",
+            "step/wood4"
+		]
+	},
+	"block.cherry_wood.step": {
+		"replace": "true",
+		"sounds": [
+            "step/wood1",
+            "step/wood2",
+            "step/wood3",
+            "step/wood4"
+		]
+	},
+	"block.cherry_wood.fall": {
+		"replace": "true",
+		"sounds": [
+            "step/wood1",
+            "step/wood2",
+            "step/wood3",
+            "step/wood4"
+		]
+	},
+	"block.cherry_leaves.break": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.cherry_leaves.place": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.cherry_leaves.hit": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.cherry_leaves.step": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.cherry_leaves.fall": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.cherry_sapling.break": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.cherry_sapling.place": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.cherry_sapling.hit": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.cherry_sapling.step": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
+	"block.cherry_sapling.fall": {
+		"replace": "true",
+		"sounds": [
+            "dig/grass1",
+            "dig/grass2",
+            "dig/grass3",
+            "dig/grass4"
+		]
+	},
 	"block.mangrove_roots.break": {
 		"replace": "true",
 		"sounds": [
