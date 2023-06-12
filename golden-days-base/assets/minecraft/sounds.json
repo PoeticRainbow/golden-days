@@ -1014,6 +1014,51 @@
             "step/wood4"
         ]
     },
+    "block.bamboo_wood.break": {
+        "replace": "true",
+        "sounds": [
+            "dig/wood1",
+            "dig/wood2",
+            "dig/wood3",
+            "dig/wood4"
+        ]
+    },
+    "block.bamboo_wood.place": {
+        "replace": "true",
+        "sounds": [
+            "dig/wood1",
+            "dig/wood2",
+            "dig/wood3",
+            "dig/wood4"
+        ]
+    },
+    "block.bamboo_wood.hit": {
+        "replace": "true",
+        "sounds": [
+            "step/wood1",
+            "step/wood2",
+            "step/wood3",
+            "step/wood4"
+        ]
+    },
+    "block.bamboo_wood.step": {
+        "replace": "true",
+        "sounds": [
+            "step/wood1",
+            "step/wood2",
+            "step/wood3",
+            "step/wood4"
+        ]
+    },
+    "block.bamboo_wood.fall": {
+        "replace": "true",
+        "sounds": [
+            "step/wood1",
+            "step/wood2",
+            "step/wood3",
+            "step/wood4"
+        ]
+    },
     "block.cherry_wood.break": {
         "replace": "true",
         "sounds": [
@@ -1653,6 +1698,76 @@
         ]
     },
     "block.nether_wood_fence_gate.close": {
+        "replace": "true",
+        "sounds": [{
+                "name": "goldendays/door/close"
+            }
+        ]
+    },
+    "block.nether_wood_door.open": {
+        "replace": "true",
+        "sounds": [{
+                "name": "goldendays/door/open"
+            }
+        ]
+    },
+    "block.nether_wood_door.close": {
+        "replace": "true",
+        "sounds": [{
+                "name": "goldendays/door/close"
+            }
+        ]
+    },
+    "block.nether_wood_trapdoor.open": {
+        "replace": "true",
+        "sounds": [{
+                "name": "goldendays/door/open"
+            }
+        ]
+    },
+    "block.nether_wood_trapdoor.close": {
+        "replace": "true",
+        "sounds": [{
+                "name": "goldendays/door/close"
+            }
+        ]
+    },
+    "block.bamboo_wood_fence_gate.open": {
+        "replace": "true",
+        "sounds": [{
+                "name": "goldendays/door/open"
+            }
+        ]
+    },
+    "block.bamboo_wood_fence_gate.close": {
+        "replace": "true",
+        "sounds": [{
+                "name": "goldendays/door/close"
+            }
+        ]
+    },
+    "block.bamboo_wood_trapdoor.open": {
+        "replace": "true",
+        "sounds": [{
+                "name": "goldendays/door/open"
+            }
+        ]
+    },
+    "block.bamboo_wood_trapdoor.close": {
+        "replace": "true",
+        "sounds": [{
+                "name": "goldendays/door/close"
+            }
+        ]
+    },
+    "block.bamboo_wood_door.open": {
+        "replace": "true",
+        "sounds": [{
+                "name": "goldendays/door/open"
+            }
+        ]
+    },
+    "block.bamboo_wood_door.close": {
         "replace": "true",
         "sounds": [{
                 "name": "goldendays/door/close"
