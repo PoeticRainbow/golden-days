@@ -65,6 +65,27 @@
             "damage/hit3"
         ]
     },
+    "entity.enderman.hurt": {
+        "replace": "true",
+        "sounds": [
+            "mob/zombie/hurt1",
+            "mob/zombie/hurt2"
+        ]
+    },
+    "entity.enderman.ambient": {
+        "replace": "true",
+        "sounds": [
+            "mob/zombie/say1",
+            "mob/zombie/say2",
+            "mob/zombie/say3"
+        ]
+    },
+    "entity.enderman.death": {
+        "replace": "true",
+        "sounds": [
+            "mob/zombie/death"
+        ]
+    },
     "entity.boat.paddle_land": {
         "replace": "true",
         "sounds": [{
