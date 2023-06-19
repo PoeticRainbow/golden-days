@@ -30,9 +30,9 @@
 			],
 			"animations": [
 				{
-					"this.rx": "torad(-90)",
-                    "this.tz": "22",
-                    "this.ty": "7"
+					"body.rx": "torad(-90)",
+                    "body.tz": "22",
+                    "body.ty": "7"
 				}
 			]
 		},
