@@ -31,7 +31,7 @@ Features:
 - [Colormatic](https://modrinth.com/mod/colormatic) (Adds Custom Colors support): Required for water colors, grass colors, sky colors, and lightmap colors.
 - [Nostalgic Tweaks](https://modrinth.com/mod/nostalgic-tweaks): A mod for Fabric/Forge that adds a whole ton of old Minecraft tweaks! It is really cool!
 - [Modern Beta](https://www.curseforge.com/minecraft/mc-mods/modern-beta): Adds accurate beta and alpha generation back into Minecraft!
-- [Custom Entity Models (CEM)](https://modrinth.com/mod/cem): This mod implements OptiFine CEM! It is in Alpha right now and does NOT support chests, for that please refer to the next listing.
+- [Entity Model Features](https://modrinth.com/mod/entity-model-features): This mod implements OptiFine CEM!
 
 Please, please, please tell me when/if you use my resource pack in a video! Not because I'm a control freak, but instead because I would love to see you using it! <3
 
