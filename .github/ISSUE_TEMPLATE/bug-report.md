@@ -1,13 +1,13 @@
 ---
-name: Issue Report
-about: Required format for issue reports
-title: Concise quick description of the issue
+name: Bug Report
+about: Required format for bug reports
+title: "[Bug] Concise quick description of the bug"
 labels: bug
 assignees: ''
 
 ---
 
-**Description of the issue**:
+**Description of the bug**:
 
 
 **Environment**:
