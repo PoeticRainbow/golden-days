@@ -360,6 +360,86 @@
             "step/stone6"
         ]
     },
+    "block.polished_deepslate.break": {
+        "replace": "true",
+        "sounds": [
+            "dig/deepslate1",
+            "dig/deepslate2",
+            "dig/deepslate3",
+            "dig/deepslate4"
+        ]
+    },
+    "block.polished_deepslate.place": {
+        "replace": "true",
+        "sounds": [
+            "dig/deepslate1",
+            "dig/deepslate2",
+            "dig/deepslate3",
+            "dig/deepslate4"
+        ]
+    },
+    "block.polished_deepslate.hit": {
+        "replace": "true",
+        "sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+        ]
+    },
+    "block.polished_deepslate.step": {
+        "replace": "true",
+        "sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+        ]
+    },
+    "block.deepslate_bricks.break": {
+        "replace": "true",
+        "sounds": [
+            "dig/deepslate1",
+            "dig/deepslate2",
+            "dig/deepslate3",
+            "dig/deepslate4"
+        ]
+    },
+    "block.deepslate_bricks.place": {
+        "replace": "true",
+        "sounds": [
+            "dig/deepslate1",
+            "dig/deepslate2",
+            "dig/deepslate3",
+            "dig/deepslate4"
+        ]
+    },
+    "block.deepslate_bricks.hit": {
+        "replace": "true",
+        "sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+        ]
+    },
+    "block.deepslate_bricks.step": {
+        "replace": "true",
+        "sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+        ]
+    },
     "block.tuff.break": {
         "replace": "true",
         "sounds": [
