@@ -9,6 +9,8 @@
   "resourcePack.vanilla.name": "§a§k|| §ePlease use Programmer Art! §a§k||",
   "resourcePack.vanilla.description": "§dPut Programmer Art between this and Golden Days.",
   "options.title": "§a§k|| §e§nPlease use Programmer Art!§r §a§k||",
+  "deathScreen.title": "Game over!",
+  "deathScreen.titleScreen": "Title menu",
   "block.minecraft.grass": "Grass",
   "block.minecraft.fern": "Fern",
   "block.minecraft.dandelion": "Flower",
