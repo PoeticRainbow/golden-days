@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/ore_block",
+	"textures": {
+		"bottom": "block/netherite_block_bottom",
+		"side": "block/netherite_block_side",
+		"top": "block/netherite_block_top",
+		"particle": "block/netherite_block_top"
+	}
+}
