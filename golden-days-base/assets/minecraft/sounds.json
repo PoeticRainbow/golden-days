@@ -280,6 +280,46 @@
             "step/stone6"
         ]
     },
+    "block.ancient_debris.break": {
+        "replace": "true",
+        "sounds": [
+            "dig/stone1",
+            "dig/stone2",
+            "dig/stone3",
+            "dig/stone4"
+        ]
+    },
+    "block.ancient_debris.place": {
+        "replace": "true",
+        "sounds": [
+            "dig/stone1",
+            "dig/stone2",
+            "dig/stone3",
+            "dig/stone4"
+        ]
+    },
+    "block.ancient_debris.hit": {
+        "replace": "true",
+        "sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+        ]
+    },
+    "block.ancient_debris.step": {
+        "replace": "true",
+        "sounds": [
+            "step/stone1",
+            "step/stone2",
+            "step/stone3",
+            "step/stone4",
+            "step/stone5",
+            "step/stone6"
+        ]
+    },
     "block.deepslate.break": {
         "replace": "true",
         "sounds": [
