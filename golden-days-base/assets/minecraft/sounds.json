@@ -1110,6 +1110,51 @@
             "dig/sand4"
         ]
     },
+    "block.scaffolding.break": {
+        "replace": "true",
+        "sounds": [
+            "dig/wood1",
+            "dig/wood2",
+            "dig/wood3",
+            "dig/wood4"
+        ]
+    },
+    "block.scaffolding.place": {
+        "replace": "true",
+        "sounds": [
+            "dig/wood1",
+            "dig/wood2",
+            "dig/wood3",
+            "dig/wood4"
+        ]
+    },
+    "block.scaffolding.hit": {
+        "replace": "true",
+        "sounds": [
+            "step/wood1",
+            "step/wood2",
+            "step/wood3",
+            "step/wood4"
+        ]
+    },
+    "block.scaffolding.step": {
+        "replace": "true",
+        "sounds": [
+            "step/wood1",
+            "step/wood2",
+            "step/wood3",
+            "step/wood4"
+        ]
+    },
+    "block.scaffolding.fall": {
+        "replace": "true",
+        "sounds": [
+            "step/wood1",
+            "step/wood2",
+            "step/wood3",
+            "step/wood4"
+        ]
+    },
     "block.nether_wood.break": {
         "replace": "true",
         "sounds": [
