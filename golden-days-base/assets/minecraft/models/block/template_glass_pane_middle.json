@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#pane"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 8],
+			"to": [9, 16, 8],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [7, 0, 9, 16], "texture": "#pane", "cullface": "north"},
+				"south": {"uv": [7, 0, 9, 16], "texture": "#pane", "cullface": "north"}
+			}
+		},
+		{
+			"from": [8, 0, 7],
+			"to": [8, 16, 9],
+			"shade": false,
+			"faces": {
+				"east": {"uv": [7, 0, 9, 16], "texture": "#pane", "cullface": "north"},
+				"west": {"uv": [7, 0, 9, 16], "texture": "#pane", "cullface": "north"}
+			}
+		},
+		{
+			"from": [7, 16, 7],
+			"to": [9, 16, 9],
+			"shade": false,
+			"faces": {
+				"up": {"uv": [7, 7, 9, 9], "texture": "#edge", "cullface": "north"},
+				"down": {"uv": [7, 7, 9, 9], "texture": "#edge", "cullface": "north"}
+			}
+		}
+	]
+}
