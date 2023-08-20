@@ -3,8 +3,8 @@
 	"parent": "block/cube",
 	"textures": {
 		"0": "block/end_portal_frame_empty",
-		"1": "block/end_portal_frame_filled",
 		"2": "block/end_portal_frame_side",
+		"3": "block/end_portal_frame_bottom",
 		"particle": "block/end_portal_frame_empty"
 	},
 	"elements": [
@@ -17,7 +17,7 @@
 				"south": {"uv": [0, 3, 16, 16], "texture": "#2", "cullface": "south"},
 				"west": {"uv": [0, 3, 16, 16], "texture": "#2", "cullface": "west"},
 				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "down"}
+				"down": {"uv": [0, 0, 16, 16], "texture": "#3", "cullface": "down"}
 			}
 		}
 	]
