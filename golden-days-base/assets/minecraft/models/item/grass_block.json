@@ -2,6 +2,8 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/grass_block_side",
+		"1": "block/grass_block_top_item",
+		"2": "block/dirt",
 		"particle": "block/grass_block_side"
 	},
 	"elements": [
@@ -13,8 +15,8 @@
 				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
 				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
 				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
 			}
 		}
 	],
