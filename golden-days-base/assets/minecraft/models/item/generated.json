@@ -5,6 +5,7 @@
 		{
 			"from": [0, 0, 7.5],
 			"to": [16, 16, 8.5],
+			"shade": false,
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 15.5]},
 			"color": 1,
 			"faces": {
