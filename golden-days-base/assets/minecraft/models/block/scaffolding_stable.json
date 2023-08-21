@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
-		"0": "block/oak_planks",
+		"0": "block/scaffolding_top",
 		"1": "block/scaffolding_side",
-		"particle": "block/oak_planks"
+		"particle": "block/scaffolding_top"
 	},
 	"elements": [
 		{
@@ -64,11 +64,12 @@
 			"from": [0, 14, 0],
 			"to": [16, 16, 16],
 			"faces": {
-				"north": {"uv": [0, 0, 16, 2], "texture": "#0", "cullface": "north"},
-				"east": {"uv": [0, 0, 16, 2], "texture": "#0", "cullface": "east"},
-				"south": {"uv": [0, 0, 16, 2], "texture": "#0", "cullface": "south"},
-				"west": {"uv": [0, 0, 16, 2], "texture": "#0", "cullface": "west"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "up"}
+				"north": {"uv": [0, 0, 16, 2], "texture": "#1", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 2], "texture": "#1", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 2], "texture": "#1", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 2], "texture": "#1", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "up"}
 			}
 		}
 	]
