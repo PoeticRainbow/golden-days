@@ -6,6 +6,7 @@
     <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/PoeticRainbow/golden-days/total?style=plastic&logo=github&label=GitHub&link=https%3A%2F%2Fgithub.com%2FPoeticRainbow%2Fgolden-days">
     <img alt="CurseForge Downloads" src="https://img.shields.io/curseforge/dt/384081?style=plastic&logo=curseforge&label=CurseForge&color=F16436&link=https%3A%2F%2Flegacy.curseforge.com%2Fminecraft%2Ftexture-packs%2Fgolden-days">
     <img alt="Modrinth Downloads" src="https://img.shields.io/modrinth/dt/BFzJ6aQL?style=plastic&logo=modrinth&label=Modrinth&link=https%3A%2F%2Fmodrinth.com%2Fresourcepack%2Fgolden-days">
+    <img alt="Discord" src="https://img.shields.io/discord/742213262791147531?logo=discord&label=Discord&style=plastic">
     <p>
         <b>Golden Days</b> is a texture pack for Minecraft that sends your game back in time. It changes blocks, items, mobs, and even GUI elements to be inspired by the past.
     </p>
