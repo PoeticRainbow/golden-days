@@ -1,0 +1,2 @@
+This will be used if I end up having to make any changes that would break earlier versions of the game.
+Hopefully I can move to having one pack for every version 1.20 and above.
