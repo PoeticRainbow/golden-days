@@ -1,6 +1,10 @@
 {
-  "pack": {
-    "pack_format": 15,
-    "description": "§6Golden Days §8- §aAlpha §7(Alpha) \n§8by PoeticRainbow"
-  }
+    "pack": {
+        "pack_format": 15,
+        "supported_formats": {
+            "min_inclusive": 15,
+            "max_inclusive": 18
+        },
+        "description": "§6Golden Days §8- §aAlpha §7(Alpha) \n§8by PoeticRainbow"
+    }
 }
