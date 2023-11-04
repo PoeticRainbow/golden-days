@@ -2849,15 +2849,18 @@
   },
   "entity.enderman.ambient": {
     "replace": "true",
-    "sounds": [ "mob/zombie/say1", "mob/zombie/say2", "mob/zombie/say3" ]
+    "sounds": [ "mob/zombie/say1", "mob/zombie/say2", "mob/zombie/say3" ],
+    "subtitle": "subtitles.entity.enderman.ambient"
   },
   "entity.enderman.death": {
     "replace": "true",
-    "sounds": [ "mob/zombie/death" ]
+    "sounds": [ "mob/zombie/death" ],
+    "subtitle": "subtitles.entity.enderman.death"
   },
   "entity.enderman.hurt": {
     "replace": "true",
-    "sounds": [ "mob/zombie/hurt1", "mob/zombie/hurt2" ]
+    "sounds": [ "mob/zombie/hurt1", "mob/zombie/hurt2" ],
+    "subtitle": "subtitles.entity.enderman.hurt"
   },
   "entity.enderman.stare": {
     "replace": "true",
@@ -2963,19 +2966,23 @@
   },
   "entity.player.hurt_drown": {
     "replace": "true",
-    "sounds": [ "damage/hit1", "damage/hit2", "damage/hit3" ]
+    "sounds": [ "damage/hit1", "damage/hit2", "damage/hit3" ],
+    "subtitle": "subtitles.entity.player.hurt"
   },
   "entity.player.hurt_on_fire": {
     "replace": "true",
-    "sounds": [ "damage/hit1", "damage/hit2", "damage/hit3" ]
+    "sounds": [ "damage/hit1", "damage/hit2", "damage/hit3" ],
+    "subtitle": "subtitles.entity.player.hurt"
   },
   "entity.player.hurt_sweet_berry_bush": {
     "replace": "true",
-    "sounds": [ "damage/hit1", "damage/hit2", "damage/hit3" ]
+    "sounds": [ "damage/hit1", "damage/hit2", "damage/hit3" ],
+    "subtitle": "subtitles.entity.player.hurt"
   },
   "entity.player.splash.high_speed": {
     "replace": "true",
-    "sounds": [ "liquid/splash", "liquid/splash2" ]
+    "sounds": [ "liquid/splash", "liquid/splash2" ],
+    "subtitle": "subtitles.entity.generic.splash"
   },
   "entity.player.swim": {
     "replace": "true",
@@ -3085,6 +3092,12 @@
       { "name": "common.silent", "type": "event" }
     ]
   },
+  "item.bone_meal.use": {
+    "replace": "true",
+    "sounds": [
+      { "name": "common.silent", "type": "event" }
+    ]
+  },
   "item.bucket.empty": {
     "replace": "true",
     "sounds": [
@@ -3107,13 +3120,15 @@
     "replace": "true",
     "sounds": [
       { "name": "common.snow.dig", "type": "event" }
-    ]
+    ],
+    "subtitle": "subtitles.block.generic.place"
   },
   "item.bucket.fill": {
     "replace": "true",
     "sounds": [
       { "name": "common.silent", "type": "event" }
-    ]
+    ],
+    "subtitle": "subtitles.block.generic.break"
   },
   "item.bucket.fill_fish": {
     "replace": "true",
