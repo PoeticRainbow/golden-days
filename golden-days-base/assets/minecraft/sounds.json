@@ -117,11 +117,39 @@
         "replace": "true",
         "sounds": [{"name": "common.grass.dig", "type": "event"}]
     },
+    "block.azalea.fall": {
+        "replace": "true",
+        "sounds": [{"name": "common.grass.dig", "type": "event"}]
+    },
+    "block.azalea.hit": {
+        "replace": "true",
+        "sounds": [{"name": "common.grass.dig", "type": "event"}]
+    },
     "block.azalea.place": {
         "replace": "true",
         "sounds": [{"name": "common.grass.dig", "type": "event"}]
     },
     "block.azalea.step": {
+        "replace": "true",
+        "sounds": [{"name": "common.grass.dig", "type": "event"}]
+    },
+    "block.azalea_leaves.break": {
+        "replace": "true",
+        "sounds": [{"name": "common.grass.dig", "type": "event"}]
+    },
+    "block.azalea_leaves.fall": {
+        "replace": "true",
+        "sounds": [{"name": "common.grass.dig", "type": "event"}]
+    },
+    "block.azalea_leaves.hit": {
+        "replace": "true",
+        "sounds": [{"name": "common.grass.dig", "type": "event"}]
+    },
+    "block.azalea_leaves.place": {
+        "replace": "true",
+        "sounds": [{"name": "common.grass.dig", "type": "event"}]
+    },
+    "block.azalea_leaves.step": {
         "replace": "true",
         "sounds": [{"name": "common.grass.dig", "type": "event"}]
     },
@@ -142,6 +170,26 @@
         "sounds": [{"name": "common.wood.dig", "type": "event"}]
     },
     "block.bamboo_wood.step": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.step", "type": "event"}]
+    },
+    "block.bamboo_wood_hanging_sign.break": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.dig", "type": "event"}]
+    },
+    "block.bamboo_wood_hanging_sign.fall": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.step", "type": "event"}]
+    },
+    "block.bamboo_wood_hanging_sign.hit": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.step", "type": "event"}]
+    },
+    "block.bamboo_wood_hanging_sign.place": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.dig", "type": "event"}]
+    },
+    "block.bamboo_wood_hanging_sign.step": {
         "replace": "true",
         "sounds": [{"name": "common.wood.step", "type": "event"}]
     },
@@ -325,6 +373,26 @@
         "replace": "true",
         "sounds": [{"name": "common.door.open", "type": "event"}]
     },
+    "block.cherry_wood_hanging_sign.break": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.dig", "type": "event"}]
+    },
+    "block.cherry_wood_hanging_sign.fall": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.step", "type": "event"}]
+    },
+    "block.cherry_wood_hanging_sign.hit": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.step", "type": "event"}]
+    },
+    "block.cherry_wood_hanging_sign.place": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.dig", "type": "event"}]
+    },
+    "block.cherry_wood_hanging_sign.step": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.step", "type": "event"}]
+    },
     "block.cherry_wood_trapdoor.close": {
         "replace": "true",
         "sounds": [{"name": "common.door.close", "type": "event"}]
@@ -340,6 +408,42 @@
     "block.chest.open": {
         "replace": "true",
         "sounds": [{"name": "common.door.open", "type": "event"}]
+    },
+    "block.chiseled_bookshelf.break": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.dig", "type": "event"}]
+    },
+    "block.chiseled_bookshelf.fall": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.step", "type": "event"}]
+    },
+    "block.chiseled_bookshelf.hit": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.step", "type": "event"}]
+    },
+    "block.chiseled_bookshelf.place": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.dig", "type": "event"}]
+    },
+    "block.chiseled_bookshelf.step": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.step", "type": "event"}]
+    },
+    "block.chiseled_bookshelf.insert": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.dig", "type": "event"}]
+    },
+    "block.chiseled_bookshelf.insert.enchanted": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.dig", "type": "event"}]
+    },
+    "block.chiseled_bookshelf.pickup": {
+        "replace": "true",
+        "sounds": ["random/pop"]
+    },
+    "block.chiseled_bookshelf.pickup.enchanted": {
+        "replace": "true",
+        "sounds": ["random/pop"]
     },
     "block.deepslate.break": {
         "replace": "true",
@@ -492,6 +596,26 @@
     "block.growing_plant.crop": {
         "replace": "true",
         "sounds": [{"name": "common.silent", "type": "event"}]
+    },
+    "block.hanging_sign.break": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.dig", "type": "event"}]
+    },
+    "block.hanging_sign.fall": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.step", "type": "event"}]
+    },
+    "block.hanging_sign.hit": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.step", "type": "event"}]
+    },
+    "block.hanging_sign.place": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.dig", "type": "event"}]
+    },
+    "block.hanging_sign.step": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.step", "type": "event"}]
     },
     "block.iron_door.close": {
         "replace": "true",
@@ -717,6 +841,26 @@
         "replace": "true",
         "sounds": [{"name": "common.door.open", "type": "event"}]
     },
+    "block.nether_wood_hanging_sign.break": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.dig", "type": "event"}]
+    },
+    "block.nether_wood_hanging_sign.fall": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.step", "type": "event"}]
+    },
+    "block.nether_wood_hanging_sign.hit": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.step", "type": "event"}]
+    },
+    "block.nether_wood_hanging_sign.place": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.dig", "type": "event"}]
+    },
+    "block.nether_wood_hanging_sign.step": {
+        "replace": "true",
+        "sounds": [{"name": "common.wood.step", "type": "event"}]
+    },
     "block.netherrack.break": {
         "replace": "true",
         "sounds": [{"name": "common.stone.dig", "type": "event"}]
@@ -909,6 +1053,46 @@
         "replace": "true",
         "sounds": [{"name": "common.wood.dig", "type": "event"}]
     },
+    "block.suspicious_gravel.break": {
+        "replace": "true",
+        "sounds": [{"name": "common.sand.dig", "type": "event"}]
+    },
+    "block.suspicious_gravel.fall": {
+        "replace": "true",
+        "sounds": [{"name": "common.sand.dig", "type": "event"}]
+    },
+    "block.suspicious_gravel.hit": {
+        "replace": "true",
+        "sounds": [{"name": "common.sand.dig", "type": "event"}]
+    },
+    "block.suspicious_gravel.place": {
+        "replace": "true",
+        "sounds": [{"name": "common.sand.dig", "type": "event"}]
+    },
+    "block.suspicious_gravel.step": {
+        "replace": "true",
+        "sounds": [{"name": "common.sand.dig", "type": "event"}]
+    },
+    "block.suspicious_sand.break": {
+        "replace": "true",
+        "sounds": [{"name": "common.sand.dig", "type": "event"}]
+    },
+    "block.suspicious_sand.fall": {
+        "replace": "true",
+        "sounds": [{"name": "common.sand.step", "type": "event"}]
+    },
+    "block.suspicious_sand.hit": {
+        "replace": "true",
+        "sounds": [{"name": "common.sand.step", "type": "event"}]
+    },
+    "block.suspicious_sand.place": {
+        "replace": "true",
+        "sounds": [{"name": "common.sand.step", "type": "event"}]
+    },
+    "block.suspicious_sand.step": {
+        "replace": "true",
+        "sounds": [{"name": "common.sand.step", "type": "event"}]
+    },
     "block.tuff.break": {
         "replace": "true",
         "sounds": [{"name": "common.stone.dig", "type": "event"}]
@@ -1045,6 +1229,14 @@
         "sounds": [{"name": "common.silent", "type": "event"}]
     },
     "entity.mooshroom.shear": {
+        "replace": "true",
+        "sounds": [{"name": "common.silent", "type": "event"}]
+    },
+    "entity.painting.break": {
+        "replace": "true",
+        "sounds": [{"name": "common.silent", "type": "event"}]
+    },
+    "entity.painting.place": {
         "replace": "true",
         "sounds": [{"name": "common.silent", "type": "event"}]
     },
