@@ -454,8 +454,7 @@
     "replace": "true",
     "sounds": [
       { "name": "common.grass.dig", "type": "event" }
-    ],
-    "subtitle": "subtitles.block.generic.footsteps"
+    ]
   },
   "block.chain.break": {
     "replace": "true",
@@ -2570,8 +2569,7 @@
     "replace": "true",
     "sounds": [
       { "name": "common.silent", "type": "event" }
-    ],
-    "subtitle": "subtitles.block.generic.footsteps"
+    ]
   },
   "block.wart_block.break": {
     "replace": "true",
@@ -2638,8 +2636,7 @@
     "replace": "true",
     "sounds": [
       { "name": "common.silent", "type": "event" }
-    ],
-    "subtitle": "subtitles.block.generic.footsteps"
+    ]
   },
   "block.wet_grass.break": {
     "replace": "true",
