@@ -1,188 +1,931 @@
 {
-    "entity.player.attack.crit": {
+    "ambient.underwater.enter": {
         "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
-    },
-    "entity.player.attack.knockback": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
-    },
-    "entity.player.attack.nodamage": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
-    },
-    "entity.player.attack.strong": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
-    },
-    "entity.player.attack.sweep": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
-    },
-    "entity.player.attack.weak": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
-    },
-    "entity.player.hurt_drown": {
-        "replace": "true",
-        "sounds": [
-            "damage/hit1",
-            "damage/hit2",
-            "damage/hit3"
-        ]
-    },
-    "entity.player.hurt_on_fire": {
-        "replace": "true",
-        "sounds": [
-            "damage/hit1",
-            "damage/hit2",
-            "damage/hit3"
-        ]
-    },
-    "entity.player.hurt_sweet_berry_bush": {
-        "replace": "true",
-        "sounds": [
-            "damage/hit1",
-            "damage/hit2",
-            "damage/hit3"
-        ]
-    },
-    "entity.enderman.hurt": {
-        "replace": "true",
-        "sounds": [
-            "mob/zombie/hurt1",
-            "mob/zombie/hurt2"
-        ]
-    },
-    "entity.enderman.ambient": {
-        "replace": "true",
-        "sounds": [
-            "mob/zombie/say1",
-            "mob/zombie/say2",
-            "mob/zombie/say3"
-        ]
-    },
-    "entity.enderman.death": {
-        "replace": "true",
-        "sounds": [
-            "mob/zombie/death"
-        ]
-    },
-    "entity.boat.paddle_land": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
-    },
-    "entity.boat.paddle_water": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
+        "sounds": ["goldendays/blank"]
     },
     "ambient.underwater.exit": {
         "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
-    },
-    "ambient.underwater.enter": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
+        "sounds": ["goldendays/blank"]
     },
     "ambient.underwater.loop": {
         "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
+        "sounds": ["goldendays/blank"]
     },
     "ambient.underwater.loop.additions": {
         "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
+        "sounds": ["goldendays/blank"]
     },
     "ambient.underwater.loop.additions.rare": {
         "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
+        "sounds": ["goldendays/blank"]
     },
     "ambient.underwater.loop.additions.ultra_rare": {
         "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
+        "sounds": ["goldendays/blank"]
     },
-    "entity.generic.swim": {
+    "block.ancient_debris.break": {
         "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
+        "sounds": ["dig/stone1", "dig/stone2", "dig/stone3", "dig/stone4"]
     },
-    "entity.hostile.swim": {
+    "block.ancient_debris.hit": {
         "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4", "step/stone5", "step/stone6"]
     },
-    "entity.player.swim": {
+    "block.ancient_debris.place": {
         "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
+        "sounds": ["dig/stone1", "dig/stone2", "dig/stone3", "dig/stone4"]
+    },
+    "block.ancient_debris.step": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4", "step/stone5", "step/stone6"]
+    },
+    "block.azalea.break": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.azalea.place": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.azalea.step": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.bamboo_wood.break": {
+        "replace": "true",
+        "sounds": ["dig/wood1", "dig/wood2", "dig/wood3", "dig/wood4"]
+    },
+    "block.bamboo_wood.fall": {
+        "replace": "true",
+        "sounds": ["step/wood1", "step/wood2", "step/wood3", "step/wood4"]
+    },
+    "block.bamboo_wood.hit": {
+        "replace": "true",
+        "sounds": ["step/wood1", "step/wood2", "step/wood3", "step/wood4"]
+    },
+    "block.bamboo_wood.place": {
+        "replace": "true",
+        "sounds": ["dig/wood1", "dig/wood2", "dig/wood3", "dig/wood4"]
+    },
+    "block.bamboo_wood.step": {
+        "replace": "true",
+        "sounds": ["step/wood1", "step/wood2", "step/wood3", "step/wood4"]
+    },
+    "block.bamboo_wood_door.close": {
+        "replace": "true",
+        "sounds": ["goldendays/door/close"]
+    },
+    "block.bamboo_wood_door.open": {
+        "replace": "true",
+        "sounds": ["goldendays/door/open"]
+    },
+    "block.bamboo_wood_fence_gate.close": {
+        "replace": "true",
+        "sounds": ["goldendays/door/close"]
+    },
+    "block.bamboo_wood_fence_gate.open": {
+        "replace": "true",
+        "sounds": ["goldendays/door/open"]
+    },
+    "block.bamboo_wood_trapdoor.close": {
+        "replace": "true",
+        "sounds": ["goldendays/door/close"]
+    },
+    "block.bamboo_wood_trapdoor.open": {
+        "replace": "true",
+        "sounds": ["goldendays/door/open"]
+    },
+    "block.basalt.break": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.basalt.hit": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.basalt.place": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.basalt.step": {
+        "replace": "true",
+        "sounds": ["dig/stone1", "dig/stone2", "dig/stone3", "dig/stone4"]
+    },
+    "block.big_dripleaf.break": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.big_dripleaf.place": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.big_dripleaf.step": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.bone_block.break": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.bone_block.hit": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.bone_block.place": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.bone_block.step": {
+        "replace": "true",
+        "sounds": ["dig/stone1", "dig/stone2", "dig/stone3", "dig/stone4"]
+    },
+    "block.calcite.break": {
+        "replace": "true",
+        "sounds": ["dig/stone1", "dig/stone2", "dig/stone3", "dig/stone4"]
+    },
+    "block.calcite.hit": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4", "step/stone5", "step/stone6"]
+    },
+    "block.calcite.place": {
+        "replace": "true",
+        "sounds": ["dig/stone1", "dig/stone2", "dig/stone3", "dig/stone4"]
+    },
+    "block.calcite.step": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4", "step/stone5", "step/stone6"]
+    },
+    "block.cherry_leaves.break": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.cherry_leaves.fall": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.cherry_leaves.hit": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.cherry_leaves.place": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.cherry_leaves.step": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.cherry_sapling.break": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.cherry_sapling.fall": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.cherry_sapling.hit": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.cherry_sapling.place": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.cherry_sapling.step": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.cherry_wood.break": {
+        "replace": "true",
+        "sounds": ["dig/wood1", "dig/wood2", "dig/wood3", "dig/wood4"]
+    },
+    "block.cherry_wood.fall": {
+        "replace": "true",
+        "sounds": ["step/wood1", "step/wood2", "step/wood3", "step/wood4"]
+    },
+    "block.cherry_wood.hit": {
+        "replace": "true",
+        "sounds": ["step/wood1", "step/wood2", "step/wood3", "step/wood4"]
+    },
+    "block.cherry_wood.place": {
+        "replace": "true",
+        "sounds": ["dig/wood1", "dig/wood2", "dig/wood3", "dig/wood4"]
+    },
+    "block.cherry_wood.step": {
+        "replace": "true",
+        "sounds": ["step/wood1", "step/wood2", "step/wood3", "step/wood4"]
+    },
+    "block.cherry_wood_door.close": {
+        "replace": "true",
+        "sounds": ["goldendays/door/close"]
+    },
+    "block.cherry_wood_door.open": {
+        "replace": "true",
+        "sounds": ["goldendays/door/open"]
+    },
+    "block.cherry_wood_fence_gate.close": {
+        "replace": "true",
+        "sounds": ["goldendays/door/close"]
+    },
+    "block.cherry_wood_fence_gate.open": {
+        "replace": "true",
+        "sounds": ["goldendays/door/open"]
+    },
+    "block.cherry_wood_trapdoor.close": {
+        "replace": "true",
+        "sounds": ["goldendays/door/close"]
+    },
+    "block.cherry_wood_trapdoor.open": {
+        "replace": "true",
+        "sounds": ["goldendays/door/open"]
+    },
+    "block.chest.close": {
+        "replace": "true",
+        "sounds": ["block/chest/close"]
+    },
+    "block.chest.open": {
+        "replace": "true",
+        "sounds": ["block/chest/open"]
+    },
+    "block.deepslate.break": {
+        "replace": "true",
+        "sounds": ["dig/deepslate1", "dig/deepslate2", "dig/deepslate3", "dig/deepslate4"]
+    },
+    "block.deepslate.hit": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4", "step/stone5", "step/stone6"]
+    },
+    "block.deepslate.place": {
+        "replace": "true",
+        "sounds": ["dig/deepslate1", "dig/deepslate2", "dig/deepslate3", "dig/deepslate4"]
+    },
+    "block.deepslate.step": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4", "step/stone5", "step/stone6"]
+    },
+    "block.deepslate_bricks.break": {
+        "replace": "true",
+        "sounds": ["dig/deepslate1", "dig/deepslate2", "dig/deepslate3", "dig/deepslate4"]
+    },
+    "block.deepslate_bricks.hit": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4", "step/stone5", "step/stone6"]
+    },
+    "block.deepslate_bricks.place": {
+        "replace": "true",
+        "sounds": ["dig/deepslate1", "dig/deepslate2", "dig/deepslate3", "dig/deepslate4"]
+    },
+    "block.deepslate_bricks.step": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4", "step/stone5", "step/stone6"]
+    },
+    "block.deepslate_tiles.break": {
+        "replace": "true",
+        "sounds": ["dig/deepslate1", "dig/deepslate2", "dig/deepslate3", "dig/deepslate4"]
+    },
+    "block.deepslate_tiles.hit": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4", "step/stone5", "step/stone6"]
+    },
+    "block.deepslate_tiles.place": {
+        "replace": "true",
+        "sounds": ["dig/deepslate1", "dig/deepslate2", "dig/deepslate3", "dig/deepslate4"]
+    },
+    "block.deepslate_tiles.step": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4", "step/stone5", "step/stone6"]
+    },
+    "block.dripstone_block.break": {
+        "replace": "true",
+        "sounds": ["dig/stone1", "dig/stone2", "dig/stone3", "dig/stone4"]
+    },
+    "block.dripstone_block.hit": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4", "step/stone5", "step/stone6"]
+    },
+    "block.dripstone_block.place": {
+        "replace": "true",
+        "sounds": ["dig/stone1", "dig/stone2", "dig/stone3", "dig/stone4"]
+    },
+    "block.dripstone_block.step": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4", "step/stone5", "step/stone6"]
+    },
+    "block.ender_chest.close": {
+        "replace": "true",
+        "sounds": ["block/chest/close"]
+    },
+    "block.ender_chest.open": {
+        "replace": "true",
+        "sounds": ["block/chest/open"]
+    },
+    "block.fence_gate.close": {
+        "replace": "true",
+        "sounds": ["goldendays/door/close"]
+    },
+    "block.fence_gate.open": {
+        "replace": "true",
+        "sounds": ["goldendays/door/open"]
+    },
+    "block.flowering_azalea.break": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.flowering_azalea.place": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.flowering_azalea.step": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.fungus.break": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.fungus.hit": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.fungus.place": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.fungus.step": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.gilded_blackstone.break": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.gilded_blackstone.hit": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.gilded_blackstone.place": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.gilded_blackstone.step": {
+        "replace": "true",
+        "sounds": ["dig/stone1", "dig/stone2", "dig/stone3", "dig/stone4"]
+    },
+    "block.iron_door.close": {
+        "replace": "true",
+        "sounds": ["goldendays/door/close"]
+    },
+    "block.iron_door.open": {
+        "replace": "true",
+        "sounds": ["goldendays/door/open"]
+    },
+    "block.iron_trapdoor.close": {
+        "replace": "true",
+        "sounds": ["goldendays/door/close"]
+    },
+    "block.iron_trapdoor.open": {
+        "replace": "true",
+        "sounds": ["goldendays/door/open"]
+    },
+    "block.ladder.hit": {
+        "replace": "true",
+        "sounds": ["dig/wood1", "dig/wood2", "dig/wood3", "dig/wood4"]
     },
     "block.ladder.step": {
         "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
+        "sounds": ["goldendays/blank"]
+    },
+    "block.lava.ambient": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
+    },
+    "block.lava.pop": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
+    },
+    "block.lily_pad.break": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.lily_pad.place": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.mangrove_roots.break": {
+        "replace": "true",
+        "sounds": ["dig/wood1", "dig/wood2", "dig/wood3", "dig/wood4"]
+    },
+    "block.mangrove_roots.place": {
+        "replace": "true",
+        "sounds": ["dig/wood1", "dig/wood2", "dig/wood3", "dig/wood4"]
+    },
+    "block.mangrove_roots.step": {
+        "replace": "true",
+        "sounds": ["dig/wood1", "dig/wood2", "dig/wood3", "dig/wood4"]
+    },
+    "block.moss.break": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.moss.place": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.moss.step": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.moss_carpet.break": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.moss_carpet.place": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.moss_carpet.step": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.mud.break": {
+        "replace": "true",
+        "sounds": ["dig/sand1", "dig/sand2", "dig/sand3", "dig/sand4"]
+    },
+    "block.mud.place": {
+        "replace": "true",
+        "sounds": ["dig/sand1", "dig/sand2", "dig/sand3", "dig/sand4"]
+    },
+    "block.mud.step": {
+        "replace": "true",
+        "sounds": ["dig/sand1", "dig/sand2", "dig/sand3", "dig/sand4"]
+    },
+    "block.muddy_mangrove_roots.break": {
+        "replace": "true",
+        "sounds": ["dig/sand1", "dig/sand2", "dig/sand3", "dig/sand4"]
+    },
+    "block.muddy_mangrove_roots.place": {
+        "replace": "true",
+        "sounds": ["dig/sand1", "dig/sand2", "dig/sand3", "dig/sand4"]
+    },
+    "block.muddy_mangrove_roots.step": {
+        "replace": "true",
+        "sounds": ["dig/sand1", "dig/sand2", "dig/sand3", "dig/sand4"]
+    },
+    "block.nether_bricks.break": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.nether_bricks.hit": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.nether_bricks.place": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.nether_bricks.step": {
+        "replace": "true",
+        "sounds": ["dig/stone1", "dig/stone2", "dig/stone3", "dig/stone4"]
+    },
+    "block.nether_gold_ore.break": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.nether_gold_ore.hit": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.nether_gold_ore.place": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.nether_gold_ore.step": {
+        "replace": "true",
+        "sounds": ["dig/stone1", "dig/stone2", "dig/stone3", "dig/stone4"]
+    },
+    "block.nether_ore.break": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.nether_ore.hit": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.nether_ore.place": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.nether_ore.step": {
+        "replace": "true",
+        "sounds": ["dig/stone1", "dig/stone2", "dig/stone3", "dig/stone4"]
+    },
+    "block.nether_wart.break": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.nether_wart.hit": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.nether_wart.step": {
+        "replace": "true",
+        "sounds": ["dig/stone1", "dig/stone2", "dig/stone3", "dig/stone4"]
+    },
+    "block.nether_wood.break": {
+        "replace": "true",
+        "sounds": ["dig/wood1", "dig/wood2", "dig/wood3", "dig/wood4"]
+    },
+    "block.nether_wood.fall": {
+        "replace": "true",
+        "sounds": ["step/wood1", "step/wood2", "step/wood3", "step/wood4"]
+    },
+    "block.nether_wood.hit": {
+        "replace": "true",
+        "sounds": ["step/wood1", "step/wood2", "step/wood3", "step/wood4"]
+    },
+    "block.nether_wood.place": {
+        "replace": "true",
+        "sounds": ["dig/wood1", "dig/wood2", "dig/wood3", "dig/wood4"]
+    },
+    "block.nether_wood.step": {
+        "replace": "true",
+        "sounds": ["step/wood1", "step/wood2", "step/wood3", "step/wood4"]
+    },
+    "block.nether_wood_door.close": {
+        "replace": "true",
+        "sounds": ["goldendays/door/close"]
+    },
+    "block.nether_wood_door.open": {
+        "replace": "true",
+        "sounds": ["goldendays/door/open"]
+    },
+    "block.nether_wood_fence_gate.close": {
+        "replace": "true",
+        "sounds": ["goldendays/door/close"]
+    },
+    "block.nether_wood_fence_gate.open": {
+        "replace": "true",
+        "sounds": ["goldendays/door/open"]
+    },
+    "block.nether_wood_trapdoor.close": {
+        "replace": "true",
+        "sounds": ["goldendays/door/close"]
+    },
+    "block.nether_wood_trapdoor.open": {
+        "replace": "true",
+        "sounds": ["goldendays/door/open"]
+    },
+    "block.netherrack.break": {
+        "replace": "true",
+        "sounds": ["dig/stone1", "dig/stone2", "dig/stone3", "dig/stone4"]
+    },
+    "block.netherrack.hit": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4", "step/stone5", "step/stone6"]
+    },
+    "block.netherrack.place": {
+        "replace": "true",
+        "sounds": ["dig/stone1", "dig/stone2", "dig/stone3", "dig/stone4"]
+    },
+    "block.netherrack.step": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4", "step/stone5", "step/stone6"]
+    },
+    "block.nylium.break": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.nylium.hit": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.nylium.place": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4"]
+    },
+    "block.nylium.step": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.pointed_dripstone.break": {
+        "replace": "true",
+        "sounds": ["dig/stone1", "dig/stone2", "dig/stone3", "dig/stone4"]
+    },
+    "block.pointed_dripstone.hit": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4", "step/stone5", "step/stone6"]
+    },
+    "block.pointed_dripstone.land": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4", "step/stone5", "step/stone6"]
+    },
+    "block.pointed_dripstone.place": {
+        "replace": "true",
+        "sounds": ["dig/stone1", "dig/stone2", "dig/stone3", "dig/stone4"]
+    },
+    "block.pointed_dripstone.step": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4", "step/stone5", "step/stone6"]
+    },
+    "block.polished_deepslate.break": {
+        "replace": "true",
+        "sounds": ["dig/deepslate1", "dig/deepslate2", "dig/deepslate3", "dig/deepslate4"]
+    },
+    "block.polished_deepslate.hit": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4", "step/stone5", "step/stone6"]
+    },
+    "block.polished_deepslate.place": {
+        "replace": "true",
+        "sounds": ["dig/deepslate1", "dig/deepslate2", "dig/deepslate3", "dig/deepslate4"]
+    },
+    "block.polished_deepslate.step": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4", "step/stone5", "step/stone6"]
+    },
+    "block.roots.break": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.roots.hit": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.roots.place": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.roots.step": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.sand.place": {
+        "replace": "true",
+        "sounds": ["step/sand1", "step/sand2", "step/sand3", "step/sand4"]
+    },
+    "block.scaffolding.break": {
+        "replace": "true",
+        "sounds": ["dig/wood1", "dig/wood2", "dig/wood3", "dig/wood4"]
+    },
+    "block.scaffolding.fall": {
+        "replace": "true",
+        "sounds": ["step/wood1", "step/wood2", "step/wood3", "step/wood4"]
+    },
+    "block.scaffolding.hit": {
+        "replace": "true",
+        "sounds": ["step/wood1", "step/wood2", "step/wood3", "step/wood4"]
+    },
+    "block.scaffolding.place": {
+        "replace": "true",
+        "sounds": ["dig/wood1", "dig/wood2", "dig/wood3", "dig/wood4"]
+    },
+    "block.scaffolding.step": {
+        "replace": "true",
+        "sounds": ["step/wood1", "step/wood2", "step/wood3", "step/wood4"]
+    },
+    "block.small_dripleaf.break": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.small_dripleaf.place": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.small_dripleaf.step": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.soul_sand.break": {
+        "replace": "true",
+        "sounds": ["step/gravel1", "step/gravel2", "step/gravel3", "step/gravel4"]
+    },
+    "block.soul_sand.hit": {
+        "replace": "true",
+        "sounds": ["step/sand1", "step/sand2", "step/sand3", "step/sand4"]
+    },
+    "block.soul_sand.place": {
+        "replace": "true",
+        "sounds": ["step/sand1", "step/sand2", "step/sand3", "step/sand4"]
+    },
+    "block.soul_sand.step": {
+        "replace": "true",
+        "sounds": ["step/sand1", "step/sand2", "step/sand3", "step/sand4"]
+    },
+    "block.soul_soil.break": {
+        "replace": "true",
+        "sounds": ["step/gravel1", "step/gravel2", "step/gravel3", "step/gravel4"]
+    },
+    "block.soul_soil.hit": {
+        "replace": "true",
+        "sounds": ["step/sand1", "step/sand2", "step/sand3", "step/sand4"]
+    },
+    "block.soul_soil.place": {
+        "replace": "true",
+        "sounds": ["step/gravel1", "step/gravel2", "step/gravel3", "step/gravel4"]
+    },
+    "block.soul_soil.step": {
+        "replace": "true",
+        "sounds": ["step/gravel1", "step/gravel2", "step/gravel3", "step/gravel4"]
+    },
+    "block.stem.break": {
+        "replace": "true",
+        "sounds": ["step/wood1", "step/wood2", "step/wood3", "step/wood4"]
+    },
+    "block.stem.hit": {
+        "replace": "true",
+        "sounds": ["step/wood1", "step/wood2", "step/wood3", "step/wood4"]
+    },
+    "block.stem.place": {
+        "replace": "true",
+        "sounds": ["step/wood1", "step/wood2", "step/wood3", "step/wood4"]
+    },
+    "block.stem.step": {
+        "replace": "true",
+        "sounds": ["dig/wood1", "dig/wood2", "dig/wood3", "dig/wood4"]
+    },
+    "block.tuff.break": {
+        "replace": "true",
+        "sounds": ["dig/stone1", "dig/stone2", "dig/stone3", "dig/stone4"]
+    },
+    "block.tuff.hit": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4", "step/stone5", "step/stone6"]
+    },
+    "block.tuff.place": {
+        "replace": "true",
+        "sounds": ["dig/stone1", "dig/stone2", "dig/stone3", "dig/stone4"]
+    },
+    "block.tuff.step": {
+        "replace": "true",
+        "sounds": ["step/stone1", "step/stone2", "step/stone3", "step/stone4", "step/stone5", "step/stone6"]
     },
     "block.vine.step": {
         "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
+        "sounds": ["goldendays/blank"]
+    },
+    "block.weeping_vines.break": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.weeping_vines.hit": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.weeping_vines.place": {
+        "replace": "true",
+        "sounds": ["dig/grass1", "dig/grass2", "dig/grass3", "dig/grass4"]
+    },
+    "block.wet_grass.break": {
+        "replace": "true",
+        "sounds": ["goldendays/seagrass1", "goldendays/seagrass2", "goldendays/seagrass3", "goldendays/seagrass4"]
+    },
+    "block.wet_grass.hit": {
+        "replace": "true",
+        "sounds": ["goldendays/seagrass1", "goldendays/seagrass2", "goldendays/seagrass3", "goldendays/seagrass4"]
+    },
+    "block.wet_grass.place": {
+        "replace": "true",
+        "sounds": ["goldendays/seagrass1", "goldendays/seagrass2", "goldendays/seagrass3", "goldendays/seagrass4"]
+    },
+    "block.wet_grass.step": {
+        "replace": "true",
+        "sounds": ["goldendays/seagrass1", "goldendays/seagrass2", "goldendays/seagrass3", "goldendays/seagrass4"]
+    },
+    "block.wooden_door.close": {
+        "replace": "true",
+        "sounds": ["goldendays/door/close"]
+    },
+    "block.wooden_door.open": {
+        "replace": "true",
+        "sounds": ["goldendays/door/open"]
+    },
+    "block.wooden_trapdoor.close": {
+        "replace": "true",
+        "sounds": ["goldendays/door/close"]
+    },
+    "block.wooden_trapdoor.open": {
+        "replace": "true",
+        "sounds": ["goldendays/door/open"]
+    },
+    "entity.boat.paddle_land": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
+    },
+    "entity.boat.paddle_water": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
+    },
+    "entity.enderman.ambient": {
+        "replace": "true",
+        "sounds": ["mob/zombie/say1", "mob/zombie/say2", "mob/zombie/say3"]
+    },
+    "entity.enderman.death": {
+        "replace": "true",
+        "sounds": ["mob/zombie/death"]
+    },
+    "entity.enderman.hurt": {
+        "replace": "true",
+        "sounds": ["mob/zombie/hurt1", "mob/zombie/hurt2"]
+    },
+    "entity.experience_orb.pickup": {
+        "replace": "true",
+        "sounds": ["random/pop"]
+    },
+    "entity.generic.swim": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
+    },
+    "entity.hostile.swim": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
     },
     "entity.minecart.inside": {
         "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
+        "sounds": ["goldendays/blank"]
+    },
+    "entity.minecart.riding": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
+    },
+    "entity.player.attack.crit": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
+    },
+    "entity.player.attack.knockback": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
+    },
+    "entity.player.attack.nodamage": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
+    },
+    "entity.player.attack.strong": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
+    },
+    "entity.player.attack.sweep": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
+    },
+    "entity.player.attack.weak": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
+    },
+    "entity.player.hurt_drown": {
+        "replace": "true",
+        "sounds": ["damage/hit1", "damage/hit2", "damage/hit3"]
+    },
+    "entity.player.hurt_on_fire": {
+        "replace": "true",
+        "sounds": ["damage/hit1", "damage/hit2", "damage/hit3"]
+    },
+    "entity.player.hurt_sweet_berry_bush": {
+        "replace": "true",
+        "sounds": ["damage/hit1", "damage/hit2", "damage/hit3"]
+    },
+    "entity.player.splash.high_speed": {
+        "replace": "true",
+        "sounds": ["liquid/splash", "liquid/splash2"]
+    },
+    "entity.player.swim": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
+    },
+    "item.armor.equip_chain": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
+    },
+    "item.armor.equip_diamond": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
+    },
+    "item.armor.equip_elytra": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
+    },
+    "item.armor.equip_generic": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
+    },
+    "item.armor.equip_gold": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
+    },
+    "item.armor.equip_iron": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
+    },
+    "item.armor.equip_leather": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
+    },
+    "item.armor.equip_netherite": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
+    },
+    "item.armor.equip_turtle": {
+        "replace": "true",
+        "sounds": ["goldendays/blank"]
     },
     "item.bucket.empty": {
         "replace": "true",
@@ -226,1811 +969,7 @@
             }
         ]
     },
-    "block.lava.pop": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
-    },
-    "block.lava.ambient": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
-    },
-    "block.netherrack.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/stone1",
-            "dig/stone2",
-            "dig/stone3",
-            "dig/stone4"
-        ]
-    },
-    "block.netherrack.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/stone1",
-            "dig/stone2",
-            "dig/stone3",
-            "dig/stone4"
-        ]
-    },
-    "block.netherrack.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4",
-            "step/stone5",
-            "step/stone6"
-        ]
-    },
-    "block.netherrack.step": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4",
-            "step/stone5",
-            "step/stone6"
-        ]
-    },
-    "block.ancient_debris.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/stone1",
-            "dig/stone2",
-            "dig/stone3",
-            "dig/stone4"
-        ]
-    },
-    "block.ancient_debris.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/stone1",
-            "dig/stone2",
-            "dig/stone3",
-            "dig/stone4"
-        ]
-    },
-    "block.ancient_debris.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4",
-            "step/stone5",
-            "step/stone6"
-        ]
-    },
-    "block.ancient_debris.step": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4",
-            "step/stone5",
-            "step/stone6"
-        ]
-    },
-    "block.deepslate.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/deepslate1",
-            "dig/deepslate2",
-            "dig/deepslate3",
-            "dig/deepslate4"
-        ]
-    },
-    "block.deepslate.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/deepslate1",
-            "dig/deepslate2",
-            "dig/deepslate3",
-            "dig/deepslate4"
-        ]
-    },
-    "block.deepslate.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4",
-            "step/stone5",
-            "step/stone6"
-        ]
-    },
-    "block.deepslate.step": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4",
-            "step/stone5",
-            "step/stone6"
-        ]
-    },
-    "block.deepslate_tiles.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/deepslate1",
-            "dig/deepslate2",
-            "dig/deepslate3",
-            "dig/deepslate4"
-        ]
-    },
-    "block.deepslate_tiles.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/deepslate1",
-            "dig/deepslate2",
-            "dig/deepslate3",
-            "dig/deepslate4"
-        ]
-    },
-    "block.deepslate_tiles.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4",
-            "step/stone5",
-            "step/stone6"
-        ]
-    },
-    "block.deepslate_tiles.step": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4",
-            "step/stone5",
-            "step/stone6"
-        ]
-    },
-    "block.polished_deepslate.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/deepslate1",
-            "dig/deepslate2",
-            "dig/deepslate3",
-            "dig/deepslate4"
-        ]
-    },
-    "block.polished_deepslate.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/deepslate1",
-            "dig/deepslate2",
-            "dig/deepslate3",
-            "dig/deepslate4"
-        ]
-    },
-    "block.polished_deepslate.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4",
-            "step/stone5",
-            "step/stone6"
-        ]
-    },
-    "block.polished_deepslate.step": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4",
-            "step/stone5",
-            "step/stone6"
-        ]
-    },
-    "block.deepslate_bricks.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/deepslate1",
-            "dig/deepslate2",
-            "dig/deepslate3",
-            "dig/deepslate4"
-        ]
-    },
-    "block.deepslate_bricks.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/deepslate1",
-            "dig/deepslate2",
-            "dig/deepslate3",
-            "dig/deepslate4"
-        ]
-    },
-    "block.deepslate_bricks.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4",
-            "step/stone5",
-            "step/stone6"
-        ]
-    },
-    "block.deepslate_bricks.step": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4",
-            "step/stone5",
-            "step/stone6"
-        ]
-    },
-    "block.tuff.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/stone1",
-            "dig/stone2",
-            "dig/stone3",
-            "dig/stone4"
-        ]
-    },
-    "block.tuff.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/stone1",
-            "dig/stone2",
-            "dig/stone3",
-            "dig/stone4"
-        ]
-    },
-    "block.tuff.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4",
-            "step/stone5",
-            "step/stone6"
-        ]
-    },
-    "block.tuff.step": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4",
-            "step/stone5",
-            "step/stone6"
-        ]
-    },
-    "block.calcite.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/stone1",
-            "dig/stone2",
-            "dig/stone3",
-            "dig/stone4"
-        ]
-    },
-    "block.calcite.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/stone1",
-            "dig/stone2",
-            "dig/stone3",
-            "dig/stone4"
-        ]
-    },
-    "block.calcite.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4",
-            "step/stone5",
-            "step/stone6"
-        ]
-    },
-    "block.calcite.step": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4",
-            "step/stone5",
-            "step/stone6"
-        ]
-    },
-    "block.dripstone_block.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/stone1",
-            "dig/stone2",
-            "dig/stone3",
-            "dig/stone4"
-        ]
-    },
-    "block.dripstone_block.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/stone1",
-            "dig/stone2",
-            "dig/stone3",
-            "dig/stone4"
-        ]
-    },
-    "block.dripstone_block.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4",
-            "step/stone5",
-            "step/stone6"
-        ]
-    },
-    "block.dripstone_block.step": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4",
-            "step/stone5",
-            "step/stone6"
-        ]
-    },
-    "block.pointed_dripstone.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/stone1",
-            "dig/stone2",
-            "dig/stone3",
-            "dig/stone4"
-        ]
-    },
-    "block.pointed_dripstone.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/stone1",
-            "dig/stone2",
-            "dig/stone3",
-            "dig/stone4"
-        ]
-    },
-    "block.pointed_dripstone.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4",
-            "step/stone5",
-            "step/stone6"
-        ]
-    },
-    "block.pointed_dripstone.step": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4",
-            "step/stone5",
-            "step/stone6"
-        ]
-    },
-    "block.pointed_dripstone.land": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4",
-            "step/stone5",
-            "step/stone6"
-        ]
-    },
-    "block.ladder.hit": {
-        "replace": "true",
-        "sounds": [
-            "dig/wood1",
-            "dig/wood2",
-            "dig/wood3",
-            "dig/wood4"
-        ]
-    },
-    "block.soul_sand.break": {
-        "replace": "true",
-        "sounds": [
-            "step/gravel1",
-            "step/gravel2",
-            "step/gravel3",
-            "step/gravel4"
-        ]
-    },
-    "block.soul_sand.place": {
-        "replace": "true",
-        "sounds": [
-            "step/sand1",
-            "step/sand2",
-            "step/sand3",
-            "step/sand4"
-        ]
-    },
-    "block.soul_sand.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/sand1",
-            "step/sand2",
-            "step/sand3",
-            "step/sand4"
-        ]
-    },
-    "block.soul_sand.step": {
-        "replace": "true",
-        "sounds": [
-            "step/sand1",
-            "step/sand2",
-            "step/sand3",
-            "step/sand4"
-        ]
-    },
-    "block.soul_soil.break": {
-        "replace": "true",
-        "sounds": [
-            "step/gravel1",
-            "step/gravel2",
-            "step/gravel3",
-            "step/gravel4"
-        ]
-    },
-    "block.soul_soil.place": {
-        "replace": "true",
-        "sounds": [
-            "step/gravel1",
-            "step/gravel2",
-            "step/gravel3",
-            "step/gravel4"
-        ]
-    },
-    "block.soul_soil.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/sand1",
-            "step/sand2",
-            "step/sand3",
-            "step/sand4"
-        ]
-    },
-    "block.soul_soil.step": {
-        "replace": "true",
-        "sounds": [
-            "step/gravel1",
-            "step/gravel2",
-            "step/gravel3",
-            "step/gravel4"
-        ]
-    },
-    "block.nylium.break": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
-    "block.nylium.place": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
-    "block.nylium.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
-    "block.nylium.step": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.roots.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.roots.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.roots.hit": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.roots.step": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.wet_grass.break": {
-        "replace": "true",
-        "sounds": [
-            "goldendays/seagrass1",
-            "goldendays/seagrass2",
-            "goldendays/seagrass3",
-            "goldendays/seagrass4"
-        ]
-    },
-    "block.wet_grass.place": {
-        "replace": "true",
-        "sounds": [
-            "goldendays/seagrass1",
-            "goldendays/seagrass2",
-            "goldendays/seagrass3",
-            "goldendays/seagrass4"
-        ]
-    },
-    "block.wet_grass.step": {
-        "replace": "true",
-        "sounds": [
-            "goldendays/seagrass1",
-            "goldendays/seagrass2",
-            "goldendays/seagrass3",
-            "goldendays/seagrass4"
-        ]
-    },
-    "block.wet_grass.hit": {
-        "replace": "true",
-        "sounds": [
-            "goldendays/seagrass1",
-            "goldendays/seagrass2",
-            "goldendays/seagrass3",
-            "goldendays/seagrass4"
-        ]
-    },
-    "block.lily_pad.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.lily_pad.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.weeping_vines.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.weeping_vines.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.weeping_vines.hit": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.fungus.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.fungus.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.fungus.hit": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.fungus.step": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.moss.step": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.moss.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.moss.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.moss_carpet.step": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.moss_carpet.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.moss_carpet.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.azalea.step": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.azalea.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.azalea.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.flowering_azalea.step": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.flowering_azalea.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.flowering_azalea.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.big_dripleaf.step": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.big_dripleaf.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.big_dripleaf.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.small_dripleaf.step": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.small_dripleaf.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.small_dripleaf.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.mud.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/sand1",
-            "dig/sand2",
-            "dig/sand3",
-            "dig/sand4"
-        ]
-    },
-    "block.mud.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/sand1",
-            "dig/sand2",
-            "dig/sand3",
-            "dig/sand4"
-        ]
-    },
-    "block.mud.step": {
-        "replace": "true",
-        "sounds": [
-            "dig/sand1",
-            "dig/sand2",
-            "dig/sand3",
-            "dig/sand4"
-        ]
-    },
-    "block.scaffolding.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/wood1",
-            "dig/wood2",
-            "dig/wood3",
-            "dig/wood4"
-        ]
-    },
-    "block.scaffolding.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/wood1",
-            "dig/wood2",
-            "dig/wood3",
-            "dig/wood4"
-        ]
-    },
-    "block.scaffolding.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/wood1",
-            "step/wood2",
-            "step/wood3",
-            "step/wood4"
-        ]
-    },
-    "block.scaffolding.step": {
-        "replace": "true",
-        "sounds": [
-            "step/wood1",
-            "step/wood2",
-            "step/wood3",
-            "step/wood4"
-        ]
-    },
-    "block.scaffolding.fall": {
-        "replace": "true",
-        "sounds": [
-            "step/wood1",
-            "step/wood2",
-            "step/wood3",
-            "step/wood4"
-        ]
-    },
-    "block.nether_wood.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/wood1",
-            "dig/wood2",
-            "dig/wood3",
-            "dig/wood4"
-        ]
-    },
-    "block.nether_wood.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/wood1",
-            "dig/wood2",
-            "dig/wood3",
-            "dig/wood4"
-        ]
-    },
-    "block.nether_wood.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/wood1",
-            "step/wood2",
-            "step/wood3",
-            "step/wood4"
-        ]
-    },
-    "block.nether_wood.step": {
-        "replace": "true",
-        "sounds": [
-            "step/wood1",
-            "step/wood2",
-            "step/wood3",
-            "step/wood4"
-        ]
-    },
-    "block.nether_wood.fall": {
-        "replace": "true",
-        "sounds": [
-            "step/wood1",
-            "step/wood2",
-            "step/wood3",
-            "step/wood4"
-        ]
-    },
-    "block.bamboo_wood.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/wood1",
-            "dig/wood2",
-            "dig/wood3",
-            "dig/wood4"
-        ]
-    },
-    "block.bamboo_wood.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/wood1",
-            "dig/wood2",
-            "dig/wood3",
-            "dig/wood4"
-        ]
-    },
-    "block.bamboo_wood.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/wood1",
-            "step/wood2",
-            "step/wood3",
-            "step/wood4"
-        ]
-    },
-    "block.bamboo_wood.step": {
-        "replace": "true",
-        "sounds": [
-            "step/wood1",
-            "step/wood2",
-            "step/wood3",
-            "step/wood4"
-        ]
-    },
-    "block.bamboo_wood.fall": {
-        "replace": "true",
-        "sounds": [
-            "step/wood1",
-            "step/wood2",
-            "step/wood3",
-            "step/wood4"
-        ]
-    },
-    "block.cherry_wood.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/wood1",
-            "dig/wood2",
-            "dig/wood3",
-            "dig/wood4"
-        ]
-    },
-    "block.cherry_wood.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/wood1",
-            "dig/wood2",
-            "dig/wood3",
-            "dig/wood4"
-        ]
-    },
-    "block.cherry_wood.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/wood1",
-            "step/wood2",
-            "step/wood3",
-            "step/wood4"
-        ]
-    },
-    "block.cherry_wood.step": {
-        "replace": "true",
-        "sounds": [
-            "step/wood1",
-            "step/wood2",
-            "step/wood3",
-            "step/wood4"
-        ]
-    },
-    "block.cherry_wood.fall": {
-        "replace": "true",
-        "sounds": [
-            "step/wood1",
-            "step/wood2",
-            "step/wood3",
-            "step/wood4"
-        ]
-    },
-    "block.cherry_leaves.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.cherry_leaves.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.cherry_leaves.hit": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.cherry_leaves.step": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.cherry_leaves.fall": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.cherry_sapling.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.cherry_sapling.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.cherry_sapling.hit": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.cherry_sapling.step": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.cherry_sapling.fall": {
-        "replace": "true",
-        "sounds": [
-            "dig/grass1",
-            "dig/grass2",
-            "dig/grass3",
-            "dig/grass4"
-        ]
-    },
-    "block.mangrove_roots.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/wood1",
-            "dig/wood2",
-            "dig/wood3",
-            "dig/wood4"
-        ]
-    },
-    "block.mangrove_roots.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/wood1",
-            "dig/wood2",
-            "dig/wood3",
-            "dig/wood4"
-        ]
-    },
-    "block.mangrove_roots.step": {
-        "replace": "true",
-        "sounds": [
-            "dig/wood1",
-            "dig/wood2",
-            "dig/wood3",
-            "dig/wood4"
-        ]
-    },
-    "block.muddy_mangrove_roots.break": {
-        "replace": "true",
-        "sounds": [
-            "dig/sand1",
-            "dig/sand2",
-            "dig/sand3",
-            "dig/sand4"
-        ]
-    },
-    "block.muddy_mangrove_roots.place": {
-        "replace": "true",
-        "sounds": [
-            "dig/sand1",
-            "dig/sand2",
-            "dig/sand3",
-            "dig/sand4"
-        ]
-    },
-    "block.muddy_mangrove_roots.step": {
-        "replace": "true",
-        "sounds": [
-            "dig/sand1",
-            "dig/sand2",
-            "dig/sand3",
-            "dig/sand4"
-        ]
-    },
-    "block.chest.close": {
-        "replace": "true",
-        "sounds": [{
-                "name": "block/chest/close"
-            }
-        ]
-    },
-    "block.chest.open": {
-        "replace": "true",
-        "sounds": [{
-                "name": "block/chest/open"
-            }
-        ]
-    },
-    "block.ender_chest.close": {
-        "replace": "true",
-        "sounds": [{
-                "name": "block/chest/close"
-            }
-        ]
-    },
-    "block.ender_chest.open": {
-        "replace": "true",
-        "sounds": [{
-                "name": "block/chest/open"
-            }
-        ]
-    },
-    "block.stem.break": {
-        "replace": "true",
-        "sounds": [
-            "step/wood1",
-            "step/wood2",
-            "step/wood3",
-            "step/wood4"
-        ]
-    },
-    "block.stem.place": {
-        "replace": "true",
-        "sounds": [
-            "step/wood1",
-            "step/wood2",
-            "step/wood3",
-            "step/wood4"
-        ]
-    },
-    "block.stem.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/wood1",
-            "step/wood2",
-            "step/wood3",
-            "step/wood4"
-        ]
-    },
-    "block.stem.step": {
-        "replace": "true",
-        "sounds": [
-            "dig/wood1",
-            "dig/wood2",
-            "dig/wood3",
-            "dig/wood4"
-        ]
-    },
-    "block.gilded_blackstone.break": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
-    "block.gilded_blackstone.place": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
-    "block.gilded_blackstone.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
-    "block.gilded_blackstone.step": {
-        "replace": "true",
-        "sounds": [
-            "dig/stone1",
-            "dig/stone2",
-            "dig/stone3",
-            "dig/stone4"
-        ]
-    },
-    "block.nether_gold_ore.break": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
-    "block.nether_gold_ore.place": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
-    "block.nether_gold_ore.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
-    "block.nether_gold_ore.step": {
-        "replace": "true",
-        "sounds": [
-            "dig/stone1",
-            "dig/stone2",
-            "dig/stone3",
-            "dig/stone4"
-        ]
-    },
-    "block.nether_ore.break": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
-    "block.nether_ore.place": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
-    "block.nether_ore.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
-    "block.nether_ore.step": {
-        "replace": "true",
-        "sounds": [
-            "dig/stone1",
-            "dig/stone2",
-            "dig/stone3",
-            "dig/stone4"
-        ]
-    },
-    "block.nether_bricks.break": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
-    "block.nether_bricks.place": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
-    "block.nether_bricks.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
-    "block.nether_bricks.step": {
-        "replace": "true",
-        "sounds": [
-            "dig/stone1",
-            "dig/stone2",
-            "dig/stone3",
-            "dig/stone4"
-        ]
-    },
-    "block.basalt.break": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
-    "block.basalt.place": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
-    "block.basalt.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
-    "block.basalt.step": {
-        "replace": "true",
-        "sounds": [
-            "dig/stone1",
-            "dig/stone2",
-            "dig/stone3",
-            "dig/stone4"
-        ]
-    },
-    "block.bone_block.break": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
-    "block.bone_block.place": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
-    "block.bone_block.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
-    "block.bone_block.step": {
-        "replace": "true",
-        "sounds": [
-            "dig/stone1",
-            "dig/stone2",
-            "dig/stone3",
-            "dig/stone4"
-        ]
-    },
-    "block.nether_wart.break": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
     "item.nether_wart.plant": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
-    },
-    "block.nether_wart.hit": {
-        "replace": "true",
-        "sounds": [
-            "step/stone1",
-            "step/stone2",
-            "step/stone3",
-            "step/stone4"
-        ]
-    },
-    "block.nether_wart.step": {
-        "replace": "true",
-        "sounds": [
-            "dig/stone1",
-            "dig/stone2",
-            "dig/stone3",
-            "dig/stone4"
-        ]
-    },
-    "block.sand.place": {
-        "replace": "true",
-        "sounds": [
-            "step/sand1",
-            "step/sand2",
-            "step/sand3",
-            "step/sand4"
-        ]
-    },
-    "entity.minecart.riding": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
-    },
-    "entity.player.splash.high_speed": {
-        "replace": "true",
-        "sounds": [
-            "liquid/splash",
-            "liquid/splash2"
-        ]
-    },
-    "entity.experience_orb.pickup": {
-        "replace": "true",
-        "sounds": [{
-                "name": "random/pop"
-            }
-        ]
-    },
-    "block.iron_door.open": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/open"
-            }
-        ]
-    },
-    "block.iron_door.close": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/close"
-            }
-        ]
-    },
-    "block.iron_trapdoor.open": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/open"
-            }
-        ]
-    },
-    "block.iron_trapdoor.close": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/close"
-            }
-        ]
-    },
-    "block.wooden_door.open": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/open"
-            }
-        ]
-    },
-    "block.wooden_door.close": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/close"
-            }
-        ]
-    },
-    "block.wooden_trapdoor.open": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/open"
-            }
-        ]
-    },
-    "block.wooden_trapdoor.close": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/close"
-            }
-        ]
-    },
-    "block.cherry_wood_door.open": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/open"
-            }
-        ]
-    },
-    "block.cherry_wood_door.close": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/close"
-            }
-        ]
-    },
-    "block.cherry_wood_trapdoor.open": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/open"
-            }
-        ]
-    },
-    "block.cherry_wood_trapdoor.close": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/close"
-            }
-        ]
-    },
-    "block.cherry_wood_fence_gate.open": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/open"
-            }
-        ]
-    },
-    "block.cherry_wood_fence_gate.close": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/close"
-            }
-        ]
-    },
-    "block.nether_wood_fence_gate.open": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/open"
-            }
-        ]
-    },
-    "block.nether_wood_fence_gate.close": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/close"
-            }
-        ]
-    },
-    "block.nether_wood_door.open": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/open"
-            }
-        ]
-    },
-    "block.nether_wood_door.close": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/close"
-            }
-        ]
-    },
-    "block.nether_wood_trapdoor.open": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/open"
-            }
-        ]
-    },
-    "block.nether_wood_trapdoor.close": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/close"
-            }
-        ]
-    },
-    "block.bamboo_wood_fence_gate.open": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/open"
-            }
-        ]
-    },
-    "block.bamboo_wood_fence_gate.close": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/close"
-            }
-        ]
-    },
-    "block.bamboo_wood_trapdoor.open": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/open"
-            }
-        ]
-    },
-    "block.bamboo_wood_trapdoor.close": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/close"
-            }
-        ]
-    },
-    "block.bamboo_wood_door.open": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/open"
-            }
-        ]
-    },
-    "block.bamboo_wood_door.close": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/close"
-            }
-        ]
-    },
-    "block.fence_gate.open": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/open"
-            }
-        ]
-    },
-    "block.fence_gate.close": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/door/close"
-            }
-        ]
-    },
-    "item.armor.equip_generic": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
-    },
-    "item.armor.equip_elytra": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
-    },
-    "item.armor.equip_diamond": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
-    },
-    "item.armor.equip_chain": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
-    },
-    "item.armor.equip_gold": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
-    },
-    "item.armor.equip_iron": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
-    },
-    "item.armor.equip_leather": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
-    },
-    "item.armor.equip_netherite": {
-        "replace": "true",
-        "sounds": [{
-                "name": "goldendays/blank"
-            }
-        ]
-    },
-    "item.armor.equip_turtle": {
         "replace": "true",
         "sounds": [{
                 "name": "goldendays/blank"
@@ -2039,11 +978,6 @@
     },
     "weather.rain": {
         "replace": "true",
-        "sounds": [
-            "goldendays/weather/rain/rain1",
-            "goldendays/weather/rain/rain2",
-            "goldendays/weather/rain/rain3",
-            "goldendays/weather/rain/rain4"
-        ]
+        "sounds": ["goldendays/weather/rain/rain1", "goldendays/weather/rain/rain2", "goldendays/weather/rain/rain3", "goldendays/weather/rain/rain4"]
     }
 }
