@@ -45,7 +45,8 @@
 			],
 			"animations": [
 				{
-					"left_arm:left_arm_sub_0.rx": "-torad(10)"
+					"left_arm.rx": "-torad(90)",
+					"left_arm.ry": "torad(0)"
 				}
 			]
 		},
@@ -66,7 +67,8 @@
 			],
 			"animations": [
 				{
-					"right_arm:right_arm_sub_0.rx": "-torad(10)"
+					"right_arm.rx": "-torad(90)",
+					"right_arm.ry": "torad(0)"
 				}
 			]
 		},
