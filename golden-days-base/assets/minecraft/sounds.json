@@ -2876,7 +2876,8 @@
   },
   "entity.experience_orb.pickup": {
     "replace": "true",
-    "sounds": [ "random/pop" ]
+    "sounds": [ "random/pop" ],
+    "subtitle": "subtitles.entity.experience_orb.pickup"
   },
   "entity.fish.swim": {
     "replace": "true",
