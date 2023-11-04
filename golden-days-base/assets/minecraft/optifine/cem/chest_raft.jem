@@ -1,0 +1,80 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "bottom",
+			"id": "bottom",
+			"invertAxis": "xy",
+			"translate": [1, -8, 0],
+			"rotate": [0, -90, -90],
+			"boxes": [
+				{"coordinates": [-13, -1, -4, 24, 20, 4], "textureOffset": [72, 40]},
+				{"coordinates": [-13, 1, -8, 24, 16, 4], "textureOffset": [72, 40]}
+			],
+			"animations": [
+				{
+					"this.ry": 0,
+					"this.rz": 0
+				}
+			]
+		},
+		{
+			"part": "paddle_left",
+			"id": "paddle_left",
+			"invertAxis": "xy",
+			"translate": [9, -10, 3],
+			"rotate": [-124, -50, 165],
+			"animations": [
+				{
+					"this.rx": 0,
+					"this.ry": 0,
+					"this.rz": 0
+				}
+			]
+		},
+		{
+			"part": "paddle_right",
+			"id": "paddle_right",
+			"invertAxis": "xy",
+			"translate": [-9, -10, 3],
+			"rotate": [-124, 50, -165],
+			"animations": [
+				{
+					"this.rx": 0,
+					"this.ry": 0,
+					"this.rz": 0
+				}
+			]
+		},
+		{
+			"part": "chest_base",
+			"id": "chest_base",
+			"invertAxis": "xy",
+			"translate": [-6, -16, -2],
+			"boxes": [
+				{
+					"coordinates": [-6, 8, 0, 12, 12, 12],
+					"uvNorth": [78, 16, 94, 32],
+					"uvEast": [62, 16, 78, 32],
+					"uvSouth": [110, 16, 126, 32],
+					"uvWest": [94, 16, 110, 32],
+					"uvUp": [78, 0, 94, 16],
+					"uvDown": [94, 0, 110, 16]
+				}
+			]
+		},
+		{
+			"part": "chest_lid",
+			"id": "chest_lid",
+			"invertAxis": "xy",
+			"translate": [-6, -20, -2]
+		},
+		{
+			"part": "chest_knob",
+			"id": "chest_knob",
+			"invertAxis": "xy",
+			"translate": [-1, -17, -1]
+		}
+	]
+}
