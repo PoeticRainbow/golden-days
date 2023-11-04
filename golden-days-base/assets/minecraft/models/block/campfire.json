@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/template_campfire",
+	"textures": {
+		"fire": "block/fire_0",
+		"lit_log": "block/campfire_log_lit"
+	}
+}
