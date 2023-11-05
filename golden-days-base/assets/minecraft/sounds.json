@@ -1327,6 +1327,40 @@
     ],
     "subtitle": "subtitles.block.generic.place"
   },
+  "block.lodestone.break": {
+    "replace": "true",
+    "sounds": [
+      { "name": "common.stone.dig", "type": "event" }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.lodestone.fall": {
+    "replace": "true",
+    "sounds": [
+      { "name": "common.stone.step", "type": "event" }
+    ]
+  },
+  "block.lodestone.hit": {
+    "replace": "true",
+    "sounds": [
+      { "name": "common.stone.step", "type": "event" }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.lodestone.place": {
+    "replace": "true",
+    "sounds": [
+      { "name": "common.stone.dig", "type": "event" }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.lodestone.step": {
+    "replace": "true",
+    "sounds": [
+      { "name": "common.stone.step", "type": "event" }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
   "block.mangrove_roots.break": {
     "replace": "true",
     "sounds": [
