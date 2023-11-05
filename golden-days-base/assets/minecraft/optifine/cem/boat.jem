@@ -144,7 +144,7 @@
 					"id": "bottom_no_water_sub_0",
 					"invertAxis": "xy",
 					"mirrorTexture": "u",
-					"translate": [0, 0, 0],
+					"translate": [1, 0, 0],
 					"boxes": [
 						{
 							"coordinates": [-14.5, -1, -9, 22, 16, 6],
