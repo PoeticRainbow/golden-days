@@ -1,6 +1,7 @@
 {
+	"credit": "Made with Blockbench",
 	"texture": "ender_chest.png",
-	"textureSize": [16, 16],
+	"textureSize": [64, 64],
 	"models": [
 		{
 			"part": "base",
@@ -10,12 +11,12 @@
 			"boxes": [
 				{
 					"coordinates": [-16, -16, 0, 16, 16, 16],
-					"uvNorth": [12, 8, 8, 4],
-					"uvEast": [12, 8, 8, 4],
-					"uvSouth": [16, 8, 12, 4],
-					"uvWest": [12, 8, 8, 4],
-					"uvUp": [16, 4, 12, 0],
-					"uvDown": [16, 4, 12, 0]
+					"uvNorth": [32, 64, 16, 48],
+					"uvEast": [32, 64, 16, 48],
+					"uvSouth": [48, 64, 32, 48],
+					"uvWest": [32, 64, 16, 48],
+					"uvUp": [16, 64, 0, 48],
+					"uvDown": [16, 64, 0, 48]
 				}
 			]
 		},

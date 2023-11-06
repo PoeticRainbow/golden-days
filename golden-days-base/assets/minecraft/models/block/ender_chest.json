@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+	"textures": {
+		"front": "minecraft:block/ender_chest_front",
+		"side": "minecraft:block/ender_chest_side",
+		"top": "minecraft:block/ender_chest_top",
+		"particle": "#front"
+	}
+}
