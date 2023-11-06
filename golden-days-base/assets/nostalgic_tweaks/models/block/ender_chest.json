@@ -1,0 +1,8 @@
+{
+  "parent": "nostalgic_tweaks:block/chest",
+  "textures": {
+    "north": "minecraft:block/ender_chest_front",
+    "top": "minecraft:block/ender_chest_top",
+    "side": "minecraft:block/ender_chest_side"
+  }
+}
