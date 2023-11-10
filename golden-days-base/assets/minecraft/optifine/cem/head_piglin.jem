@@ -1,0 +1,40 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "pigman.png",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [0, 0]}
+			]
+		},
+		{
+			"part": "left_ear",
+			"id": "left_ear",
+			"invertAxis": "xy",
+			"translate": [4.5, -6, 0],
+			"rotate": [0, 0, -35],
+			"animations": [
+				{
+					"this.rz": 0
+				}
+			]
+		},
+		{
+			"part": "right_ear",
+			"id": "right_ear",
+			"invertAxis": "xy",
+			"translate": [-4.5, -6, 0],
+			"rotate": [0, 0, 35],
+			"animations": [
+				{
+					"this.rz": 0
+				}
+			]
+		}
+	]
+}
