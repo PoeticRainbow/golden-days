@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/grass"
+      },
+      {
+        "model": "minecraft:block/grass_0"
+      },
+      {
+        "model": "minecraft:block/grass_1"
+      }
+    ]
+  }
+}
