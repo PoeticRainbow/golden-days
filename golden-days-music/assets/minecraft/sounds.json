@@ -7,47 +7,106 @@
 			  "stream": true
 			},
 			{
+			  "name": "music/game/minecraft",
+			  "stream": true
+			},
+      
+			{
 			  "name": "music/game/calm2",
 			  "stream": true
 			},
+			{
+			  "name": "music/game/clark",
+			  "stream": true
+			},
+      
 			{
 			  "name": "music/game/calm3",
 			  "stream": true
 			},
 			{
+			  "name": "music/game/sweden",
+			  "stream": true
+			},
+      
+			{
 			  "name": "music/game/hal1",
 			  "stream": true
 			},
+			{
+			  "name": "music/game/subwoofer_lullaby",
+			  "stream": true
+			},
+      
 			{
 			  "name": "music/game/hal2",
 			  "stream": true
 			},
 			{
+			  "name": "music/game/living_mice",
+			  "stream": true
+			},
+      
+			{
 			  "name": "music/game/hal3",
 			  "stream": true
 			},
+			{
+			  "name": "music/game/haggstrom",
+			  "stream": true
+			},
+      
 			{
 			  "name": "music/game/hal4",
 			  "stream": true
 			},
 			{
+			  "name": "music/game/danny",
+			  "stream": true
+			},
+      
+			{
 			  "name": "music/game/nuance1",
 			  "stream": true
 			},
+			{
+			  "name": "music/game/key",
+			  "stream": true
+			},
+      
 			{
 			  "name": "music/game/nuance2",
 			  "stream": true
 			},
 			{
+			  "name": "music/game/oxygene",
+			  "stream": true
+			},
+      
+			{
 			  "name": "music/game/piano1",
 			  "stream": true
 			},
+			{
+			  "name": "music/game/dry_hands",
+			  "stream": true
+			},
+      
 			{
 			  "name": "music/game/piano2",
 			  "stream": true
 			},
 			{
+			  "name": "music/game/wet_hands",
+			  "stream": true
+			},
+      
+			{
 			  "name": "music/game/piano3",
+			  "stream": true
+			},
+			{
+			  "name": "music/game/mice_on_venus",
 			  "stream": true
 			}
 		]
@@ -94,7 +153,70 @@
 			}
 		]
 	},
+	"music.overworld.badlands": {
+		"replace": "true",
+		"sounds": [
+			{
+			  "name": "music.game",
+			  "type": "event"
+			}
+		]
+	},
+	"music.overworld.bamboo_jungle": {
+		"replace": "true",
+		"sounds": [
+			{
+			  "name": "music.game",
+			  "type": "event"
+			}
+		]
+	},
+	"music.overworld.cherry_grove": {
+		"replace": "true",
+		"sounds": [
+			{
+			  "name": "music.game",
+			  "type": "event"
+			}
+		]
+	},
+	"music.overworld.deep_dark": {
+		"replace": "true",
+		"sounds": [
+			{
+			  "name": "music.game",
+			  "type": "event"
+			}
+		]
+	},
+	"music.overworld.desert": {
+		"replace": "true",
+		"sounds": [
+			{
+			  "name": "music.game",
+			  "type": "event"
+			}
+		]
+	},
 	"music.overworld.dripstone_caves": {
+		"replace": "true",
+		"sounds": [
+			{
+			  "name": "music.game",
+			  "type": "event"
+			}
+		]
+	},
+	"music.overworld.flower_forest": {
+		"replace": "true",
+		"sounds": [
+			{
+			  "name": "music.game",
+			  "type": "event"
+			}
+		]
+	},
+	"music.overworld.forest": {
 		"replace": "true",
 		"sounds": [
 			{
@@ -130,6 +252,15 @@
 			}
 		]
 	},
+	"music.overworld.jungle": {
+		"replace": "true",
+		"sounds": [
+			{
+			  "name": "music.game",
+			  "type": "event"
+			}
+		]
+	},
 	"music.overworld.lush_caves": {
 		"replace": "true",
 		"sounds": [
@@ -148,7 +279,25 @@
 			}
 		]
 	},
+	"music.overworld.old_growth_taiga": {
+		"replace": "true",
+		"sounds": [
+			{
+			  "name": "music.game",
+			  "type": "event"
+			}
+		]
+	},
 	"music.overworld.snowy_slopes": {
+		"replace": "true",
+		"sounds": [
+			{
+			  "name": "music.game",
+			  "type": "event"
+			}
+		]
+	},
+	"music.overworld.sparse_jungle": {
 		"replace": "true",
 		"sounds": [
 			{
@@ -166,7 +315,7 @@
 			}
 		]
 	},
-	"music.under_water": {
+	"music.overworld.swamp": {
 		"replace": "true",
 		"sounds": [
 			{
@@ -174,5 +323,28 @@
 			  "type": "event"
 			}
 		]
-	}
+	},
+  "music.under_water": {
+    "sounds": [
+			{
+			  "name": "music.game",
+			  "type": "event"
+			},
+      {
+        "name": "music/game/water/axolotl",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/water/dragon_fish",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/water/shuniji",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  }
 }
