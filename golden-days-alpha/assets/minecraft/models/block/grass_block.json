@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/grass_block_side_overlay",
+		"0": "block/grass_block_side",
 		"1": "block/grass_block_top",
 		"2": "block/dirt",
-		"particle": "block/grass_block_side_overlay"
+		"particle": "block/grass_block_side"
 	},
 	"elements": [
 		{
