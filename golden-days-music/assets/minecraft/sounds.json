@@ -1,5 +1,5 @@
 {
-    "music.game": {
+  "music.game": {
 		"replace": "true",
 		"sounds": [
 			{
@@ -115,8 +115,39 @@
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.game",
-			  "type": "event"
+			  "name": "music/menu/menu1",
+        "stream": "true"
+			},
+			{
+			  "name": "music/menu/mutation",
+        "stream": "true"
+			},
+      
+			{
+			  "name": "music/menu/menu2",
+        "stream": "true"
+			},
+			{
+			  "name": "music/menu/moog_city_2",
+        "stream": "true"
+			},
+      
+			{
+			  "name": "music/menu/menu3",
+        "stream": "true"
+			},
+			{
+			  "name": "music/menu/beginning_2",
+        "stream": "true"
+			},
+      
+			{
+			  "name": "music/menu/menu4",
+        "stream": "true"
+			},
+			{
+			  "name": "music/menu/floating_trees",
+        "stream": "true"
 			}
 		]
 	},
@@ -153,12 +184,48 @@
 			}
 		]
 	},
-	"music.end": {
+	"music.nether": {
 		"replace": "true",
 		"sounds": [
 			{
 			  "name": "music.game",
 			  "type": "event"
+			},
+      
+			{
+			  "name": "music/game/nether/nether1",
+			  "stream": true
+			},
+			{
+			  "name": "music/game/nether/concrete_halls",
+			  "stream": true
+			},
+      
+			{
+			  "name": "music/game/nether/nether2",
+			  "stream": true
+			},
+			{
+			  "name": "music/game/nether/dead_voxel",
+			  "stream": true
+			},
+      
+			{
+			  "name": "music/game/nether/nether3",
+			  "stream": true
+			},
+			{
+			  "name": "music/game/nether/warmth",
+			  "stream": true
+			},
+      
+			{
+			  "name": "music/game/nether/nether4",
+			  "stream": true
+			},
+			{
+			  "name": "music/game/nether/ballad_of_the_cats",
+			  "stream": true
 			}
 		]
 	},
@@ -329,6 +396,51 @@
 		"sounds": [
 			{
 			  "name": "music.game",
+			  "type": "event"
+			}
+		]
+	},
+	"music.nether.basalt_deltas": {
+		"replace": "true",
+		"sounds": [
+			{
+			  "name": "music.nether",
+			  "type": "event"
+			}
+		]
+	},
+	"music.nether.crimson_forest": {
+		"replace": "true",
+		"sounds": [
+			{
+			  "name": "music.nether",
+			  "type": "event"
+			}
+		]
+	},
+	"music.nether.warped_forest": {
+		"replace": "true",
+		"sounds": [
+			{
+			  "name": "music.nether",
+			  "type": "event"
+			}
+		]
+	},
+	"music.nether.nether_wastes": {
+		"replace": "true",
+		"sounds": [
+			{
+			  "name": "music.nether",
+			  "type": "event"
+			}
+		]
+	},
+	"music.nether.soul_sand_valley": {
+		"replace": "true",
+		"sounds": [
+			{
+			  "name": "music.nether",
 			  "type": "event"
 			}
 		]
