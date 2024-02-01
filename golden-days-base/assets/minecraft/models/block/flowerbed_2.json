@@ -1,0 +1,25 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#flowerbed"
+	},
+	"elements": [
+		{
+			"from": [0, 1, 8],
+			"to": [8, 1, 16],
+			"faces": {
+				"up": {"uv": [0, 8, 8, 16], "texture": "#flowerbed"},
+				"down": {"uv": [0, 16, 8, 8], "texture": "#flowerbed"}
+			}
+		},
+		{
+			"from": [0, 1, 8],
+			"to": [8, 1, 16],
+			"faces": {
+				"up": {"uv": [0, 8, 8, 16], "texture": "#flowerbed"},
+				"down": {"uv": [0, 16, 8, 8], "texture": "#flowerbed"}
+			}
+		}
+	]
+}
