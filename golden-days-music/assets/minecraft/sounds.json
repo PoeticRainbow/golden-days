@@ -153,6 +153,15 @@
 			}
 		]
 	},
+	"music.end": {
+		"replace": "true",
+		"sounds": [
+			{
+			  "name": "music.game",
+			  "type": "event"
+			}
+		]
+	},
 	"music.overworld.badlands": {
 		"replace": "true",
 		"sounds": [
