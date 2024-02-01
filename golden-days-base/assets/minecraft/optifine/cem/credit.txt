@@ -1,1 +1,4 @@
 Credit to 2XMM2's amazing Classic Chest model!
+
+I used to use 2XMM2's model but since then I have redone it.
+Thanks to them I learned CEM and have been able to do more with my resource pack.
