@@ -1,0 +1,20 @@
+{
+  "target_type": "menu_class",
+  "target": "net.minecraft.class_1723",
+  "slot_modifiers": [
+    {
+      "slots": "1->2",
+      "x_offset": 15
+    }
+  ],
+  "sprites": [
+    {
+      "x": -102,
+      "y": -95,
+      "z": -200,
+      "width": 16,
+      "height": 16,
+      "texture": "assets/minecraft/textures/block/dirt.png",
+    }
+  ]
+}
