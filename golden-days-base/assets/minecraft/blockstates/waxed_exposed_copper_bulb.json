@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "minecraft:block/exposed_copper_bulb"
+    },
+    "lit=true": {
+      "model": "minecraft:block/exposed_copper_bulb_lit"
+    }
+  }
+}
