@@ -782,6 +782,40 @@
     ],
     "subtitle": "subtitles.block.generic.footsteps"
   },
+  "block.copper_grate.break": {
+    "replace": "true",
+    "sounds": [
+      { "name": "common.metal.dig", "type": "event" }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.copper_grate.fall": {
+    "replace": "true",
+    "sounds": [
+      { "name": "common.metal.step", "type": "event" }
+    ]
+  },
+  "block.copper_grate.hit": {
+    "replace": "true",
+    "sounds": [
+      { "name": "common.metal.step", "type": "event" }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.copper_grate.place": {
+    "replace": "true",
+    "sounds": [
+      { "name": "common.metal.dig", "type": "event" }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.copper_grate.step": {
+    "replace": "true",
+    "sounds": [
+      { "name": "common.metal.step", "type": "event" }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
   "block.coral_block.break": {
     "replace": "true",
     "sounds": [
@@ -1248,6 +1282,32 @@
     ]
   },
   "block.iron_trapdoor.open": {
+    "replace": "true",
+    "sounds": [
+      { "name": "common.door.open", "type": "event" }
+    ]
+  },
+  "block.copper_door.close": {
+    "replace": "true",
+    "sounds": [
+      { "name": "common.door.close", "type": "event" }
+    ],
+    "subtitle": "subtitles.block.door.toggle"
+  },
+  "block.copper_door.open": {
+    "replace": "true",
+    "sounds": [
+      { "name": "common.door.open", "type": "event" }
+    ],
+    "subtitle": "subtitles.block.door.toggle"
+  },
+  "block.copper_trapdoor.close": {
+    "replace": "true",
+    "sounds": [
+      { "name": "common.door.close", "type": "event" }
+    ]
+  },
+  "block.copper_trapdoor.open": {
     "replace": "true",
     "sounds": [
       { "name": "common.door.open", "type": "event" }
