@@ -1,6 +1,5 @@
 {
 	"credit": "Made with Blockbench",
-	"texture": "block/wither_skeleton.png",
 	"textureSize": [64, 32],
 	"models": [
 		{
