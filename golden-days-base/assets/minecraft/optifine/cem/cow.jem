@@ -1,6 +1,5 @@
 {
 	"credit": "Made with Blockbench",
-	"texture": "cow.png",
 	"textureSize": [64, 32],
 	"models": [
 		{
