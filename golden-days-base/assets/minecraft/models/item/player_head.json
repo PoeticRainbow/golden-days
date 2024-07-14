@@ -1,6 +1,15 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "item/player_head"
-    }
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/template_skull",
+	"gui_light": "front",
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [2.63, 5.95, 1.13],
+			"scale": [0.68, 0.68, 0.68]
+		},
+		"gui": {
+			"translation": [0, 4, 0]
+		}
+	}
 }
