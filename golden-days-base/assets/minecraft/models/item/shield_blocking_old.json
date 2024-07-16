@@ -1,0 +1,28 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/shield",
+	"textures": {
+		"particle": "block/dark_oak_planks"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [35, -15, 0],
+			"translation": [0, 1.25, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [35, -15, 0],
+			"translation": [0, 1.25, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 0, 3.5],
+			"translation": [8.75, -2.5, -11],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 0, 3.5],
+			"translation": [8.75, -2.5, -11],
+			"scale": [1.25, 1.25, 1.25]
+		}
+	}
+}
