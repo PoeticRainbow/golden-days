@@ -1,20 +1,77 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "item/generated",
+	"parent": "builtin/entity",
 	"textures": {
-		"layer0": "item/shield"
+		"particle": "block/dark_oak_planks"
 	},
+	"elements": [
+		{
+			"name": "plate",
+			"from": [-6, -11, 1],
+			"to": [6, 11, 2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -11, -1]},
+			"faces": {
+				"north": {"uv": [1, 1, 13, 23], "texture": "#missing"},
+				"east": {"uv": [0, 1, 1, 23], "texture": "#missing"},
+				"south": {"uv": [14, 1, 26, 23], "texture": "#missing"},
+				"west": {"uv": [13, 1, 14, 23], "texture": "#missing"},
+				"up": {"uv": [13, 1, 1, 0], "texture": "#missing"},
+				"down": {"uv": [25, 0, 13, 1], "texture": "#missing"}
+			}
+		},
+		{
+			"name": "handle",
+			"from": [-1, -3, -5],
+			"to": [1, 3, 1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -11, -1]},
+			"faces": {
+				"north": {"uv": [32, 6, 34, 12], "texture": "#missing"},
+				"east": {"uv": [26, 6, 32, 12], "texture": "#missing"},
+				"south": {"uv": [40, 6, 42, 12], "texture": "#missing"},
+				"west": {"uv": [34, 6, 40, 12], "texture": "#missing"},
+				"up": {"uv": [34, 6, 32, 0], "texture": "#missing"},
+				"down": {"uv": [36, 0, 34, 6], "texture": "#missing"}
+			}
+		}
+	],
+	"gui_light": "front",
 	"overrides": [
 		{"predicate": {"blocking": 1}, "model": "item/shield_blocking"}
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [70, -25, 0],
-			"translation": [1.5, 0.25, 1]
+			"rotation": [0, 90, 0],
+			"translation": [10, 6, -4]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [70, -25, 0],
-			"translation": [1.5, 0.25, 1]
+			"rotation": [0, 90, 0],
+			"translation": [10, 6, 12]
+		},
+		"firstperson_righthand": {
+			"rotation": [147.69, 81.02, -169.26],
+			"translation": [13.5, -2, -18.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [147.69, 81.02, -169.26],
+			"translation": [17.5, 2.75, -4.75]
+		},
+		"ground": {
+			"translation": [2, 4, 2],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [6.25, 4.75, 0],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"head": {
+			"rotation": [0, 180, 0],
+			"translation": [-8, -7.5, -14.5]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [-4.5, 4.5, -5],
+			"scale": [0.55, 0.55, 0.55]
 		}
 	}
 }
