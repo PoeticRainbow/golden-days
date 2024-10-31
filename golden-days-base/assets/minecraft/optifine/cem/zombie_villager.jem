@@ -1,5 +1,5 @@
 {
-    "texture": "zombie_villager.png",
+  "texture": "optifine/cem/zombie_villager.png",
 	"textureSize": [64, 64],
 	"models": [
 		{
