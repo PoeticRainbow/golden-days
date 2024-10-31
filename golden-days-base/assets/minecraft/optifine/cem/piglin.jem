@@ -1,5 +1,5 @@
 {
-	"texture": "pigman.png",
+	"texture": "optifine/cem/pigman.png",
 	"textureSize": [64, 64],
 	"models": [
 		{

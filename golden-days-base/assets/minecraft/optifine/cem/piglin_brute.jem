@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"texture": "pigman_brute.png",
+	"texture": "optifine/cem/pigman_brute.png",
 	"textureSize": [64, 64],
 	"models": [
 		{

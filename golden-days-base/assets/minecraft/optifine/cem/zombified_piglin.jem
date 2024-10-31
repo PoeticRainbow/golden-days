@@ -1,5 +1,5 @@
 {
-	"texture": "pigzombie.png",
+	"texture": "optifine/cem/pigzombie.png",
 	"textureSize": [64, 64],
 	"models": [
 		{

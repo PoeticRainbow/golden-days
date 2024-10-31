@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"texture": "vex.png",
+	"texture": "optifine/cem/vex.png",
 	"textureSize": [64, 64],
 	"models": [
 		{
