@@ -1,23 +1,6 @@
 {
-	"credit": "Made with Blockbench",
 	"parent": "builtin/generated",
-	"elements": [
-		{
-			"from": [0, 0, 7.5],
-			"to": [16, 16, 8.5],
-			"shade": false,
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 15.5]},
-			"color": 1,
-			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#missing"},
-				"east": {"uv": [0, 0, 1, 16], "texture": "#missing"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#missing"},
-				"west": {"uv": [0, 0, 1, 16], "texture": "#missing"},
-				"up": {"uv": [0, 0, 16, 1], "texture": "#missing"},
-				"down": {"uv": [0, 0, 16, 1], "texture": "#missing"}
-			}
-		}
-	],
+  "gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [16, -3, 23.5],

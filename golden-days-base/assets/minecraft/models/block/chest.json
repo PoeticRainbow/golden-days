@@ -3,7 +3,6 @@
 	"textures": {
 		"front": "block/chest_front",
 		"side": "block/chest_side",
-		"top": "block/chest_top",
-		"particle": "#front"
+		"top": "block/chest_top"
 	}
 }

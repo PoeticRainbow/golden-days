@@ -1,5 +1,8 @@
 {
-  "textures": {
-    "particle": "minecraft:block/chest_top"
-  }
+  "parent": "block/orientable",
+	"textures": {
+		"front": "block/trapped_chest_front",
+		"side": "block/chest_side",
+		"top": "block/chest_top"
+	}
 }
