@@ -3,7 +3,7 @@
         "pack_format": 15,
         "supported_formats": {
             "min_inclusive": 15,
-            "max_inclusive": 42
+            "max_inclusive": 420
         },
         "description": "§6Golden Days §8- §2Base §7(Beta)\n§8by PoeticRainbow"
     },
@@ -16,6 +16,10 @@
             {
                 "formats": [36, 69],
                 "directory": "format_36"
+            },
+            {
+                "formats": [45, 69],
+                "directory": "format_45"
             }
         ]
     }
