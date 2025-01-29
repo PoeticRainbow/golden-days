@@ -1,0 +1,9 @@
+{
+    "parent": "block/template_bed",
+    "textures": {
+        "top": "block/red_bed_head",
+        "side": "block/red_bed_head_side",
+        "end": "block/red_bed_head_",
+        "bottom": "block/oak_planks"
+    }
+}

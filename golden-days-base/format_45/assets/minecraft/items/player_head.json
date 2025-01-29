@@ -1,10 +1,19 @@
 {
   "model": {
-    "type": "minecraft:special",
-    "base": "minecraft:item/player_head",
-    "model": {
-      "type": "minecraft:head",
-      "kind": "player"
-    }
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:special",
+        "base": "minecraft:item/player_head",
+        "model": {
+          "type": "minecraft:head",
+          "kind": "player"
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/player_head_background"
+      }
+    ]
   }
 }
