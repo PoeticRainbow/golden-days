@@ -10,15 +10,15 @@
     "overlays": {
         "entries": [
             {
-                "formats": [20, 69],
+                "formats": [20, 100],
                 "directory": "format_20"
             },
             {
-                "formats": [36, 69],
+                "formats": [36, 100],
                 "directory": "format_36"
             },
             {
-                "formats": [45, 69],
+                "formats": [45, 100],
                 "directory": "format_45"
             }
         ]

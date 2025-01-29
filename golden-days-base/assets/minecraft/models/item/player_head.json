@@ -1,15 +1,59 @@
 {
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:item/template_skull",
+	"elements": [
+		{
+			"from": [0, 0, 7.5],
+			"to": [16, 16, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-4, 0, 3.5]},
+			"color": 3,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#missing"},
+				"east": {"uv": [0, 0, 1, 16], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#missing"},
+				"west": {"uv": [0, 0, 1, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 1], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 1], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [4, -4, 4],
+			"to": [12, 4, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -4, 0]},
+			"color": 0,
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#missing"},
+				"east": {"uv": [0, 0, 8, 8], "texture": "#missing"},
+				"south": {"uv": [0, 0, 8, 8], "texture": "#missing"},
+				"west": {"uv": [0, 0, 8, 8], "texture": "#missing"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#missing"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#missing"}
+			}
+		}
+	],
 	"gui_light": "front",
 	"display": {
+		"thirdperson_righthand": {
+			"rotation": [16, -3, 23.5],
+			"translation": [-2, 5.25, 3.1315],
+			"scale": [0.55, 0.55, 0.069]
+		},
 		"firstperson_righthand": {
 			"rotation": [0, -90, 25],
-			"translation": [2.63, 5.95, 1.13],
-			"scale": [0.68, 0.68, 0.68]
+			"translation": [1.13, 5.65, -0.1],
+			"scale": [0.68, 0.68, 0.087]
+		},
+		"ground": {
+			"translation": [0, 4, 0],
+			"scale": [0.5, 0.5, 0.001]
 		},
 		"gui": {
 			"translation": [0, 4, 0]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [0.01, 4.01, 0.001],
+			"scale": [1, 1, 0.127]
 		}
 	}
 }
