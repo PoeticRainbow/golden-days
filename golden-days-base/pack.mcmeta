@@ -11,15 +11,15 @@
         "entries": [
             {
                 "formats": [20, 100],
-                "directory": "format_20"
+                "directory": "bat_update"
             },
             {
                 "formats": [36, 55],
-                "directory": "format_36"
+                "directory": "shader_fun"
             },
             {
                 "formats": [45, 100],
-                "directory": "format_45"
+                "directory": "item_definitions"
             }
         ]
     }

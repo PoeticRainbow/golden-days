@@ -2,21 +2,21 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"0": "block/spore_blossom",
-		"1": "block/spore_blossom_stem",
-		"particle": "block/spore_blossom"
+		"particle": "block/spore_blossom",
+		"flower": "block/spore_blossom",
+		"stem": "block/spore_blossom_stem"
 	},
 	"elements": [
 		{
 			"from": [0, 12, 0],
 			"to": [16, 12, 16],
 			"faces": {
-				"north": {"uv": [0, 0, 16, 0], "texture": "#0"},
-				"east": {"uv": [0, 0, 16, 0], "texture": "#0"},
-				"south": {"uv": [0, 0, 16, 0], "texture": "#0"},
-				"west": {"uv": [0, 0, 16, 0], "texture": "#0"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+				"north": {"uv": [0, 0, 16, 0], "texture": "#flower"},
+				"east": {"uv": [0, 0, 16, 0], "texture": "#flower"},
+				"south": {"uv": [0, 0, 16, 0], "texture": "#flower"},
+				"west": {"uv": [0, 0, 16, 0], "texture": "#flower"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#flower"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#flower"}
 			}
 		},
 		{
@@ -24,12 +24,8 @@
 			"to": [0, 16, 16],
 			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 0], "rescale": true},
 			"faces": {
-				"north": {"uv": [0, 0, 0, 16], "texture": "#missing"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
-				"south": {"uv": [0, 0, 0, 16], "texture": "#missing"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
-				"up": {"uv": [0, 0, 16, 0], "rotation": 90, "texture": "#missing"},
-				"down": {"uv": [0, 0, 16, 0], "rotation": 270, "texture": "#missing"}
+				"east": {"uv": [0, 0, 16, 16], "texture": "#stem"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#stem"}
 			}
 		},
 		{
@@ -37,12 +33,8 @@
 			"to": [8, 16, 8],
 			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 0], "rescale": true},
 			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
-				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
-				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
-				"up": {"uv": [0, 0, 16, 0], "rotation": 180, "texture": "#missing"},
-				"down": {"uv": [0, 0, 16, 0], "rotation": 180, "texture": "#missing"}
+				"north": {"uv": [0, 0, 16, 16], "texture": "#stem"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#stem"}
 			}
 		}
 	],

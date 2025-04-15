@@ -2,6 +2,7 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
+		"particle": "block/redstone_dust_line",
 		"line": "block/redstone_dust_line"
 	},
 	"elements": [
