@@ -31,7 +31,7 @@
       "apply": {
         "model": "minecraft:block/iron_bars_north",
         "y": 180,
-        "uvlock": "true"
+        "uvlock": true
       },
       "when": {
         "south": "true"
@@ -41,7 +41,7 @@
       "apply": {
         "model": "minecraft:block/iron_bars_east",
         "y": 180,
-        "uvlock": "true"
+        "uvlock": true
       },
       "when": {
         "west": "true"
