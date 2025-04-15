@@ -80,5 +80,17 @@
   "block.minecraft.cherry_planks": "Cherry Wood Planks",
   "block.minecraft.pale_oak_planks": "Pale Oak Wood Planks",
   "block.minecraft.crimson_planks": "Crimson Wood Planks",
-  "block.minecraft.warped_planks": "Warped Wood Planks"
+  "block.minecraft.warped_planks": "Warped Wood Planks",
+  "block.minecraft.oak_slab": "Oak Wood Slab",
+  "block.minecraft.spruce_slab": "Spruce Wood Slab",
+  "block.minecraft.birch_slab": "Birch Wood Slab",
+  "block.minecraft.jungle_slab": "Jungle Wood Slab",
+  "block.minecraft.acacia_slab": "Acacia Wood Slab",
+  "block.minecraft.dark_oak_slab": "Dark Oak Wood Slab",
+  "block.minecraft.mangrove_slab": "Mangrove Wood Slab",
+  "block.minecraft.cherry_slab": "Cherry Wood Slab",
+  "block.minecraft.pale_oak_slab": "Pale Oak Wood Slab",
+  "block.minecraft.crimson_slab": "Crimson Wood Slab",
+  "block.minecraft.warped_slab": "Warped Wood Planks",
+  "block.minecraft.white_wool": "Wool"
 }
