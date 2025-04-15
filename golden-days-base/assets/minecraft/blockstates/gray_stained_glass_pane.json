@@ -31,7 +31,7 @@
       "apply": {
         "model": "minecraft:block/gray_stained_glass_pane_north",
         "y": 180,
-        "uvlock": "true"
+        "uvlock": true
       },
       "when": {
         "south": "true"
@@ -41,7 +41,7 @@
       "apply": {
         "model": "minecraft:block/gray_stained_glass_pane_east",
         "y": 180,
-        "uvlock": "true"
+        "uvlock": true
       },
       "when": {
         "west": "true"
