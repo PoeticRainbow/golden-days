@@ -1,4 +1,6 @@
 {
   "options.ao": "§c§lSmooth Lighting",
-  "options.videoTitle": "Video Settings §c(TURN OFF SMOOTH LIGHTING FOR ACCURACY)"
+  "options.videoTitle": "Video Settings §c(TURN OFF SMOOTH LIGHTING FOR ACCURACY)",
+  "block.minecraft.sugar_cane": "Reeds",
+  "item.minecraft.gunpowder": "Sulphur"
 }

@@ -119,5 +119,19 @@
   "block.minecraft.mossy_cobblestone_wall": "Moss Stone Wall",
   "block.minecraft.short_dry_grass": "Dry Grass",
   "block.minecraft.snow_block": "Snow",
-  "block.minecraft.sugar_cane": "Sugar Canes"
+  "block.minecraft.sugar_cane": "Sugar Canes",
+  "item.minecraft.redstone": "Redstone",
+  "item.minecraft.wheat_seeds": "Seeds",
+  "item.minecraft.chainmail_boots": "Chain Boots",
+  "item.minecraft.chainmail_chestplate": "Chain Chestplate",
+  "item.minecraft.chainmail_helmet": "Chain Helmet",
+  "item.minecraft.chainmail_leggings": "Chain Leggings",
+  "item.minecraft.knowledge_book": "minecraft.gamepedia.com",
+  "item.minecraft.melon_slice": "Melon",
+  "item.minecraft.glistering_melon_slice": "Glistering Melon",
+  "item.minecraft.milk_bucket": "Milk",
+  "item.minecraft.warped_fungus_on_a_stick": "Warped Mushroom on a Stick",
+  "item.minecraft.red_dye": "Rose Red",
+  "item.minecraft.yellow_dye": "Dandelion Yellow",
+  "item.minecraft.green_dye": "Cactus Green"
 }
