@@ -5,17 +5,17 @@
     },
     "facing=east,type=single": {
       "model": "minecraft:block/trapped_chest",
-      "uvlock": "true",
+      "uvlock": true,
       "y": 90
     },
     "facing=south,type=single": {
       "model": "minecraft:block/trapped_chest",
-      "uvlock": "true",
+      "uvlock": true,
       "y": 180
     },
     "facing=west,type=single": {
       "model": "minecraft:block/trapped_chest",
-      "uvlock": "true",
+      "uvlock": true,
       "y": 270
     },
     "facing=north,type=right": {
@@ -23,17 +23,17 @@
     },
     "facing=east,type=right": {
       "model": "minecraft:block/trapped_chest_right",
-      "uvlock": "true",
+      "uvlock": true,
       "y": 90
     },
     "facing=south,type=right": {
       "model": "minecraft:block/trapped_chest_right",
-      "uvlock": "true",
+      "uvlock": true,
       "y": 180
     },
     "facing=west,type=right": {
       "model": "minecraft:block/trapped_chest_right",
-      "uvlock": "true",
+      "uvlock": true,
       "y": 270
     },
     "facing=north,type=left": {
@@ -41,17 +41,17 @@
     },
     "facing=east,type=left": {
       "model": "minecraft:block/trapped_chest_left",
-      "uvlock": "true",
+      "uvlock": true,
       "y": 90
     },
     "facing=south,type=left": {
       "model": "minecraft:block/trapped_chest_left",
-      "uvlock": "true",
+      "uvlock": true,
       "y": 180
     },
     "facing=west,type=left": {
       "model": "minecraft:block/trapped_chest_left",
-      "uvlock": "true",
+      "uvlock": true,
       "y": 270
     }
   }

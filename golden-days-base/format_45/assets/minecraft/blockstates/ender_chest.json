@@ -5,17 +5,17 @@
     },
     "facing=east": {
       "model": "minecraft:block/ender_chest",
-      "uvlock": "true",
+      "uvlock": true,
       "y": 90
     },
     "facing=south": {
       "model": "minecraft:block/ender_chest",
-      "uvlock": "true",
+      "uvlock": true,
       "y": 180
     },
     "facing=west": {
       "model": "minecraft:block/ender_chest",
-      "uvlock": "true",
+      "uvlock": true,
       "y": 270
     }
   }
