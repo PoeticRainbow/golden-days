@@ -16,7 +16,6 @@
   "block.minecraft.fern": "Fern",
   "block.minecraft.dandelion": "Flower",
   "block.minecraft.poppy": "Rose",
-  "block.minecraft.sugar_cane": "Reeds",
   "block.minecraft.potted_dandelion": "Potted Flower",
   "block.minecraft.potted_poppy": "Potted Rose",
   "block.minecraft.ancient_debris": "Netherite Ore",
@@ -119,5 +118,6 @@
   "block.minecraft.mossy_cobblestone_slab": "Moss Stone Slab",
   "block.minecraft.mossy_cobblestone_wall": "Moss Stone Wall",
   "block.minecraft.short_dry_grass": "Dry Grass",
-  "block.minecraft.snow_block": "Snow"
+  "block.minecraft.snow_block": "Snow",
+  "block.minecraft.sugar_cane": "Sugar Canes"
 }
