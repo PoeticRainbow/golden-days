@@ -69,5 +69,16 @@
   "subtitles.entity.piglin_brute.hurt": "Pigman Brute hurts",
   "subtitles.entity.piglin_brute.step": "Pigman Brute steps",
   "subtitles.entity.piglin_brute.converted_to_zombified": "Pigman Brute converts to Zombie Pigman",
-  "container.chestDouble": "Large chest"
+  "container.chestDouble": "Large chest",
+  "block.minecraft.oak_planks": "Oak Wood Planks",
+  "block.minecraft.spruce_planks": "Spruce Wood Planks",
+  "block.minecraft.birch_planks": "Birch Wood Planks",
+  "block.minecraft.jungle_planks": "Jungle Wood Planks",
+  "block.minecraft.acacia_planks": "Acacia Wood Planks",
+  "block.minecraft.dark_oak_planks": "Dark Oak Wood Planks",
+  "block.minecraft.mangrove_planks": "Mangrove Wood Planks",
+  "block.minecraft.cherry_planks": "Cherry Wood Planks",
+  "block.minecraft.pale_oak_planks": "Pale Oak Wood Planks",
+  "block.minecraft.crimson_planks": "Crimson Wood Planks",
+  "block.minecraft.warped_planks": "Warped Wood Planks"
 }
