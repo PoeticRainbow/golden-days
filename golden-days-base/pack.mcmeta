@@ -20,6 +20,10 @@
             {
                 "formats": [45, 100],
                 "directory": "item_definitions"
+            },
+            {
+                "formats": [57, 100],
+                "directory": "no_rotation_snap"
             }
         ]
     }
