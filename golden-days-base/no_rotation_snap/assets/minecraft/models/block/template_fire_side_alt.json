@@ -1,0 +1,21 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#fire"
+	},
+	"elements": [
+		{
+			"from": [0, 1, 0.01],
+			"to": [16, 23.4, 0.01],
+			"shade": false,
+			"light_emission": 15,
+			"rotation": {"angle": 8.5, "axis": "x", "origin": [0, 1, 0]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#fire"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#fire"}
+			}
+		}
+	]
+}
