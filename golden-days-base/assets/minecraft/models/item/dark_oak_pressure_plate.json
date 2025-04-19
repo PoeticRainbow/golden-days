@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/pressure_plate_up_beta",
+  "parent": "minecraft:item/template_pressure_plate",
   "textures": {
     "texture": "minecraft:block/dark_oak_planks"
   }
