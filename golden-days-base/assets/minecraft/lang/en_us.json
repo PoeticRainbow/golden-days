@@ -1,5 +1,7 @@
 {
     "addServer.enterIp": "Enter the IP of a server to connect to it:",
+    "advancements.nether.distract_piglin.description": "Distract Pigmen with gold",
+    "advancements.nether.obtain_ancient_debris.description": "Obtain Netherite Ore",
     "advancements.toast.challenge": "Grand Achievement Get!",
     "advancements.toast.goal": "Great Achievement Get!",
     "advancements.toast.task": "Achievement Get!",
@@ -129,8 +131,6 @@
     "item.minecraft.yellow_dye": "Dandelion Yellow",
     "item.minecraft.zombified_piglin_spawn_egg": "Zombie Pigman Spawn Egg",
     "key.advancements": "Achievements",
-    "advancements.nether.distract_piglin.description": "Distract Pigmen with gold",
-    "advancements.nether.obtain_ancient_debris.description": "Obtain Netherite Ore",
     "options.resourcepack": "Mods and Texture Packs...",
     "pack.dropInfo": "§c§l§nPut the packs in the given order or you will have errors.§d *optional",
     "pack.folderInfo": "(Place texture pack files here)",

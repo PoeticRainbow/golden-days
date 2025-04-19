@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textureSize": [64, 32],
+	"texture": "textures/entity/cow/cow.png",
 	"models": [
 		{
 			"part": "head",
@@ -27,7 +28,7 @@
 					"uvSouth": [50, 14, 62, 32],
 					"uvWest": [40, 14, 50, 32],
 					"uvUp": [40, 14, 28, 4],
-					"uvDown": [52, 14, 40, 4]
+					"uvDown": [52, 4, 40, 14]
 				},
 				{
 					"coordinates": [-2, 11, -7, 4, 6, 2],
