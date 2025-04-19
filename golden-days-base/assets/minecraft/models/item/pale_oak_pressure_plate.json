@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/template_pressure_plate",
   "textures": {
-    "texture": "minecraft:block/jungle_planks"
+    "texture": "minecraft:block/pale_oak_planks"
   }
 }
