@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "minecraft:block/dispenser_vertical",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=east": {
+      "model": "minecraft:block/dispenser",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "minecraft:block/dispenser"
+    },
+    "facing=south": {
+      "model": "minecraft:block/dispenser",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "minecraft:block/dispenser_vertical"
+    },
+    "facing=west": {
+      "model": "minecraft:block/dispenser",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}
