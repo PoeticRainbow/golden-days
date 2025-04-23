@@ -81,6 +81,18 @@
 			"boxes": [
 				{"coordinates": [-6, 0, -8, 4, 12, 4], "textureOffset": [0, 16]}
 			]
+		},
+		{
+			"part": "left_horn",
+			"id": "left_horn",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "right_horn",
+			"id": "right_horn",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
 		}
 	]
 }
