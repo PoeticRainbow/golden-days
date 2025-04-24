@@ -1,67 +1,51 @@
 #version 150
 
+#moj_import <minecraft:fog.glsl>
 #moj_import <minecraft:matrix.glsl>
 
 uniform sampler2D Sampler0;
 uniform sampler2D Sampler1;
-uniform mat4 ModelViewMat;
 
 uniform float GameTime;
-uniform int EndPortalLayers;
+uniform float FogStart;
+uniform float FogEnd;
+uniform vec4 FogColor;
 
-in vec4 texProj0;
 in vec4 worldPos;
+in float vertexDistance;
 
 const vec3[] COLORS = vec3[](
-    vec3(0.022087, 0.098399, 0.110818),
-    vec3(0.011892, 0.095924, 0.089485),
-    vec3(0.027636, 0.101689, 0.100326),
-    vec3(0.046564, 0.109883, 0.114838),
-    vec3(0.064901, 0.117696, 0.097189),
-    vec3(0.063761, 0.086895, 0.123646),
-    vec3(0.084817, 0.111994, 0.166380),
-    vec3(0.097489, 0.154120, 0.091064),
-    vec3(0.106152, 0.131144, 0.195191),
-    vec3(0.097721, 0.110188, 0.187229),
-    vec3(0.133516, 0.138278, 0.148582),
-    vec3(0.070006, 0.243332, 0.235792),
-    vec3(0.196766, 0.142899, 0.214696),
-    vec3(0.047281, 0.315338, 0.321970),
-    vec3(0.204675, 0.390010, 0.302066),
-    vec3(0.080955, 0.314821, 0.661491)
+    vec3(0.008661645650863649, 0.038587976553860835, 0.04345787097426022),
+    vec3(0.006317379325628281, 0.05095978043973446, 0.047539062798023224),
+    vec3(0.014739356835683186, 0.05423396587371826, 0.05350704193115234),
+    vec3(0.024944938080651416, 0.05886572556836264, 0.061520154987062724),
+    vec3(0.0349468089067019, 0.0633745945416964, 0.052332561749678395),
+    vec3(0.0345372661948204, 0.047068044046560925, 0.06697499503691991),
+    vec3(0.04626408815383911, 0.06108771345832131, 0.09075277501886542),
+    vec3(0.05361914694309235, 0.08476582407951355, 0.05008522272109986),
+    vec3(0.058973432249493064, 0.07285755806499057, 0.10843926668167114),
+    vec3(0.054968219995498654, 0.06198072358965874, 0.1053161583840847),
+    vec3(0.07629505310739788, 0.07901610136032104, 0.08490378516060965),
+    vec3(0.040836658080418906, 0.14194381137688955, 0.13754530251026154),
+    vec3(0.1180594515800476, 0.08573964118957521, 0.12881733179092408),
+    vec3(0.02955061346292496, 0.19708616137504578, 0.20123141258955002),
+    vec3(0.13644969662030537, 0.2600068430105845, 0.20137758056322733),
+    vec3(0.060716050863265994, 0.23611546754837037, 0.4961182028055191)
 );
-
-const mat4 SCALE_TRANSLATE = mat4(
-    0.5, 0.0, 0.0, 0.25,
-    0.0, 0.5, 0.0, 0.25,
-    0.0, 0.0, 1.0, 0.0,
-    0.0, 0.0, 0.0, 1.0
-);
-
-mat4 end_portal_layer(float layer) {
-    mat4 translate = mat4(
-        1.0, 0.0, 0.0, 17.0 / layer,
-        0.0, 1.0, 0.0, (2.0 + layer / 1.5) * (GameTime * 1.5),
-        0.0, 0.0, 1.0, 0.0,
-        0.0, 0.0, 0.0, 1.0
-    );
-
-    mat2 rotate = mat2_rotate_z(radians((layer * layer * 4321.0 + layer * 9.0) * 2.0));
-
-    mat2 scale = mat2((4.5 - layer / 4.0) * 2.0);
-
-    return mat4(scale * rotate) * translate * SCALE_TRANSLATE;
-}
 
 out vec4 fragColor;
 
 void main() {
-    //(length(worldPos.rgb) / 4.0)
-    vec4 world_tex = vec4(worldPos.x / worldPos.y, worldPos.z / worldPos.y, 1.0, 1.0);
+    vec4 portalUv = vec4(worldPos.x / worldPos.y, worldPos.z / worldPos.y, 1.0, 1.0);
     
-    vec3 color = textureProj(Sampler0, world_tex).rgb * COLORS[0];
-    for (int i = 0; i < EndPortalLayers + 1; i++) {
-        color += textureProj(Sampler1, world_tex * end_portal_layer(float(i + 1))).rgb * COLORS[i];
+    vec3 color = textureProj(Sampler0, vec4(portalUv.x * 4, portalUv.y * 4, portalUv.z * 4, portalUv.w)).rgb * 0.16;
+    for (int i = 0; i < 16; i++) {
+        mat2 rotate = mat2_rotate_z(radians((i * i * 4321.0 + i * 9.0) * 2.0));
+        mat2 scale = mat2((16 - i * 0.7) * 0.015);
+        
+        vec4 layerPos = mat4(scale * rotate) * portalUv;
+        layerPos.y += GameTime * 1.5;
+        color += textureProj(Sampler1, layerPos).rgb * COLORS[i];
     }
-    fragColor = vec4(color, 1.0);
+    fragColor = linear_fog(vec4(color, 1.0), vertexDistance, FogStart, FogEnd, FogColor);
 }
