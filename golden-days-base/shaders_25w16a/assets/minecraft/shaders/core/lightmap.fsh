@@ -1,14 +1,16 @@
 #version 150
 
-uniform float AmbientLightFactor;
-uniform float SkyFactor;
-uniform float BlockFactor;
-uniform int UseBrightLightmap;
-uniform vec3 SkyLightColor;
-uniform float NightVisionFactor;
-uniform float DarknessScale;
-uniform float DarkenWorldFactor;
-uniform float BrightnessFactor;
+layout(std140) uniform LightmapInfo {
+    float AmbientLightFactor;
+    float SkyFactor;
+    float BlockFactor;
+    int UseBrightLightmap;
+    float NightVisionFactor;
+    float DarknessScale;
+    float DarkenWorldFactor;
+    float BrightnessFactor;
+    vec3 SkyLightColor;
+} lightmapInfo;
 
 const float[] BETA_LIGHT = float[](
     0.05, 0.06666666666666667, 0.08518518518518517, 0.10588235294117646, 0.12916666666666665, 0.15555555555555553, 
@@ -21,14 +23,14 @@ in vec2 texCoord;
 out vec4 fragColor;
 
 void main() {
-    if (NightVisionFactor > 0.0) {
+    if (lightmapInfo.NightVisionFactor > 0.0) {
         fragColor = vec4(vec3(1.0), 1.0);
         return;
     }
 
     int block_brightness = clamp(int(floor(texCoord.x * 16)), 0, 15);
-    int sky_brightness = clamp(int(floor(texCoord.y * 16 * SkyFactor)), 4, 15);
+    int sky_brightness = clamp(int(floor(texCoord.y * 16 * lightmapInfo.SkyFactor)), 4, 15);
 
     float light = BETA_LIGHT[max(block_brightness, sky_brightness)];
-    fragColor = vec4(vec3(clamp(light - DarknessScale * 0.7, 0.05, 1)), 1.0);
+    fragColor = vec4(vec3(clamp(light - lightmapInfo.DarknessScale * 0.7, 0.05, 1)), 1.0);
 }
