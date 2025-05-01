@@ -24,6 +24,10 @@
             {
                 "formats": [57, 100],
                 "directory": "no_rotation_snap"
+            },
+            {
+                "formats": [57, 100],
+                "directory": "shaders_25w16a"
             }
         ]
     }
