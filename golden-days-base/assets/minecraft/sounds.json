@@ -1072,12 +1072,12 @@
   },
   "block.ender_chest.close": {
     "replace": "true",
-    "sounds": [{"name": "_common.door.close", "type": "event"}],
+    "sounds": [{"name": "block.chest.close", "type": "event"}],
     "subtitle": "subtitles.block.chest.close"
   },
   "block.ender_chest.open": {
     "replace": "true",
-    "sounds": [{"name": "_common.door.open", "type": "event"}],
+    "sounds": [{"name": "block.chest.open", "type": "event"}],
     "subtitle": "subtitles.block.chest.open"
   },
   "block.eyeblossom.close": {
@@ -2928,6 +2928,11 @@
     "replace": "true",
     "sounds": [{"name": "_common.door.close", "type": "event"}],
     "subtitle": "subtitles.block.vault.close_shutter"
+  },
+  "block.vault.eject_item": {
+    "replace": "true",
+    "sounds": [{"name": "random/click", "pitch": 1.25}],
+    "subtitle": "subtitles.block.vault.eject_item"
   },
   "block.vault.fall": {
     "replace": "true",
