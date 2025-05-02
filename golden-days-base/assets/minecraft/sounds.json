@@ -2140,27 +2140,27 @@
   },
   "block.nylium.break": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.break", "type": "event"}],
+    "sounds": [{"name": "_common.grass.break", "type": "event"}],
     "subtitle": "subtitles.block.generic.break"
   },
   "block.nylium.fall": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.grass.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.fall"
   },
   "block.nylium.hit": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.grass.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.hit"
   },
   "block.nylium.place": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.grass.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.place"
   },
   "block.nylium.step": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.grass.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.footsteps"
   },
   "block.packed_mud.break": {
