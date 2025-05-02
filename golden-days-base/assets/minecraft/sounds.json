@@ -2321,6 +2321,10 @@
     "sounds": [{"name": "_common.cloth.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.footsteps"
   },
+  "block.pumpkin.carve": {
+    "replace": "true",
+    "sounds": [{"name": "_common.silent", "type": "event"}]
+  },
   "block.resin.break": {
     "replace": "true",
     "sounds": [{"name": "_common.stone.break", "type": "event"}],
@@ -2435,10 +2439,6 @@
     "replace": "true",
     "sounds": [{"name": "_common.silent", "type": "event"}]
   },
-  "block.sand.wind": {
-    "replace": "true",
-    "sounds": [{"name": "_common.silent", "type": "event"}]
-  },
   "block.sand.place": {
     "replace": "true",
     "sounds": [{"name": "_common.sand.step", "type": "event"}],
@@ -2448,6 +2448,10 @@
     "replace": "true",
     "sounds": [{"name": "_common.sand.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.sand.wind": {
+    "replace": "true",
+    "sounds": [{"name": "_common.silent", "type": "event"}]
   },
   "block.scaffolding.break": {
     "replace": "true",
@@ -2476,27 +2480,27 @@
   },
   "block.sculk.break": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.break", "type": "event"}],
+    "sounds": [{"name": "_common.cloth.break", "type": "event"}],
     "subtitle": "subtitles.block.generic.break"
   },
   "block.sculk.fall": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.fall"
   },
   "block.sculk.hit": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.hit"
   },
   "block.sculk.place": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.place"
   },
   "block.sculk.step": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.footsteps"
   },
   "block.sculk_catalyst.break": {
@@ -2526,77 +2530,77 @@
   },
   "block.sculk_sensor.break": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.break", "type": "event"}],
+    "sounds": [{"name": "_common.cloth.break", "type": "event"}],
     "subtitle": "subtitles.block.generic.break"
   },
   "block.sculk_sensor.fall": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.fall"
   },
   "block.sculk_sensor.hit": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.hit"
   },
   "block.sculk_sensor.place": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.place"
   },
   "block.sculk_sensor.step": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.footsteps"
   },
   "block.sculk_shrieker.break": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.break", "type": "event"}],
+    "sounds": [{"name": "_common.cloth.break", "type": "event"}],
     "subtitle": "subtitles.block.generic.break"
   },
   "block.sculk_shrieker.fall": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.fall"
   },
   "block.sculk_shrieker.hit": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.hit"
   },
   "block.sculk_shrieker.place": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.place"
   },
   "block.sculk_shrieker.step": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.footsteps"
   },
   "block.sculk_vein.break": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.break", "type": "event"}],
+    "sounds": [{"name": "_common.cloth.break", "type": "event"}],
     "subtitle": "subtitles.block.generic.break"
   },
   "block.sculk_vein.fall": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.fall"
   },
   "block.sculk_vein.hit": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.hit"
   },
   "block.sculk_vein.place": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.place"
   },
   "block.sculk_vein.step": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.footsteps"
   },
   "block.shroomlight.break": {
@@ -3049,7 +3053,7 @@
   },
   "block.vault.break": {
     "replace": "true",
-    "sounds": [{"name": "_common.metal.break", "type": "event"}],
+    "sounds": [{"name": "_common.glass.break", "type": "event"}],
     "subtitle": "subtitles.block.generic.break"
   },
   "block.vault.close_shutter": {
@@ -3064,12 +3068,12 @@
   },
   "block.vault.fall": {
     "replace": "true",
-    "sounds": [{"name": "_common.metal.step", "type": "event"}],
+    "sounds": [{"name": "_common.glass.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.fall"
   },
   "block.vault.hit": {
     "replace": "true",
-    "sounds": [{"name": "_common.metal.step", "type": "event"}],
+    "sounds": [{"name": "_common.glass.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.hit"
   },
   "block.vault.open_shutter": {
@@ -3079,12 +3083,12 @@
   },
   "block.vault.place": {
     "replace": "true",
-    "sounds": [{"name": "_common.metal.step", "type": "event"}],
+    "sounds": [{"name": "_common.glass.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.place"
   },
   "block.vault.step": {
     "replace": "true",
-    "sounds": [{"name": "_common.metal.step", "type": "event"}],
+    "sounds": [{"name": "_common.glass.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.footsteps"
   },
   "block.vine.break": {
