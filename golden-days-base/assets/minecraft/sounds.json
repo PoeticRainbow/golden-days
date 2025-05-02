@@ -68,6 +68,15 @@
     "subtitle": "subtitles.block.generic.footsteps"
   },
   "_common.silent": {"replace": "true", "sounds": ["goldendays/blank"]},
+  "_common.slime.break": {
+    "replace": "true",
+    "sounds": [{"name": "_common.slime.step", "type": "event"}]
+  },
+  "_common.slime.step": {
+    "replace": "true",
+    "sounds": ["mob/slime/big1", "mob/slime/big2", "mob/slime/big3", "mob/slime/big4"],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
   "_common.stone.break": {
     "replace": "true",
     "sounds": [{"name": "_common.stone.step", "type": "event"}]
@@ -1502,27 +1511,27 @@
   },
   "block.honey_block.break": {
     "replace": "true",
-    "sounds": [{"name": "_common.cloth.break", "type": "event"}],
+    "sounds": [{"name": "_common.slime.break", "type": "event"}],
     "subtitle": "subtitles.block.generic.break"
   },
   "block.honey_block.fall": {
     "replace": "true",
-    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
+    "sounds": [{"name": "_common.slime.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.fall"
   },
   "block.honey_block.hit": {
     "replace": "true",
-    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
+    "sounds": [{"name": "_common.slime.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.hit"
   },
   "block.honey_block.place": {
     "replace": "true",
-    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
+    "sounds": [{"name": "_common.slime.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.place"
   },
   "block.honey_block.step": {
     "replace": "true",
-    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
+    "sounds": [{"name": "_common.slime.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.footsteps"
   },
   "block.iron.break": {
@@ -2640,27 +2649,27 @@
   },
   "block.slime_block.break": {
     "replace": "true",
-    "sounds": [{"name": "_common.cloth.break", "type": "event"}],
+    "sounds": [{"name": "_common.slime.break", "type": "event"}],
     "subtitle": "subtitles.block.generic.break"
   },
   "block.slime_block.fall": {
     "replace": "true",
-    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
+    "sounds": [{"name": "_common.slime.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.fall"
   },
   "block.slime_block.hit": {
     "replace": "true",
-    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
+    "sounds": [{"name": "_common.slime.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.hit"
   },
   "block.slime_block.place": {
     "replace": "true",
-    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
+    "sounds": [{"name": "_common.slime.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.place"
   },
   "block.slime_block.step": {
     "replace": "true",
-    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
+    "sounds": [{"name": "_common.slime.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.footsteps"
   },
   "block.small_amethyst_bud.break": {
