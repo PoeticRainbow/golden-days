@@ -3487,6 +3487,191 @@
     "replace": "true",
     "sounds": [{"name": "_common.silent", "type": "event"}]
   },
+  "entity.wolf_angry.ambient": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.ambient", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.bark"
+  },
+  "entity.wolf_angry.death": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.death", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.death"
+  },
+  "entity.wolf_angry.growl": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.growl", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.growl"
+  },
+  "entity.wolf_angry.hurt": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.hurt", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.hurt"
+  },
+  "entity.wolf_angry.pant": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.pant", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.pant"
+  },
+  "entity.wolf_angry.whine": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.whine", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.whine"
+  },
+  "entity.wolf_big.ambient": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.ambient", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.bark"
+  },
+  "entity.wolf_big.death": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.death", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.death"
+  },
+  "entity.wolf_big.growl": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.growl", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.growl"
+  },
+  "entity.wolf_big.hurt": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.hurt", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.hurt"
+  },
+  "entity.wolf_big.pant": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.pant", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.pant"
+  },
+  "entity.wolf_big.whine": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.whine", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.whine"
+  },
+  "entity.wolf_cute.ambient": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.ambient", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.bark"
+  },
+  "entity.wolf_cute.death": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.death", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.death"
+  },
+  "entity.wolf_cute.growl": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.growl", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.growl"
+  },
+  "entity.wolf_cute.hurt": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.hurt", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.hurt"
+  },
+  "entity.wolf_cute.pant": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.pant", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.pant"
+  },
+  "entity.wolf_cute.whine": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.whine", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.whine"
+  },
+  "entity.wolf_grumpy.ambient": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.ambient", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.bark"
+  },
+  "entity.wolf_grumpy.death": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.death", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.death"
+  },
+  "entity.wolf_grumpy.growl": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.growl", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.growl"
+  },
+  "entity.wolf_grumpy.hurt": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.hurt", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.hurt"
+  },
+  "entity.wolf_grumpy.pant": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.pant", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.pant"
+  },
+  "entity.wolf_grumpy.whine": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.whine", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.whine"
+  },
+  "entity.wolf_puglin.ambient": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.ambient", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.bark"
+  },
+  "entity.wolf_puglin.death": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.death", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.death"
+  },
+  "entity.wolf_puglin.growl": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.growl", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.growl"
+  },
+  "entity.wolf_puglin.hurt": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.hurt", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.hurt"
+  },
+  "entity.wolf_puglin.pant": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.pant", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.pant"
+  },
+  "entity.wolf_puglin.whine": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.whine", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.whine"
+  },
+  "entity.wolf_sad.ambient": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.ambient", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.bark"
+  },
+  "entity.wolf_sad.death": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.death", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.death"
+  },
+  "entity.wolf_sad.growl": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.growl", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.growl"
+  },
+  "entity.wolf_sad.hurt": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.hurt", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.hurt"
+  },
+  "entity.wolf_sad.pant": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.pant", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.pant"
+  },
+  "entity.wolf_sad.whine": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.whine", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.whine"
+  },
+  "entity.wolf_whine.whine": {
+    "replace": "true",
+    "sounds": [{"name": "entity.wolf.whine", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.whine"
+  },
   "item.armor.equip_chain": {
     "replace": "true",
     "sounds": [{"name": "_common.silent", "type": "event"}]
