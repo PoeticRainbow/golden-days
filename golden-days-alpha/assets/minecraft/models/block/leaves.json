@@ -1,7 +1,0 @@
-{
-	"parent": "block/cube_all",
-	"ambientocclusion": false,
-  "textures": {
-    "particle": "#all"
-  }
-}
