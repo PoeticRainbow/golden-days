@@ -1,5 +1,5 @@
 {
-  "parent": "block/template_leaves",
+  "parent": "block/template_leaves_no_tint",
   "textures": {
     "all": "block/dark_oak_leaves",
     "bushy": "block/dark_oak_leaves_bushy"

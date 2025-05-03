@@ -1,5 +1,5 @@
 {
-  "parent": "block/template_leaves",
+  "parent": "block/template_leaves_no_tint",
   "textures": {
     "all": "block/jungle_leaves",
     "bushy": "block/jungle_leaves_bushy"

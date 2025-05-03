@@ -29,7 +29,7 @@ void main() {
     }
 
     int block_brightness = clamp(int(floor(texCoord.x * 16)), 0, 15);
-    int sky_brightness = clamp(int(floor(texCoord.y * 16 * lightmapInfo.SkyFactor)), 4, 15);
+    int sky_brightness = clamp(int(floor(texCoord.y * 16 * lightmapInfo.SkyFactor)), 0, 15);
 
     float light = BETA_LIGHT[max(block_brightness, sky_brightness)];
     fragColor = vec4(vec3(clamp(light - lightmapInfo.DarknessScale * 0.7, 0.05, 1)), 1.0);
