@@ -32,6 +32,10 @@ const vec3[] COLORS = vec3[](
 out vec4 fragColor;
 
 void main() {
+    if (worldPos == vec4(0.0)) {
+        fragColor = vec4(vec3(0.0), 1.0);
+        return;
+    }
     vec4 portalUv = vec4(worldPos.x / worldPos.y, worldPos.z / worldPos.y, 1.0, 1.0);
     
     vec3 color = textureProj(Sampler0, vec4(portalUv.x * 4, portalUv.y * 4, portalUv.z * 4, portalUv.w)).rgb * 0.16;
