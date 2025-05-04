@@ -1,0 +1,192 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [32, 32],
+	"texture": "textures/entity/breeze/breeze.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -20, 0],
+			"boxes": [
+				{"coordinates": [-4, 20, -4, 8, 8, 8], "textureOffset": [0, 0]},
+				{"coordinates": [-5, 22, -4.25, 10, 3, 4], "textureOffset": [4, 24]}
+			]
+		},
+		{
+			"part": "rods",
+			"id": "rods",
+			"invertAxis": "xy",
+			"translate": [0, -16, 0],
+			"submodels": [
+				{
+					"id": "rod_1",
+					"invertAxis": "xy",
+					"translate": [0, 5, -3],
+					"rotate": [-22.5, 0, 0]
+				},
+				{
+					"id": "rotation_2",
+					"invertAxis": "xy",
+					"translate": [0, 8, 0],
+					"rotate": [180, -60, -180]
+				},
+				{
+					"id": "rotation_3",
+					"invertAxis": "xy",
+					"translate": [0, 8, 0],
+					"rotate": [180, 60, 180]
+				},
+				{
+					"id": "rods_top",
+					"invertAxis": "xy",
+					"translate": [0, 16, 0],
+					"submodels": [
+						{
+							"id": "stick1",
+							"invertAxis": "xy",
+							"translate": [0, -16, 0],
+							"boxes": [
+								{"coordinates": [6, 18, -8, 2, 8, 2], "textureOffset": [0, 17]}
+							]
+						},
+						{
+							"id": "stick2",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [-8, 2, -8, 2, 8, 2], "textureOffset": [0, 17]}
+							]
+						},
+						{
+							"id": "stick3",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [-8, 2, 6, 2, 8, 2], "textureOffset": [0, 17]}
+							]
+						},
+						{
+							"id": "stick4",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [6, 2, 6, 2, 8, 2], "textureOffset": [0, 17]}
+							]
+						}
+					]
+				},
+				{
+					"id": "rods_mid",
+					"invertAxis": "xy",
+					"translate": [0, 16, 0],
+					"submodels": [
+						{
+							"id": "stick5",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [4, -2, -6, 2, 8, 2], "textureOffset": [0, 17]}
+							]
+						},
+						{
+							"id": "stick6",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [-6, -2, -6, 2, 8, 2], "textureOffset": [0, 17]}
+							]
+						},
+						{
+							"id": "stick7",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [-6, -2, 4, 2, 8, 2], "textureOffset": [0, 17]}
+							]
+						},
+						{
+							"id": "stick8",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [4, -2, 4, 2, 8, 2], "textureOffset": [0, 17]}
+							]
+						}
+					]
+				},
+				{
+					"id": "rods_bottom",
+					"invertAxis": "xy",
+					"translate": [0, 16, 0],
+					"submodels": [
+						{
+							"id": "stick9",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [2, -10, -4, 2, 8, 2], "textureOffset": [0, 17]}
+							]
+						},
+						{
+							"id": "stick10",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [-4, -10, -4, 2, 8, 2], "textureOffset": [0, 17]}
+							]
+						},
+						{
+							"id": "stick11",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [-4, -10, 2, 2, 8, 2], "textureOffset": [0, 17]}
+							]
+						},
+						{
+							"id": "stick12",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [2, -10, 2, 2, 8, 2], "textureOffset": [0, 17]}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"var.bounce": "-2",
+					"rods.rx": "0",
+					"rods.ry": "0",
+					"rods.rz": "0",
+					"rods_top.ry": "time / 3",
+					"stick5.ty": "sin(time/5) * var.bounce * 0.5",
+					"stick6.ty": "sin((time/5) + 2) * var.bounce * 0.5",
+					"stick7.ty": "sin((time/5) + 4) * var.bounce * 0.5",
+					"stick8.ty": "sin((time/5) + 6) * var.bounce * 0.5",
+					"rods_mid.ry": "-time / 6",
+					"rods_bottom.ry": "time / 6",
+					"stick9.ty": "sin(time/4) * var.bounce",
+					"stick10.ty": "sin((time/4) + 1) * var.bounce",
+					"stick11.ty": "sin((time/4) + 2) * var.bounce",
+					"stick12.ty": "sin((time/4) + 3) * var.bounce"
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"animations": [
+				{
+					"body.rx": "0",
+					"body.ry": "0",
+					"body.rz": "0"
+				}
+			]
+		}
+	]
+}
