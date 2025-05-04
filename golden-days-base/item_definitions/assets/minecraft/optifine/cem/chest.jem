@@ -6,10 +6,10 @@
 			"part": "base",
 			"id": "base",
 			"invertAxis": "xy",
-			"translate": [0.08, 0.08, -0.08],
+			"translate": [0.2384, 0.2384, -0.2384],
 			"boxes": [
 				{
-					"coordinates": [-16, -16, 0, 16, 16, 16],
+					"coordinates": [-15.84, -15.84, 0.24, 15.68, 15.68, 15.68],
 					"uvNorth": [8, 16, 4, 12],
 					"uvEast": [8, 16, 4, 12],
 					"uvSouth": [12, 16, 8, 12],
@@ -23,13 +23,13 @@
 			"part": "lid",
 			"id": "lid",
 			"invertAxis": "xy",
-			"translate": [0.08, 0.08, -0.08]
+			"translate": [0.2384, 0.2384, -0.2384]
 		},
 		{
 			"part": "knob",
 			"id": "knob",
 			"invertAxis": "xy",
-			"translate": [0.08, 0.08, -0.08]
+			"translate": [0.2384, 0.2384, -0.2384]
 		}
 	]
 }
