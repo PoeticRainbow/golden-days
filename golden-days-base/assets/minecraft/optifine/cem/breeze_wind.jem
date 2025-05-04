@@ -1,0 +1,51 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [128, 128],
+	"texture": "textures/entity/breeze/breeze_wind.png",
+	"models": [
+		{
+			"part": "wind_top",
+			"id": "wind_top",
+			"invertAxis": "xy",
+			"translate": [0, -13, 0],
+			"boxes": [
+				{"coordinates": [-9, 16, -9, 18, 8, 18], "textureOffset": [0, 0]},
+				{"coordinates": [-6, 14, -6, 12, 8, 12], "textureOffset": [6, 6]}
+			],
+			"animations": [
+				{
+					"wind_top.tx": "0",
+					"wind_top.tz": "0",
+					"wind_top.rx": "0",
+					"wind_top.ry": "0",
+					"wind_top.rz": "0"
+				}
+			]
+		},
+		{
+			"part": "wind_middle",
+			"id": "wind_middle",
+			"invertAxis": "xy",
+			"translate": [0, -7, 0],
+			"boxes": [
+				{"coordinates": [-6, 8, -6, 12, 6, 12], "textureOffset": [74, 28]},
+				{"coordinates": [-4, 4, -4, 8, 6, 8], "textureOffset": [78, 32]}
+			],
+			"animations": [
+				{
+					"wind_middle.tx": "0",
+					"wind_middle.tz": "0",
+					"wind_middle.rx": "0",
+					"wind_middle.ry": "0",
+					"wind_middle.rz": "0"
+				}
+			]
+		},
+		{
+			"part": "wind_bottom",
+			"id": "wind_bottom",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
+}
