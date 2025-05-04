@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "bottom=true": {
+      "model": "minecraft:block/pale_moss_carpet"
+    },
+    "bottom=false": {
+      "model": "minecraft:block/air"
+    }
+  }
+}
