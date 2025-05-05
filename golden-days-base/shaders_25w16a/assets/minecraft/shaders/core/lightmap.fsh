@@ -22,15 +22,20 @@ in vec2 texCoord;
 
 out vec4 fragColor;
 
+int spread(float f, int x) {
+    return clamp(int(floor(f * (float(x) + 1.0))), 0, x);
+}
+
 void main() {
     if (lightmapInfo.NightVisionFactor > 0.0) {
         fragColor = vec4(vec3(1.0), 1.0);
         return;
     }
 
-    int block_brightness = clamp(int(floor(texCoord.x * 16)), 0, 15);
-    int sky_brightness = clamp(int(floor(texCoord.y * 16 * lightmapInfo.SkyFactor)), 0, 15);
+    int block_light = spread(texCoord.x, 15);
+    int sky_factor = clamp(spread(1.0 - lightmapInfo.SkyFactor, 15), 0, 11);
+    int sky_light = clamp(spread(texCoord.y, 15), 0, 15);
 
-    float light = BETA_LIGHT[max(block_brightness, sky_brightness)];
+    float light = max(BETA_LIGHT[block_light], BETA_LIGHT[sky_light - sky_factor]);
     fragColor = vec4(vec3(clamp(light - lightmapInfo.DarknessScale * 0.7, 0.05, 1)), 1.0);
 }
