@@ -20,12 +20,8 @@ in vec2 texCoord;
 
 out vec4 fragColor;
 
-float quantize(float f, float x) {
-    return floor(f * x) / x;
-}
-
 int spread(float f, int x) {
-    return clamp(int(floor(f * (x + 1))), 0, x);
+    return clamp(int(floor(f * (float(x) + 1.0))), 0, x);
 }
 
 void main() {
@@ -34,13 +30,11 @@ void main() {
         return;
     }
 
-    //float time_of_day = clamp((((acos((0.8 - SkyFactor) / 2.0) / 6.2831855) - 0.205) * 17), 0, 1);
-    //int sky_factor = clamp(int(floor((time_of_day) * 16)), 4, 15);
-
     int block_light = spread(texCoord.x, 15);
-    int sky_factor = clamp(spread(SkyFactor, 15), 4, 15);
-    int sky_light = clamp(spread(texCoord.y, 15), 0, sky_factor);
+    int sky_factor = clamp(spread(1.0 - SkyFactor, 15), 0, 11);
+    int sky_light = clamp(spread(texCoord.y, 15), 0, 15);
 
-    float light = BETA_LIGHT[max(block_light, sky_light)];
+    // float light = max(BETA_LIGHT[block_light], min(BETA_LIGHT[sky_light], BETA_LIGHT[sky_factor]));
+    float light = max(BETA_LIGHT[block_light], BETA_LIGHT[sky_light - sky_factor]);
     fragColor = vec4(vec3(clamp(light - DarknessScale * 0.7, 0.05, 1)), 1.0);
 }
