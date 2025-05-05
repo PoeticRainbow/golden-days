@@ -101,6 +101,11 @@
 						}
 					]
 				}
+			],
+			"animations": [
+				{
+					"this.ty": "front.ty - if(is_ridden, 0, 3 + sin(time/2)*0.3)"
+				}
 			]
 		},
 		{
@@ -173,6 +178,11 @@
 					"uvWest": [94, 16, 110, 32],
 					"uvUp": [78, 0, 94, 16],
 					"uvDown": [94, 0, 110, 16]
+				}
+			],
+			"animations": [
+				{
+					"this.ty": "this.ty - if(is_ridden, 0, 3 + sin(time/2)*0.3)"
 				}
 			]
 		},
