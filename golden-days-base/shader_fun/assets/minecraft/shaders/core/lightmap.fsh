@@ -34,7 +34,6 @@ void main() {
     int sky_factor = clamp(spread(1.0 - SkyFactor, 15), 0, 11);
     int sky_light = clamp(spread(texCoord.y, 15), 0, 15);
 
-    // float light = max(BETA_LIGHT[block_light], min(BETA_LIGHT[sky_light], BETA_LIGHT[sky_factor]));
     float light = max(BETA_LIGHT[block_light], BETA_LIGHT[sky_light - sky_factor]);
     fragColor = vec4(vec3(clamp(light - DarknessScale * 0.7, 0.05, 1)), 1.0);
 }

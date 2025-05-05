@@ -1232,6 +1232,10 @@
     "sounds": [{"name": "_common.door.open", "type": "event"}],
     "subtitle": "subtitles.block.fence_gate.toggle"
   },
+  "block.firefly_bush.idle": {
+    "replace": "true",
+    "sounds": [{"name": "_common.silent", "type": "event"}]
+  },
   "block.flowering_azalea.break": {
     "replace": "true",
     "sounds": [{"name": "_common.grass.break", "type": "event"}],
