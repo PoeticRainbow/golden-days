@@ -5,7 +5,7 @@
       {"directory": "shader_fun", "formats": [36, 55]},
       {"directory": "item_definitions", "formats": [45, 100]},
       {"directory": "no_rotation_snap", "formats": [57, 100]},
-      {"directory": "shaders_25w16a", "formats": [57, 100]}
+      {"directory": "shaders_25w19a", "formats": [60, 100]}
     ]
   },
   "pack": {
