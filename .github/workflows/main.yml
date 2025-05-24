@@ -1,0 +1,22 @@
+name: Build
+on:
+  push:
+  pull_request:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: action-zip
+        uses: montudor/action-zip@v1.0.0
+      - name: Create build directory
+        run: mkdir -p build
+      - name: Zip Base
+        run: zip -qq -r build/golden-days-base.zip golden-days-base
+      - name: Zip Alpha
+        run: zip -qq -r build/golden-days-alpha.zip golden-days-alpha
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: artifacts
+          path: build
