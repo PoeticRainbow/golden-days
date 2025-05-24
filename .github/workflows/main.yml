@@ -18,5 +18,10 @@ jobs:
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: artifacts
-          path: build
+          name: golden-days-base-${{github.run_number}}
+          path: build/golden-days-base.zip
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: golden-days-alpha-${{github.run_number}}
+          path: build/golden-days-alpha.zip
