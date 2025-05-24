@@ -12,9 +12,9 @@ jobs:
       - name: Create build directory
         run: mkdir -p build
       - name: Zip Base
-        run: zip -qq -r build/golden-days-base.zip golden-days-base/*
+        run: (cd golden-days-base/; zip -qq -r ../build/golden-days-base.zip ./*)
       - name: Zip Alpha
-        run: zip -qq -r build/golden-days-alpha.zip golden-days-alpha/*
+        run: (cd golden-days-alpha/; zip -qq -r ../build/golden-days-alpha.zip ./*)
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
