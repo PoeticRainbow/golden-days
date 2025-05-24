@@ -7,21 +7,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: action-zip
-        uses: montudor/action-zip@v1.0.0
-      - name: Create build directory
-        run: mkdir -p build
-      - name: Zip Base
-        run: (cd golden-days-base/; zip -qq -r ../build/golden-days-base.zip ./*)
-      - name: Zip Alpha
-        run: (cd golden-days-alpha/; zip -qq -r ../build/golden-days-alpha.zip ./*)
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: golden-days-base-${{github.run_number}}
-          path: build/golden-days-base.zip
+          name: golden-days-base-latest-${{github.run_number}}
+          path: golden-days-base/*
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: golden-days-alpha-${{github.run_number}}
-          path: build/golden-days-alpha.zip
+          name: golden-days-alpha-latest-${{github.run_number}}
+          path: golden-days-alpha/*
