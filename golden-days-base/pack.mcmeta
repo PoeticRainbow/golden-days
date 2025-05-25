@@ -1,6 +1,7 @@
 {
   "overlays": {
     "entries": [
+      {"directory": "lightmaps", "formats": [1, 35]},
       {"directory": "bat_update", "formats": [20, 100]},
       {"directory": "shader_fun", "formats": [36, 55]},
       {"directory": "item_definitions", "formats": [45, 100]},
