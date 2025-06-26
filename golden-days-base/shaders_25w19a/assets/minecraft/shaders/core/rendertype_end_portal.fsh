@@ -8,8 +8,6 @@ uniform sampler2D Sampler0;
 uniform sampler2D Sampler1;
 
 in vec4 worldPos;
-in float sphericalVertexDistance;
-in float cylindricalVertexDistance;
 
 const vec3[] COLORS = vec3[](
     vec3(0.008661645650863649, 0.038587976553860835, 0.04345787097426022),
@@ -48,5 +46,5 @@ void main() {
         layerPos.y += GameTime * 1.5;
         color += textureProj(Sampler1, layerPos).rgb * COLORS[i];
     }
-    fragColor = apply_fog(vec4(color, 1.0), sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);
+    fragColor = vec4(color, 1.0);
 }
