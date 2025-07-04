@@ -1163,6 +1163,30 @@
     "sounds": [{"name": "_common.stone.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.footsteps"
   },
+  "block.dried_ghast.ambient": {
+    "replace": true,
+    "sounds": [{"name": "_common.silent", "type": "event"}]
+  },
+  "block.dried_ghast.ambient_water": {
+    "replace": true,
+    "sounds": [{"name": "_common.silent", "type": "event"}]
+  },
+  "block.dried_ghast.break": {
+    "replace": true,
+    "sounds": [{"name": "_common.stone.break", "type": "event"}]
+  },
+  "block.dried_ghast.fall": {
+    "replace": true,
+    "sounds": [{"name": "_common.stone.break", "type": "event"}]
+  },
+  "block.dried_ghast.place": {
+    "replace": true,
+    "sounds": [{"name": "_common.stone.break", "type": "event"}]
+  },
+  "block.dried_ghast.step": {
+    "replace": true,
+    "sounds": [{"name": "_common.stone.step", "type": "event"}]
+  },
   "block.dripstone_block.break": {
     "replace": "true",
     "sounds": [{"name": "_common.stone.break", "type": "event"}],
