@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/dried_ghast",
+  "textures": {
+    "all": "minecraft:block/dried_ghast_hydration_0"
+  }
+}
