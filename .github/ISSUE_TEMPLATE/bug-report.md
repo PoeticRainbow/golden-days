@@ -15,7 +15,7 @@ assignees: ''
 - Are you using OptiFine? (Yes/No):
 - What other mods are you using? (List):
 
-Please confirm:
+Please confirm by putting an x in the brackets:
 - [ ] I have Programmer Art underneath Golden Days Base
 - [ ] I am using the latest version of Golden Days
 - [ ] I have checked these off without reading
