@@ -7,10 +7,8 @@ assignees: ''
 
 ---
 
-**Description of the feature**:
-
+**Feature Description**:
 
 **Please attach screenshots if applicable**:
-
 
 Do not forget to change the title, add labels, and remove this text
