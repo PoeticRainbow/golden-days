@@ -1,10 +1,19 @@
 {
-  "overlays": {
-    "entries": [{"directory": "item_definitions", "formats": [45, 100]}]
-  },
   "pack": {
     "description": "§6Golden Days §8- §aAlpha §7(Alpha) \n§8by PoeticRainbow",
-    "pack_format": 15,
-    "supported_formats": {"max_inclusive": 420, "min_inclusive": 15}
+    "pack_format": 16,
+    "supported_formats": [16, 420],
+    "min_format": 16,
+    "max_format": 420
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "item_definitions",
+        "formats": [45, 420],
+        "min_format": 45,
+        "max_format": 420
+      }
+    ]
   }
 }
