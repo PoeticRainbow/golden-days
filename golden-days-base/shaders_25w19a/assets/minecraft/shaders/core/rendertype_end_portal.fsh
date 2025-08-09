@@ -37,10 +37,10 @@ void main() {
     }
     vec4 portalUv = vec4(worldPos.x / worldPos.y, worldPos.z / worldPos.y, 1.0, 1.0);
     
-    vec3 color = textureProj(Sampler0, vec4(portalUv.x * 4, portalUv.y * 4, portalUv.z * 4, portalUv.w)).rgb * 0.16;
+    vec3 color = textureProj(Sampler0, vec4(portalUv.x * 4.0, portalUv.y * 4.0, portalUv.z * 4.0, portalUv.w)).rgb * 0.16;
     for (int i = 0; i < 16; i++) {
         mat2 rotate = mat2_rotate_z(radians((i * i * 4321.0 + i * 9.0) * 2.0));
-        mat2 scale = mat2((16 - i * 0.7) * 0.015);
+        mat2 scale = mat2((16.0 - i * 0.7) * 0.015);
         
         vec4 layerPos = mat4(scale * rotate) * portalUv;
         layerPos.y += GameTime * 1.5;
