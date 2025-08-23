@@ -1,0 +1,58 @@
+{
+  "variants": {
+    "facing=north,type=single": {
+      "model": "minecraft:block/weathered_copper_chest"
+    },
+    "facing=east,type=single": {
+      "model": "minecraft:block/weathered_copper_chest",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,type=single": {
+      "model": "minecraft:block/weathered_copper_chest",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,type=single": {
+      "model": "minecraft:block/weathered_copper_chest",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=north,type=right": {
+      "model": "minecraft:block/weathered_copper_chest_right"
+    },
+    "facing=east,type=right": {
+      "model": "minecraft:block/weathered_copper_chest_right",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,type=right": {
+      "model": "minecraft:block/weathered_copper_chest_right",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,type=right": {
+      "model": "minecraft:block/weathered_copper_chest_right",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=north,type=left": {
+      "model": "minecraft:block/weathered_copper_chest_left"
+    },
+    "facing=east,type=left": {
+      "model": "minecraft:block/weathered_copper_chest_left",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,type=left": {
+      "model": "minecraft:block/weathered_copper_chest_left",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,type=left": {
+      "model": "minecraft:block/weathered_copper_chest_left",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}
