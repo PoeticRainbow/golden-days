@@ -1,0 +1,9 @@
+{
+  "parent": "block/orientable_front_back",
+	"textures": {
+		"front": "block/copper_chest_front_left",
+		"side": "block/copper_chest_side",
+		"back": "block/copper_chest_back_left",
+		"top": "block/copper_block"
+	}
+}
