@@ -1276,6 +1276,10 @@
     "sounds": [{"name": "_common.stone.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.footsteps"
   },
+  "block.dry_grass.ambient": {
+    "replace": "true",
+    "sounds": [{"name": "_common.silent", "type": "event"}]
+  },
   "block.ender_chest.close": {
     "replace": "true",
     "sounds": [{"name": "block.chest.close", "type": "event"}],
