@@ -17,3 +17,8 @@ jobs:
         with:
           name: golden-days-alpha-latest-${{github.run_number}}
           path: golden-days-alpha/*
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: golden-days-shaders-latest-${{github.run_number}}
+          path: golden-days-shaders/*
