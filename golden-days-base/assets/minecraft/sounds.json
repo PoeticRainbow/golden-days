@@ -2854,22 +2854,6 @@
     "sounds": [{"name": "_common.wood.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.footsteps"
   },
-  "block.shulker_box.close": {
-    "replace": "true",
-    "sounds": [
-      {"name": "_common.door.close", "type": "event"},
-      {"name": "_common.door.open", "type": "event"}
-    ],
-    "subtitle": "subtitles.block.shulker_box.close"
-  },
-  "block.shulker_box.open": {
-    "replace": "true",
-    "sounds": [
-      {"name": "_common.door.close", "type": "event"},
-      {"name": "_common.door.open", "type": "event"}
-    ],
-    "subtitle": "subtitles.block.shulker_box.open"
-  },
   "block.slime_block.break": {
     "replace": "true",
     "sounds": [{"name": "_common.slime.break", "type": "event"}],
