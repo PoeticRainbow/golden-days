@@ -38,6 +38,12 @@
         "formats": [60, 420],
         "min_format": 60,
         "max_format": 420
+      },
+      {
+        "directory": "pack_format_65",
+        "formats": [65, 420],
+        "min_format": 65,
+        "max_format": 420
       }
     ]
   }
