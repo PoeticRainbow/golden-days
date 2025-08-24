@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "block/exposed_copper_block_bottom",
+    "side": "block/exposed_copper_block_side",
+    "top": "block/exposed_copper"
+  }
+}

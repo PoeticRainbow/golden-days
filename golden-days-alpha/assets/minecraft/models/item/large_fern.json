@@ -1,6 +1,4 @@
 {
-    "parent": "item/generated_no_tint",
-    "textures": {
-        "layer0": "block/large_fern_bottom"
-    }
+  "parent": "item/generated_no_tint",
+  "textures": {"layer0": "block/large_fern_bottom"}
 }
