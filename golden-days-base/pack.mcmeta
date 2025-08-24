@@ -16,12 +16,6 @@
         "max_format": 420
       },
       {
-        "directory": "shader_fun",
-        "formats": [36, 55],
-        "min_format": 36,
-        "max_format": 55
-      },
-      {
         "directory": "item_definitions",
         "formats": [45, 420],
         "min_format": 45,
@@ -31,12 +25,6 @@
         "directory": "no_rotation_snap",
         "formats": [57, 420],
         "min_format": 57,
-        "max_format": 420
-      },
-      {
-        "directory": "shaders_25w19a",
-        "formats": [60, 420],
-        "min_format": 60,
         "max_format": 420
       },
       {

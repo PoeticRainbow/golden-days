@@ -1,0 +1,25 @@
+{
+  "pack": {
+    "description": "§6Golden Days §8- §bShaders\n§8by PoeticRainbow",
+    "pack_format": 16,
+    "supported_formats": [16, 420],
+    "min_format": 16,
+    "max_format": 420
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "shader_fun",
+        "formats": [36, 55],
+        "min_format": 36,
+        "max_format": 55
+      },
+      {
+        "directory": "shaders_25w19a",
+        "formats": [60, 420],
+        "min_format": 60,
+        "max_format": 420
+      }
+    ]
+  }
+}
