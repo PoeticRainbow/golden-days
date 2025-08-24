@@ -1,10 +1,8 @@
 {
-	"credit": "Made with Blockbench",
-	"parent": "block/ore_block",
-	"textures": {
-		"bottom": "block/iron_block_bottom",
-		"side": "block/iron_block_side",
-		"top": "block/iron_block_top",
-		"particle": "block/iron_block_top"
-	}
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "block/iron_block_bottom",
+    "side": "block/iron_block_side",
+    "top": "block/iron_block"
+  }
 }

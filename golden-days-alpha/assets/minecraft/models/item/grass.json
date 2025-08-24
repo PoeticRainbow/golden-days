@@ -1,6 +1,4 @@
 {
-    "parent": "item/generated_no_tint",
-    "textures": {
-        "layer0": "block/grass"
-    }
+  "parent": "item/generated_no_tint",
+  "textures": {"layer0": "block/grass"}
 }
