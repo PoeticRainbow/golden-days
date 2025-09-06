@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/template_fence_gate_inventory",
+  "textures": {
+    "all": "minecraft:block/warped_planks"
+  }
+}
