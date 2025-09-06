@@ -1,11 +1,7 @@
 {
   "multipart": [
     {
-      "apply": [
-        {
-          "model": "minecraft:block/fire_floor0"
-        }
-      ],
+      "apply": [{"model": "minecraft:block/fire_floor0"}],
       "when": {
         "east": false,
         "north": false,
@@ -15,11 +11,7 @@
       }
     },
     {
-      "apply": [
-        {
-          "model": "minecraft:block/fire_side0"
-        }
-      ],
+      "apply": [{"model": "minecraft:block/fire_side0"}],
       "when": {
         "east": false,
         "north": false,
@@ -29,12 +21,7 @@
       }
     },
     {
-      "apply": [
-        {
-          "model": "minecraft:block/fire_side0",
-          "y": 90
-        }
-      ],
+      "apply": [{"model": "minecraft:block/fire_side0", "y": 90}],
       "when": {
         "east": false,
         "north": false,
@@ -44,12 +31,7 @@
       }
     },
     {
-      "apply": [
-        {
-          "model": "minecraft:block/fire_side0",
-          "y": 180
-        }
-      ],
+      "apply": [{"model": "minecraft:block/fire_side0", "y": 180}],
       "when": {
         "east": false,
         "north": false,
@@ -59,12 +41,7 @@
       }
     },
     {
-      "apply": [
-        {
-          "model": "minecraft:block/fire_side0",
-          "y": 270
-        }
-      ],
+      "apply": [{"model": "minecraft:block/fire_side0", "y": 270}],
       "when": {
         "east": false,
         "north": false,
@@ -74,85 +51,36 @@
       }
     },
     {
-      "apply": [
-        {
-          "model": "minecraft:block/fire_side_alt0"
-        }
-      ],
-      "when": {
-        "north": true
-      }
+      "apply": [{"model": "minecraft:block/fire_side_alt0"}],
+      "when": {"north": true}
+    },
+    {
+      "apply": [{"model": "minecraft:block/fire_side_alt0", "y": 90}],
+      "when": {"east": true}
+    },
+    {
+      "apply": [{"model": "minecraft:block/fire_side_alt0", "y": 180}],
+      "when": {"south": true}
+    },
+    {
+      "apply": [{"model": "minecraft:block/fire_side_alt0", "y": 270}],
+      "when": {"west": true}
     },
     {
       "apply": [
-        {
-          "model": "minecraft:block/fire_side_alt0",
-          "y": 90
-        }
-      ],
-      "when": {
-        "east": true
-      }
-    },
-    {
-      "apply": [
-        {
-          "model": "minecraft:block/fire_side_alt0",
-          "y": 180
-        }
-      ],
-      "when": {
-        "south": true
-      }
-    },
-    {
-      "apply": [
-        {
-          "model": "minecraft:block/fire_side_alt0",
-          "y": 270
-        }
-      ],
-      "when": {
-        "west": true
-      }
-    },
-    {
-      "apply": [
-        {
-          "model": "minecraft:block/fire_up0",
-          "weight": 6
-        },
-        {
-          "model": "minecraft:block/fire_up0",
-          "weight": 6,
-          "y": 90
-        }
+        {"model": "minecraft:block/fire_up0", "weight": 6},
+        {"model": "minecraft:block/fire_up0", "weight": 6, "y": 90}
       ],
       "when": {
         "AND": [
-          {
-            "up": true
-          },
+          {"up": true},
           {
             "OR": [
-              {
-                "north": true
-              },
-              {
-                "east": true
-              },
-              {
-                "south": true
-              },
-              {
-                "west": true
-              },
-              {
-                "north": false,
-                "east": false,
-                "south": false,
-                "west": false
-              }
+              {"north": true},
+              {"east": true},
+              {"south": true},
+              {"west": true},
+              {"north": false, "east": false, "south": false, "west": false}
             ]
           }
         ]
