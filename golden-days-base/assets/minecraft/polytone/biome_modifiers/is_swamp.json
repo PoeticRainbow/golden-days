@@ -1,7 +1,6 @@
 {
   "targets": ["minecraft:swamp", "minecraft:mangrove_swamp"],
-  "grass_color": "#5FC648",
-  "foliage_color": "#38B71B",
-  "water_color": 3634844,
-  "grass_color_modifier": "none"
+  "grass_color": "#5fc648",
+  "foliage_color": "#38b71b",
+  "water_color": "#37769c"
 }

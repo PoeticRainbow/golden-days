@@ -1,0 +1,6 @@
+{
+  "targets": [".*"],
+  "__comment__": "This file must load before others or else leaves will turn blue.",
+  "priority": 10,
+  "grass_color_modifier": "none"
+}
