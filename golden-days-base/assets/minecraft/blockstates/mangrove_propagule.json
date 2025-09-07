@@ -1,10 +1,6 @@
 {
-    "variants": {
-        "hanging=false": [
-            { "model": "block/mangrove_sapling" }
-        ],
-        "hanging=true": [
-            { "model": "block/mangrove_sapling", "x": 180, "z":180}
-        ]
-    }
+  "variants": {
+    "hanging=false": [{"model": "block/mangrove_sapling"}],
+    "hanging=true": [{"model": "block/mangrove_sapling", "x": 180}]
+  }
 }
