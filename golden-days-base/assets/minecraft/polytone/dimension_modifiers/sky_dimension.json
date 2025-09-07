@@ -1,0 +1,9 @@
+{
+  "sky_colormap": "#bab9f3",
+  "fog_colormap": "#ffffff",
+  "sky_type": "OVERWORLD",
+  "no_weather_fog_darken": false,
+  "no_weather_sky_darken": false,
+  "cloud_level": 8,
+  "has_ground": true
+}
