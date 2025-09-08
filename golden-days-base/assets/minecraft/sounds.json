@@ -204,28 +204,23 @@
   },
   "block.amethyst_block.break": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.break", "type": "event"}],
+    "sounds": [{"name": "_common.glass.break", "type": "event"}],
     "subtitle": "subtitles.block.generic.break"
   },
   "block.amethyst_block.fall": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.glass.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.fall"
   },
   "block.amethyst_block.hit": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.glass.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.hit"
   },
   "block.amethyst_block.place": {
     "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
+    "sounds": [{"name": "_common.glass.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.place"
-  },
-  "block.amethyst_block.step": {
-    "replace": "true",
-    "sounds": [{"name": "_common.stone.step", "type": "event"}],
-    "subtitle": "subtitles.block.generic.footsteps"
   },
   "block.amethyst_cluster.break": {
     "replace": "true",
@@ -246,11 +241,6 @@
     "replace": "true",
     "sounds": [{"name": "_common.glass.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.place"
-  },
-  "block.amethyst_cluster.step": {
-    "replace": "true",
-    "sounds": [{"name": "_common.glass.step", "type": "event"}],
-    "subtitle": "subtitles.block.generic.footsteps"
   },
   "block.ancient_debris.break": {
     "replace": "true",
