@@ -1,24 +1,24 @@
 {
-    "parent": "block/cube",
-    "display": {
-        "gui": {
-            "rotation": [ 30, 135, 0 ],
-            "translation": [ 0, 0, 0],
-            "scale":[ 0.625, 0.625, 0.625 ]
-        },
-        "firstperson_righthand": {
-            "rotation": [ 0, 225, 0 ],
-            "translation": [ 0, 0, 0 ],
-            "scale": [ 0.40, 0.40, 0.40 ]
-        }
+  "parent": "block/cube",
+  "textures": {
+    "particle": "#front",
+    "down": "#bottom",
+    "up": "#top",
+    "north": "#front",
+    "east": "#side",
+    "south": "#side",
+    "west": "#side"
+  },
+  "display": {
+    "gui": {
+      "rotation": [30, 135, 0],
+      "translation": [0, 0, 0],
+      "scale": [0.625, 0.625, 0.625]
     },
-    "textures": {
-        "particle": "#front",
-        "down": "#bottom",
-        "up": "#top",
-        "north": "#front",
-        "east": "#side",
-        "south": "#side",
-        "west": "#side"
+    "firstperson_righthand": {
+      "rotation": [0, 225, 0],
+      "translation": [0, 0, 0],
+      "scale": [0.4, 0.4, 0.4]
     }
+  }
 }

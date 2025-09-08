@@ -1,72 +1,53 @@
 {
-	"credit": "Made with Blockbench",
-	"ambientocclusion": false,
-	"textures": {
-		"particle": "block/spore_blossom",
-		"flower": "block/spore_blossom",
-		"stem": "block/spore_blossom_stem"
-	},
-	"elements": [
-		{
-			"from": [0, 12, 0],
-			"to": [16, 12, 16],
-			"faces": {
-				"north": {"uv": [0, 0, 16, 0], "texture": "#flower"},
-				"east": {"uv": [0, 0, 16, 0], "texture": "#flower"},
-				"south": {"uv": [0, 0, 16, 0], "texture": "#flower"},
-				"west": {"uv": [0, 0, 16, 0], "texture": "#flower"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#flower"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#flower"}
-			}
-		},
-		{
-			"from": [0, 0, 0],
-			"to": [0, 16, 16],
-			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 0], "rescale": true},
-			"faces": {
-				"east": {"uv": [0, 0, 16, 16], "texture": "#stem"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#stem"}
-			}
-		},
-		{
-			"from": [-8, 0, 8],
-			"to": [8, 16, 8],
-			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 0], "rescale": true},
-			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#stem"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#stem"}
-			}
-		}
-	],
-	"display": {
-		"thirdperson_righthand": {
-			"rotation": [75, 45, 0],
-			"translation": [0, 2.5, 0],
-			"scale": [0.375, 0.375, 0.375]
-		},
-		"thirdperson_lefthand": {
-			"rotation": [75, 45, 0],
-			"translation": [0, 2.5, 0],
-			"scale": [0.375, 0.375, 0.375]
-		},
-		"firstperson_righthand": {
-			"rotation": [0, 45, 0],
-			"scale": [0.4, 0.4, 0.4]
-		},
-		"firstperson_lefthand": {
-			"rotation": [0, 225, 0],
-			"scale": [0.4, 0.4, 0.4]
-		},
-		"ground": {
-			"translation": [0, 3, 0],
-			"scale": [0.25, 0.25, 0.25]
-		},
-		"gui": {
-			"rotation": [30, 225, 0],
-			"scale": [0.625, 0.625, 0.625]
-		},
-		"fixed": {
-			"scale": [0.5, 0.5, 0.5]
-		}
-	}
+  "parent": "block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "block/spore_blossom",
+    "flower": "block/spore_blossom",
+    "stem": "block/spore_blossom_stem"
+  },
+  "elements": [
+    {
+      "from": [0, 12, 0],
+      "to": [16, 12, 16],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 0], "texture": "#flower"},
+        "east": {"uv": [0, 0, 16, 0], "texture": "#flower"},
+        "south": {"uv": [0, 0, 16, 0], "texture": "#flower"},
+        "west": {"uv": [0, 0, 16, 0], "texture": "#flower"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#flower"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#flower"}
+      }
+    },
+    {
+      "from": [0, 0, 0],
+      "to": [0, 16, 16],
+      "shade": false,
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [0, 0, 0],
+        "rescale": true
+      },
+      "faces": {
+        "east": {"uv": [0, 0, 16, 16], "texture": "#stem"},
+        "west": {"uv": [0, 0, 16, 16], "texture": "#stem"}
+      }
+    },
+    {
+      "from": [-8, 0, 8],
+      "to": [8, 16, 8],
+      "shade": false,
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [0, 0, 0],
+        "rescale": true
+      },
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#stem"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#stem"}
+      }
+    }
+  ]
 }
