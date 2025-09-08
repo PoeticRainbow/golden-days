@@ -1,6 +1,4 @@
 {
-    "parent": "block/cross",
-    "textures": {
-        "cross": "block/tall_seagrass_top"
-    }
+  "parent": "block/cross",
+  "textures": {"cross": "block/tall_seagrass_top"}
 }

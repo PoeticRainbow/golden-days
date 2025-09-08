@@ -1,7 +1,4 @@
 {
-    "parent": "block/cube_all",
-    "textures": {
-        "all": "block/blackstone",
-		"particle": "block/blackstone"
-    }
+  "parent": "block/cube_all",
+  "textures": {"all": "block/blackstone"}
 }

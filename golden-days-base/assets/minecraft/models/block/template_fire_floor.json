@@ -1,49 +1,59 @@
 {
-	"credit": "Made with Blockbench",
-	"ambientocclusion": false,
-	"textures": {
-		"particle": "#fire"
-	},
-	"elements": [
-		{
-			"from": [0, 0, 8.8],
-			"to": [16, 22.4, 8.8],
-			"shade": false,
-			"light_emission": 15,
-			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 8, 8], "rescale": true},
-			"faces": {
-				"south": {"uv": [0, 0, 16, 16], "texture": "#fire"}
-			}
-		},
-		{
-			"from": [0, 0, 7.2],
-			"to": [16, 22.4, 7.2],
-			"shade": false,
-			"light_emission": 15,
-			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 8, 8], "rescale": true},
-			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#fire"}
-			}
-		},
-		{
-			"from": [8.8, 0, 0],
-			"to": [8.8, 22.4, 16],
-			"shade": false,
-			"light_emission": 15,
-			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 8, 8], "rescale": true},
-			"faces": {
-				"west": {"uv": [0, 0, 16, 16], "texture": "#fire"}
-			}
-		},
-		{
-			"from": [7.2, 0, 0],
-			"to": [7.2, 22.4, 16],
-			"shade": false,
-			"light_emission": 15,
-			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 8, 8], "rescale": true},
-			"faces": {
-				"east": {"uv": [0, 0, 16, 16], "texture": "#fire"}
-			}
-		}
-	]
+  "credit": "Made with Blockbench",
+  "ambientocclusion": false,
+  "textures": {"particle": "#fire"},
+  "elements": [
+    {
+      "from": [0, 0, 8.8],
+      "to": [16, 22.4, 8.8],
+      "shade": false,
+      "light_emission": 15,
+      "rotation": {
+        "angle": -22.5,
+        "axis": "x",
+        "origin": [8, 8, 8],
+        "rescale": true
+      },
+      "faces": {"south": {"uv": [0, 0, 16, 16], "texture": "#fire"}}
+    },
+    {
+      "from": [0, 0, 7.2],
+      "to": [16, 22.4, 7.2],
+      "shade": false,
+      "light_emission": 15,
+      "rotation": {
+        "angle": 22.5,
+        "axis": "x",
+        "origin": [8, 8, 8],
+        "rescale": true
+      },
+      "faces": {"north": {"uv": [0, 0, 16, 16], "texture": "#fire"}}
+    },
+    {
+      "from": [8.8, 0, 0],
+      "to": [8.8, 22.4, 16],
+      "shade": false,
+      "light_emission": 15,
+      "rotation": {
+        "angle": -22.5,
+        "axis": "z",
+        "origin": [8, 8, 8],
+        "rescale": true
+      },
+      "faces": {"west": {"uv": [0, 0, 16, 16], "texture": "#fire"}}
+    },
+    {
+      "from": [7.2, 0, 0],
+      "to": [7.2, 22.4, 16],
+      "shade": false,
+      "light_emission": 15,
+      "rotation": {
+        "angle": 22.5,
+        "axis": "z",
+        "origin": [8, 8, 8],
+        "rescale": true
+      },
+      "faces": {"east": {"uv": [0, 0, 16, 16], "texture": "#fire"}}
+    }
+  ]
 }

@@ -1,0 +1,4 @@
+{
+  "parent": "block/block",
+  "display": {"ground": {"translation": [0, 0, 0], "scale": [0.5, 0.5, 0.5]}}
+}
