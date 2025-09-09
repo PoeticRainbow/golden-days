@@ -4102,6 +4102,10 @@
       {"name": "music/game/water/shuniji", "stream": true, "volume": 0.4}
     ]
   },
+  "ui.hud.bubble_pop": {
+    "replace": "true",
+    "sounds": [{"name": "_common.silent", "type": "event"}]
+  },
   "weather.rain": {
     "replace": "true",
     "sounds": [
