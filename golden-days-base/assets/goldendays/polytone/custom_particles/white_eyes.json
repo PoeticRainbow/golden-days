@@ -1,0 +1,9 @@
+{
+  "render_type": "translucent",
+  "rotation_mode": {"y_rot": "atan2(PLAYER_X-X,PLAYER_Z-Z)"},
+  "random_sprite": true,
+  "kill_when_still": false,
+  "liquid_affinity": "non_liquids",
+  "initializer": {"lifetime": "20+rand()*60", "alpha": "0", "size": "1.25"},
+  "ticker": {"alpha": "sin(pi*(AGE/LIFETIME))*max(1-(abs(PLAYER_Y-Y)/8),0)"}
+}
