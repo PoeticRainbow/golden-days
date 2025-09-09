@@ -1,4 +1,14 @@
 {
+  "_common.amethyst.step": {
+    "replace": "true",
+    "sounds": [
+      "block/amethyst/place1",
+      "block/amethyst/place2",
+      "block/amethyst/place3",
+      "block/amethyst/place4"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
   "_common.button.click_off": {
     "replace": "true",
     "sounds": [{"name": "random/click", "pitch": 0.5, "volume": 0.3}]
@@ -209,18 +219,23 @@
   },
   "block.amethyst_block.fall": {
     "replace": "true",
-    "sounds": [{"name": "_common.glass.step", "type": "event"}],
+    "sounds": [{"name": "_common.amethyst.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.fall"
   },
   "block.amethyst_block.hit": {
     "replace": "true",
-    "sounds": [{"name": "_common.glass.step", "type": "event"}],
+    "sounds": [{"name": "_common.amethyst.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.hit"
   },
   "block.amethyst_block.place": {
     "replace": "true",
-    "sounds": [{"name": "_common.glass.step", "type": "event"}],
+    "sounds": [{"name": "_common.amethyst.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.place"
+  },
+  "block.amethyst_block.step": {
+    "replace": "true",
+    "sounds": [{"name": "_common.amethyst.step", "type": "event"}],
+    "subtitle": "subtitles.block.generic.footsteps"
   },
   "block.amethyst_cluster.break": {
     "replace": "true",
@@ -229,17 +244,17 @@
   },
   "block.amethyst_cluster.fall": {
     "replace": "true",
-    "sounds": [{"name": "_common.glass.step", "type": "event"}],
+    "sounds": [{"name": "_common.amethyst.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.fall"
   },
   "block.amethyst_cluster.hit": {
     "replace": "true",
-    "sounds": [{"name": "_common.glass.step", "type": "event"}],
+    "sounds": [{"name": "_common.amethyst.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.hit"
   },
   "block.amethyst_cluster.place": {
     "replace": "true",
-    "sounds": [{"name": "_common.glass.step", "type": "event"}],
+    "sounds": [{"name": "_common.amethyst.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.place"
   },
   "block.ancient_debris.break": {
@@ -995,22 +1010,22 @@
     "sounds": [{"name": "_common.door.open", "type": "event"}],
     "subtitle": "subtitles.block.chest.open"
   },
-  "block.copper_chest_weathered.close": {
-    "replace": "true",
-    "sounds": [{"name": "_common.door.close", "type": "event"}],
-    "subtitle": "subtitles.block.chest.close"
-  },
-  "block.copper_chest_weathered.open": {
-    "replace": "true",
-    "sounds": [{"name": "_common.door.open", "type": "event"}],
-    "subtitle": "subtitles.block.chest.open"
-  },
   "block.copper_chest_oxidized.close": {
     "replace": "true",
     "sounds": [{"name": "_common.door.close", "type": "event"}],
     "subtitle": "subtitles.block.chest.close"
   },
   "block.copper_chest_oxidized.open": {
+    "replace": "true",
+    "sounds": [{"name": "_common.door.open", "type": "event"}],
+    "subtitle": "subtitles.block.chest.open"
+  },
+  "block.copper_chest_weathered.close": {
+    "replace": "true",
+    "sounds": [{"name": "_common.door.close", "type": "event"}],
+    "subtitle": "subtitles.block.chest.close"
+  },
+  "block.copper_chest_weathered.open": {
     "replace": "true",
     "sounds": [{"name": "_common.door.open", "type": "event"}],
     "subtitle": "subtitles.block.chest.open"
@@ -1771,7 +1786,7 @@
   },
   "block.large_amethyst_bud.place": {
     "replace": "true",
-    "sounds": [{"name": "_common.glass.step", "type": "event"}],
+    "sounds": [{"name": "_common.amethyst.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.place"
   },
   "block.lava.ambient": {
@@ -1873,7 +1888,7 @@
   },
   "block.medium_amethyst_bud.place": {
     "replace": "true",
-    "sounds": [{"name": "_common.glass.step", "type": "event"}],
+    "sounds": [{"name": "_common.amethyst.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.place"
   },
   "block.metal.break": {
@@ -2776,7 +2791,7 @@
   },
   "block.small_amethyst_bud.place": {
     "replace": "true",
-    "sounds": [{"name": "_common.glass.step", "type": "event"}],
+    "sounds": [{"name": "_common.amethyst.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.place"
   },
   "block.small_dripleaf.break": {
