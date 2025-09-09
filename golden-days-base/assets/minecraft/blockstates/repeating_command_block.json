@@ -1,7 +1,3 @@
 {
-    "variants": {
-        "": [
-            { "model": "block/repeating_command_block" }
-        ]
-    }
+  "variants": {"": [{"model": "block/repeating_command_block"}]}
 }
