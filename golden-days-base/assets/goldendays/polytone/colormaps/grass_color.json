@@ -1,0 +1,6 @@
+{
+  "__comment__": "unused",
+  "x_axis": "TEMPERATURE+(noise_goldendays_roughen(POS_X, POS_Z)-0.5)*0.2",
+  "y_axis": "DOWNFALL+(noise_goldendays_roughen(POS_X, POS_Z)-0.5)*0.2",
+  "triangular": true
+}

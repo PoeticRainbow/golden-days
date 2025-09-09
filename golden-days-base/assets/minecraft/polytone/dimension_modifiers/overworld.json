@@ -1,5 +1,5 @@
 {
-  "sky_colormap": "minecraft:sky_color",
-  "fog_colormap": "minecraft:fog_color",
+  "sky_colormap": "goldendays:sky_color",
+  "fog_colormap": "goldendays:fog_color",
   "cloud_level": 108
 }

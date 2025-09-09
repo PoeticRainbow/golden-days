@@ -1,0 +1,10 @@
+{
+  "targets": [{"id": "minecraft:pale_garden", "required": false}],
+  "grass_color": "#aaaaaa",
+  "fog_radius": "1-(RENDER_DISTANCE/(RENDER_DISTANCE+2))",
+  "fog_fade": 8,
+  "particle": {
+    "options": {"type": "goldendays:white_eyes"},
+    "probability": 0.00005
+  }
+}

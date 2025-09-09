@@ -1,0 +1,5 @@
+{
+  "x_axis": "TEMPERATURE+(noise_goldendays_roughen(PLAYER_X, PLAYER_Z)-0.5)*0.2",
+  "y_axis": "DOWNFALL+(noise_goldendays_roughen(PLAYER_X, PLAYER_Z)-0.5)*0.2",
+  "triangular": false
+}
