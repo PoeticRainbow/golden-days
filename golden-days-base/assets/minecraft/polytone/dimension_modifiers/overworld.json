@@ -1,3 +1,6 @@
 {
+  "sky_colormap": "minecraft:sky_color",
+  "fog_colormap": "minecraft:fog_color",
+  "sunset_colormap": "minecraft:sunset_color",
   "cloud_level": 108
 }
