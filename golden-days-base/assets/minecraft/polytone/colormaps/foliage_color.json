@@ -1,0 +1,6 @@
+{
+  "__comment__": "unused",
+  "x_axis": "TEMPERATURE+(noise_roughen_colormap(POS_X, POS_Z)-0.5)*0.2",
+  "y_axis": "DOWNFALL+(noise_roughen_colormap(POS_X, POS_Z)-0.5)*0.2",
+  "triangular": true
+}
