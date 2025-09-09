@@ -1,5 +1,5 @@
 {
-  "targets": ["#c:is_nether"],
+  "targets": [{"id": "#c:is_nether", "required": false}],
   "fog_radius": 3,
   "fog_fade": 1
 }
