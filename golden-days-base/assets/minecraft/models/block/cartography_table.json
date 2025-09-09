@@ -1,9 +1,12 @@
 {
-  "parent": "block/template_table",
+  "parent": "block/cube",
   "textures": {
-    "top": "block/cartography_table_top",
-    "front": "block/cartography_table_north",
-    "side": "block/cartography_table_side",
-    "bottom": "block/oak_planks"
+    "up": "block/cartography_table_top",
+    "down": "block/oak_planks",
+    "north": "block/cartography_table_north",
+    "east": "block/cartography_table_side",
+    "south": "block/cartography_table_south",
+    "west": "block/cartography_table_side",
+    "particle": "#north"
   }
 }
