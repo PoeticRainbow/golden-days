@@ -1,4 +1,4 @@
 {
-  "parent": "block/dragon_egg",
+  "parent": "block/template_egg",
   "textures": {"all": "block/sniffer_egg"}
 }
