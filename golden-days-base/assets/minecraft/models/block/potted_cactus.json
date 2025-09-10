@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "#flowerpot",
+    "flowerpot": "block/flower_pot",
+    "cactus_top": "block/cactus_top",
+    "cactus": "block/cactus_side"
+  },
+  "elements": [
+    {
+      "from": [5, 0, 5],
+      "to": [11, 6, 11],
+      "faces": {
+        "north": {"uv": [5, 10, 11, 16], "texture": "#flowerpot"},
+        "east": {"uv": [5, 10, 11, 16], "texture": "#flowerpot"},
+        "south": {"uv": [5, 10, 11, 16], "texture": "#flowerpot"},
+        "west": {"uv": [5, 10, 11, 16], "texture": "#flowerpot"},
+        "up": {"uv": [5, 5, 11, 11], "texture": "#flowerpot"},
+        "down": {
+          "uv": [5, 10, 11, 16],
+          "texture": "#flowerpot",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [6, 5, 6],
+      "to": [10, 16, 10],
+      "faces": {
+        "north": {"uv": [6, 0, 10, 11], "texture": "#cactus"},
+        "east": {"uv": [6, 0, 10, 11], "texture": "#cactus"},
+        "south": {"uv": [6, 0, 10, 11], "texture": "#cactus"},
+        "west": {"uv": [6, 0, 10, 11], "texture": "#cactus"},
+        "up": {
+          "uv": [6, 6, 10, 10],
+          "texture": "#cactus_top",
+          "cullface": "up"
+        }
+      }
+    }
+  ]
+}
