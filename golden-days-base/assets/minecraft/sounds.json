@@ -493,7 +493,7 @@
       {"name": "_common.door.close", "type": "event"},
       {"name": "_common.door.open", "type": "event"}
     ],
-    "subtitle": "subtitles.block.trapdoor.toggle"
+    "subtitle": "subtitles.block.trapdoor.close"
   },
   "block.bamboo_wood_trapdoor.open": {
     "replace": "true",
@@ -501,7 +501,7 @@
       {"name": "_common.door.close", "type": "event"},
       {"name": "_common.door.open", "type": "event"}
     ],
-    "subtitle": "subtitles.block.trapdoor.toggle"
+    "subtitle": "subtitles.block.trapdoor.open"
   },
   "block.barrel.close": {
     "replace": "true",
@@ -860,7 +860,7 @@
       {"name": "_common.door.close", "type": "event"},
       {"name": "_common.door.open", "type": "event"}
     ],
-    "subtitle": "subtitles.block.trapdoor.toggle"
+    "subtitle": "subtitles.block.trapdoor.close"
   },
   "block.cherry_wood_trapdoor.open": {
     "replace": "true",
@@ -868,7 +868,7 @@
       {"name": "_common.door.close", "type": "event"},
       {"name": "_common.door.open", "type": "event"}
     ],
-    "subtitle": "subtitles.block.trapdoor.toggle"
+    "subtitle": "subtitles.block.trapdoor.open"
   },
   "block.chest.close": {
     "replace": "true",
@@ -1719,7 +1719,7 @@
       {"name": "_common.door.close", "type": "event"},
       {"name": "_common.door.open", "type": "event"}
     ],
-    "subtitle": "subtitles.block.iron_trapdoor.close"
+    "subtitle": "subtitles.block.trapdoor.close"
   },
   "block.iron_trapdoor.open": {
     "replace": "true",
@@ -1727,7 +1727,7 @@
       {"name": "_common.door.close", "type": "event"},
       {"name": "_common.door.open", "type": "event"}
     ],
-    "subtitle": "subtitles.block.iron_trapdoor.open"
+    "subtitle": "subtitles.block.trapdoor.open"
   },
   "block.ladder.break": {
     "replace": "true",
@@ -2255,7 +2255,7 @@
       {"name": "_common.door.close", "type": "event"},
       {"name": "_common.door.open", "type": "event"}
     ],
-    "subtitle": "subtitles.block.trapdoor.toggle"
+    "subtitle": "subtitles.block.trapdoor.close"
   },
   "block.nether_wood_trapdoor.open": {
     "replace": "true",
@@ -2263,7 +2263,7 @@
       {"name": "_common.door.close", "type": "event"},
       {"name": "_common.door.open", "type": "event"}
     ],
-    "subtitle": "subtitles.block.trapdoor.toggle"
+    "subtitle": "subtitles.block.trapdoor.open"
   },
   "block.netherite_block.break": {
     "replace": "true",
@@ -3412,7 +3412,7 @@
       {"name": "_common.door.close", "type": "event"},
       {"name": "_common.door.open", "type": "event"}
     ],
-    "subtitle": "subtitles.block.trapdoor.toggle"
+    "subtitle": "subtitles.block.trapdoor.close"
   },
   "block.wooden_trapdoor.open": {
     "replace": "true",
@@ -3420,7 +3420,7 @@
       {"name": "_common.door.close", "type": "event"},
       {"name": "_common.door.open", "type": "event"}
     ],
-    "subtitle": "subtitles.block.trapdoor.toggle"
+    "subtitle": "subtitles.block.trapdoor.open"
   },
   "block.wool.break": {
     "replace": "true",
