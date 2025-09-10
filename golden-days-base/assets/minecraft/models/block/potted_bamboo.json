@@ -1,6 +1,4 @@
 {
   "parent": "minecraft:block/flower_pot_cross",
-  "textures": {
-    "plant": "minecraft:block/bamboo"
-  }
+  "textures": {"plant": "minecraft:block/bamboo"}
 }

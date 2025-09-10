@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/block",
+  "parent": "block/block",
   "textures": {
     "particle": "#flowerpot",
     "flowerpot": "block/flower_pot",
@@ -20,36 +20,6 @@
           "texture": "#flowerpot",
           "cullface": "down"
         }
-      }
-    },
-    {
-      "from": [2.6, 4, 8],
-      "to": [13.4, 16, 8],
-      "shade": false,
-      "rotation": {
-        "angle": 45,
-        "axis": "y",
-        "origin": [8, 8, 8],
-        "rescale": true
-      },
-      "faces": {
-        "north": {"uv": [0, 0, 16, 16], "texture": "#plant"},
-        "south": {"uv": [0, 0, 16, 16], "texture": "#plant"}
-      }
-    },
-    {
-      "from": [8, 4, 2.6],
-      "to": [8, 16, 13.4],
-      "shade": false,
-      "rotation": {
-        "angle": 45,
-        "axis": "y",
-        "origin": [8, 8, 8],
-        "rescale": true
-      },
-      "faces": {
-        "east": {"uv": [0, 0, 16, 16], "texture": "#plant"},
-        "west": {"uv": [0, 0, 16, 16], "texture": "#plant"}
       }
     },
     {
