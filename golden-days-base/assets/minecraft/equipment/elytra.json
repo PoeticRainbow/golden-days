@@ -1,0 +1,11 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "dyeable": {"color_when_undyed": -1},
+        "texture": "minecraft:elytra",
+        "use_player_texture": true
+      }
+    ]
+  }
+}
