@@ -1309,42 +1309,6 @@
     "sounds": [{"name": "block.chest.open", "type": "event"}],
     "subtitle": "subtitles.block.chest.open"
   },
-  "block.eyeblossom.close": {
-    "replace": "true",
-    "sounds": [
-      {"name": "_common.door.close", "type": "event"},
-      {"name": "_common.door.open", "type": "event"}
-    ],
-    "subtitle": "subtitles.block.eyeblossom.close"
-  },
-  "block.eyeblossom.close_long": {
-    "replace": "true",
-    "sounds": [
-      {"name": "_common.door.close", "type": "event"},
-      {"name": "_common.door.open", "type": "event"}
-    ],
-    "subtitle": "subtitles.block.eyeblossom.close"
-  },
-  "block.eyeblossom.idle": {
-    "replace": "true",
-    "sounds": [{"name": "_common.silent", "type": "event"}]
-  },
-  "block.eyeblossom.open": {
-    "replace": "true",
-    "sounds": [
-      {"name": "_common.door.close", "type": "event"},
-      {"name": "_common.door.open", "type": "event"}
-    ],
-    "subtitle": "subtitles.block.eyeblossom.open"
-  },
-  "block.eyeblossom.open_long": {
-    "replace": "true",
-    "sounds": [
-      {"name": "_common.door.close", "type": "event"},
-      {"name": "_common.door.open", "type": "event"}
-    ],
-    "subtitle": "subtitles.block.eyeblossom.open"
-  },
   "block.fence_gate.close": {
     "replace": "true",
     "sounds": [
