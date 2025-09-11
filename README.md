@@ -43,23 +43,19 @@ This is an overlay pack that is meant to go overtop of other resource packs in o
 
 ---
 ## Mod Support
-This pack supports some modded features:
-- Custom Colors (optional)
-- Custom Entity Models (optional)
-
-If you use OptiFine, those will be included. However, if you use other mods; I have a list of mods that add those features AND more!
-
-Performance:
-- [Sodium](https://modrinth.com/mod/sodium): A performance mod that increases performance dramatically.
-- [Indium](https://modrinth.com/mod/indium): A mod that adds FRAPI support to Sodium.
-- [Lithium](https://modrinth.com/mod/lithium), and [Starlight](https://modrinth.com/mod/starlight): Performance mods to keep your game running smooth.
+This pack has extended capabilities using some modded features:
+- Custom Colors (dyed sheep, text colors, potion colors...)
+- Custom Entity Models (boats, Zombie Pigmen, Allays, Bats...)
 
 Features:
-- [Nostalgic Tweaks](https://modrinth.com/mod/nostalgic-tweaks): A mod for Fabric/Forge that adds a whole ton of old Minecraft tweaks! It is really cool!
-- [Entity Model Features](https://modrinth.com/mod/entity-model-features): This mod implements OptiFine CEM! (Does not support boats or chests)
-- [Enhanced Block Entities](https://modrinth.com/mod/ebe): Allows block entities to use JSON block models, gives full-block chest models with Golden Days
-- [Modern Beta](https://www.curseforge.com/minecraft/mc-mods/modern-beta): Adds accurate beta and alpha generation back into Minecraft!
-- [Colormatic](https://modrinth.com/mod/colormatic) (Adds Custom Colors support): Optional if you want a fixed water color, tweaked sky colors, and lightmap colors.
+- [**Entity Model Features**](https://modrinth.com/mod/entity-model-features): Gives Golden Days the ability to modify entity models.
+- [**PolyTone**](https://modrinth.com/mod/polytone): Adds many resource pack capabilities. Custom Colors, block properties, etc.
+- [Enhanced Block Entities](https://modrinth.com/mod/ebe) (<1.21.4): Allows block entities to use JSON block models, gives full-block chest models with Golden Days.
+- [Colormatic](https://modrinth.com/mod/colormatic) (outdated, replaced by PolyTone): Adds OptiFine Custom Colors support.
+
+Pairs Well:
+- [**Nostalgic Tweaks**](https://modrinth.com/mod/nostalgic-tweaks): A mod for Fabric/Forge that adds a whole ton of old Minecraft tweaks! It is really cool!
+- [Modern Beta](https://modrinth.com/mod/moderner-beta): Adds accurate beta and alpha generation back into Minecraft!
 
 Please, please, please tell me when/if you use my resource pack in a video! Not because I'm a control freak, but instead because I would love to see you using it! <3
 
