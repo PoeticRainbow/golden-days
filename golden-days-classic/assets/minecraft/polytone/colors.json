@@ -1,0 +1,20 @@
+{
+  "dye": {
+    "white": {"diffuse": "ffffff", "text": "ffffff", "firework": "ffffff"},
+    "light_gray": {"diffuse": "a6a6a6", "text": "a6a6a6", "firework": "a6a6a6"},
+    "gray": {"diffuse": "5e5e5e", "text": "5e5e5e", "firework": "5e5e5e"},
+    "black": {"diffuse": "c754fe", "text": "c754fe", "firework": "c754fe"},
+    "brown": {"diffuse": "39fe9b", "text": "39fe9b", "firework": "39fe9b"},
+    "red": {"diffuse": "fe3939", "text": "fe3939", "firework": "fe3939"},
+    "orange": {"diffuse": "fe9b39", "text": "fe9b39", "firework": "fe9b39"},
+    "yellow": {"diffuse": "fefe39", "text": "fefe39", "firework": "fefe39"},
+    "lime": {"diffuse": "9bfe39", "text": "9bfe39", "firework": "9bfe39"},
+    "green": {"diffuse": "36f036", "text": "36f036", "firework": "36f036"},
+    "cyan": {"diffuse": "39fefe", "text": "39fefe", "firework": "39fefe"},
+    "light_blue": {"diffuse": "78bbff", "text": "78bbff", "firework": "78bbff"},
+    "blue": {"diffuse": "8a8afe", "text": "8a8afe", "firework": "8a8afe"},
+    "purple": {"diffuse": "9c3aff", "text": "9c3aff", "firework": "9c3aff"},
+    "magenta": {"diffuse": "fe399b", "text": "fe399b", "firework": "fe399b"},
+    "pink": {"diffuse": "ff3aff", "text": "ff3aff", "firework": "ff3aff"}
+  }
+}
