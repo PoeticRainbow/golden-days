@@ -1,0 +1,4 @@
+{
+  "targets": [{"id": "#minecraft:candles", "required": false}],
+  "render_type": "cutout"
+}

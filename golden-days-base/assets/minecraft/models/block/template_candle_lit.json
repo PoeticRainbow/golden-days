@@ -7,6 +7,7 @@
       "from": [7, 0, 7],
       "to": [9, 7, 9],
       "shade": false,
+      "light_emission": 15,
       "rotation": {"angle": 0, "axis": "y", "origin": [7, 6, 7]},
       "faces": {
         "north": {"uv": [7, 8, 9, 15], "texture": "#all"},
