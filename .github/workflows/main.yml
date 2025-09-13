@@ -10,25 +10,25 @@ jobs:
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: golden-days-base-latest-${{github.run_number}}
+          name: golden-days-base-latest-dev
           path: golden-days-base/*
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: golden-days-alpha-latest-${{github.run_number}}
+          name: golden-days-alpha-latest-dev
           path: golden-days-alpha/*
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: golden-days-shaders-latest-${{github.run_number}}
+          name: golden-days-shaders-latest-dev
           path: golden-days-shaders/*
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: golden-days-classic-latest-${{github.run_number}}
+          name: golden-days-classic-latest-dev
           path: golden-days-classic/*
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: golden-days-better-foliage-latest-${{github.run_number}}
+          name: golden-days-better-foliage-latest-dev
           path: golden-days-better-foliage/*
