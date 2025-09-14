@@ -3493,6 +3493,15 @@
     "replace": "true",
     "sounds": [{"name": "_common.silent", "type": "event"}]
   },
+  "entity.fishing_bobber.retrieve": {
+    "replace": "true",
+    "sounds": [{"name": "_common.silent", "type": "event"}]
+  },
+  "entity.fishing_bobber.throw": {
+    "replace": "true",
+    "sounds": ["random/bow"],
+    "subtitle": "subtitles.entity.fishing_bobber.throw"
+  },
   "entity.generic.swim": {
     "replace": "true",
     "sounds": [{"name": "_common.silent", "type": "event"}]
