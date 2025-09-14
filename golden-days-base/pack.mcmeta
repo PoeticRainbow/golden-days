@@ -1,14 +1,14 @@
 {
   "pack": {
     "description": "§6Golden Days §8- §2Base §7(Beta)\n§8by PoeticRainbow",
-    "pack_format": 16,
-    "supported_formats": [16, 420],
-    "min_format": 16,
+    "pack_format": 15,
+    "supported_formats": [15, 420],
+    "min_format": 15,
     "max_format": 420
   },
   "overlays": {
     "entries": [
-      {"directory": "lightmaps", "formats": [16, 35]},
+      {"directory": "lightmaps", "formats": [15, 35]},
       {
         "directory": "bat_update",
         "formats": [20, 420],
