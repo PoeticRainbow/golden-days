@@ -6,8 +6,7 @@
         "type": "minecraft:special",
         "base": "minecraft:item/player_head",
         "model": {
-          "type": "minecraft:head",
-          "kind": "player"
+          "type": "minecraft:player_head"
         }
       },
       {
