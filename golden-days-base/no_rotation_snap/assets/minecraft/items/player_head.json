@@ -11,7 +11,7 @@
             {
               "type": "minecraft:special",
               "base": "minecraft:item/player_head",
-              "model": {"type": "minecraft:head", "kind": "player"}
+              "model": {"type": "minecraft:player_head"}
             },
             {
               "type": "minecraft:model",
@@ -24,7 +24,7 @@
     "fallback": {
       "type": "minecraft:special",
       "base": "minecraft:item/template_skull",
-      "model": {"type": "minecraft:head", "kind": "player"}
+      "model": {"type": "minecraft:player_head"}
     }
   }
 }
