@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "gui",
+          "on_shelf"
+        ],
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:special",
+              "base": "minecraft:item/player_head",
+              "model": {"type": "minecraft:player_head"}
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/player_head_background"
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:special",
+      "base": "minecraft:item/template_skull",
+      "model": {"type": "minecraft:player_head"}
+    }
+  }
+}
