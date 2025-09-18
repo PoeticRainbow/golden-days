@@ -18,6 +18,11 @@
       "rotation": [0, 180, 0],
       "translation": [0.01, 4.01, 0.001],
       "scale": [1, 1, 0.127]
+    },
+    "on_shelf": {
+      "rotation": [0, 0, 0],
+      "translation": [-0.01, 4.01, 0.001],
+      "scale": [1, 1, 0.127]
     }
   }
 }
