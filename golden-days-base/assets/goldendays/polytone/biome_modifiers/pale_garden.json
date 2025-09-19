@@ -1,6 +1,6 @@
 {
   "targets": [{"id": "minecraft:pale_garden", "required": false}],
-  "grass_color": "#aaaaaa",
+  "grass_color": 11184810,
   "fog_radius": "1-(RENDER_DISTANCE/(RENDER_DISTANCE+2))",
   "fog_fade": 8,
   "particle": {
