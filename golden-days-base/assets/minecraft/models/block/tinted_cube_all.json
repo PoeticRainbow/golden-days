@@ -1,0 +1,11 @@
+{
+  "parent": "block/tinted_cube",
+  "textures": {
+    "up": "#all",
+    "north": "#all",
+    "east": "#all",
+    "south": "#all",
+    "west": "#all",
+    "down": "#all"
+  }
+}
