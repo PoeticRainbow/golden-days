@@ -1,0 +1,24 @@
+{
+  "gui_light": "front",
+  "parent": "item/generated",
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [0, 90, -35],
+      "translation": [0, 2, 0],
+      "scale": [0.75, 0.75, 0.75]
+    },
+    "firstperson_lefthand": {
+      "rotation": [0, -90, 35],
+      "translation": [0, 2, 0],
+      "scale": [0.75, 0.75, 0.75]
+    },
+    "thirdperson_righthand": {
+      "rotation": [5, 270, -40],
+      "translation": [0, -1, 2]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [5, -270, 40],
+      "translation": [0, -1, 2]
+    }
+  }
+}
