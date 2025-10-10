@@ -2,8 +2,8 @@
   "parent": "block/block",
   "textures": {
     "top": "block/composter_top",
-    "side": "block/oak_planks",
-    "particle": "block/composter_compost"
+    "side": "block/composter_side",
+    "particle": "#side"
   },
   "elements": [
     {
