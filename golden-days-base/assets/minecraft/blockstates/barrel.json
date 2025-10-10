@@ -1,64 +1,20 @@
 {
   "variants": {
-    "facing=down,open=false": {
-      "model": "minecraft:block/barrel",
-      "x": 180
-    },
-    "facing=down,open=true": {
-      "model": "minecraft:block/barrel_open",
-      "x": 180
-    },
-    "facing=east,open=false": {
-      "model": "minecraft:block/barrel",
-      "uvlock": true,
-      "x": 90,
-      "y": 90
-    },
+    "facing=down,open=false": {"model": "block/barrel", "x": 180},
+    "facing=down,open=true": {"model": "block/barrel_open", "x": 180},
+    "facing=east,open=false": {"model": "block/barrel_side", "y": 90},
     "facing=east,open=true": {
-      "model": "minecraft:block/barrel_open",
-      "uvlock": true,
+      "model": "block/barrel_side_open",
       "x": 90,
       "y": 90
     },
-    "facing=north,open=false": {
-      "model": "minecraft:block/barrel",
-      "uvlock": true,
-      "x": 90
-    },
-    "facing=north,open=true": {
-      "model": "minecraft:block/barrel_open",
-      "uvlock": true,
-      "x": 90
-    },
-    "facing=south,open=false": {
-      "model": "minecraft:block/barrel",
-      "uvlock": true,
-      "x": 90,
-      "y": 180
-    },
-    "facing=south,open=true": {
-      "model": "minecraft:block/barrel_open",
-      "uvlock": true,
-      "x": 90,
-      "y": 180
-    },
-    "facing=up,open=false": {
-      "model": "minecraft:block/barrel"
-    },
-    "facing=up,open=true": {
-      "model": "minecraft:block/barrel_open"
-    },
-    "facing=west,open=false": {
-      "model": "minecraft:block/barrel",
-      "uvlock": true,
-      "x": 90,
-      "y": 270
-    },
-    "facing=west,open=true": {
-      "model": "minecraft:block/barrel_open",
-      "uvlock": true,
-      "x": 90,
-      "y": 270
-    }
+    "facing=north,open=false": {"model": "block/barrel_side"},
+    "facing=north,open=true": {"model": "block/barrel_side_open"},
+    "facing=south,open=false": {"model": "block/barrel_side", "y": 180},
+    "facing=south,open=true": {"model": "block/barrel_side_open", "y": 180},
+    "facing=up,open=false": {"model": "block/barrel"},
+    "facing=up,open=true": {"model": "block/barrel_open"},
+    "facing=west,open=false": {"model": "block/barrel_side", "y": 270},
+    "facing=west,open=true": {"model": "block/barrel_side_open", "y": 270}
   }
 }
