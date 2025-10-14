@@ -3,11 +3,7 @@
     "facing=down,open=false": {"model": "block/barrel", "x": 180},
     "facing=down,open=true": {"model": "block/barrel_open", "x": 180},
     "facing=east,open=false": {"model": "block/barrel_side", "y": 90},
-    "facing=east,open=true": {
-      "model": "block/barrel_side_open",
-      "x": 90,
-      "y": 90
-    },
+    "facing=east,open=true": {"model": "block/barrel_side_open", "y": 90},
     "facing=north,open=false": {"model": "block/barrel_side"},
     "facing=north,open=true": {"model": "block/barrel_side_open"},
     "facing=south,open=false": {"model": "block/barrel_side", "y": 180},
