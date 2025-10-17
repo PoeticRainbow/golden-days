@@ -1,4 +1,4 @@
 {
   "parent": "minecraft:item/template_trapdoor_item_beta_uv",
-  "textures": {"texture": "minecraft:block/dark_oak_trapdoor"}
+  "textures": {"texture": "minecraft:block/pale_oak_trapdoor"}
 }
