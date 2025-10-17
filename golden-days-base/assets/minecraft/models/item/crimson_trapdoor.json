@@ -1,6 +1,4 @@
 {
-  "parent": "minecraft:item/template_trapdoor_item",
-  "textures": {
-    "texture": "minecraft:block/crimson_trapdoor"
-  }
+  "parent": "minecraft:item/template_trapdoor_item_beta_uv",
+  "textures": {"texture": "minecraft:block/crimson_trapdoor"}
 }

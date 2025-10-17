@@ -1,6 +1,4 @@
 {
   "parent": "minecraft:item/template_trapdoor_item",
-  "textures": {
-    "texture": "minecraft:block/jungle_trapdoor"
-  }
+  "textures": {"texture": "minecraft:block/jungle_trapdoor"}
 }
