@@ -1,0 +1,4 @@
+{
+  "parent": "item/template_stairs",
+  "textures": {"all": "block/cut_copper"}
+}

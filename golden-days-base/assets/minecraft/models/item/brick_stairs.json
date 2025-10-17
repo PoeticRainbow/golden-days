@@ -1,0 +1,6 @@
+{
+  "parent": "item/template_stairs",
+  "textures": {
+    "all": "block/bricks"
+  }
+}

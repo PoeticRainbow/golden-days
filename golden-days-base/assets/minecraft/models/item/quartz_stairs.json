@@ -1,0 +1,4 @@
+{
+  "parent": "item/template_stairs",
+  "textures": {"all": "block/quartz_block_side"}
+}
