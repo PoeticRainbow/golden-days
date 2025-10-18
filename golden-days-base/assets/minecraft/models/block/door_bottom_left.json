@@ -24,7 +24,7 @@
           "cullface": "west"
         },
         "up": {"uv": [0, 0, 3, 16], "texture": "#bottom"},
-        "down": {"uv": [0, 0, 3, 16], "texture": "#bottom"}
+        "down": {"uv": [0, 16, 3, 0], "texture": "#bottom", "cullface": "down"}
       }
     }
   ]
