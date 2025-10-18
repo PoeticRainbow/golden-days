@@ -6,13 +6,39 @@
     "cases": [
       {
         "when": "Netherite Battleaxe",
-        "model": {"type": "minecraft:model", "model": "item/netherite_battleaxe"}
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/netherite_battleaxe"
+        }
       },
       {
         "when": "Netherite Battle Axe",
-        "model": {"type": "minecraft:model", "model": "item/netherite_battleaxe"}
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/netherite_battleaxe"
+        }
       }
     ],
-    "fallback": {"type": "minecraft:model", "model": "item/netherite_axe"}
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:enchantments",
+      "cases": [
+        {
+          "when": [
+            {"minecraft:sharpness": 5},
+            {"minecraft:sharpness": 4},
+            {"minecraft:sharpness": 3},
+            {"minecraft:sharpness": 2},
+            {"minecraft:sharpness": 1}
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/netherite_battleaxe"
+          }
+        }
+      ],
+      "fallback": {"type": "minecraft:model", "model": "item/netherite_axe"}
+    }
   }
 }
