@@ -1,0 +1,30 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "",
+        "model": {"type": "minecraft:model", "model": "item/piston_head"}
+      },
+      {
+        "when": "Unnamed",
+        "model": {"type": "minecraft:model", "model": "item/piston_head"}
+      },
+      {
+        "when": "Piston Head",
+        "model": {"type": "minecraft:model", "model": "item/piston_head"}
+      },
+      {
+        "when": "Block 36",
+        "model": {"type": "minecraft:model", "model": "item/moving_piston"}
+      },
+      {
+        "when": "Moving Piston",
+        "model": {"type": "minecraft:model", "model": "item/moving_piston"}
+      }
+    ],
+    "fallback": {"type": "minecraft:model", "model": "block/piston_inventory"}
+  }
+}

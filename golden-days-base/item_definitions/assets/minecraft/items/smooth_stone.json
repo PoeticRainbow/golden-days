@@ -1,0 +1,31 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "",
+        "model": {
+          "type": "minecraft:model",
+          "model": "block/smooth_stone_slab_double"
+        }
+      },
+      {
+        "when": "Unnamed",
+        "model": {
+          "type": "minecraft:model",
+          "model": "block/smooth_stone_slab_double"
+        }
+      },
+      {
+        "when": "Double Stone Slab",
+        "model": {
+          "type": "minecraft:model",
+          "model": "block/smooth_stone_slab_double"
+        }
+      }
+    ],
+    "fallback": {"type": "minecraft:model", "model": "block/smooth_stone"}
+  }
+}

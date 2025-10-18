@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Lava",
+        "model": {"type": "minecraft:model", "model": "item/lava"}
+      }
+    ],
+    "fallback": {"type": "minecraft:model", "model": "item/lava_bucket"}
+  }
+}

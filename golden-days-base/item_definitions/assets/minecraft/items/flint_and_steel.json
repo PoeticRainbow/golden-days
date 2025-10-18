@@ -1,0 +1,18 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Fire",
+        "model": {"type": "minecraft:model", "model": "item/fire"}
+      },
+      {
+        "when": "Portal",
+        "model": {"type": "minecraft:model", "model": "item/nether_portal"}
+      }
+    ],
+    "fallback": {"type": "minecraft:model", "model": "item/flint_and_steel"}
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "parent": "item/fluid_item",
+  "textures": {"fluid": "block/lava_flow"}
+}

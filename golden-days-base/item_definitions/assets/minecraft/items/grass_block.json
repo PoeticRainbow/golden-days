@@ -1,3 +1,17 @@
 {
-  "model": {"type": "minecraft:model", "model": "minecraft:item/grass_block"}
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Grass",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/grass_block_glitch"
+        }
+      }
+    ],
+    "fallback": {"type": "minecraft:model", "model": "item/grass_block"}
+  }
 }
