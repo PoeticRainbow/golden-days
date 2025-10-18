@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Cake",
+        "model": {"type": "minecraft:model", "model": "block/cake"}
+      }
+    ],
+    "fallback": {"type": "minecraft:model", "model": "item/cake"}
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Water",
+        "model": {"type": "minecraft:model", "model": "item/water"}
+      }
+    ],
+    "fallback": {"type": "minecraft:model", "model": "item/water_bucket"}
+  }
+}

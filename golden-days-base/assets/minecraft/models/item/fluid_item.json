@@ -1,0 +1,18 @@
+{
+  "parent": "item/generated",
+  "textures": {"layer0": "#fluid", "particle": "#fluid"},
+  "elements": [
+    {
+      "from": [0, 0, 7.5],
+      "to": [16, 16, 8.5],
+      "faces": {
+        "north": {"uv": [4, 4, 12, 12], "texture": "#fluid"},
+        "east": {"uv": [4, 4, 4.5, 12], "texture": "#fluid"},
+        "south": {"uv": [12, 4, 4, 12], "texture": "#fluid"},
+        "west": {"uv": [11.5, 4, 12, 12], "texture": "#fluid"},
+        "up": {"uv": [4, 4, 12, 4.5], "texture": "#fluid"},
+        "down": {"uv": [4, 11.5, 12, 12], "texture": "#fluid"}
+      }
+    }
+  ]
+}
