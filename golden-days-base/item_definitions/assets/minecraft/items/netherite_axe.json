@@ -1,0 +1,18 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Netherite Battleaxe",
+        "model": {"type": "minecraft:model", "model": "item/netherite_battleaxe"}
+      },
+      {
+        "when": "Netherite Battle Axe",
+        "model": {"type": "minecraft:model", "model": "item/netherite_battleaxe"}
+      }
+    ],
+    "fallback": {"type": "minecraft:model", "model": "item/netherite_axe"}
+  }
+}

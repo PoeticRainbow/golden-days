@@ -1,0 +1,18 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Copper Battleaxe",
+        "model": {"type": "minecraft:model", "model": "item/copper_battleaxe"}
+      },
+      {
+        "when": "Copper Battle Axe",
+        "model": {"type": "minecraft:model", "model": "item/copper_battleaxe"}
+      }
+    ],
+    "fallback": {"type": "minecraft:model", "model": "item/copper_axe"}
+  }
+}
