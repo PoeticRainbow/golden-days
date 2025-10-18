@@ -1,5 +1,5 @@
 {
-  "parent": "block/block",
+  "parent": "block/orientable",
   "textures": {
     "top": "block/stonecutter_top",
     "bottom": "block/furnace_top",

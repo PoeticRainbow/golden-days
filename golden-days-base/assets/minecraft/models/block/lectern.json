@@ -1,5 +1,5 @@
 {
-  "parent": "block/block",
+  "parent": "block/orientable",
   "textures": {
     "log": "block/oak_log",
     "planks": "block/oak_planks",

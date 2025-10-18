@@ -1,5 +1,5 @@
 {
-  "parent": "block/block",
+  "parent": "block/orientable",
   "textures": {
     "bottom": "block/smooth_stone",
     "top": "block/crafter_top",
