@@ -1,0 +1,18 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Diamond Battleaxe",
+        "model": {"type": "minecraft:model", "model": "item/diamond_battleaxe"}
+      },
+      {
+        "when": "Diamond Battle Axe",
+        "model": {"type": "minecraft:model", "model": "item/diamond_battleaxe"}
+      }
+    ],
+    "fallback": {"type": "minecraft:model", "model": "item/diamond_axe"}
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Golden Battleaxe",
+        "model": {"type": "minecraft:model", "model": "item/golden_battleaxe"}
+      },
+      {
+        "when": "Golden Battle Axe",
+        "model": {"type": "minecraft:model", "model": "item/golden_battleaxe"}
+      }
+    ],
+    "fallback": {"type": "minecraft:model", "model": "item/golden_axe"}
+  }
+}

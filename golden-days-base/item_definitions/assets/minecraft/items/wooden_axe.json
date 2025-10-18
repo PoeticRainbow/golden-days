@@ -1,0 +1,18 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Wooden Battleaxe",
+        "model": {"type": "minecraft:model", "model": "item/wooden_battleaxe"}
+      },
+      {
+        "when": "Wooden Battle Axe",
+        "model": {"type": "minecraft:model", "model": "item/wooden_battleaxe"}
+      }
+    ],
+    "fallback": {"type": "minecraft:model", "model": "item/wooden_axe"}
+  }
+}

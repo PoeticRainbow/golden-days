@@ -1,0 +1,18 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Stone Battleaxe",
+        "model": {"type": "minecraft:model", "model": "item/stone_battleaxe"}
+      },
+      {
+        "when": "Stone Battle Axe",
+        "model": {"type": "minecraft:model", "model": "item/stone_battleaxe"}
+      }
+    ],
+    "fallback": {"type": "minecraft:model", "model": "item/stone_axe"}
+  }
+}
