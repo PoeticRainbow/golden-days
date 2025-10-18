@@ -20,25 +20,15 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:select",
+      "type": "minecraft:condition",
       "property": "minecraft:component",
-      "component": "minecraft:enchantments",
-      "cases": [
-        {
-          "when": [
-            {"minecraft:sharpness": 5},
-            {"minecraft:sharpness": 4},
-            {"minecraft:sharpness": 3},
-            {"minecraft:sharpness": 2},
-            {"minecraft:sharpness": 1}
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "item/netherite_battleaxe"
-          }
-        }
-      ],
-      "fallback": {"type": "minecraft:model", "model": "item/netherite_axe"}
+      "predicate": "minecraft:enchantments",
+      "value": [{"enchantments": "minecraft:sharpness", "levels": {"min": 1}}],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "item/netherite_battleaxe"
+      },
+      "on_false": {"type": "minecraft:model", "model": "item/netherite_axe"}
     }
   }
 }
