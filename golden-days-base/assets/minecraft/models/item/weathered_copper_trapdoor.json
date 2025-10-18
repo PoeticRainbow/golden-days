@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:item/template_trapdoor_item",
+  "textures": {"texture": "minecraft:block/weathered_copper_trapdoor"}
+}
