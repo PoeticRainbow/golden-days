@@ -1,0 +1,4 @@
+{
+  "parent": "item/handheld_rod",
+  "textures": {"layer0": "item/goat_horn"}
+}
