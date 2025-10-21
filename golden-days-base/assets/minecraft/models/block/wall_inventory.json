@@ -1,0 +1,64 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {"particle": "#wall"},
+  "elements": [
+    {
+      "from": [12, 0, 4.5],
+      "to": [19, 16, 11.5],
+      "rotation": {"angle": 0, "axis": "y", "origin": [7.5, 7.5, 8]},
+      "faces": {
+        "north": {"uv": [4, 0, 11, 16], "texture": "#wall"},
+        "east": {"uv": [4, 0, 11, 16], "texture": "#wall"},
+        "south": {"uv": [4, 0, 11, 16], "texture": "#wall"},
+        "west": {"uv": [4, 0, 11, 16], "texture": "#wall"},
+        "up": {"uv": [4, 4, 11, 11], "rotation": 90, "texture": "#wall"},
+        "down": {
+          "uv": [4, 4, 11, 11],
+          "rotation": 270,
+          "texture": "#wall",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [-3, 0, 4.5],
+      "to": [4, 16, 11.5],
+      "rotation": {"angle": 0, "axis": "y", "origin": [-7.5, 7.5, 8]},
+      "faces": {
+        "north": {"uv": [4, 0, 11, 16], "texture": "#wall"},
+        "east": {"uv": [4, 0, 11, 16], "texture": "#wall"},
+        "south": {"uv": [4, 0, 11, 16], "texture": "#wall"},
+        "west": {"uv": [4, 0, 11, 16], "texture": "#wall"},
+        "up": {"uv": [4, 4, 11, 11], "rotation": 90, "texture": "#wall"},
+        "down": {
+          "uv": [4, 4, 11, 11],
+          "rotation": 270,
+          "texture": "#wall",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [8, 0, 6],
+      "to": [12, 14, 10],
+      "rotation": {"angle": 0, "axis": "y", "origin": [8, 7.5, 8]},
+      "faces": {
+        "north": {"uv": [12, 2, 16, 16], "texture": "#wall"},
+        "south": {"uv": [0, 2, 4, 16], "texture": "#wall"},
+        "up": {"uv": [0, 6, 4, 10], "texture": "#wall"},
+        "down": {"uv": [0, 6, 4, 10], "texture": "#wall", "cullface": "down"}
+      }
+    },
+    {
+      "from": [4, 0, 6],
+      "to": [8, 14, 10],
+      "rotation": {"angle": 0, "axis": "y", "origin": [2, 7.5, 8]},
+      "faces": {
+        "north": {"uv": [0, 2, 4, 16], "texture": "#wall"},
+        "south": {"uv": [12, 2, 16, 16], "texture": "#wall"},
+        "up": {"uv": [12, 6, 16, 10], "texture": "#wall"},
+        "down": {"uv": [12, 6, 16, 10], "texture": "#wall", "cullface": "down"}
+      }
+    }
+  ]
+}
