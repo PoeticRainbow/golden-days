@@ -2,83 +2,73 @@
   "variants": {
     "facing=east,half=bottom,open=false": {
       "uvlock": true,
-      "model": "minecraft:block/cherry_trapdoor_bottom",
-      "y": 90
+      "model": "minecraft:block/oak_trapdoor_bottom"
     },
     "facing=east,half=bottom,open=true": {
       "uvlock": true,
-      "model": "minecraft:block/cherry_trapdoor_open",
+      "model": "minecraft:block/oak_trapdoor_open",
       "y": 90
     },
     "facing=east,half=top,open=false": {
       "uvlock": true,
-      "model": "minecraft:block/cherry_trapdoor_top",
-      "y": 90
+      "model": "minecraft:block/oak_trapdoor_top"
     },
     "facing=east,half=top,open=true": {
       "uvlock": true,
-      "model": "minecraft:block/cherry_trapdoor_open",
-      "x": 180,
-      "y": 270
+      "model": "minecraft:block/oak_trapdoor_open",
+      "y": 90
     },
     "facing=north,half=bottom,open=false": {
       "uvlock": true,
-      "model": "minecraft:block/cherry_trapdoor_bottom"
+      "model": "minecraft:block/oak_trapdoor_bottom"
     },
     "facing=north,half=bottom,open=true": {
       "uvlock": true,
-      "model": "minecraft:block/cherry_trapdoor_open"
+      "model": "minecraft:block/oak_trapdoor_open"
     },
     "facing=north,half=top,open=false": {
       "uvlock": true,
-      "model": "minecraft:block/cherry_trapdoor_top"
+      "model": "minecraft:block/oak_trapdoor_top"
     },
     "facing=north,half=top,open=true": {
       "uvlock": true,
-      "model": "minecraft:block/cherry_trapdoor_open",
-      "x": 180,
-      "y": 180
+      "model": "minecraft:block/oak_trapdoor_open"
     },
     "facing=south,half=bottom,open=false": {
       "uvlock": true,
-      "model": "minecraft:block/cherry_trapdoor_bottom",
-      "y": 180
+      "model": "minecraft:block/oak_trapdoor_bottom"
     },
     "facing=south,half=bottom,open=true": {
       "uvlock": true,
-      "model": "minecraft:block/cherry_trapdoor_open",
+      "model": "minecraft:block/oak_trapdoor_open",
       "y": 180
     },
     "facing=south,half=top,open=false": {
       "uvlock": true,
-      "model": "minecraft:block/cherry_trapdoor_top",
-      "y": 180
+      "model": "minecraft:block/oak_trapdoor_top"
     },
     "facing=south,half=top,open=true": {
       "uvlock": true,
-      "model": "minecraft:block/cherry_trapdoor_open",
-      "x": 180
+      "model": "minecraft:block/oak_trapdoor_open",
+      "y": 180
     },
     "facing=west,half=bottom,open=false": {
       "uvlock": true,
-      "model": "minecraft:block/cherry_trapdoor_bottom",
-      "y": 270
+      "model": "minecraft:block/oak_trapdoor_bottom"
     },
     "facing=west,half=bottom,open=true": {
       "uvlock": true,
-      "model": "minecraft:block/cherry_trapdoor_open",
+      "model": "minecraft:block/oak_trapdoor_open",
       "y": 270
     },
     "facing=west,half=top,open=false": {
       "uvlock": true,
-      "model": "minecraft:block/cherry_trapdoor_top",
-      "y": 270
+      "model": "minecraft:block/oak_trapdoor_top"
     },
     "facing=west,half=top,open=true": {
       "uvlock": true,
-      "model": "minecraft:block/cherry_trapdoor_open",
-      "x": 180,
-      "y": 90
+      "model": "minecraft:block/oak_trapdoor_open",
+      "y": 270
     }
   }
 }
