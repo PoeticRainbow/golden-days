@@ -1,6 +1,6 @@
 {
   "parent": "block/fence_inventory",
-  "textures": {"particle": "#wall"},
+  "textures": {"top": "#wall", "particle": "#wall"},
   "elements": [
     {
       "from": [12, 0, 4.5],
@@ -11,7 +11,7 @@
         "east": {"uv": [4, 0, 11, 16], "texture": "#wall"},
         "south": {"uv": [4, 0, 11, 16], "texture": "#wall"},
         "west": {"uv": [4, 0, 11, 16], "texture": "#wall"},
-        "up": {"uv": [4, 4, 11, 11], "rotation": 90, "texture": "#wall"},
+        "up": {"uv": [4, 4, 11, 11], "rotation": 90, "texture": "#top"},
         "down": {
           "uv": [4, 4, 11, 11],
           "rotation": 270,
@@ -29,7 +29,7 @@
         "east": {"uv": [4, 0, 11, 16], "texture": "#wall"},
         "south": {"uv": [4, 0, 11, 16], "texture": "#wall"},
         "west": {"uv": [4, 0, 11, 16], "texture": "#wall"},
-        "up": {"uv": [4, 4, 11, 11], "rotation": 90, "texture": "#wall"},
+        "up": {"uv": [4, 4, 11, 11], "rotation": 90, "texture": "#top"},
         "down": {
           "uv": [4, 4, 11, 11],
           "rotation": 270,
@@ -45,7 +45,7 @@
       "faces": {
         "north": {"uv": [12, 2, 16, 16], "texture": "#wall"},
         "south": {"uv": [0, 2, 4, 16], "texture": "#wall"},
-        "up": {"uv": [0, 6, 4, 10], "texture": "#wall"},
+        "up": {"uv": [0, 6, 4, 10], "texture": "#top"},
         "down": {"uv": [0, 6, 4, 10], "texture": "#wall", "cullface": "down"}
       }
     },
@@ -56,7 +56,7 @@
       "faces": {
         "north": {"uv": [0, 2, 4, 16], "texture": "#wall"},
         "south": {"uv": [12, 2, 16, 16], "texture": "#wall"},
-        "up": {"uv": [12, 6, 16, 10], "texture": "#wall"},
+        "up": {"uv": [12, 6, 16, 10], "texture": "#top"},
         "down": {"uv": [12, 6, 16, 10], "texture": "#wall", "cullface": "down"}
       }
     }
