@@ -1112,6 +1112,11 @@
     "sounds": [{"name": "_common.wood.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.footsteps"
   },
+  "block.crafter.craft": {
+    "replace": "true",
+    "sounds": [{"name": "random/bow", "volume": 0.4}],
+    "subtitle": "subtitles.block.crafter.craft"
+  },
   "block.creaking_heart.break": {
     "replace": "true",
     "sounds": [{"name": "_common.wood.break", "type": "event"}],
