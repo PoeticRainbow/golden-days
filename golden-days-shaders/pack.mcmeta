@@ -9,15 +9,21 @@
   "overlays": {
     "entries": [
       {
-        "directory": "shader_fun",
+        "directory": "1_20_5",
         "formats": [36, 55],
         "min_format": 36,
         "max_format": 55
       },
       {
-        "directory": "shaders_25w19a",
-        "formats": [60, 420],
+        "directory": "1_21_4",
+        "formats": [60, 71],
         "min_format": 60,
+        "max_format": 71
+      },
+      {
+        "directory": "1_21_11",
+        "formats": [72, 420],
+        "min_format": 72,
         "max_format": 420
       }
     ]
