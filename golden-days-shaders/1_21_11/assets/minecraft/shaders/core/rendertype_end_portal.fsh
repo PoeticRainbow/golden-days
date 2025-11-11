@@ -1,17 +1,27 @@
-#version 150
+#version 330
 
-#moj_import <minecraft:projection.glsl>
+// made by fayer3
+// https://github.com/fayer3/1.10-End-Portal
+// MIT Licensed
+
+#moj_import <minecraft:fog.glsl>
 #moj_import <minecraft:matrix.glsl>
+#moj_import <minecraft:dynamictransforms.glsl>
 #moj_import <minecraft:globals.glsl>
+
+#define ON_END_GATEWAY
 
 uniform sampler2D Sampler0;
 uniform sampler2D Sampler1;
 
-in vec4 guiProjection;
-in vec3 relativePos;
-in vec3 worldPos;
+in vec4 texProj0;
+in float sphericalVertexDistance;
+in float cylindricalVertexDistance;
+in vec3 pos;
+in vec4 posNear;
 
-const vec3[] COLORS = vec3[](
+// colors from java random with seed 31100 from minecraft source, multiplied with the layer depth
+const vec3[16] COLORS = vec3[](
     vec3(0.0086616456508636f, 0.0385879765538608f, 0.0434578709742602f),
     vec3(0.0063173793256282f, 0.0509597804397344f, 0.0475390627980232f),
     vec3(0.0147393568356831f, 0.0542339658737182f, 0.0535070419311523f),
@@ -30,31 +40,95 @@ const vec3[] COLORS = vec3[](
     vec3(0.0607160508632659f, 0.2361154675483703f, 0.4961182028055191f)
 );
 
+const mat4 SCALE_TRANSLATE = mat4(
+    0.5, 0.0, 0.0, 0.25,
+    0.0, 0.5, 0.0, 0.25,
+    0.0, 0.0, 1.0, 0.0,
+    0.0, 0.0, 0.0, 1.0
+);
+
+mat4 end_portal_layer(float layer) {
+    mat4 translate = mat4(
+        1.0, 0.0, 0.0, 17.0 / layer,
+        0.0, 1.0, 0.0, (2.0 + layer / 1.5) * (GameTime * 1.5),
+        0.0, 0.0, 1.0, 0.0,
+        0.0, 0.0, 0.0, 1.0
+    );
+
+    mat2 rotate = mat2_rotate_z(radians((layer * layer * 4321.0 + layer * 9.0) * 2.0));
+
+    mat2 scale = mat2((4.5 - layer / 4.0) * 2.0);
+
+    return mat4(scale * rotate) * translate * SCALE_TRANSLATE;
+}
+
 out vec4 fragColor;
 
-void main() {
-    bool isGui = ProjMat[2][3] == 0.0;
-    vec3 color = vec3(0.0f);
-    for (int i = 0; i < 16; i++) {
-        // fake depth by exaggerating distance from camera
-        vec2 uv = isGui ? guiProjection.xy : worldPos.xz + relativePos.xz * (16 - i);
+vec3 endportal_vanilla() {
+    vec3 color = textureProj(Sampler0, texProj0).rgb * COLORS[0];
+    for (int i = 0; i < PORTAL_LAYERS; i++) {
+        color += textureProj(Sampler1, texProj0 * end_portal_layer(float(i + 1))).rgb * COLORS[i];
+    }
+    return color;
+}
 
-        if (!isGui) {
-            float scale = i == 0 ? 0.125f : i == 1 ? 0.5f : 0.0625f;
-            uv *= scale * 8.0f;
+vec3 endportal_1_10() {
+    vec3 cam = posNear.xyz / posNear.w;
+    vec3 dir = pos.xyz - cam;
+    vec3 camPos = vec3(CameraBlockPos % 100000) - CameraOffset;
+
+    #if defined ON_END_GATEWAY && PORTAL_LAYERS == 16
+        vec3 normal = abs(normalize(cross(dFdx(dir), dFdy(dir))));
+        if (all(greaterThan(normal.xx, normal.yz))) {
+            dir = dir.zxy;
+            camPos = camPos.zxy;
+        } else if (all(greaterThan(normal.zz, normal.xy))) {
+            dir = dir.xzy;
+            camPos = camPos.xzy;
         }
-
-        // rotate
-        mat2 rotate = mat2_rotate_z(radians((i * i * 4321.0f + i * 9.0f) * 2.0f));
-        uv = rotate * uv;
-
+    #endif
+    vec3 worldPos = camPos + dir;
+    
+    // code based on minecraft source, with some alterations
+    vec3 tex = vec3(0);
+    for (int i = 0; i < 16; i++) {
+        float yOffset = 16.0 - i;
+        float scale = 0.0625;
         if (i == 0) {
-            color += texture(Sampler0, uv * 0.5f).rgb * 0.1f;
+            yOffset = 65.0F;
+            scale = 0.125F;
+        } else if (i == 1) {
+            scale = 0.5F;
+        }
+        float rotation = (i * i * 4321.0 + i * 9.0) * 2.0;
+        float Cos = cos(radians(rotation));
+        float Sin = sin(radians(rotation));
+        mat2 rot = mat2(Cos, Sin, -Sin, Cos);
+        vec2 coord = worldPos.xz + dir.xz * yOffset / abs(dir.y);
+        coord *= scale;
+        coord = rot * coord + vec2(0, GameTime * 1.63f);
+        if (i == 0) {
+            tex = texture(Sampler0, coord).rgb * 0.1f;
         } else {
-            uv.y += GameTime * 29.16f;
-            color += texture(Sampler1, uv * (i == 1 ? 0.5f : 0.0625f)).rgb * COLORS[i];
+            tex += texture(Sampler1, coord).rgb * COLORS[i];
         }
     }
-    fragColor = vec4(color, 1.0f);
-    return;
+    return tex;
+}
+
+void main() {
+    vec3 color;
+    if (ModelViewMat[3].z < -10000) {
+        // in the menu always do the 2d version
+        color = endportal_vanilla();
+    } else if (PORTAL_LAYERS == 16) {
+        #ifdef ON_END_GATEWAY
+            color = endportal_1_10();
+        #else
+            color = endportal_vanilla();
+        #endif
+    } else {
+        color = endportal_1_10();
+    }
+    fragColor = apply_fog(vec4(color, 1.0), sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);
 }
