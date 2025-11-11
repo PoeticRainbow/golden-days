@@ -5,5 +5,6 @@ zippa - Lightmap tweaking
 coyo-t - Inital grayscale lighting using shaders
 InboundBark - Fixed black hand issue with shaders
 shmoobalizer - Teaching me how to make the vanilla water texture
+fayer3 - Creating the 1.10 End Portal shader for 1.21.11+
 
 Any missing person should contact ASAP!
