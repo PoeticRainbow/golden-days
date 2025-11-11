@@ -1,6 +1,7 @@
 #version 330
 
 // made by fayer3
+// edited for Golden Days
 // https://github.com/fayer3/1.10-End-Portal
 // MIT Licensed
 
@@ -108,7 +109,7 @@ vec3 endportal_1_10() {
         coord *= scale;
         coord = rot * coord + vec2(0, GameTime * 1.63f);
         if (i == 0) {
-            tex = texture(Sampler0, coord).rgb * 0.1f;
+            tex = texture(Sampler0, coord).rgb * 0.155f;
         } else {
             tex += texture(Sampler1, coord).rgb * COLORS[i];
         }

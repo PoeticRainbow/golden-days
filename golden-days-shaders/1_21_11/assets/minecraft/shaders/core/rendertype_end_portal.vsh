@@ -1,6 +1,7 @@
 #version 330
 
 // made by fayer3
+// edited for Golden Days
 // https://github.com/fayer3/1.10-End-Portal
 // MIT Licensed
 
