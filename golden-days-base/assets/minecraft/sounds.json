@@ -3467,32 +3467,6 @@
     "replace": true,
     "sounds": [{"name": "_common.silent", "type": "event"}]
   },
-  "entity.enderman.ambient": {
-    "replace": true,
-    "sounds": [
-      {"name": "mob/zombie/say1", "pitch": 1.2},
-      {"name": "mob/zombie/say2", "pitch": 1.15},
-      {"name": "mob/zombie/say3", "pitch": 1.15}
-    ],
-    "subtitle": "subtitles.entity.enderman.ambient"
-  },
-  "entity.enderman.death": {
-    "replace": true,
-    "sounds": [{"name": "mob/zombie/death", "pitch": 1.3}],
-    "subtitle": "subtitles.entity.enderman.death"
-  },
-  "entity.enderman.hurt": {
-    "replace": true,
-    "sounds": [
-      {"name": "mob/zombie/hurt1", "pitch": 1.2},
-      {"name": "mob/zombie/hurt2", "pitch": 1.15}
-    ],
-    "subtitle": "subtitles.entity.enderman.hurt"
-  },
-  "entity.enderman.stare": {
-    "replace": true,
-    "sounds": [{"name": "_common.silent", "type": "event"}]
-  },
   "entity.experience_orb.pickup": {
     "replace": true,
     "sounds": ["random/pop"],
