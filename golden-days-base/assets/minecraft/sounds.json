@@ -68,6 +68,10 @@
     ],
     "subtitle": "subtitles.block.generic.footsteps"
   },
+  "_common.oof": {
+    "replace": true,
+    "sounds": ["goldendays/hit1", "goldendays/hit2", "goldendays/hit3"]
+  },
   "_common.sand.break": {
     "replace": true,
     "sounds": ["step/gravel1", "step/gravel2", "step/gravel3", "step/gravel4"]
@@ -3581,19 +3585,29 @@
     "replace": true,
     "sounds": [{"name": "_common.silent", "type": "event"}]
   },
+  "entity.player.hurt": {
+    "replace": true,
+    "sounds": [{"name": "_common.oof", "type": "event"}],
+    "subtitle": "subtitles.entity.player.hurt"
+  },
   "entity.player.hurt_drown": {
     "replace": true,
-    "sounds": ["damage/hit1", "damage/hit2", "damage/hit3"],
+    "sounds": [{"name": "_common.oof", "type": "event"}],
     "subtitle": "subtitles.entity.player.hurt"
+  },
+  "entity.player.hurt_freeze": {
+    "replace": true,
+    "sounds": [{"name": "_common.oof", "type": "event"}],
+    "subtitle": "subtitles.entity.player.freeze_hurt"
   },
   "entity.player.hurt_on_fire": {
     "replace": true,
-    "sounds": ["damage/hit1", "damage/hit2", "damage/hit3"],
-    "subtitle": "subtitles.entity.player.hurt"
+    "sounds": [{"name": "_common.oof", "type": "event"}],
+    "subtitle": "subtitles.entity.player.hurt_on_fire"
   },
   "entity.player.hurt_sweet_berry_bush": {
     "replace": true,
-    "sounds": ["damage/hit1", "damage/hit2", "damage/hit3"],
+    "sounds": [{"name": "_common.oof", "type": "event"}],
     "subtitle": "subtitles.entity.player.hurt"
   },
   "entity.player.splash.high_speed": {
