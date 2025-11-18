@@ -2,7 +2,7 @@
   "parent": "item/template_stairs",
   "textures": {
     "top": "block/sandstone_top",
-    "side": "block/sandstone",
+    "side": "block/sandstone_slab",
     "bottom": "block/sandstone_bottom"
   }
 }
