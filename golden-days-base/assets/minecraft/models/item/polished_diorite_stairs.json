@@ -1,4 +1,7 @@
 {
   "parent": "item/template_stairs",
-  "textures": {"all": "block/polished_diorite"}
+  "textures": {
+    "all": "block/polished_diorite",
+    "side": "block/polished_diorite_slab"
+  }
 }
