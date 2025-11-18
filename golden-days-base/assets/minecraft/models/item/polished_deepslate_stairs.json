@@ -1,4 +1,7 @@
 {
   "parent": "item/template_stairs",
-  "textures": {"all": "block/polished_deepslate"}
+  "textures": {
+    "all": "block/polished_deepslate",
+    "side": "block/polished_deepslate_slab"
+  }
 }
