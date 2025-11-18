@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": {"model": "block/polished_tuff_slab"},
+    "type=top": {"model": "block/polished_tuff_slab_top"},
+    "type=double": {"model": "block/polished_tuff_double_slab"}
+  }
+}
