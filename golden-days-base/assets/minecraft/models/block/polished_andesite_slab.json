@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "block/polished_andesite",
+    "side": "block/polished_andesite_slab",
+    "top": "block/polished_andesite"
+  }
+}
