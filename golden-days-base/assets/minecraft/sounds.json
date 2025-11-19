@@ -569,7 +569,7 @@
   },
   "block.big_dripleaf.tilt_down": {
     "replace": true,
-    "sounds": [{"name": "_common.grass.dig", "type": "event"}]
+    "sounds": [{"name": "_common.grass.step", "type": "event"}]
   },
   "block.big_dripleaf.tilt_up": {
     "replace": true,
@@ -901,12 +901,12 @@
   },
   "block.chiseled_bookshelf.insert": {
     "replace": true,
-    "sounds": [{"name": "_common.wood.dig", "type": "event"}],
+    "sounds": [{"name": "_common.wood.step", "type": "event"}],
     "subtitle": "subtitles.chiseled_bookshelf.insert"
   },
   "block.chiseled_bookshelf.insert.enchanted": {
     "replace": true,
-    "sounds": [{"name": "_common.wood.dig", "type": "event"}],
+    "sounds": [{"name": "_common.wood.step", "type": "event"}],
     "subtitle": "subtitles.chiseled_bookshelf.insert_enchanted"
   },
   "block.chiseled_bookshelf.pickup": {
@@ -1797,7 +1797,7 @@
   },
   "block.lily_pad.break": {
     "replace": true,
-    "sounds": [{"name": "_common.grass.dig", "type": "event"}],
+    "sounds": [{"name": "_common.grass.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.break"
   },
   "block.lily_pad.place": {
@@ -3868,7 +3868,7 @@
   },
   "item.bucket.empty_powder_snow": {
     "replace": true,
-    "sounds": [{"name": "_common.snow.dig", "type": "event"}],
+    "sounds": [{"name": "_common.snow.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.place"
   },
   "item.bucket.fill": {
