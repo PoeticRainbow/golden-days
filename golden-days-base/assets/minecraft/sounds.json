@@ -3868,7 +3868,7 @@
   },
   "item.bucket.empty_powder_snow": {
     "replace": true,
-    "sounds": [{"name": "_common.snow.step", "type": "event"}],
+    "sounds": [{"name": "_common.cloth.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.place"
   },
   "item.bucket.fill": {
