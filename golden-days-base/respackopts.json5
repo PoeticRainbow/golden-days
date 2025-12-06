@@ -1,7 +1,7 @@
 {
   "id": "goldendays",
   "version": 13,
-  "capabilities": ["FileFilter"],
+  "capabilities": ["FileFilter", "DirFilter"],
   "conf": {
     "cobblestoneVariant": {
       "type": "enum",
