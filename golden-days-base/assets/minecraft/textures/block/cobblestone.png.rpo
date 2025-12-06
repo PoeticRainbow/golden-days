@@ -1,0 +1,7 @@
+{
+  "condition": "cobblestoneVariant.alpha",
+  "fallback": [
+    "assets/minecraft/textures/block/cobblestone_alt_1_7.png",
+    "assets/minecraft/textures/block/cobblestone_alt_hybrid.png"
+  ]
+}
