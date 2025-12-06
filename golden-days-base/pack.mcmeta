@@ -22,6 +22,12 @@
         "max_format": 420
       },
       {
+        "directory": "chest_models",
+        "formats": [45, 420],
+        "min_format": 45,
+        "max_format": 420
+      },
+      {
         "directory": "no_rotation_snap",
         "formats": [57, 420],
         "min_format": 57,
