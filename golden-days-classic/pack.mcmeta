@@ -2,6 +2,17 @@
   "pack": {
     "description": "§6Golden Days §8- §cClassic §7(c0.30) \n§8by PoeticRainbow",
     "pack_format": 15,
+    "min_format": 15,
+    "max_format": 420,
     "supported_formats": {"max_inclusive": 420, "min_inclusive": 15}
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "patch_26_1",
+        "min_format": 76,
+        "max_format": 420
+      }
+    ]
   }
 }
