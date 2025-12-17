@@ -3,6 +3,9 @@
 #define QUANTIZE_LIGHT 0
 #define OVERRIDE_AMBIENT 1
 
+#define AMBIENT_LIGHT 0.05
+#define SHADOW_VALUE 0.845
+
 layout(std140) uniform LightmapInfo {
     float SkyFactor;
     float BlockFactor;
@@ -49,16 +52,23 @@ void main() {
     float block_level = floor(texCoord.x * 16) / 15;
     float sky_level = floor(texCoord.y * 16) / 15;
 
-    vec3 color = sky_level < 0.99 && block_level < 0.99 ? vec3(0.6) : vec3(1.0);
-
+    float sky_light = sky_level < 0.99 ? SHADOW_VALUE : 1.0;
     // Apply sky factor
-    color = color * lightmapInfo.SkyFactor;
-
+    sky_light = sky_light * lightmapInfo.SkyFactor;
+    
     // Apply boss overlay darkening effect
-    color = mix(color, color * 0.6, lightmapInfo.BossOverlayWorldDarkeningFactor);
+    sky_light = mix(sky_light, sky_light * 0.6, lightmapInfo.BossOverlayWorldDarkeningFactor);
+
+    // Get whichever value is higher, sky or block light
+    vec3 color = vec3(getBetaLightLevel(max(sky_light, block_level), AMBIENT_LIGHT));
 
     // Apply darkness effect scale
-    color = color * (1.0 - lightmapInfo.DarknessScale);
+    color = color * pow(1.0 - lightmapInfo.DarknessScale, 2);
+
+    // Apply brightness
+    color = clamp(color, 0.0, 1.0);
+    vec3 notGamma = notGamma(color);
+    color = mix(color, notGamma, lightmapInfo.BrightnessFactor);
 
     fragColor = vec4(color, 1.0);
 }
