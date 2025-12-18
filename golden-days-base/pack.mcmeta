@@ -40,6 +40,12 @@
         "max_format": 420
       },
       {
+        "directory": "patch_21_9",
+        "formats": [69, 69],
+        "min_format": 69,
+        "max_format": 69
+      },
+      {
         "directory": "patch_26_1",
         "formats": [76, 420],
         "min_format": 76,
