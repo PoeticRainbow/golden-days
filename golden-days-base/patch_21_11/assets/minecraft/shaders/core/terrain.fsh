@@ -14,11 +14,11 @@ out vec4 fragColor;
 
 // proper nearest-neighbor sampling, fixes smooth edges of pixels on the inside of faces just like old
 vec4 sampleNearest(sampler2D sampler, vec2 uv, vec2 pixelSize) {
-	return texture(sampler, (floor(uv * TextureSize) + 0.5f) / TextureSize);
+	return texture(sampler, (floor(uv * pixelSize) + 0.5f) / pixelSize);
 }
 
 void main() {
-    vec4 color = sampleNearest(Sampler0, texCoord0, vec2(0f)) * vertexColor;
+    vec4 color = sampleNearest(Sampler0, texCoord0, TextureSize) * vertexColor;
 #ifdef ALPHA_CUTOUT
     if (color.a < ALPHA_CUTOUT) {
         discard;
