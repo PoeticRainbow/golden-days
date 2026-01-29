@@ -5,6 +5,14 @@
   "fog_fade": 8,
   "particle": {
     "options": {"type": "goldendays:white_eyes"},
-    "probability": 0.00005
+    "probability": 5E-05
+  },
+  "attributes_modifiers": {
+    "minecraft:visual/ambient_particles": {
+      "modifier": "override",
+      "argument": [
+        {"particle": {"type": "goldendays:white_eyes"}, "probability": 5E-05}
+      ]
+    }
   }
 }
