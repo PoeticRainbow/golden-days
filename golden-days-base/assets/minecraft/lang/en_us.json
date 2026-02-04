@@ -1,6 +1,4 @@
 {
-  "config.goldendays.chest_model": "Chest Style",
-  "config.goldendays.chest_model.tooltip": "Swap between Beta accurate, hybrid, and modern styles",
   "addServer.enterIp": "Enter the IP of a server to connect to it:",
   "advancements.husbandry.place_dried_ghast_in_water.description": "Place a Dry Ghast Egg into water",
   "advancements.nether.distract_piglin.description": "Distract Pigmen with gold",
@@ -108,6 +106,10 @@
   "chat.type.advancement.challenge": "%s got grand achievement %s",
   "chat.type.advancement.goal": "%s got great achievement %s",
   "chat.type.advancement.task": "%s got achievement %s",
+  "config.goldendays.chest_model": "Chest Style",
+  "config.goldendays.chest_model.tooltip": "Swap between Beta accurate, hybrid, and modern styles",
+  "config.goldendays.use_fast_grass": "Fast Grass",
+  "config.goldendays.use_fast_grass.tooltip": "Used in versions a1.2.6 to b1.5 and in Fast graphics until release 1.8",
   "container.chestDouble": "Large chest",
   "deathScreen.title": "Game over!",
   "deathScreen.titleScreen": "Title menu",
