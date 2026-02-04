@@ -29,20 +29,6 @@
         "max_format": 420
       },
       {
-        "directory": "chest_use_cem",
-        "polytone_condition": "config('goldendays:chest_model') != 'beta'",
-        "formats": [0, 0],
-        "min_format": 0,
-        "max_format": 0
-      },
-      {
-        "directory": "chest_fat_animated",
-        "polytone_condition": "config('goldendays:chest_model') == 'hybrid'",
-        "formats": [0, 0],
-        "min_format": 0,
-        "max_format": 0
-      },
-      {
         "directory": "no_rotation_snap",
         "formats": [57, 420],
         "min_format": 57,
@@ -71,6 +57,27 @@
         "formats": [76, 420],
         "min_format": 76,
         "max_format": 420
+      },
+      {
+        "directory": "chest_use_cem",
+        "polytone_condition": "config('goldendays:chest_model') != 'beta'",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
+        "directory": "chest_fat_animated",
+        "polytone_condition": "config('goldendays:chest_model') == 'hybrid'",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
+        "directory": "fast_grass",
+        "polytone_condition": "config('goldendays:use_fast_grass')",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
       }
     ]
   }
