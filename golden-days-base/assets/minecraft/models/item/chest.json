@@ -1,3 +1,9 @@
 {
-  "parent": "minecraft:block/chest"
+  "parent": "item/template_chest",
+	"textures": {
+    "entity": "entity/chest/normal",
+		"front": "block/chest_front",
+		"side": "block/chest_side",
+		"top": "block/chest_top"
+	}
 }

@@ -1,3 +1,9 @@
 {
-  "parent": "minecraft:block/ender_chest"
+  "parent": "item/template_chest",
+	"textures": {
+    "entity": "entity/chest/ender",
+		"front": "block/ender_chest_front",
+		"side": "block/ender_chest_side",
+		"top": "block/ender_chest_top"
+	}
 }

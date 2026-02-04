@@ -1,8 +1,9 @@
 {
-  "parent": "block/orientable",
-	"textures": {
-		"front": "block/chest_front_christmas",
-		"side": "block/chest_side_christmas",
-		"top": "block/chest_top_christmas"
-	}
+  "parent": "item/template_chest",
+  "textures": {
+    "entity": "entity/chest/christmas",
+    "front": "block/christmas_chest_front",
+    "side": "block/christmas_chest_side",
+    "top": "block/christmas_chest_top"
+  }
 }

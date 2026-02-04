@@ -1,3 +1,9 @@
 {
-  "parent": "block/trapped_chest"
+  "parent": "item/template_chest",
+	"textures": {
+    "entity": "entity/chest/trapped",
+		"front": "block/trapped_chest_front",
+		"side": "block/chest_side",
+		"top": "block/chest_top"
+	}
 }

@@ -1,9 +1,8 @@
 {
-  "parent": "minecraft:block/orientable",
+  "parent": "block/template_chest",
 	"textures": {
-		"front": "minecraft:block/ender_chest_front",
-		"side": "minecraft:block/ender_chest_side",
-		"top": "minecraft:block/ender_chest_top",
-		"particle": "#front"
+		"front": "block/ender_chest_front",
+		"side": "block/ender_chest_side",
+		"top": "block/ender_chest_top"
 	}
 }
