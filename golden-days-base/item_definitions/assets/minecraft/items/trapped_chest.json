@@ -1,11 +1,11 @@
 {
   "model": {
-    "type": "minecraft:select",
+    "type": "select",
     "cases": [
       {
         "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/trapped_chest_christmas"
+          "type": "model",
+          "model": "item/trapped_chest_christmas"
         },
         "when": [
           "12-24",
@@ -15,10 +15,10 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/trapped_chest"
+      "type": "model",
+      "model": "item/trapped_chest"
     },
     "pattern": "MM-dd",
-    "property": "minecraft:local_time"
+    "property": "local_time"
   }
 }

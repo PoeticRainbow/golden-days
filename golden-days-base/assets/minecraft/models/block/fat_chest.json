@@ -1,5 +1,5 @@
 {
-  "parent": "block/orientable",
+  "parent": "block/template_chest",
 	"textures": {
 		"front": "block/chest_front",
 		"side": "block/chest_side",

@@ -1,6 +1,7 @@
 {
-  "parent": "block/template_chest",
+  "parent": "item/template_chest",
 	"textures": {
+    "entity": "entity/chest/copper",
 		"front": "block/copper_chest_front",
 		"side": "block/copper_chest_side",
 		"top": "block/copper_block"
