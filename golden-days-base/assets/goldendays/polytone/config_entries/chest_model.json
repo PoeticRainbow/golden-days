@@ -1,0 +1,4 @@
+{
+  "default_value": "fat_chest",
+  "allowed_values": ["fat_chest", "animated_fat_chest", "modern_chest"]
+}

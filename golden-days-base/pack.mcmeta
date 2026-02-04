@@ -22,10 +22,25 @@
         "max_format": 420
       },
       {
-        "directory": "chest_models",
+        "directory": "chest_fat",
+        "polytone_condition": "config('goldendays:chest_model') == 'fat_chest'",
         "formats": [45, 420],
         "min_format": 45,
         "max_format": 420
+      },
+      {
+        "directory": "chest_use_cem",
+        "polytone_condition": "config('goldendays:chest_model') != 'fat_chest'",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
+        "directory": "chest_fat_animated",
+        "polytone_condition": "config('goldendays:chest_model') == 'animated_fat_chest'",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
       },
       {
         "directory": "no_rotation_snap",
