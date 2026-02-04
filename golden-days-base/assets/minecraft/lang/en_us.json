@@ -110,6 +110,8 @@
   "config.goldendays.chest_model.tooltip": "Swap between Beta accurate, hybrid, and modern styles",
   "config.goldendays.use_fast_grass": "Fast Grass",
   "config.goldendays.use_fast_grass.tooltip": "Used in versions a1.2.6 to b1.5 and in Fast graphics until release 1.8",
+  "config.goldendays.shadowed_leaves": "Shadowed Leaves",
+  "config.goldendays.shadowed_leaves.tooltip": "Used in versions after b1.7.3",
   "container.chestDouble": "Large chest",
   "deathScreen.title": "Game over!",
   "deathScreen.titleScreen": "Title menu",

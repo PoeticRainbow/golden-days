@@ -78,6 +78,13 @@
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
+      },
+      {
+        "directory": "shadowed_leaves",
+        "polytone_condition": "config('goldendays:shadowed_leaves')",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
       }
     ]
   }

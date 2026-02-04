@@ -1,6 +1,6 @@
 {
   "parent": "block/block",
-  "ambientocclusion": false,
+  "ambientocclusion": true,
   "textures": {"particle": "#all"},
   "elements": [
     {
