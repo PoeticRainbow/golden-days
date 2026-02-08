@@ -17,11 +17,6 @@
                         {"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [0, 0]}
                     ]
                 }
-            ],
-            "animations": [
-                {
-                    "head2.rx": "head.rx"
-                }
             ]
         },
         {
