@@ -108,6 +108,8 @@
   "chat.type.advancement.task": "%s got achievement %s",
   "config.goldendays.chest_model": "Chest Style",
   "config.goldendays.chest_model.tooltip": "Swap between Beta accurate, hybrid, and modern styles",
+  "config.goldendays.modern_log_tops": "Modern Log Tops",
+  "config.goldendays.modern_log_tops.tooltip": "Use wood variant log top colors",
   "config.goldendays.use_fast_grass": "Fast Grass",
   "config.goldendays.use_fast_grass.tooltip": "Used in versions a1.2.6 to b1.5 and in Fast graphics until release 1.8",
   "config.goldendays.shadowed_leaves": "Shadowed Leaves",
