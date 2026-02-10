@@ -29,7 +29,7 @@
         "max_format": 420
       },
       {
-        "directory": "no_rotation_snap",
+        "directory": "patch_21_6_no_rotation_snap",
         "formats": [57, 420],
         "min_format": 57,
         "max_format": 420
