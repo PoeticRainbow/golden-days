@@ -1,0 +1,4 @@
+{
+  "default_value": "alpha",
+  "allowed_values": ["alpha", "modern"]
+}

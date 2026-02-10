@@ -1,0 +1,4 @@
+{
+  "default_value": "classic",
+  "allowed_values": ["classic", "hybrid", "modern"]
+}
