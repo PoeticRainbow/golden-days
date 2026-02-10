@@ -8,7 +8,7 @@
   },
   "overlays": {
     "entries": [
-      {"directory": "lightmaps", "formats": [15, 35]},
+      {"directory": "old_lightmaps", "formats": [15, 35]},
       {
         "directory": "patch_20_3_bat_update",
         "formats": [20, 420],
