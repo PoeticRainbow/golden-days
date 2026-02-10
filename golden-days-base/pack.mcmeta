@@ -16,7 +16,7 @@
         "max_format": 420
       },
       {
-        "directory": "item_definitions",
+        "directory": "patch_21_4_item_definitions",
         "formats": [45, 420],
         "min_format": 45,
         "max_format": 420
