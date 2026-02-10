@@ -67,6 +67,27 @@
         "max_format": 0
       },
       {
+        "directory": "option_bricks_modern",
+        "polytone_condition": "config('golden_days:bricks') == 'modern'",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
+        "directory": "option_cobblestone_modern",
+        "polytone_condition": "config('golden_days:cobblestone') == 'modern'",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
+        "directory": "option_cobblestone_hybrid",
+        "polytone_condition": "config('golden_days:cobblestone') == 'hybrid'",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
         "directory": "option_fast_grass",
         "polytone_condition": "config('golden_days:use_fast_grass')",
         "formats": [0, 0],
