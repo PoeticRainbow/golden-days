@@ -22,7 +22,7 @@
         "max_format": 420
       },
       {
-        "directory": "chest_fat",
+        "directory": "patch_21_4_chest_fat",
         "polytone_condition": "config('goldendays:chest_model') == 'beta'",
         "formats": [45, 420],
         "min_format": 45,
