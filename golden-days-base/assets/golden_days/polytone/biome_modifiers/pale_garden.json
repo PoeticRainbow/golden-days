@@ -4,14 +4,14 @@
   "fog_radius": "1-(RENDER_DISTANCE/(RENDER_DISTANCE+2))",
   "fog_fade": 8,
   "particle": {
-    "options": {"type": "goldendays:white_eyes"},
+    "options": {"type": "golden_days:white_eyes"},
     "probability": 5E-05
   },
   "attributes_modifiers": {
     "minecraft:visual/ambient_particles": {
       "modifier": "override",
       "argument": [
-        {"particle": {"type": "goldendays:white_eyes"}, "probability": 5E-05}
+        {"particle": {"type": "golden_days:white_eyes"}, "probability": 5E-05}
       ]
     }
   }
