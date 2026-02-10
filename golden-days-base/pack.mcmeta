@@ -23,7 +23,7 @@
       },
       {
         "directory": "patch_21_4_chest_fat",
-        "polytone_condition": "config('goldendays:chest_model') == 'beta'",
+        "polytone_condition": "config('golden_days:chest_model') == 'beta'",
         "formats": [45, 420],
         "min_format": 45,
         "max_format": 420
@@ -54,35 +54,35 @@
       },
       {
         "directory": "option_chest_use_cem",
-        "polytone_condition": "config('goldendays:chest_model') != 'beta'",
+        "polytone_condition": "config('golden_days:chest_model') != 'beta'",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
       },
       {
         "directory": "option_chest_fat_animated",
-        "polytone_condition": "config('goldendays:chest_model') == 'hybrid'",
+        "polytone_condition": "config('golden_days:chest_model') == 'hybrid'",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
       },
       {
         "directory": "option_fast_grass",
-        "polytone_condition": "config('goldendays:use_fast_grass')",
+        "polytone_condition": "config('golden_days:use_fast_grass')",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
       },
       {
         "directory": "option_shadowed_leaves",
-        "polytone_condition": "config('goldendays:shadowed_leaves')",
+        "polytone_condition": "config('golden_days:shadowed_leaves')",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
       },
       {
         "directory": "option_modern_log_tops",
-        "polytone_condition": "config('goldendays:modern_log_tops')",
+        "polytone_condition": "config('golden_days:modern_log_tops')",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
