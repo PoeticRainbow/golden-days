@@ -1,6 +1,6 @@
 {
   "__comment__": "unused",
-  "x_axis": "noise_goldendays_roughen(POS_X, POS_Z)+0.5",
+  "x_axis": "noise_golden_days_roughen(POS_X, POS_Z)+0.5",
   "y_axis": "0",
   "triangular": false
 }
