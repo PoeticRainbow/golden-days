@@ -1,3 +1,4 @@
 {
-  "parent": "block/orientable"
+  "parent": "block/orientable",
+  "textures": {"south": "#back"}
 }
