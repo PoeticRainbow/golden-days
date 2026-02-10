@@ -10,7 +10,7 @@
     "entries": [
       {"directory": "lightmaps", "formats": [15, 35]},
       {
-        "directory": "bat_update",
+        "directory": "patch_20_3_bat_update",
         "formats": [20, 420],
         "min_format": 20,
         "max_format": 420
