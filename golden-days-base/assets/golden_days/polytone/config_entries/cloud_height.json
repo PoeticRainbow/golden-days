@@ -1,0 +1,6 @@
+{
+  "default_value": 108,
+  "min": -64,
+  "max": 320,
+  "step": 1
+}
