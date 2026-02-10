@@ -1,4 +1,6 @@
 {
+  "config.golden_days.cloud_height": "Cloud Height",
+  "config.golden_days.cloud_height.tooltip": "Not currently functional",
   "config.golden_days.bricks": "Bricks",
   "config.golden_days.bricks.tooltip": "Alpha -> Beta 1.6: Alpha\nBeta 1.7 -> Release 1.13: Modern",
   "config.golden_days.chest_model": "Chest Style",
