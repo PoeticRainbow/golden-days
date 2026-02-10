@@ -1,6 +1,0 @@
-{
-  "condition": "brickVariant.alpha",
-  "fallback": [
-    "assets/minecraft/textures/block/bricks_alt.png"
-  ]
-}
