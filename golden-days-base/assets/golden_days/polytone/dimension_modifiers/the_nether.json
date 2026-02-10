@@ -1,0 +1,7 @@
+{
+  "targets": ["minecraft:the_nether"],
+  "fog_colormap": "#330808",
+  "constant_ambient_light": false,
+  "ambient_light": 0,
+  "cardinal_light": "default"
+}
