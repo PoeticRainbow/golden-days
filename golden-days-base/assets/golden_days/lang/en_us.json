@@ -1,4 +1,6 @@
 {
+  "config.golden_days.bushy_leaves": "Bushy Leaves",
+  "config.golden_days.bushy_leaves.tooltip": "Gives leaves extra foliage, inspired by Better Foliage",
   "config.golden_days.modern_xp_bar": "Modern XP Bar",
   "config.golden_days.modern_xp_bar.tooltip": "Default: false\nBeta 1.8+: true",
   "config.golden_days.silent_chests": "Silent Chests",
