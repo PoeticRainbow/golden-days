@@ -8,7 +8,7 @@
   "config.golden_days.bricks": "Bricks",
   "config.golden_days.bricks.tooltip": "Alpha -> Beta 1.6: Alpha\nBeta 1.7 -> Release 1.13: Modern",
   "config.golden_days.chest_model": "Chest Style",
-  "config.golden_days.chest_model.tooltip": "Indev -> Beta 1.7: Beta\nBeta 1.8+: Modern",
+  "config.golden_days.chest_model.tooltip": "Indev -> Beta 1.7: Beta\nBeta 1.8+: Modern\nHybrid: §cREQUIRES EMF",
   "config.golden_days.cobblestone": "Cobblestone",
   "config.golden_days.cobblestone.tooltip": "Classic -> Beta 1.6: Classic\nBeta 1.7 -> Release 1.13: Modern",
   "config.golden_days.modern_log_tops": "Modern Log Tops",
