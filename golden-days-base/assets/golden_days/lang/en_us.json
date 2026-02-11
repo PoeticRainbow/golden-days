@@ -1,4 +1,6 @@
 {
+  "config.golden_days.silent_chests": "Silent Chests",
+  "config.golden_days.silent_chests.tooltip": "Classic -> Beta 1.7: true\nBeta 1.8+: false",
   "config.golden_days.cloud_height": "Cloud Height",
   "config.golden_days.cloud_height.tooltip": "Not currently functional",
   "config.golden_days.bricks": "Bricks",
