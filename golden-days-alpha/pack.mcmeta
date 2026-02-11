@@ -13,6 +13,20 @@
         "formats": [45, 420],
         "min_format": 45,
         "max_format": 420
+      },
+      {
+        "directory": "option_classic_bricks",
+        "polytone_condition": "config('golden_days_alpha:classic_bricks')",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
+        "directory": "option_classic_dyes",
+        "polytone_condition": "config('golden_days_alpha:classic_dyes')",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
       }
     ]
   }
