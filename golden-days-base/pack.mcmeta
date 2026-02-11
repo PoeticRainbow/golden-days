@@ -95,6 +95,13 @@
         "max_format": 0
       },
       {
+        "directory": "option_modern_xp_bar",
+        "polytone_condition": "config('golden_days:modern_xp_bar')",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
         "directory": "option_shadowed_leaves",
         "polytone_condition": "config('golden_days:shadowed_leaves')",
         "formats": [0, 0],
