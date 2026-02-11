@@ -26,6 +26,11 @@
     "sounds": ["step/cloth1", "step/cloth2", "step/cloth3", "step/cloth4"],
     "subtitle": "subtitles.block.generic.footsteps"
   },
+  "_common.chest.close": {
+    "replace": true,
+    "sounds": ["goldendays/chest_close"]
+  },
+  "_common.chest.open": {"replace": true, "sounds": ["goldendays/chest_open"]},
   "_common.door.close": {"replace": true, "sounds": ["random/door_close"]},
   "_common.door.open": {"replace": true, "sounds": ["random/door_open"]},
   "_common.glass.break": {
@@ -509,12 +514,12 @@
   },
   "block.barrel.close": {
     "replace": true,
-    "sounds": [{"name": "block.chest.close", "type": "event"}],
+    "sounds": [{"name": "_common.chest.close", "type": "event"}],
     "subtitle": "subtitles.block.barrel.close"
   },
   "block.barrel.open": {
     "replace": true,
-    "sounds": [{"name": "block.chest.open", "type": "event"}],
+    "sounds": [{"name": "_common.chest.open", "type": "event"}],
     "subtitle": "subtitles.block.barrel.open"
   },
   "block.basalt.break": {
@@ -876,12 +881,12 @@
   },
   "block.chest.close": {
     "replace": true,
-    "sounds": [{"name": "_common.door.close", "type": "event"}],
+    "sounds": [{"name": "_common.chest.close", "type": "event"}],
     "subtitle": "subtitles.block.chest.close"
   },
   "block.chest.open": {
     "replace": true,
-    "sounds": [{"name": "_common.door.open", "type": "event"}],
+    "sounds": [{"name": "_common.chest.open", "type": "event"}],
     "subtitle": "subtitles.block.chest.open"
   },
   "block.chiseled_bookshelf.break": {
@@ -1006,32 +1011,32 @@
   },
   "block.copper_chest.close": {
     "replace": true,
-    "sounds": [{"name": "_common.door.close", "type": "event"}],
+    "sounds": [{"name": "_common.chest.close", "type": "event"}],
     "subtitle": "subtitles.block.chest.close"
   },
   "block.copper_chest.open": {
     "replace": true,
-    "sounds": [{"name": "_common.door.open", "type": "event"}],
+    "sounds": [{"name": "_common.chest.open", "type": "event"}],
     "subtitle": "subtitles.block.chest.open"
   },
   "block.copper_chest_oxidized.close": {
     "replace": true,
-    "sounds": [{"name": "_common.door.close", "type": "event"}],
+    "sounds": [{"name": "_common.chest.close", "type": "event"}],
     "subtitle": "subtitles.block.chest.close"
   },
   "block.copper_chest_oxidized.open": {
     "replace": true,
-    "sounds": [{"name": "_common.door.open", "type": "event"}],
+    "sounds": [{"name": "_common.chest.open", "type": "event"}],
     "subtitle": "subtitles.block.chest.open"
   },
   "block.copper_chest_weathered.close": {
     "replace": true,
-    "sounds": [{"name": "_common.door.close", "type": "event"}],
+    "sounds": [{"name": "_common.chest.close", "type": "event"}],
     "subtitle": "subtitles.block.chest.close"
   },
   "block.copper_chest_weathered.open": {
     "replace": true,
-    "sounds": [{"name": "_common.door.open", "type": "event"}],
+    "sounds": [{"name": "_common.chest.open", "type": "event"}],
     "subtitle": "subtitles.block.chest.open"
   },
   "block.copper_door.close": {
@@ -1310,12 +1315,12 @@
   },
   "block.ender_chest.close": {
     "replace": true,
-    "sounds": [{"name": "block.chest.close", "type": "event"}],
+    "sounds": [{"name": "_common.chest.close", "type": "event"}],
     "subtitle": "subtitles.block.chest.close"
   },
   "block.ender_chest.open": {
     "replace": true,
-    "sounds": [{"name": "block.chest.open", "type": "event"}],
+    "sounds": [{"name": "_common.chest.open", "type": "event"}],
     "subtitle": "subtitles.block.chest.open"
   },
   "block.fence_gate.close": {
