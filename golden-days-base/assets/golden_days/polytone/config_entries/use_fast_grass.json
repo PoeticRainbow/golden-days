@@ -3,6 +3,7 @@
   "presets": {
     "early_beta": true,
     "late_beta": false,
-    "early_release": false
+    "early_release": false,
+    "late_release": false
   }
 }
