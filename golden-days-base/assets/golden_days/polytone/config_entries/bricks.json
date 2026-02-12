@@ -1,4 +1,9 @@
 {
   "default_value": "alpha",
-  "allowed_values": ["alpha", "modern"]
+  "allowed_values": ["alpha", "modern"],
+  "presets": {
+    "early_beta": "alpha",
+    "late_beta": "modern",
+    "early_release": "modern"
+  }
 }

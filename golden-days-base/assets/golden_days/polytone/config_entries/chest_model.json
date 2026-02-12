@@ -1,4 +1,9 @@
 {
   "default_value": "beta",
-  "allowed_values": ["beta", "hybrid", "modern"]
+  "allowed_values": ["beta", "hybrid", "modern"],
+  "presets": {
+    "early_beta": "beta",
+    "late_beta": "beta",
+    "early_release": "modern"
+  }
 }

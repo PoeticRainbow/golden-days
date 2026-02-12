@@ -1,3 +1,8 @@
 {
-  "default_value": false
+  "default_value": false,
+  "presets": {
+    "early_beta": true,
+    "late_beta": false,
+    "early_release": false
+  }
 }
