@@ -5,6 +5,7 @@
   "skybox": "overworld",
   "attributes_modifiers": {
     "post_process": {
+      "minecraft:visual/sky_light_factor": 0.65,
       "minecraft:visual/cloud_height": -4,
       "minecraft:visual/cloud_color": "#cc2a2a35",
       "minecraft:visual/sky_color": "#2a2a35",
