@@ -14,7 +14,7 @@
             ],
             "animations": [
                 {
-                    "this.tz": "this.tz + if(is_ridden, 0, 3 + sin(time/2)*0.3)",
+                    "this.tz": "this.tz + if(is_ridden, 0, !is_in_water, 0, 3 + sin(time/2)*0.3)",
                     "this.ry": 0,
                     "this.rz": 0
                 }
@@ -66,7 +66,7 @@
             ],
             "animations": [
                 {
-                    "this.ty": "this.ty - if(is_ridden, 0, 3 + sin(time/2)*0.3)",
+                    "this.ty": "this.ty - if(is_ridden, 0, !is_in_water, 0, 3 + sin(time/2)*0.3)",
                     "this.ry": 0,
                     "this.rz": 0
                 }
