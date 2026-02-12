@@ -42,21 +42,30 @@
       },
       {
         "directory": "shaders_21_9",
-        "polytone_condition": "config('golden_days:use_shaders')",
+        "polytone_condition": {
+          "override": false,
+          "require_config": "golden_days:use_shaders"
+        },
         "formats": [69, 75],
         "min_format": 69,
         "max_format": 75
       },
       {
         "directory": "shaders_21_11",
-        "polytone_condition": "config('golden_days:use_shaders')",
+        "polytone_condition": {
+          "override": false,
+          "require_config": "golden_days:use_shaders"
+        },
         "formats": [75, 75],
         "min_format": 75,
         "max_format": 75
       },
       {
         "directory": "shaders_26_1",
-        "polytone_condition": "config('golden_days:use_shaders')",
+        "polytone_condition": {
+          "override": false,
+          "require_config": "golden_days:use_shaders"
+        },
         "formats": [76, 420],
         "min_format": 76,
         "max_format": 420
