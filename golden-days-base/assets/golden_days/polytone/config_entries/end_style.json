@@ -1,4 +1,10 @@
 {
   "default_value": "early_release",
-  "allowed_values": ["custom", "early_release", "modern"]
+  "allowed_values": ["custom", "early_release", "modern"],
+  "presets": {
+    "early_beta": "early_release",
+    "late_beta": "early_release",
+    "early_release": "early_release",
+    "late_release": "modern"
+  }
 }
