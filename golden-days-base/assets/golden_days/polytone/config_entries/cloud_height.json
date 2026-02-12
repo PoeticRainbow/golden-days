@@ -2,7 +2,7 @@
   "default_value": 108,
   "min": -64,
   "max": 320,
-  "step": 1,
+  "step": 4,
   "presets": {
     "early_beta": 108,
     "late_beta": 108,
