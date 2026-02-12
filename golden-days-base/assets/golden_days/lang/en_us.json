@@ -10,7 +10,7 @@
   "config.golden_days.cobblestone": "Cobblestone",
   "config.golden_days.cobblestone.tooltip": "Classic -> Beta 1.6: Classic\nBeta 1.7 -> Release 1.13: Modern",
   "config.golden_days.end_style": "End Style",
-  "config.golden_days.end_style.tooltip": "Release 1.0 -> 1.2.5: Early Release\nRelease 1.3+: Modern\n\n§e[W.I.P]§r Custom:  Changes the vibe of The End, including the sky\nIt is recommended to turn on Hide Sky Flashes in the accessibility settings when using this setting",
+  "config.golden_days.end_style.tooltip": "Release 1.0 -> 1.2.5: Early Release\nRelease 1.3+: Modern\n\n§e[W.I.P]§r Custom: Changes the vibe of The End, including the sky\nIt is recommended to turn on Hide Sky Flashes in the accessibility settings when using this setting",
   "config.golden_days.modern_log_tops": "Modern Log Tops",
   "config.golden_days.modern_log_tops.tooltip": "Match the log top to the wood variant color",
   "config.golden_days.modern_xp_bar": "Modern XP Bar",
