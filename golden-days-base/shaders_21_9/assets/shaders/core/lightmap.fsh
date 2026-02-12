@@ -45,10 +45,13 @@ float getBetaLightLevel(float light_level, float ambient) {
 
 void main() {
     // Calculate block and sky brightness levels based on texture coordinates
+    
     float block_level = floor(texCoord.x * 16) / 15;
     float sky_level = floor(texCoord.y * 16) * lightmapInfo.SkyFactor / 15;
 
     float light_level = max(block_level, sky_level);
+    // Clamp for potential fix?
+    //light_level = clamp(light_level, 0.0, 1.0);
 
     #if QUANTIZE_LIGHT == 1
         light_level = floor(light_level * 15 + 0.5) / 15;
