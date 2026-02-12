@@ -132,6 +132,13 @@
         "max_format": 0
       },
       {
+        "directory": "option_modern_end_sky",
+        "polytone_condition": "config('golden_days:modern_end_sky')",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
         "directory": "option_bushy_leaves",
         "polytone_condition": "config('golden_days:bushy_leaves') && !config('golden_days:shadowed_leaves')",
         "formats": [0, 0],
