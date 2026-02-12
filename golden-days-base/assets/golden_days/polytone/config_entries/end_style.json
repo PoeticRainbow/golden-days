@@ -1,0 +1,4 @@
+{
+  "default_value": "early_release",
+  "allowed_values": ["custom", "early_release", "modern"]
+}

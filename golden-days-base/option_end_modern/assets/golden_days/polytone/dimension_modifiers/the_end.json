@@ -1,0 +1,4 @@
+{
+  "targets": ["minecraft:the_end"],
+  "ambient_light": 0.25
+}

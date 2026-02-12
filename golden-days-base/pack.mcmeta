@@ -71,6 +71,13 @@
         "max_format": 420
       },
       {
+        "directory": "mod_polytone",
+        "polytone_condition": "true",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
         "directory": "option_chest_use_cem",
         "polytone_condition": "config('golden_days:chest_model') != 'beta'",
         "formats": [0, 0],
@@ -141,13 +148,6 @@
         "max_format": 0
       },
       {
-        "directory": "option_modern_end_sky",
-        "polytone_condition": "config('golden_days:modern_end_sky')",
-        "formats": [0, 0],
-        "min_format": 0,
-        "max_format": 0
-      },
-      {
         "directory": "option_bushy_leaves",
         "polytone_condition": "config('golden_days:bushy_leaves') && !config('golden_days:shadowed_leaves')",
         "formats": [0, 0],
@@ -162,8 +162,15 @@
         "max_format": 0
       },
       {
-        "directory": "option_transform_end",
-        "polytone_condition": "config('golden_days:transform_end')",
+        "directory": "option_end_modern",
+        "polytone_condition": "config('golden_days:end_style') == 'modern'",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
+        "directory": "option_end_custom",
+        "polytone_condition": "config('golden_days:end_style') == 'custom'",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
