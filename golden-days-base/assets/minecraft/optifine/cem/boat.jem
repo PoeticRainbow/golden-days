@@ -3,108 +3,26 @@
     "textureSize": [128, 64],
     "models": [
         {
-            "part": "bottom",
-            "id": "bottom",
-            "invertAxis": "xy",
-            "mirrorTexture": "u",
-            "translate": [0, -18, 0]
-        },
-        {
-            "part": "back",
-            "id": "back",
-            "invertAxis": "xy",
-            "mirrorTexture": "u",
-            "translate": [-11, -24, 0]
-        },
-        {
             "part": "front",
             "id": "front",
             "invertAxis": "xy",
-            "mirrorTexture": "u",
-            "translate": [0, -4.5, -4],
-            "rotate": [0, -180, 0],
-            "boxes": [
-                {
-                    "coordinates": [-10, 6.4, 20, 20, 6, 2],
-                    "uvNorth": [30, 58, 50, 64],
-                    "uvEast": [28, 58, 30, 64],
-                    "uvSouth": [52, 58, 72, 64],
-                    "uvWest": [50, 58, 52, 64],
-                    "uvUp": [50, 58, 30, 56],
-                    "uvDown": [70, 58, 50, 56]
-                },
-                {
-                    "coordinates": [-10, 6.4, -2, 20, 6, 2],
-                    "uvNorth": [52, 58, 72, 64],
-                    "uvEast": [50, 58, 52, 64],
-                    "uvSouth": [30, 58, 50, 64],
-                    "uvWest": [28, 58, 30, 64],
-                    "uvUp": [50, 56, 70, 58],
-                    "uvDown": [30, 58, 50, 56]
-                }
-            ],
-            "submodels": [
-                {
-                    "id": "sides",
-                    "invertAxis": "xy",
-                    "translate": [15, -19, -6],
-                    "rotate": [0, 90, 0],
-                    "submodels": [
-                        {
-                            "id": "front_sub_1",
-                            "invertAxis": "xy",
-                            "mirrorTexture": "u",
-                            "translate": [0, 0, 0],
-                            "boxes": [
-                                {
-                                    "coordinates": [-26, 25.4, -25, 20, 6, 2],
-                                    "uvNorth": [52, 58, 72, 64],
-                                    "uvEast": [28, 58, 30, 64],
-                                    "uvSouth": [30, 58, 50, 64],
-                                    "uvWest": [48, 49, 52, 60.5],
-                                    "uvUp": [50, 56, 70, 58],
-                                    "uvDown": [50, 58, 30, 56]
-                                },
-                                {
-                                    "coordinates": [-26, 25.4, -7, 20, 6, 2],
-                                    "uvNorth": [30, 58, 50, 64],
-                                    "uvSouth": [52, 58, 72, 64],
-                                    "uvUp": [50, 58, 30, 56],
-                                    "uvDown": [70, 56, 50, 58]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "base",
-                    "invertAxis": "xy",
-                    "translate": [0, 5, -6],
-                    "rotate": [-90, 90, 0],
-                    "submodels": [
-                        {
-                            "id": "front_sub_3",
-                            "invertAxis": "xy",
-                            "mirrorTexture": "u",
-                            "translate": [0, 0, 0],
-                            "boxes": [
-                                {
-                                    "coordinates": [-28, -8, -2.6, 24, 16, 4],
-                                    "uvNorth": [100, 60, 76, 44],
-                                    "uvEast": [104, 60, 100, 44],
-                                    "uvSouth": [128, 60, 104, 44],
-                                    "uvWest": [76, 60, 72, 44],
-                                    "uvUp": [124, 44, 100, 40],
-                                    "uvDown": [76, 40, 100, 44]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
+            "translate": [0, -2, 15],
+            "rotate": [0, 180, 0],
             "animations": [
                 {
-                    "this.ty": "front.ty - if(is_ridden, 0, !is_in_water, 0, 3 + sin(time/2)*0.3)"
+                    "this.ry": 0
+                }
+            ]
+        },
+        {
+            "part": "left",
+            "id": "left",
+            "invertAxis": "xy",
+            "translate": [9, -2, 0],
+            "rotate": [0, -90, 0],
+            "animations": [
+                {
+                    "this.ry": 0
                 }
             ]
         },
@@ -112,54 +30,140 @@
             "part": "right",
             "id": "right",
             "invertAxis": "xy",
-            "mirrorTexture": "u",
-            "translate": [0, -24, 3],
-            "rotate": [0, 180, 0]
+            "translate": [-9, -2, 0],
+            "rotate": [0, 90, 0],
+            "animations": [
+                {
+                    "this.ry": 0
+                }
+            ]
         },
         {
-            "part": "left",
-            "id": "left",
+            "part": "back",
+            "id": "back",
             "invertAxis": "xy",
-            "mirrorTexture": "u",
-            "translate": [0, -24, -9]
+            "translate": [4, -2, -15]
+        },
+        {
+            "part": "bottom",
+            "id": "bottom",
+            "invertAxis": "xy",
+            "translate": [1, -3, 0],
+            "rotate": [0, -90, -90],
+            "submodels": [
+                {
+                    "id": "boat",
+                    "invertAxis": "xy",
+                    "translate": [-2, 3, 0],
+                    "boxes": [
+                        {
+                            "coordinates": [-12, -7, -3, 24, 16, 4],
+                            "uvNorth": [76, 60, 100, 44],
+                            "uvEast": [72, 60, 76, 44],
+                            "uvSouth": [104, 60, 128, 44],
+                            "uvWest": [100, 60, 104, 44],
+                            "uvUp": [124, 44, 100, 40],
+                            "uvDown": [100, 40, 76, 44]
+                        }
+                    ],
+                    "submodels": [
+                        {
+                            "id": "sides",
+                            "invertAxis": "xy",
+                            "translate": [1, 1, 0],
+                            "rotate": [90, 0, 0],
+                            "submodels": [
+                                {
+                                    "invertAxis": "xy",
+                                    "mirrorTexture": "u",
+                                    "boxes": [
+                                        {"coordinates": [-11, 1, 8, 20, 6, 2], "textureOffset": [28, 56]}
+                                    ]
+                                }
+                            ],
+                            "boxes": [
+                                {
+                                    "coordinates": [-11, 1, -10, 20, 6, 2],
+                                    "uvNorth": [72, 58, 52, 64],
+                                    "uvEast": [52, 58, 50, 64],
+                                    "uvSouth": [50, 58, 30, 64],
+                                    "uvWest": [30, 58, 28, 64],
+                                    "uvUp": [50, 56, 30, 58],
+                                    "uvDown": [70, 58, 50, 56]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "front_back",
+                            "invertAxis": "xy",
+                            "mirrorTexture": "u",
+                            "translate": [0, 0, 0],
+                            "rotate": [90, 0, 90],
+                            "boxes": [
+                                {"coordinates": [-9, 1, 10, 20, 6, 2], "textureOffset": [28, 56]},
+                                {
+                                    "coordinates": [-9, 1, -12, 20, 6, 2],
+                                    "uvNorth": [52, 58, 72, 64],
+                                    "uvEast": [30, 58, 28, 64],
+                                    "uvSouth": [50, 58, 30, 64],
+                                    "uvWest": [52, 58, 50, 64],
+                                    "uvUp": [30, 56, 50, 58],
+                                    "uvDown": [50, 58, 70, 56]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "animations": [
+                {
+                    "boat.tz": "if(is_ridden, bottom.tz, !is_in_water, bottom.tz, 3 + sin(time/3) * sin(time/4 + id * 4))",
+                    "this.ry": 0,
+                    "this.rz": 0
+                }
+            ]
         },
         {
             "part": "paddle_left",
             "id": "paddle_left",
             "invertAxis": "xy",
-            "mirrorTexture": "u",
-            "translate": [-13.5, -6, 4]
+            "translate": [9, -11, 3],
+            "rotate": [-124, -50, 165],
+            "animations": [
+                {
+                    "this.rx": 0,
+                    "this.ry": 0,
+                    "this.rz": 0
+                }
+            ]
         },
         {
             "part": "paddle_right",
             "id": "paddle_right",
             "invertAxis": "xy",
-            "mirrorTexture": "u",
-            "translate": [13.5, -6, 4]
+            "translate": [-9, -11, 3],
+            "rotate": [-124, 50, -165],
+            "animations": [
+                {
+                    "this.rx": 0,
+                    "this.ry": 0,
+                    "this.rz": 0
+                }
+            ]
         },
         {
             "part": "bottom_no_water",
             "id": "bottom_no_water",
             "invertAxis": "xy",
-            "mirrorTexture": "u",
             "translate": [1, -9, 0],
             "rotate": [0, -90, -90],
             "boxes": [
-                {
-                    "coordinates": [-12, 2, -4.5, 20, 16, 5],
-                    "uvNorth": [0, 0, 20, 16],
-                    "uvEast": [0, 0, 6, 16],
-                    "uvSouth": [0, 0, 20, 16],
-                    "uvWest": [0, 0, 6, 16],
-                    "uvUp": [0, 0, 20, 6],
-                    "uvDown": [0, 0, 20, 6]
-                }
+                {"coordinates": [-12, 2, -5, 20, 16, 6], "textureOffset": [65, 18]}
             ],
             "animations": [
                 {
-                    "this.rx": "0",
-                    "this.ry": "0",
-                    "this.rz": "0"
+                    "this.ry": 0,
+                    "this.rz": 0
                 }
             ]
         }
