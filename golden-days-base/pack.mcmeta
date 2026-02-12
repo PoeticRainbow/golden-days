@@ -56,9 +56,9 @@
           "override": false,
           "require_config": "golden_days:use_shaders"
         },
-        "formats": [75, 75],
+        "formats": [75, 420],
         "min_format": 75,
-        "max_format": 75
+        "max_format": 420
       },
       {
         "directory": "shaders_26_1",
