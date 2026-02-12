@@ -1,7 +1,7 @@
 #version 330
 
 #define QUANTIZE_LIGHT 0
-#define OVERRIDE_AMBIENT 1
+#define OVERRIDE_AMBIENT 0
 
 layout(std140) uniform LightmapInfo {
     float AmbientLightFactor;
@@ -62,7 +62,7 @@ void main() {
         float ambient = 0.05;
     #else
         // Vanilla overworld is 0.04, so we correct with 0.01 to match Beta's values
-        float ambient = (lightmapInfo.AmbientColor.r + lightmapInfo.AmbientColor.g + lightmapInfo.AmbientColor.b) / 3 + 0.01;
+        float ambient = ((lightmapInfo.AmbientColor.r + lightmapInfo.AmbientColor.g + lightmapInfo.AmbientColor.b) / 3 + 0.01) * lightmapInfo.AmbientLightFactor;
     #endif
 
     vec3 color = vec3(getBetaLightLevel(light_level, max(ambient, 0.05)));
