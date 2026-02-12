@@ -51,7 +51,7 @@ void main() {
 
     float light_level = max(block_level, sky_level);
     // Clamp for potential fix?
-    //light_level = clamp(light_level, 0.0, 1.0);
+    light_level = clamp(light_level, 0.0, 1.0);
 
     #if QUANTIZE_LIGHT == 1
         light_level = floor(light_level * 15 + 0.5) / 15;
