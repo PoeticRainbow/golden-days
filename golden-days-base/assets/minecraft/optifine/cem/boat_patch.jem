@@ -1,31 +1,22 @@
 {
-	"credit": "Made with Blockbench",
-	"textureSize": [128, 64],
-	"models": [
-		{
-			"part": "water_patch",
-			"id": "water_patch",
-			"invertAxis": "xy",
-			"mirrorTexture": "u",
-			"translate": [1, -9, 0],
-			"rotate": [0, -90, -90],
-			"boxes": [
-				{
-					"coordinates": [-12, 2, -3.5, 20, 16, 4],
-					"uvNorth": [0, 0, 20, 16],
-					"uvEast": [0, 0, 6, 16],
-					"uvSouth": [0, 0, 20, 16],
-					"uvWest": [0, 0, 6, 16],
-					"uvUp": [0, 0, 20, 6],
-					"uvDown": [0, 0, 20, 6]
-				}
-			],
-			"animations": [
-				{
-					"this.ry": 0,
-					"this.rz": 0
-				}
-			]
-		}
-	]
+    "credit": "Made with Blockbench",
+    "textureSize": [128, 64],
+    "models": [
+        {
+            "part": "water_patch",
+            "id": "water_patch",
+            "invertAxis": "xy",
+            "translate": [1, -9, 0],
+            "rotate": [0, -90, -90],
+            "boxes": [
+                {"coordinates": [-12, 2, -5, 20, 16, 6], "textureOffset": [8, 0]}
+            ],
+            "animations": [
+                {
+                    "this.ry": 0,
+                    "this.rz": 0
+                }
+            ]
+        }
+    ]
 }
