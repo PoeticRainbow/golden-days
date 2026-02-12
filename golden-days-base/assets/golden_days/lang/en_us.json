@@ -1,4 +1,12 @@
 {
+  "golden_days.presets": "Version Presets",
+  "golden_days.presets.tooltip": "A mix of presets based on actual Minecraft versions.",
+  "golden_days.presets.none": "Custom",
+  "golden_days.presets.early_beta": "Early Beta (b1.3)",
+  "golden_days.presets.late_beta": "Late Beta (b1.7.3)",
+  "golden_days.presets.early_release": "Early Release (r1.0)",
+  "config.golden_days.transform_end": "Transform End",
+  "config.golden_days.transform_end.tooltip": "Changes a lot of aspects about The End, including the sky",
   "config.golden_days.bushy_leaves": "Bushy Leaves",
   "config.golden_days.bushy_leaves.tooltip": "Gives leaves extra foliage, inspired by Better Foliage",
   "config.golden_days.modern_xp_bar": "Modern XP Bar",
