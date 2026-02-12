@@ -1,0 +1,13 @@
+{
+  "targets": ["minecraft:the_end"],
+  "fog_colormap": "#131318",
+  "sky_colormap": "#2A2A35",
+  "skybox": "overworld",
+  "attributes_modifiers": {
+    "post_process": {
+      "minecraft:visual/sky_color": "#2A2A35",
+      "minecraft:visual/sun_angle": 180,
+      "minecraft:visual/moon_angle": 180
+    }
+  }
+}

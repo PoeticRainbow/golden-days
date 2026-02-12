@@ -41,13 +41,22 @@
         "max_format": 75
       },
       {
-        "directory": "patch_21_11",
-        "formats": [75, 420],
-        "min_format": 75,
-        "max_format": 420
+        "directory": "shaders_21_9",
+        "polytone_condition": "config('golden_days:use_shaders')",
+        "formats": [69, 75],
+        "min_format": 69,
+        "max_format": 75
       },
       {
-        "directory": "patch_26_1",
+        "directory": "shaders_21_11",
+        "polytone_condition": "config('golden_days:use_shaders')",
+        "formats": [75, 75],
+        "min_format": 75,
+        "max_format": 75
+      },
+      {
+        "directory": "shaders_26_1",
+        "polytone_condition": "config('golden_days:use_shaders')",
         "formats": [76, 420],
         "min_format": 76,
         "max_format": 420
@@ -132,6 +141,13 @@
       {
         "directory": "option_bushy_leaves_shadowed",
         "polytone_condition": "config('golden_days:bushy_leaves') && config('golden_days:shadowed_leaves')",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
+        "directory": "option_transform_end",
+        "polytone_condition": "config('golden_days:transform_end')",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
