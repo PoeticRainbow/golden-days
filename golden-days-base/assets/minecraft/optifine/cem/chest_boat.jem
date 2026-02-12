@@ -7,7 +7,12 @@
             "id": "bottom",
             "invertAxis": "xy",
             "mirrorTexture": "u",
-            "translate": [0, -18, 0]
+            "translate": [0, -18, 0],
+            "animations": [
+                {
+                    "this.ty": "front.ty - if(is_ridden, 0, !is_in_water, 0, 3 + sin(time/2)*0.3)"
+                }
+            ]
         },
         {
             "part": "back",
@@ -106,7 +111,7 @@
             ],
             "animations": [
                 {
-                    "this.ty": "front.ty - if(is_ridden, 0, 3 + sin(time/2)*0.3)"
+                    "this.ty": "front.ty - if(is_ridden, 0, !is_in_water, 0, 3 + sin(time/2)*0.3)"
                 }
             ]
         },
@@ -184,7 +189,7 @@
             ],
             "animations": [
                 {
-                    "this.ty": "this.ty - if(is_ridden, 0, 3 + sin(time/2)*0.3)"
+                    "this.ty": "this.ty - if(is_ridden, 0, !is_in_water, 0, 3 + sin(time/2)*0.3)"
                 }
             ]
         },
