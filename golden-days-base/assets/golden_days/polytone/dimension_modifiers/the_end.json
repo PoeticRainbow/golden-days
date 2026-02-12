@@ -1,4 +1,5 @@
 {
   "targets": ["minecraft:the_end"],
+  "ambient_light": 0.1,
   "fog_colormap": "#131318"
 }
