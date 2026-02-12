@@ -1,0 +1,112 @@
+{
+    "credit": "Made with Blockbench",
+    "textureSize": [128, 128],
+    "models": [
+        {
+            "part": "bottom",
+            "id": "bottom",
+            "invertAxis": "xy",
+            "translate": [1, -8, 0],
+            "rotate": [0, -90, -90],
+            "submodels": [
+                {
+                    "id": "boat",
+                    "invertAxis": "xy",
+                    "translate": [-1, 8, 0],
+                    "boxes": [
+                        {"coordinates": [-12, -9, -4, 24, 20, 4], "textureOffset": [72, 0]},
+                        {"coordinates": [-12, -7, -8, 24, 16, 4], "textureOffset": [72, 0]}
+                    ],
+                    "submodels": [
+                        {
+                            "id": "chest",
+                            "invertAxis": "xy",
+                            "translate": [12, 1, 0],
+                            "rotate": [90, 0, 90],
+                            "boxes": [
+                                {
+                                    "coordinates": [-6, 0, -12, 12, 12, 12],
+                                    "uvNorth": [86, 110, 100, 124],
+                                    "uvEast": [72, 110, 86, 124],
+                                    "uvSouth": [114, 110, 128, 124],
+                                    "uvWest": [100, 110, 114, 124],
+                                    "uvUp": [86, 96, 100, 110],
+                                    "uvDown": [100, 96, 114, 110]
+                                },
+                                {
+                                    "coordinates": [-0.8571, 6, -12.85714, 1.71429, 3.42857, 0.85714],
+                                    "uvNorth": [73, 97, 75, 101],
+                                    "uvEast": [72, 97, 73, 101],
+                                    "uvSouth": [76, 97, 78, 101],
+                                    "uvWest": [75, 97, 76, 101],
+                                    "uvUp": [75, 97, 73, 96],
+                                    "uvDown": [77, 96, 75, 97]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "animations": [
+                {
+                    "boat.tz": "if(is_ridden, 0, !is_in_water, 0, 3 + sin(time/2)*0.3)",
+                    "this.ry": 0,
+                    "this.rz": 0
+                }
+            ]
+        },
+        {
+            "part": "paddle_left",
+            "id": "paddle_left",
+            "invertAxis": "xy",
+            "translate": [9, -10, 3],
+            "rotate": [-124, -50, 165],
+            "animations": [
+                {
+                    "this.rx": 0,
+                    "this.ry": 0,
+                    "this.rz": 0
+                }
+            ]
+        },
+        {
+            "part": "paddle_right",
+            "id": "paddle_right",
+            "invertAxis": "xy",
+            "translate": [-9, -10, 3],
+            "rotate": [-124, 50, -165],
+            "animations": [
+                {
+                    "this.rx": 0,
+                    "this.ry": 0,
+                    "this.rz": 0
+                }
+            ]
+        },
+        {
+            "part": "chest_base",
+            "id": "chest_base",
+            "invertAxis": "xy",
+            "translate": [-6, -16, -2],
+            "animations": [
+                {
+                    "this.ty": "this.ty - if(is_ridden, 0, !is_in_water, 0, 3 + sin(time/2)*0.3)",
+                    "this.ry": 0,
+                    "this.rz": 0
+                }
+            ]
+        },
+        {
+            "part": "chest_lid",
+            "id": "chest_lid",
+            "invertAxis": "xy",
+            "translate": [-6, -20, -2]
+        },
+        {
+            "part": "chest_knob",
+            "id": "chest_knob",
+            "invertAxis": "xy",
+            "translate": [-1, -17, -1]
+        }
+    ]
+}
