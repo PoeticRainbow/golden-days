@@ -8,7 +8,7 @@
   "config.golden_days.use_shaders": "Use Core Shaders",
   "config.golden_days.use_shaders.tooltip": "Core shaders can cause issues with many mods. Disabling might increase mod compatibility",
   "config.golden_days.transform_end": "Transform End",
-  "config.golden_days.transform_end.tooltip": "Changes a lot of aspects about The End, including the sky",
+  "config.golden_days.transform_end.tooltip": "§e[W.I.P]§r\nChanges the vibe of The End, including the sky",
   "config.golden_days.bushy_leaves": "Bushy Leaves",
   "config.golden_days.bushy_leaves.tooltip": "Gives leaves extra foliage, inspired by Better Foliage",
   "config.golden_days.modern_xp_bar": "Modern XP Bar",
