@@ -41,6 +41,12 @@
         "max_format": 75
       },
       {
+        "directory": "patch_21_11",
+        "formats": [75, 420],
+        "min_format": 75,
+        "max_format": 420
+      },
+      {
         "directory": "shaders_21_9",
         "polytone_condition": {
           "override": false,
