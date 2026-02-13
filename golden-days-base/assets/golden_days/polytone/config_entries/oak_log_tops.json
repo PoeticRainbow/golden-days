@@ -1,9 +1,9 @@
 {
   "default_value": false,
   "presets": {
-    "early_beta": false,
-    "late_beta": false,
-    "early_release": false,
-    "late_release": true
+    "early_beta": true,
+    "late_beta": true,
+    "early_release": true,
+    "late_release": false
   }
 }
