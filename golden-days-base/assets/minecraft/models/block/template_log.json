@@ -1,4 +1,4 @@
 {
   "parent": "block/cube_column",
-  "textures": {"end": "block/oak_log_top"}
+  "textures": {"end": "#top"}
 }
