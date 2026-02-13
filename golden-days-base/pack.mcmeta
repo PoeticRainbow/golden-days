@@ -147,8 +147,8 @@
         "max_format": 0
       },
       {
-        "directory": "option_modern_log_tops",
-        "polytone_condition": "config('golden_days:modern_log_tops')",
+        "directory": "option_oak_log_tops",
+        "polytone_condition": "config('golden_days:oak_log_tops')",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
