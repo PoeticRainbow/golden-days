@@ -1,4 +1,5 @@
 {
   "default_value": "disabled",
-  "allowed_values": ["disabled", "normal", "no_tint"]
+  "allowed_values": ["disabled", "normal", "no_tint"],
+  "display_order": -1
 }
