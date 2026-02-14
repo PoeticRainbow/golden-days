@@ -21,6 +21,8 @@
   "config.golden_days.silent_chests.tooltip": "Classic -> Beta 1.7: true\nBeta 1.8+: false",
   "config.golden_days.use_fast_grass": "Fast Grass",
   "config.golden_days.use_fast_grass.tooltip": "Alpha -> Beta 1.5: true\nFast Graphics Alpha -> Release 1.8: true",
+  "config.golden_days.flatten_skin_layers": "Flatten Skin Layers",
+  "config.golden_days.flatten_skin_layers.tooltip": "Classic -> Release 1.7: true\nRelease 1.8+: false",
   "config.golden_days.use_shaders": "Use Core Shaders",
   "config.golden_days.use_shaders.tooltip": "Used for lighting, fog, and disabling chunk blending on load\n\nCore shaders can cause issues with many mods. Disabling might increase mod compatibility",
   "golden_days.presets": "Version Presets",
