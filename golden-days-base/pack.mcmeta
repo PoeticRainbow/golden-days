@@ -84,6 +84,13 @@
         "max_format": 0
       },
       {
+        "directory": "option_disable_flat_items",
+        "polytone_condition": "config('golden_days:disable_flat_items')",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
         "directory": "option_chest_use_cem",
         "polytone_condition": "config('golden_days:chest_model') != 'beta'",
         "formats": [0, 0],
