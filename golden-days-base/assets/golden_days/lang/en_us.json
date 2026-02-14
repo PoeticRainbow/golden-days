@@ -31,6 +31,8 @@
   "config.golden_days.use_shaders.tooltip": "Used for lighting, fog, and disabling chunk blending on load\n\nCore shaders can cause issues with many mods. Disabling might increase mod compatibility",
   "config.golden_days.use_overlay_ctm": "Overlay CTM",
   "config.golden_days.use_overlay_ctm.tooltip": "Some blocks will overlay their texture on adjacent blocks\n\n§eIf you are using Golden Days Alpha, you must change this to §a§lno_tint §eor else the grass texture will not match",
+  "config.golden_days.picture_perfect": "Picture Perfect §e[WIP]§r",
+  "config.golden_days.picture_perfect.tooltip": "§cReplaces EVERY block in the game with one from Beta... only intended for screenshots",
   "golden_days.presets": "Version Presets",
   "golden_days.presets.early_beta": "Early Beta (b1.3)",
   "golden_days.presets.early_release": "Early Release (r1.0)",

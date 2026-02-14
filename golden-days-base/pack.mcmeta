@@ -208,6 +208,13 @@
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
+      },
+      {
+        "directory": "option_picture_perfect",
+        "polytone_condition": "config('golden_days:picture_perfect')",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
       }
     ]
   }
