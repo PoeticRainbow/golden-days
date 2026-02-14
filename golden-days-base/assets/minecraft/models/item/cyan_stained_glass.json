@@ -1,0 +1,4 @@
+{
+  "parent": "block/cube_all",
+  "textures": {"all": "block/cyan_stained_glass_opaque"}
+}
