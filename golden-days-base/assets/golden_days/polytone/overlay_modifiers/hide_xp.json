@@ -1,0 +1,5 @@
+{
+  "require_config": "golden_days:hide_xp_bar",
+  "texture": "minecraft:hud/.*_bar_.*",
+  "height_inc": -999
+}

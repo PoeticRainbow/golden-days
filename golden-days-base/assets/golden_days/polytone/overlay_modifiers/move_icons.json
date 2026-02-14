@@ -1,0 +1,5 @@
+{
+  "require_config": "golden_days:hide_xp_bar",
+  "texture": "minecraft:hud/(air|armor|food|heart/).*",
+  "y_inc": 7
+}
