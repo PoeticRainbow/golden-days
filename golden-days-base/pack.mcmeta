@@ -91,14 +91,14 @@
         "max_format": 0
       },
       {
-        "directory": "option_chest_use_cem",
+        "directory": "mod_emf_option_chest_use_cem",
         "polytone_condition": "config('golden_days:chest_model') != 'beta'",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
       },
       {
-        "directory": "option_chest_fat_animated",
+        "directory": "mod_emf_option_chest_fat_animated",
         "polytone_condition": "config('golden_days:chest_model') == 'hybrid' && modOn('entity_model_features')",
         "formats": [0, 0],
         "min_format": 0,
