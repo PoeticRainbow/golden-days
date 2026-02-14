@@ -6,6 +6,7 @@
   "ambient_light": 0.25,
   "attributes_modifiers": {
     "post_process": {
+      "minecraft:visual/star_brightness": 1.0,
       "minecraft:visual/cloud_height": -4,
       "minecraft:visual/cloud_color": "#cc2a2a35",
       "minecraft:visual/sky_color": "#2a2a35",
