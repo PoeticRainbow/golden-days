@@ -1,0 +1,4 @@
+{
+  "parent": "block/cube_all",
+  "textures": {"all": "block/honey_block_opaque"}
+}
