@@ -1,0 +1,5 @@
+{
+  "targets": "minecraft:.*(the_end|end_).*",
+  "grass_color": "#a0ffc0",
+  "foliage_color": "#d0ff93"
+}
