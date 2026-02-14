@@ -84,6 +84,20 @@
         "max_format": 0
       },
       {
+        "directory": "mod_continuity_option_overlay_ctm",
+        "polytone_condition": "config('golden_days:use_overlay_ctm') != 'disabled'",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
+        "directory": "mod_continuity_option_no_grass_tint",
+        "polytone_condition": "config('golden_days:use_overlay_ctm') == 'no_tint'",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
         "directory": "option_disable_flat_items",
         "polytone_condition": "config('golden_days:disable_flat_items')",
         "formats": [0, 0],
