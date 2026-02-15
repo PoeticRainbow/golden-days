@@ -6,5 +6,6 @@
     "late_beta": "beta",
     "early_release": "modern",
     "late_release": "modern"
-  }
+  },
+  "display_order": 10
 }
