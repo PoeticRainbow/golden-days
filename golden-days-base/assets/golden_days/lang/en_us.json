@@ -17,6 +17,8 @@
   "config.golden_days.fast_grass.tooltip": "Alpha -> Beta 1.5: true\nFast Graphics Alpha -> Release 1.8: true\n\nRemoves the tinted overlay on the sides of Grass Blocks to match how they looked with Fast Graphics enabled in older versions",
   "config.golden_days.flatten_skin_layers": "Flatten Skins",
   "config.golden_days.flatten_skin_layers.tooltip": "Classic -> Release 1.7: true\nRelease 1.8+: false\n\nFlattens the second layer of player skins to imitate the look of skins before the second layer was added. §cREQUIRES EMF",
+  "config.golden_days.matching_coals": "Matching Coals",
+  "config.golden_days.matching_coals.tooltip": "Beta 1.2 -> Release 1.5: true\nRelease 1.6+: false\n\nMakes Charcoal and Coal use the same texture",
   "config.golden_days.oak_log_tops": "Oak Log Tops",
   "config.golden_days.oak_log_tops.tooltip": "Classic -> Release 1.6: true\nRelease 1.7+: false\n\nMakes all Overworld logs have Oak Log tops",
   "config.golden_days.picture_perfect": "§e[WIP]§r Picture Perfect",
