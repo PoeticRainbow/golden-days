@@ -1,0 +1,10 @@
+{
+  "default_value": "custom",
+  "allowed_values": ["hidden", "custom", "modern"],
+  "presets": {
+    "early_beta": "hidden",
+    "late_beta": "hidden",
+    "early_release": "modern",
+    "late_release": "modern"
+  }
+}
