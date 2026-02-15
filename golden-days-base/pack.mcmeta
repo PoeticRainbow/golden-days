@@ -182,6 +182,13 @@
         "max_format": 0
       },
       {
+        "directory": "option_solid_items",
+        "polytone_condition": "config('golden_days:solid_items')",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
         "directory": "option_oak_log_tops",
         "polytone_condition": "config('golden_days:oak_log_tops')",
         "formats": [0, 0],

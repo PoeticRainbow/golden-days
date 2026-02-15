@@ -25,6 +25,8 @@
   "config.golden_days.shadowed_leaves.tooltip": "Classic -> Beta 1.7: false\nBeta 1.8+: true\n\nEnables ambient occlusion on leaves",
   "config.golden_days.silent_chests": "Silent Chests",
   "config.golden_days.silent_chests.tooltip": "Classic -> Beta 1.7: true\nBeta 1.8+: false\n\nRemoves the opening and closing sound of chests",
+  "config.golden_days.solid_items": "Solid Items",
+  "config.golden_days.solid_items.tooltip": "Classic -> Released 1.6: true\nRelease 1.7+: false\n\nRemoves translucency from items and makes them render solid",
   "config.golden_days.use_overlay_ctm": "§lOverlay CTM",
   "config.golden_days.use_overlay_ctm.tooltip": "Some blocks will overlay their texture on adjacent blocks\n\n§eIf you are using Golden Days Alpha, you must change this to §a§lno_tint §eor else the grass texture will not match\n\n§cREQUIRES CONTINUITY",
   "config.golden_days.use_shaders": "Use Core Shaders",
