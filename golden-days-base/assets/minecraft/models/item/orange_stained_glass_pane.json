@@ -1,4 +1,4 @@
 {
   "parent": "item/generated",
-  "textures": {"layer0": "block/orange_stained_glass_opaque"}
+  "textures": {"layer0": "block/orange_stained_glass"}
 }

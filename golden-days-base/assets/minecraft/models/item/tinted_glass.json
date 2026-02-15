@@ -1,4 +1,4 @@
 {
   "parent": "block/cube_all",
-  "textures": {"all": "block/tinted_glass_opaque"}
+  "textures": {"all": "block/tinted_glass"}
 }
