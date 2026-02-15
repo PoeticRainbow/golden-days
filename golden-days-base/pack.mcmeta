@@ -141,7 +141,7 @@
       },
       {
         "directory": "option_fast_grass",
-        "polytone_condition": "config('golden_days:use_fast_grass')",
+        "polytone_condition": "config('golden_days:fast_grass')",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
