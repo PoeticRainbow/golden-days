@@ -154,8 +154,15 @@
         "max_format": 0
       },
       {
+        "directory": "option_hide_xp_bar",
+        "polytone_condition": "config('golden_days:xp_bar_style') == 'hidden'",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
         "directory": "option_modern_xp_bar",
-        "polytone_condition": "config('golden_days:modern_xp_bar')",
+        "polytone_condition": "config('golden_days:xp_bar_style') == 'modern'",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
