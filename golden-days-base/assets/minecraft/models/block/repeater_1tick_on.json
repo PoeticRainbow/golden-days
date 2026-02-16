@@ -1,4 +1,5 @@
 {
+  "ambientocclusion": false,
   "textures": {
     "particle": "block/repeater_on",
     "slab": "block/smooth_stone",
