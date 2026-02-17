@@ -1,4 +1,6 @@
 {
+  "config.golden_days.beta_lighting": "Beta Lighting",
+  "config.golden_days.beta_lighting.tooltip": "Indev -> Beta 1.7: true\nBeta 1.8+: false\n\nLightmap shaders should be compatible with most mods. Disabling might increase mod compatibility in rare cases",
   "config.golden_days.bricks": "Bricks",
   "config.golden_days.bricks.tooltip": "Alpha -> Beta 1.6: Alpha\nBeta 1.7 -> Release 1.13: Modern\n\nChanges the texture of Bricks",
   "config.golden_days.bushy_leaves": "§lBushy Leaves",
@@ -32,7 +34,7 @@
   "config.golden_days.use_overlay_ctm": "§lOverlay CTM",
   "config.golden_days.use_overlay_ctm.tooltip": "Some blocks will overlay their texture on adjacent blocks\n\n§eIf you are using Golden Days Alpha, you must change this to §a§lno_tint §eor else the grass texture will not match\n\n§cREQUIRES CONTINUITY",
   "config.golden_days.use_shaders": "Use Core Shaders",
-  "config.golden_days.use_shaders.tooltip": "Used for lighting, fog, and disabling chunk blending on load\n\n§cCore shaders can cause issues with many mods. Disabling might increase mod compatibility",
+  "config.golden_days.use_shaders.tooltip": "Used for removing antialising on block textures, old fog, and disabling chunk blending on load\n\n§cCore shaders can cause issues with many mods. Disabling might increase mod compatibility",
   "config.golden_days.xp_bar_style": "XP Bar Style",
   "config.golden_days.xp_bar_style.tooltip": "Classic -> Beta 1.7: hidden\nBeta 1.8+: modern\nCustom: Removes the XP bar and moves other UI elements to fill the gap\n\n§cHiding the XP bar could cause issues with other mods installed",
   "golden_days.presets": "Version Presets",
