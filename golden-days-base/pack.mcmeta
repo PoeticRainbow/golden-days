@@ -48,30 +48,21 @@
       },
       {
         "directory": "shaders_core_21_9",
-        "polytone_condition": {
-          "override": false,
-          "require_config": "golden_days:use_shaders"
-        },
+        "polytone_condition": "modOn('minecraft', '[1.21.9, 1.21.11]') && config('golden_days:use_shaders') && !(modOn('sodium') || modOn('embeddium'))",
         "formats": [69, 75],
         "min_format": 69,
         "max_format": 75
       },
       {
         "directory": "shaders_core_21_11",
-        "polytone_condition": {
-          "override": false,
-          "require_config": "golden_days:use_shaders"
-        },
+        "polytone_condition": "modOn('minecraft', '1.21.11') && config('golden_days:use_shaders') && !(modOn('sodium') || modOn('embeddium'))",
         "formats": [75, 420],
         "min_format": 75,
         "max_format": 420
       },
       {
         "directory": "shaders_core_26_1",
-        "polytone_condition": {
-          "override": false,
-          "require_config": "golden_days:use_shaders"
-        },
+        "polytone_condition": "modOn('minecraft', '[26.1, 27.0)') && config('golden_days:use_shaders') && !(modOn('sodium') || modOn('embeddium'))",
         "formats": [76, 420],
         "min_format": 76,
         "max_format": 420
