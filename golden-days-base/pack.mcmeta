@@ -151,6 +151,13 @@
         "max_format": 0
       },
       {
+        "directory": "option_cuboid_bamboo",
+        "polytone_condition": "config('golden_days:cuboid_bamboo')",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
         "directory": "option_fast_grass",
         "polytone_condition": "config('golden_days:fast_grass')",
         "formats": [0, 0],

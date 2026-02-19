@@ -1,0 +1,4 @@
+{
+  "parent": "block/cross",
+  "textures": {"cross": "block/bamboo_sapling"}
+}
