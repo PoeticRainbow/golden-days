@@ -1,9 +1,9 @@
 {
-  "parent": "block/template_chest_double",
-	"textures": {
-		"front": "block/weathered_copper_chest_front_left",
-		"side": "block/weathered_copper_chest_side",
-		"back": "block/weathered_copper_chest_back_left",
-		"top": "block/weathered_copper"
-	}
+  "parent": "block/template_chest_left",
+  "textures": {
+    "front": "block/weathered_copper_chest_front_left",
+    "side": "block/weathered_copper_chest_side",
+    "back": "block/weathered_copper_chest_back_left",
+    "top": "block/weathered_copper"
+  }
 }

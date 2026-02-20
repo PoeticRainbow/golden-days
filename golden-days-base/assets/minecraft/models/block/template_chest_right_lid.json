@@ -1,5 +1,0 @@
-{
-  "parent": "block/block",
-  "texture_size": [64, 64],
-  "textures": {"particle": "#chest"}
-}

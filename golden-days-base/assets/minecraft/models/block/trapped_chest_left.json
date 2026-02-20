@@ -1,9 +1,9 @@
 {
-  "parent": "block/template_chest_double",
-	"textures": {
-		"front": "block/trapped_chest_front_left",
-		"side": "block/chest_side",
-		"back": "block/chest_back_left",
-		"top": "block/chest_top"
-	}
+  "parent": "block/template_chest_left",
+  "textures": {
+    "front": "block/trapped_chest_front_left",
+    "side": "block/chest_side",
+    "back": "block/chest_back_left",
+    "top": "block/chest_top"
+  }
 }
