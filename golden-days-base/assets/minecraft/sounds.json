@@ -3897,6 +3897,11 @@
     "replace": true,
     "sounds": [{"name": "_common.silent", "type": "event"}]
   },
+  "item.hoe.till": {
+    "replace": true,
+    "sounds": [{"name": "_common.gravel.step", "type": "event", "pitch": 0.8}],
+    "subtitle": "subtitles.item.hoe.till"
+  },
   "item.nether_wart.plant": {
     "replace": true,
     "sounds": [{"name": "_common.silent", "type": "event"}]
