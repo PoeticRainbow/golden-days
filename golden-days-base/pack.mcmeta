@@ -6,6 +6,7 @@
     "min_format": 15,
     "max_format": 420
   },
+  "sodium": {"ignored_shaders": ["lightmap.fsh", "terrain.fsh", "fog.glsl"]},
   "overlays": {
     "entries": [
       {"directory": "old_lightmaps", "formats": [15, 35]},
