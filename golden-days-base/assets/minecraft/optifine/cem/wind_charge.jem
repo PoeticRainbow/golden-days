@@ -1,0 +1,37 @@
+{
+  "textureSize": [64, 32],
+  "texture": "textures/item/wind_charge.png",
+  "models": [
+    {
+      "part": "charge",
+      "id": "charge",
+      "invertAxis": "xy",
+      "translate": [0, -2, 0],
+      "rotate": [-180, 0, 0],
+      "submodels": [
+        {
+          "id": "item",
+          "invertAxis": "xy",
+          "translate": [0, 2, 0],
+          "rotate": [0, 0, -180],
+          "boxes": [
+            {
+              "coordinates": [-4, -4, 0, 8, 8, 0.01],
+              "uvNorth": [64, 0, 0, 32],
+              "uvSouth": [0, 0, 64, 32]
+            }
+          ]
+        }
+      ],
+      "animations": [
+        {
+          "this.rx": 0,
+          "this.ry": "age * 16 * (pi/180)",
+          "item.rx": "player_rot_x",
+          "item.ry": "player_rot_y + torad(180)"
+        }
+      ]
+    },
+    {"part": "wind", "id": "wind", "invertAxis": "xy", "translate": [0, -2, 0]}
+  ]
+}
