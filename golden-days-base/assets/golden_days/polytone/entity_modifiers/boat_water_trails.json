@@ -1,0 +1,14 @@
+{
+  "targets": [".*:.*boat.*"],
+  "emitters": [
+    {
+      "bone": "bottom",
+      "particle": "splash",
+      "chance": "o.speed() > 0.15 ? 1.0 : 0.0",
+      "count": "1+o.speed()*60.0",
+      "x": "0.66+r.gaussian()*0.5",
+      "y": "r.gaussian()*0.33",
+      "z": "0.3+r.gaussian()*0.1"
+    }
+  ]
+}
