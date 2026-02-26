@@ -7,6 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - run: python build.py
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -20,11 +24,6 @@ jobs:
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: golden-days-shaders-latest-dev
-          path: golden-days-shaders/*
-      - name: Upload Artifacts
-        uses: actions/upload-artifact@v4
-        with:
           name: golden-days-classic-latest-dev
           path: golden-days-classic/*
       - name: Upload Artifacts
@@ -32,3 +31,8 @@ jobs:
         with:
           name: golden-days-better-foliage-latest-dev
           path: golden-days-better-foliage/*
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: golden-days-options-latest-dev
+          path: golden-days-options/*
