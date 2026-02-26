@@ -35,7 +35,7 @@ jobs:
         run: |
           cd golden-days-options
           for dir in */; do
-          zip -r "${dir%*/}.zip" "$dir";
+          (cd $dir && zip -r "../${dir%*/}.zip" .)
           done
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
