@@ -55,7 +55,8 @@ def main():
     print("Building Golden Days...")
 
     # clear previous build and reset for new build
-    shutil.rmtree(OPTIONS_DIR)
+    if os.path.isdir(OPTIONS_DIR):
+        shutil.rmtree(OPTIONS_DIR, ignore_errors=True)
     os.makedirs(OPTIONS_DIR, exist_ok=True)
 
     # loop through each pack
