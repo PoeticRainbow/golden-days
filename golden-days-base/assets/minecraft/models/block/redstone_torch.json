@@ -1,6 +1,4 @@
 {
-  "parent": "minecraft:block/template_torch_lit",
-  "textures": {
-    "torch": "minecraft:block/redstone_torch"
-  }
+  "parent": "block/template_torch",
+  "textures": {"torch": "block/redstone_torch"}
 }
