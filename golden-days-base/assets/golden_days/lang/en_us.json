@@ -19,6 +19,8 @@
   "config.golden_days.end_style.tooltip": "Release 1.0 -> 1.2: Early Release\nRelease 1.3+: Modern\n\n§e[W.I.P]§r Custom: Changes the vibe of The End by adding clouds, stars, and the Overworld sky",
   "config.golden_days.fast_grass": "Fast Grass",
   "config.golden_days.fast_grass.tooltip": "Alpha -> Beta 1.5: true\nFast Graphics Alpha -> Release 1.8: true\n\nRemoves the tinted overlay on the sides of Grass Blocks to match how they looked with Fast Graphics enabled in older versions",
+  "config.golden_days.flat_candles": "Flat Candles",
+  "config.golden_days.flat_candles.tooltip": "Makes Candles 2D like in older versions of Golden Days",
   "config.golden_days.flatten_skin_layers": "Flatten Skins",
   "config.golden_days.flatten_skin_layers.tooltip": "Classic -> Release 1.7: true\nRelease 1.8+: false\n\nFlattens the second layer of player skins to imitate the look of skins before the second layer was added. §cREQUIRES EMF",
   "config.golden_days.matching_coals": "Matching Coals",
