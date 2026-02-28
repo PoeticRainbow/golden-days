@@ -1,0 +1,4 @@
+{
+  "targets": [{"id": "minecraft:leaf_litter", "required": false}],
+  "map_color": "none"
+}
