@@ -1,0 +1,33 @@
+{
+  "model": {
+    "type": "select",
+    "property": "display_context",
+    "cases": [
+      {
+        "when": ["fixed", "none"],
+        "model": {
+          "type": "select",
+          "property": "component",
+          "component": "custom_name",
+          "cases": [
+            {
+              "when": "Wall Redstone Torch",
+              "model": {
+                "type": "model",
+                "model": "block/redstone_torch",
+                "transformation": [
+                  2.0, 0.0, 0.0, -0.5,
+                  0.0, 2.0, 0.0, -0.1,
+                  0.0, -0.625, 2.0, -0.5,
+                  0.0, 0.0, 0.0, 1.0
+                ]
+              }
+            }
+          ],
+          "fallback": {"type": "model", "model": "item/redstone_torch"}
+        }
+      }
+    ],
+    "fallback": {"type": "model", "model": "item/redstone_torch"}
+  }
+}
