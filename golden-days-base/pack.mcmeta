@@ -48,6 +48,12 @@
         "max_format": 420
       },
       {
+        "directory": "patch_26_1",
+        "formats": [83, 420],
+        "min_format": 83,
+        "max_format": 420
+      },
+      {
         "directory": "shaders_core_21_9",
         "polytone_condition": "modOn('minecraft', '[1.21.9, 1.21.11]') && config('golden_days:use_shaders') && !(modOn('sodium') || modOn('embeddium'))",
         "formats": [69, 75],

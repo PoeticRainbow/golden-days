@@ -1,0 +1,44 @@
+{
+  "model": {
+    "type": "select",
+    "property": "display_context",
+    "cases": [
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "gui",
+          "on_shelf"
+        ],
+        "model": {
+          "type": "composite",
+          "models": [
+            {
+              "type": "special",
+              "base": "item/player_head",
+              "model": {"type": "player_head"},
+              "transformation": {
+                "left_rotation": [1.0, 0.0, 0.0, 0.0],
+                "right_rotation": [0.0, 0.0, 0.0, 1.0],
+                "scale": [1.0, 1.0, 1.0],
+                "translation": [0.5, 0.0, 0.5]
+              }
+            },
+            {"type": "model", "model": "item/player_head_background"}
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "special",
+      "base": "item/template_skull",
+      "model": {"type": "player_head"},
+      "transformation": {
+        "left_rotation": [1.0, 0.0, 0.0, 0.0],
+        "right_rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0],
+        "translation": [0.5, 0.0, 0.5]
+      }
+    }
+  }
+}
