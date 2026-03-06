@@ -1,5 +1,8 @@
 {
-  "sky_colormap": "#88B8F9",
-  "fog_colormap": "#C0D8FF",
-  "sunset_colormap": "#9AADCC"
+  "sky_colormap": "#88b8f9",
+  "fog_colormap": "#c0d8ff",
+  "sunset_colormap": "#00000000",
+  "attributes_modifiers": {
+    "post_process": {"minecraft:visual/sunrise_sunset_color": "#00000000"}
+  }
 }
