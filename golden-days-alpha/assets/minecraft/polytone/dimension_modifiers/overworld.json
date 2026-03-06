@@ -1,6 +1,5 @@
 {
   "sky_colormap": "#88B8F9",
   "fog_colormap": "#C0D8FF",
-  "sunset_colormap": "#9AADCC",
-  "cloud_level": 108
+  "sunset_colormap": "#9AADCC"
 }
