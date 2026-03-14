@@ -1,0 +1,8 @@
+assets/minecraft/sounds.json
+assets/minecraft/sounds/**
+assets/minecraft/particles/*_leaves.json
+assets/minecraft/particles/explosion.json
+assets/minecraft/particles/falling_dust.json
+assets/minecraft/particles/underwater.json
+assets/minecraft/textures/particle/blank.png
+assets/minecraft/textures/particle/explosion_old*

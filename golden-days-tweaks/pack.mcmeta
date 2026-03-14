@@ -1,6 +1,26 @@
 {
   "pack": {
+    "description": "§6Golden Days §8- §bTweaks §7\n§8by PoeticRainbow",
     "pack_format": 15,
-    "description": "§6Golden Days §8- §bTweaks §7\n§8by PoeticRainbow"
+    "supported_formats": [15, 420],
+    "min_format": 15,
+    "max_format": 420
+  },
+  "overlays": {
+    "entries": [
+      {
+        "__comment__": "Minecraft refuses to load the overlay if none support the versions with the formats field even though the pack format is set below 65",
+        "directory": "patch_21_9",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
+        "directory": "patch_21_9",
+        "formats": [69, 420],
+        "min_format": 69,
+        "max_format": 420
+      }
+    ]
   }
 }
