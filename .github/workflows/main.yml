@@ -26,6 +26,11 @@ jobs:
         with:
           name: golden-days-classic-latest-dev
           path: golden-days-classic/*
+      - name: Upload Overlay Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: golden-days-overlay-latest-dev
+          path: artifacts/golden-days-overlay/*
       - name: Upload Better Foliage Artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -42,8 +47,3 @@ jobs:
         with:
           name: golden-days-options-latest-dev
           path: artifacts/golden-days-options/*.zip
-      - name: Upload Overlay Artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: golden-days-overlay-latest-dev
-          path: artifacts/golden-days-overlay/*
