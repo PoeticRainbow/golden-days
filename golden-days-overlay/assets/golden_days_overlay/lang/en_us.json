@@ -1,0 +1,6 @@
+{
+  "config.golden_days_overlay.beta_lighting": "Beta Lighting",
+  "config.golden_days_overlay.beta_lighting.tooltip": "Indev -> Beta 1.7: true\nBeta 1.8+: false\n\nLightmap shaders should be compatible with most mods. Disabling might increase mod compatibility in rare cases",
+  "config.golden_days_overlay.use_shaders": "Use Core Shaders",
+  "config.golden_days_overlay.use_shaders.tooltip": "Used for removing antialising on block textures, old fog, and disabling chunk blending on load\n\n§cCore shaders can cause issues with many mods. Disabling might increase mod compatibility"
+}
