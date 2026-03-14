@@ -6,3 +6,4 @@ assets/minecraft/particles/falling_dust.json
 assets/minecraft/particles/underwater.json
 assets/minecraft/textures/particle/blank.png
 assets/minecraft/textures/particle/explosion_old*
+shaders_*/**
