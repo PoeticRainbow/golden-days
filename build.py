@@ -52,13 +52,13 @@ def create_standalone_option(root: str, option: str, pack_mcmeta: dict):
     write_json(option_mcmeta, option_mcmeta_path)
 
 
-def build_golden_days_tweaks():
+def build_golden_days_overlay():
     base = "golden-days-base"
-    root = "golden-days-tweaks"
-    working_dir = os.path.join(ARTIFACT_DIR, "golden-days-tweaks")
+    overlay = "golden-days-overlay"
+    working_dir = os.path.join(ARTIFACT_DIR, overlay)
     # copy all wanted files from base pack into working dir
     include = []
-    with open(os.path.join(root, "include.txt"), encoding="utf-8") as f:
+    with open(os.path.join(overlay, "include.txt"), encoding="utf-8") as f:
         include = [x.strip() for x in f.read().splitlines() if x and not x.startswith("#")]
     copy_count = 0
     for path in include:
@@ -69,8 +69,8 @@ def build_golden_days_tweaks():
                 shutil.copy(src_path, dst_path)
                 copy_count += 1
     print(f"Copied {copy_count} files from {base} to {working_dir}")
-    # copy and replace files from tweak pack into working dir
-    shutil.copytree(root, working_dir, dirs_exist_ok=True)
+    # copy and replace files from overlay pack into working dir
+    shutil.copytree(overlay, working_dir, dirs_exist_ok=True)
 
 def main():
     print("Building Golden Days...")
@@ -95,7 +95,7 @@ def main():
 
     # copies files from the base pack that control sounds, removing particles, etc
     # intended for use overtop of existing resource packs
-    build_golden_days_tweaks()
+    build_golden_days_overlay()
 
 
 if __name__ == "__main__":
