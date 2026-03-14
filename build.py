@@ -11,7 +11,8 @@ import json
 import shutil
 import re
 
-OPTIONS_DIR = "golden-days-options"
+ARTIFACT_DIR = "artifacts"
+OPTIONS_DIR = os.path.join(ARTIFACT_DIR, "golden-days-options")
 PREFIX = "option_"
 
 
@@ -51,12 +52,32 @@ def create_standalone_option(root: str, option: str, pack_mcmeta: dict):
     write_json(option_mcmeta, option_mcmeta_path)
 
 
+def build_golden_days_tweaks():
+    base = "golden-days-base"
+    root = "golden-days-tweaks"
+    working_dir = os.path.join(ARTIFACT_DIR, "golden-days-tweaks")
+    # copy all wanted files from base pack into working dir
+    include = []
+    with open(os.path.join(root, "include.txt"), encoding="utf-8") as f:
+        include = [x.strip() for x in f.read().splitlines() if x and not x.startswith("#")]
+    copy_count = 0
+    for path in include:
+        for src_path in glob.glob(os.path.join(base, path), recursive=True):
+            if os.path.isfile(src_path):
+                dst_path = os.path.join(working_dir, os.path.relpath(src_path, base))
+                os.makedirs(os.path.dirname(dst_path), exist_ok=True)
+                shutil.copy(src_path, dst_path)
+                copy_count += 1
+    print(f"Copied {copy_count} files from {base} to {working_dir}")
+    # copy and replace files from tweak pack into working dir
+    shutil.copytree(root, working_dir, dirs_exist_ok=True)
+
 def main():
     print("Building Golden Days...")
 
     # clear previous build and reset for new build
-    if os.path.isdir(OPTIONS_DIR):
-        shutil.rmtree(OPTIONS_DIR, ignore_errors=True)
+    if os.path.isdir(ARTIFACT_DIR):
+        shutil.rmtree(ARTIFACT_DIR, ignore_errors=True)
     os.makedirs(OPTIONS_DIR, exist_ok=True)
 
     # loop through each pack
@@ -71,6 +92,10 @@ def main():
             # collect every optional overlay from every pack
             for option in glob.glob(f"*{PREFIX}*", root_dir=pack):
                 create_standalone_option(pack, option, pack_mcmeta)
+
+    # copies files from the base pack that control sounds, removing particles, etc
+    # intended for use overtop of existing resource packs
+    build_golden_days_tweaks()
 
 
 if __name__ == "__main__":

@@ -11,34 +11,39 @@ jobs:
         with:
           python-version: '3.13'
       - run: python build.py
-      - name: Upload Artifacts
+      - name: Upload Base Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: golden-days-base-latest-dev
           path: golden-days-base/*
-      - name: Upload Artifacts
+      - name: Upload Alpha Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: golden-days-alpha-latest-dev
           path: golden-days-alpha/*
-      - name: Upload Artifacts
+      - name: Upload Classic Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: golden-days-classic-latest-dev
           path: golden-days-classic/*
-      - name: Upload Artifacts
+      - name: Upload Better Foliage Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: golden-days-better-foliage-latest-dev
           path: golden-days-better-foliage/*
       - name: Zip Options
         run: |
-          cd golden-days-options
+          cd artifacts/golden-days-options
           for dir in */; do
           (cd $dir && zip -r "../${dir%*/}.zip" .)
           done
-      - name: Upload Artifacts
+      - name: Upload Options Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: golden-days-options-latest-dev
-          path: golden-days-options/*.zip
+          path: artifacts/golden-days-options/*.zip
+      - name: Upload Tweaks Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: golden-days-tweaks-latest-dev
+          path: artifacts/golden-days-tweaks/*
