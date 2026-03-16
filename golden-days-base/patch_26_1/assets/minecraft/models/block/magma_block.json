@@ -1,0 +1,57 @@
+{
+  "parent": "block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "emissive": "block/magma_emissive",
+    "particle": "block/magma",
+    "all": "block/magma"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "north"},
+        "east": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "east"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "south"},
+        "west": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "west"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "up"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "down"}
+      }
+    },
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "shade": false,
+      "light_emission": 15,
+      "faces": {
+        "north": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#emissive",
+          "cullface": "north"
+        },
+        "east": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#emissive",
+          "cullface": "east"
+        },
+        "south": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#emissive",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#emissive",
+          "cullface": "west"
+        },
+        "up": {"uv": [0, 0, 16, 16], "texture": "#emissive", "cullface": "up"},
+        "down": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#emissive",
+          "cullface": "down"
+        }
+      }
+    }
+  ]
+}
