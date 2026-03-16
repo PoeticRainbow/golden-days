@@ -1,4 +1,6 @@
 {
+  "config.golden_days.bamboo_planks_style": "Bamboo Planks Style",
+  "config.golden_days.bamboo_planks_style.tooltip": "Classic: inspired by pre-classic wood\nConsistent: matches the other types of planks\nSmooth: no nails, smooth like modern",
   "config.golden_days.beta_lighting": "Beta Lighting",
   "config.golden_days.beta_lighting.tooltip": "Indev -> Beta 1.7: true\nBeta 1.8+: false\n\nLightmap shaders should be compatible with most mods. Disabling might increase mod compatibility in rare cases",
   "config.golden_days.bricks": "Bricks",

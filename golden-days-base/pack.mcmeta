@@ -137,6 +137,20 @@
         "max_format": 0
       },
       {
+        "directory": "option_bamboo_planks_consistent",
+        "polytone_condition": "config('golden_days:bamboo_planks_style') == 'consistent'",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
+        "directory": "option_bamboo_planks_smooth",
+        "polytone_condition": "config('golden_days:bamboo_planks_style') == 'smooth'",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
         "directory": "option_bricks_modern",
         "polytone_condition": "config('golden_days:bricks') == 'modern'",
         "formats": [0, 0],
