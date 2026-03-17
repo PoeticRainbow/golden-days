@@ -1,6 +1,6 @@
 {
-  "neoforge:conditions": [{"type": "neoforge:never"}],
-  "loader": "forge:obj",
+  "forge:conditions": [{"type": "forge:never"}],
+  "loader": "neoforge:obj",
   "model": "models/obj/torch_wall_lit.obj",
   "shade_quads": false,
   "automatic_culling": false,
