@@ -11,6 +11,12 @@
     "entries": [
       {"directory": "old_lightmaps", "formats": [15, 35]},
       {
+        "directory": "patch_20_2_neoforge",
+        "formats": [18, 420],
+        "min_format": 18,
+        "max_format": 420
+      },
+      {
         "directory": "patch_20_3_bat_update",
         "formats": [20, 420],
         "min_format": 20,
