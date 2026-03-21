@@ -17,6 +17,12 @@
         "dyeable": {"color_when_undyed": -3777483},
         "texture": "minecraft:leather"
       }
+    ],
+    "humanoid_baby": [
+      {
+        "dyeable": {"color_when_undyed": -3777483},
+        "texture": "minecraft:leather"
+      }
     ]
   }
 }
