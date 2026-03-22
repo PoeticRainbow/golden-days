@@ -17,6 +17,11 @@
     "replace": true,
     "sounds": [{"name": "random/click", "pitch": 0.6, "volume": 0.3}]
   },
+  "_common.chest.close": {
+    "replace": true,
+    "sounds": ["goldendays/chest_close"]
+  },
+  "_common.chest.open": {"replace": true, "sounds": ["goldendays/chest_open"]},
   "_common.cloth.break": {
     "replace": true,
     "sounds": [{"name": "_common.cloth.step", "type": "event"}]
@@ -26,11 +31,6 @@
     "sounds": ["step/cloth1", "step/cloth2", "step/cloth3", "step/cloth4"],
     "subtitle": "subtitles.block.generic.footsteps"
   },
-  "_common.chest.close": {
-    "replace": true,
-    "sounds": ["goldendays/chest_close"]
-  },
-  "_common.chest.open": {"replace": true, "sounds": ["goldendays/chest_open"]},
   "_common.door.close": {"replace": true, "sounds": ["random/door_close"]},
   "_common.door.open": {"replace": true, "sounds": ["random/door_open"]},
   "_common.glass.break": {
@@ -3429,6 +3429,170 @@
     "replace": true,
     "sounds": [{"name": "_common.silent", "type": "event"}]
   },
+  "entity.baby_cat.ambient": {
+    "replace": true,
+    "sounds": [{"name": "entity.cat.ambient", "type": "event"}],
+    "subtitle": "subtitles.entity.cat.ambient"
+  },
+  "entity.baby_cat.beg_for_food": {
+    "replace": true,
+    "sounds": [{"name": "entity.cat.beg_for_food", "type": "event"}],
+    "subtitle": "subtitles.entity.cat.beg_for_food"
+  },
+  "entity.baby_cat.death": {
+    "replace": true,
+    "sounds": [{"name": "entity.cat.death", "type": "event"}],
+    "subtitle": "subtitles.entity.cat.death"
+  },
+  "entity.baby_cat.eat": {
+    "replace": true,
+    "sounds": [{"name": "entity.cat.eat", "type": "event"}],
+    "subtitle": "subtitles.entity.cat.eat"
+  },
+  "entity.baby_cat.hiss": {
+    "replace": true,
+    "sounds": [{"name": "entity.cat.hiss", "type": "event"}],
+    "subtitle": "subtitles.entity.cat.hiss"
+  },
+  "entity.baby_cat.hurt": {
+    "replace": true,
+    "sounds": [{"name": "entity.cat.hurt", "type": "event"}],
+    "subtitle": "subtitles.entity.cat.hurt"
+  },
+  "entity.baby_cat.purr": {
+    "replace": true,
+    "sounds": [{"name": "entity.cat.purr", "type": "event"}],
+    "subtitle": "subtitles.entity.cat.purr"
+  },
+  "entity.baby_cat.purreow": {
+    "replace": true,
+    "sounds": [{"name": "entity.cat.purreow", "type": "event"}],
+    "subtitle": "subtitles.entity.cat.ambient"
+  },
+  "entity.baby_cat.stray_ambient": {
+    "replace": true,
+    "sounds": [{"name": "entity.cat.stray_ambient", "type": "event"}],
+    "subtitle": "subtitles.entity.cat.ambient"
+  },
+  "entity.baby_chicken.ambient": {
+    "replace": true,
+    "sounds": [{"name": "entity.chicken.ambient", "type": "event"}],
+    "subtitle": "subtitles.entity.chicken.ambient"
+  },
+  "entity.baby_chicken.death": {
+    "replace": true,
+    "sounds": [{"name": "entity.chicken.death", "type": "event"}],
+    "subtitle": "subtitles.entity.chicken.death"
+  },
+  "entity.baby_chicken.hurt": {
+    "replace": true,
+    "sounds": [{"name": "entity.chicken.hurt", "type": "event"}],
+    "subtitle": "subtitles.entity.chicken.hurt"
+  },
+  "entity.baby_chicken.step": {
+    "replace": true,
+    "sounds": [{"name": "entity.chicken.step", "type": "event"}],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "entity.baby_horse.ambient": {
+    "replace": true,
+    "sounds": [{"name": "entity.horse.ambient", "type": "event"}],
+    "subtitle": "subtitles.entity.baby_horse.ambient"
+  },
+  "entity.baby_horse.angry": {
+    "replace": true,
+    "sounds": [{"name": "entity.horse.angry", "type": "event"}],
+    "subtitle": "subtitles.entity.baby_horse.angry"
+  },
+  "entity.baby_horse.breathe": {
+    "replace": true,
+    "sounds": [{"name": "entity.horse.breathe", "type": "event"}],
+    "subtitle": "subtitles.entity.baby_horse.breathe"
+  },
+  "entity.baby_horse.death": {
+    "replace": true,
+    "sounds": [{"name": "entity.horse.death", "type": "event"}],
+    "subtitle": "subtitles.entity.baby_horse.death"
+  },
+  "entity.baby_horse.eat": {
+    "replace": true,
+    "sounds": [{"name": "entity.horse.eat", "type": "event"}],
+    "subtitle": "subtitles.entity.baby_horse.eat"
+  },
+  "entity.baby_horse.hurt": {
+    "replace": true,
+    "sounds": [{"name": "entity.horse.hurt", "type": "event"}],
+    "subtitle": "subtitles.entity.baby_horse.hurt"
+  },
+  "entity.baby_horse.land": {
+    "replace": true,
+    "sounds": [{"name": "entity.horse.land", "type": "event"}],
+    "subtitle": "subtitles.entity.generic.big_fall"
+  },
+  "entity.baby_horse.step": {
+    "replace": true,
+    "sounds": [{"name": "entity.horse.step", "type": "event"}],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "entity.baby_pig.ambient": {
+    "replace": true,
+    "sounds": [{"name": "entity.pig.ambient", "type": "event"}],
+    "subtitle": "subtitles.entity.pig.ambient"
+  },
+  "entity.baby_pig.death": {
+    "replace": true,
+    "sounds": [{"name": "entity.pig.death", "type": "event"}],
+    "subtitle": "subtitles.entity.pig.death"
+  },
+  "entity.baby_pig.eat": {
+    "replace": true,
+    "sounds": [{"name": "_common.silent", "type": "event"}]
+  },
+  "entity.baby_pig.hurt": {
+    "replace": true,
+    "sounds": [{"name": "entity.pig.hurt", "type": "event"}],
+    "subtitle": "subtitles.entity.pig.hurt"
+  },
+  "entity.baby_pig.step": {
+    "replace": true,
+    "sounds": [{"name": "entity.pig.step", "type": "event"}],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "entity.baby_wolf.ambient": {
+    "replace": true,
+    "sounds": [{"name": "entity.wolf.ambient", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.bark"
+  },
+  "entity.baby_wolf.death": {
+    "replace": true,
+    "sounds": [{"name": "entity.wolf.death", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.death"
+  },
+  "entity.baby_wolf.growl": {
+    "replace": true,
+    "sounds": [{"name": "entity.wolf.growl", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.growl"
+  },
+  "entity.baby_wolf.hurt": {
+    "replace": true,
+    "sounds": [{"name": "entity.wolf.hurt", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.hurt"
+  },
+  "entity.baby_wolf.pant": {
+    "replace": true,
+    "sounds": [{"name": "entity.wolf.pant", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.pant"
+  },
+  "entity.baby_wolf.step": {
+    "replace": true,
+    "sounds": [{"name": "entity.wolf.step", "type": "event"}],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "entity.baby_wolf.whine": {
+    "replace": true,
+    "sounds": [{"name": "entity.wolf.whine", "type": "event"}],
+    "subtitle": "subtitles.entity.wolf.whine"
+  },
   "entity.boat.paddle_land": {
     "replace": true,
     "sounds": [{"name": "_common.silent", "type": "event"}]
@@ -3436,6 +3600,91 @@
   "entity.boat.paddle_water": {
     "replace": true,
     "sounds": [{"name": "_common.silent", "type": "event"}]
+  },
+  "entity.cat_royal.ambient": {
+    "replace": true,
+    "sounds": [{"name": "entity.cat.ambient", "type": "event"}],
+    "subtitle": "subtitles.entity.cat.ambient"
+  },
+  "entity.cat_royal.beg_for_food": {
+    "replace": true,
+    "sounds": [{"name": "entity.cat.beg_for_food", "type": "event"}],
+    "subtitle": "subtitles.entity.cat.beg_for_food"
+  },
+  "entity.cat_royal.death": {
+    "replace": true,
+    "sounds": [{"name": "entity.cat.death", "type": "event"}],
+    "subtitle": "subtitles.entity.cat.death"
+  },
+  "entity.cat_royal.eat": {
+    "replace": true,
+    "sounds": [{"name": "entity.cat.eat", "type": "event"}],
+    "subtitle": "subtitles.entity.cat.eat"
+  },
+  "entity.cat_royal.hiss": {
+    "replace": true,
+    "sounds": [{"name": "entity.cat.hiss", "type": "event"}],
+    "subtitle": "subtitles.entity.cat.hiss"
+  },
+  "entity.cat_royal.hurt": {
+    "replace": true,
+    "sounds": [{"name": "entity.cat.hurt", "type": "event"}],
+    "subtitle": "subtitles.entity.cat.hurt"
+  },
+  "entity.cat_royal.purr": {
+    "replace": true,
+    "sounds": [{"name": "entity.cat.purr", "type": "event"}],
+    "subtitle": "subtitles.entity.cat.purr"
+  },
+  "entity.cat_royal.purreow": {
+    "replace": true,
+    "sounds": [{"name": "entity.cat.purreow", "type": "event"}],
+    "subtitle": "subtitles.entity.cat.ambient"
+  },
+  "entity.cat_royal.stray_ambient": {
+    "replace": true,
+    "sounds": [{"name": "entity.cat.stray_ambient", "type": "event"}],
+    "subtitle": "subtitles.entity.cat.ambient"
+  },
+  "entity.chicken_picky.ambient": {
+    "replace": true,
+    "sounds": [{"name": "entity.chicken.ambient", "type": "event"}],
+    "subtitle": "subtitles.entity.chicken.ambient"
+  },
+  "entity.chicken_picky.death": {
+    "replace": true,
+    "sounds": [{"name": "entity.chicken.death", "type": "event"}],
+    "subtitle": "subtitles.entity.chicken.death"
+  },
+  "entity.chicken_picky.hurt": {
+    "replace": true,
+    "sounds": [{"name": "entity.chicken.hurt", "type": "event"}],
+    "subtitle": "subtitles.entity.chicken.hurt"
+  },
+  "entity.chicken_picky.step": {
+    "replace": true,
+    "sounds": [{"name": "entity.chicken.step", "type": "event"}],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "entity.cow_moody.ambient": {
+    "replace": true,
+    "sounds": [{"name": "entity.cow.ambient", "type": "event"}],
+    "subtitle": "subtitles.entity.cow.ambient"
+  },
+  "entity.cow_moody.death": {
+    "replace": true,
+    "sounds": [{"name": "entity.cow.death", "type": "event"}],
+    "subtitle": "subtitles.entity.cow.death"
+  },
+  "entity.cow_moody.hurt": {
+    "replace": true,
+    "sounds": [{"name": "entity.cow.hurt", "type": "event"}],
+    "subtitle": "subtitles.entity.cow.hurt"
+  },
+  "entity.cow_moody.step": {
+    "replace": true,
+    "sounds": [{"name": "entity.cow.step", "type": "event"}],
+    "subtitle": "subtitles.block.generic.footsteps"
   },
   "entity.creaking.attack": {
     "replace": true,
@@ -3539,6 +3788,50 @@
     "replace": true,
     "sounds": [{"name": "_common.silent", "type": "event"}],
     "subtitle": "subtitles.block.generic.place"
+  },
+  "entity.pig.eat": {
+    "replace": true,
+    "sounds": [{"name": "_common.silent", "type": "event"}]
+  },
+  "entity.pig_big.ambient": {
+    "replace": true,
+    "sounds": [{"name": "entity.pig.ambient", "type": "event"}],
+    "subtitle": "subtitles.entity.pig.ambient"
+  },
+  "entity.pig_big.death": {
+    "replace": true,
+    "sounds": [{"name": "entity.pig.death", "type": "event"}],
+    "subtitle": "subtitles.entity.pig.death"
+  },
+  "entity.pig_big.eat": {
+    "replace": true,
+    "sounds": [{"name": "entity.pig.eat", "type": "event"}],
+    "subtitle": "subtitles.entity.pig.eat"
+  },
+  "entity.pig_big.hurt": {
+    "replace": true,
+    "sounds": [{"name": "entity.pig.hurt", "type": "event"}],
+    "subtitle": "subtitles.entity.pig.hurt"
+  },
+  "entity.pig_mini.ambient": {
+    "replace": true,
+    "sounds": [{"name": "entity.pig.ambient", "type": "event"}],
+    "subtitle": "subtitles.entity.pig.ambient"
+  },
+  "entity.pig_mini.death": {
+    "replace": true,
+    "sounds": [{"name": "entity.pig.death", "type": "event"}],
+    "subtitle": "subtitles.entity.pig.death"
+  },
+  "entity.pig_mini.eat": {
+    "replace": true,
+    "sounds": [{"name": "entity.pig.eat", "type": "event"}],
+    "subtitle": "subtitles.entity.pig.eat"
+  },
+  "entity.pig_mini.hurt": {
+    "replace": true,
+    "sounds": [{"name": "entity.pig.hurt", "type": "event"}],
+    "subtitle": "subtitles.entity.pig.hurt"
   },
   "entity.player.attack.crit": {
     "replace": true,
@@ -3899,7 +4192,7 @@
   },
   "item.hoe.till": {
     "replace": true,
-    "sounds": [{"name": "_common.gravel.step", "type": "event", "pitch": 0.8}],
+    "sounds": [{"name": "_common.gravel.step", "pitch": 0.8, "type": "event"}],
     "subtitle": "subtitles.item.hoe.till"
   },
   "item.nether_wart.plant": {
