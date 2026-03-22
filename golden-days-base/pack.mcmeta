@@ -43,9 +43,9 @@
       },
       {
         "directory": "patch_21_9",
-        "formats": [69, 75],
+        "formats": [69, 420],
         "min_format": 69,
-        "max_format": 75
+        "max_format": 420
       },
       {
         "directory": "patch_21_11",
