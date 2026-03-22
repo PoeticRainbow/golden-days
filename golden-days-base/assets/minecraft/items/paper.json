@@ -1,0 +1,46 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "missingtex",
+        "model": {"type": "minecraft:model", "model": "item/missingtex"}
+      },
+      {
+        "when": "item.missingtex",
+        "model": {"type": "minecraft:model", "model": "item/missingtex"}
+      },
+      {
+        "when": "tile.missingtex",
+        "model": {"type": "minecraft:model", "model": "block/missingtex"}
+      },
+      {
+        "when": "item.missingTex",
+        "model": {"type": "minecraft:model", "model": "item/missingtex"}
+      },
+      {
+        "when": "tile.missingTex",
+        "model": {"type": "minecraft:model", "model": "block/missingtex"}
+      },
+      {
+        "when": "item.missingtex.name",
+        "model": {"type": "minecraft:model", "model": "item/missingtex"}
+      },
+      {
+        "when": "tile.missingtex.name",
+        "model": {"type": "minecraft:model", "model": "block/missingtex"}
+      },
+      {
+        "when": "item.missingTex.name",
+        "model": {"type": "minecraft:model", "model": "item/missingtex"}
+      },
+      {
+        "when": "tile.missingTex.name",
+        "model": {"type": "minecraft:model", "model": "block/missingtex"}
+      }
+    ],
+    "fallback": {"type": "minecraft:model", "model": "item/paper"}
+  }
+}
