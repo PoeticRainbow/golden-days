@@ -207,7 +207,7 @@
       },
       {
         "directory": "option_hide_xp_bar",
-        "polytone_condition": "config('golden_days:xp_bar_style') == 'hidden'",
+        "polytone_condition": "config('golden_days:xp_bar_style') == 'hidden' && !modOn('retrotweaks')",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
@@ -228,7 +228,7 @@
       },
       {
         "directory": "option_shadowed_leaves",
-        "polytone_condition": "config('golden_days:shadowed_leaves')",
+        "polytone_condition": "config('golden_days:shadowed_leaves') || modOn('retrotweaks')",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
