@@ -213,6 +213,13 @@
         "max_format": 0
       },
       {
+        "directory": "option_modern_bow_holding",
+        "polytone_condition": "config('golden_days:modern_bow_holding')",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
         "directory": "option_modern_xp_bar",
         "polytone_condition": "config('golden_days:xp_bar_style') == 'modern'",
         "formats": [0, 0],
