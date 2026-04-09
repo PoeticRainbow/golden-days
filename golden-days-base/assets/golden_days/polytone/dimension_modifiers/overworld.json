@@ -1,6 +1,12 @@
 {
   "targets": ["minecraft:overworld"],
-  "sky_colormap": "golden_days:sky_color",
-  "fog_colormap": "golden_days:fog_color",
-  "cloud_level": 108.33
+  "cloud_level": 108.33,
+  "attributes_modifiers": {
+    "post_process": {
+      "minecraft:visual/cloud_height": {
+        "argument": "config('golden_days:cloud_height') + 0.33",
+        "modifier": "override"
+      }
+    }
+  }
 }

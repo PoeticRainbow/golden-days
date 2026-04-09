@@ -3,5 +3,8 @@
   "fog_colormap": "#330808",
   "constant_ambient_light": false,
   "ambient_light": 0,
-  "cardinal_light": "default"
+  "cardinal_light": "default",
+  "attributes_modifiers": {
+    "post_process": {"minecraft:visual/fog_color": "#ff330808"}
+  }
 }

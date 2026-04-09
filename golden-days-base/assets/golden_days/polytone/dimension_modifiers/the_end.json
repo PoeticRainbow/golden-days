@@ -1,5 +1,8 @@
 {
   "targets": ["minecraft:the_end"],
   "ambient_light": 0.1,
-  "fog_colormap": "#131318"
+  "fog_colormap": "#131318",
+  "attributes_modifiers": {
+    "post_process": {"minecraft:visual/fog_color": "#ff131318"}
+  }
 }

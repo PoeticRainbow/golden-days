@@ -1,0 +1,6 @@
+{
+  "__comment__": "unused",
+  "x_axis": "r.noise('golden_days:roughen', o.x(), o.z())+0.5",
+  "y_axis": "0",
+  "triangular": false
+}

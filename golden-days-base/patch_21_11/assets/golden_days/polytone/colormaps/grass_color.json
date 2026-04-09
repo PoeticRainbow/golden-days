@@ -1,0 +1,6 @@
+{
+  "__comment__": "unused",
+  "x_axis": "o.temperature()+(r.noise('golden_days:roughen', o.x(), o.z())-0.5)*0.2",
+  "y_axis": "o.downfall()+(r.noise('golden_days:roughen', o.x(), o.z())-0.5)*0.2",
+  "triangular": true
+}
