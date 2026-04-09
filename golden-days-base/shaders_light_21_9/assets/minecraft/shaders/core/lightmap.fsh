@@ -3,6 +3,8 @@
 #define QUANTIZE_LIGHT 0
 #define OVERRIDE_AMBIENT 0
 
+#moj_import <golden_days:general.glsl>
+
 layout(std140) uniform LightmapInfo {
     float AmbientLightFactor;
     float SkyFactor;
@@ -37,12 +39,6 @@ float parabolicMixFactor(float level) {
     return (2.0 * level - 1.0) * (2.0 * level - 1.0);
 }
 
-float getBetaLightLevel(float light_level, float ambient) {
-    // level range [0, 1], ambient range [0, 1]
-    float darkness = 1.0 - light_level;
-    return (1.0 - darkness) / (darkness * 3.0 + 1.0) * (1.0 - ambient) + ambient;
-}
-
 void main() {
     // Calculate block and sky brightness levels based on texture coordinates
     
@@ -65,7 +61,7 @@ void main() {
         float ambient = ((lightmapInfo.AmbientColor.r + lightmapInfo.AmbientColor.g + lightmapInfo.AmbientColor.b) / 3 + 0.01) * lightmapInfo.AmbientLightFactor;
     #endif
 
-    vec3 color = vec3(getBetaLightLevel(light_level, max(ambient, 0.05)));
+    vec3 color = vec3(goldenDaysLight(light_level, max(ambient, 0.05)));
 
     // Apply boss overlay darkening effect
     color = mix(color, color * max(light_level, 0.4), lightmapInfo.DarkenWorldFactor);
