@@ -8,11 +8,11 @@
   },
   "sodium": {
     "ignored_shaders": [
-      "lightmap.fsh",
-      "terrain.fsh",
       "fog.glsl",
+      "lightmap.fsh",
+      "rendertype_clouds.fsh",
       "sky.fsh",
-      "rendertype_clouds.fsh"
+      "terrain.fsh"
     ]
   },
   "overlays": {
