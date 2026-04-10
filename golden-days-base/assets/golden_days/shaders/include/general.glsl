@@ -1,8 +1,6 @@
 // Golden Days
 // PoeticRainbow
 
-const float EULER = 2.71828;
-
 // -------------------
 // |     TERRAIN     |
 // -------------------
@@ -34,7 +32,7 @@ float goldenDaysLinearFogFactor(float vertexDistance, float fogEnd) {
 }
 
 float goldenDaysExpFogFactor(float vertexDistance, float density) {
-    return 1.0 - clamp(pow(EULER, -density * vertexDistance), 0.0, 1.0);
+    return 1.0 - clamp(exp(-density * vertexDistance), 0.0, 1.0);
 }
 
 vec4 goldenDaysApplyFog(vec4 color, float vertexDistance, float renderDistance, float environmentDistance, vec4 fogColor) {
