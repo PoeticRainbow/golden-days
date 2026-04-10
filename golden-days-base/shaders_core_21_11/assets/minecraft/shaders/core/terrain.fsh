@@ -39,5 +39,5 @@ void main() {
         discard;
     }
 #endif
-    fragColor = apply_fog(color, sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);
+    fragColor = goldenDaysApplyFog(color, sphericalVertexDistance, FogRenderDistanceEnd, FogEnvironmentalEnd, FogColor);
 }
