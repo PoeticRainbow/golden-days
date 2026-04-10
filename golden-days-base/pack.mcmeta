@@ -7,7 +7,13 @@
     "max_format": 420
   },
   "sodium": {
-    "ignored_shaders": ["lightmap.fsh", "terrain.fsh", "fog.glsl", "sky.fsh"]
+    "ignored_shaders": [
+      "lightmap.fsh",
+      "terrain.fsh",
+      "fog.glsl",
+      "sky.fsh",
+      "rendertype_clouds.fsh"
+    ]
   },
   "overlays": {
     "entries": [
