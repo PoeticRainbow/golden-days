@@ -1,0 +1,12 @@
+{
+  "parent": "block/template_bed",
+  "textures": {"bottom": "block/oak_planks", "particle": "block/oak_planks"},
+  "elements": [
+    {
+      "from": [0, 3, 0],
+      "to": [16, 9, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [0, 3, 0]},
+      "faces": {"down": {"uv": [0, 0, 16, 16], "texture": "#bottom"}}
+    }
+  ]
+}

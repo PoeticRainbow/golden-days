@@ -1,0 +1,37 @@
+{
+  "multipart": [
+    {"apply": {"model": "block/bed_bottom"}},
+    {
+      "when": {"facing": "east", "part": "foot"},
+      "apply": {"model": "block/light_gray_bed_foot", "y": 90}
+    },
+    {
+      "when": {"facing": "east", "part": "head"},
+      "apply": {"model": "block/light_gray_bed_head", "y": 90}
+    },
+    {
+      "when": {"facing": "north", "part": "foot"},
+      "apply": {"model": "block/light_gray_bed_foot"}
+    },
+    {
+      "when": {"facing": "north", "part": "head"},
+      "apply": {"model": "block/light_gray_bed_head"}
+    },
+    {
+      "when": {"facing": "south", "part": "foot"},
+      "apply": {"model": "block/light_gray_bed_foot", "y": 180}
+    },
+    {
+      "when": {"facing": "south", "part": "head"},
+      "apply": {"model": "block/light_gray_bed_head", "y": 180}
+    },
+    {
+      "when": {"facing": "west", "part": "foot"},
+      "apply": {"model": "block/light_gray_bed_foot", "y": 270}
+    },
+    {
+      "when": {"facing": "west", "part": "head"},
+      "apply": {"model": "block/light_gray_bed_head", "y": 270}
+    }
+  ]
+}
