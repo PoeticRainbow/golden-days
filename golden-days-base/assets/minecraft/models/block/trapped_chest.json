@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_chest",
-	"textures": {
-		"front": "block/trapped_chest_front",
-		"side": "block/chest_side",
-		"top": "block/chest_top"
-	}
-}

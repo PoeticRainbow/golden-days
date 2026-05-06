@@ -1,5 +1,5 @@
 {
-  "parent": "item/template_chest",
+  "parent": "golden_days:item/template_chest",
   "textures": {
     "entity": "entity/chest/christmas",
     "front": "block/christmas_chest_front",

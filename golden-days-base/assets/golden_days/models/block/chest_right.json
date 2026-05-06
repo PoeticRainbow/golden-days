@@ -1,5 +1,5 @@
 {
-  "parent": "block/template_chest_right",
+  "parent": "golden_days:block/template_chest_right",
   "textures": {
     "front": "block/chest_front_right",
     "side": "block/chest_side",

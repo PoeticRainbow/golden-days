@@ -38,7 +38,6 @@
       },
       {
         "directory": "patch_21_4_chest_fat",
-        "polytone_condition": "config('golden_days:chest_model') == 'beta'",
         "formats": [45, 420],
         "min_format": 45,
         "max_format": 420

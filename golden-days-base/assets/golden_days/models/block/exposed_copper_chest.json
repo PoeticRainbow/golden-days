@@ -1,7 +1,6 @@
 {
-  "parent": "golden_days:item/template_chest",
+  "parent": "golden_days:block/template_chest",
   "textures": {
-    "entity": "entity/chest/copper_exposed",
     "front": "block/exposed_copper_chest_front",
     "side": "block/exposed_copper_chest_side",
     "top": "block/exposed_copper"

@@ -1,6 +1,7 @@
 {
-  "parent": "block/orientable",
+  "parent": "golden_days:item/template_chest",
   "textures": {
+    "entity": "entity/chest/christmas",
     "front": "block/trapped_chest_front_christmas",
     "side": "block/christmas_chest_side",
     "top": "block/christmas_chest_top"
