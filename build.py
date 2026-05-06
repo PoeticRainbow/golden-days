@@ -30,11 +30,11 @@ def write_json(dict: dict, path: str):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(dict, f, ensure_ascii=False)
 
+
 def create_standalone_option(root: str, option: str, pack_mcmeta: dict):
-    no_prefix = option.replace(PREFIX, "")
-    if "mod" in no_prefix:
-        no_prefix = re.sub(r"mod_[a-z]+_", "", no_prefix)
-    path = os.path.join(OPTIONS_DIR, "golden-option-" + no_prefix.replace("_", "-"))  # new path/working path
+    no_prefix = re.sub(r"((?:mod|option|shaders)_?)(\w+)", r"\1\2", option)
+    # new path/working path
+    path = os.path.join(OPTIONS_DIR, "gd-" + no_prefix.replace("_", "-"))
     name = no_prefix.replace("_", " ").title()
     print(f"Creating option {name} at {path}")
     # copy overlay over to working directory
@@ -59,7 +59,9 @@ def build_golden_days_overlay():
     # copy all wanted files from base pack into working dir
     include = []
     with open(os.path.join(overlay, "include.txt"), encoding="utf-8") as f:
-        include = [x.strip() for x in f.read().splitlines() if x and not x.startswith("#")]
+        include = [
+            x.strip() for x in f.read().splitlines() if x and not x.startswith("#")
+        ]
     copy_count = 0
     for path in include:
         for src_path in glob.glob(os.path.join(base, path), recursive=True):
@@ -71,6 +73,7 @@ def build_golden_days_overlay():
     print(f"Copied {copy_count} files from {base} to {working_dir}")
     # copy and replace files from overlay pack into working dir
     shutil.copytree(overlay, working_dir, dirs_exist_ok=True)
+
 
 def main():
     print("Building Golden Days...")
@@ -90,8 +93,15 @@ def main():
         pack_mcmeta = load_json(pack_mcmeta_path)
         if "overlays" in pack_mcmeta:
             # collect every optional overlay from every pack
-            for option in glob.glob(f"*{PREFIX}*", root_dir=pack):
-                create_standalone_option(pack, option, pack_mcmeta)
+            entries = pack_mcmeta["overlays"]["entries"]
+            for entry in entries:
+                if "polytone_condition" in entry:
+                    option_dir = entry["directory"]
+                    option_path = os.path.join(pack, option_dir)
+                    if os.path.exists(option_path):
+                        create_standalone_option(pack, option_dir, pack_mcmeta)
+                    else:
+                        print(f"Could not find option {option_dir} in pack {pack}")
 
     # copies files from the base pack that control sounds, removing particles, etc
     # intended for use overtop of existing resource packs
