@@ -205,7 +205,7 @@
         "max_format": 0
       },
       {
-        "directory": "option_flatten_skin_layers",
+        "directory": "mod_emf_option_flatten_skin_layers",
         "polytone_condition": "config('golden_days:flatten_skin_layers')",
         "formats": [0, 0],
         "min_format": 0,
