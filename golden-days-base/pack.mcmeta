@@ -37,6 +37,12 @@
         "max_format": 420
       },
       {
+        "directory": "patch_21_5_custom_names",
+        "formats": [55, 420],
+        "min_format": 55,
+        "max_format": 420
+      },
+      {
         "directory": "patch_21_4_chest_fat",
         "formats": [45, 420],
         "min_format": 45,
