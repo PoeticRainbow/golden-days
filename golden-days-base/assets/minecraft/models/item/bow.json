@@ -1,28 +1,9 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/bow"
-  },
+  "parent": "minecraft:item/generated_flipped",
+  "textures": {"layer0": "minecraft:item/bow"},
   "overrides": [
-        {
-            "predicate": {
-                "pulling": 1
-            },
-            "model": "item/bow_pulling_0"
-        },
-        {
-            "predicate": {
-                "pulling": 1,
-                "pull": 0.65
-            },
-            "model": "item/bow_pulling_1"
-        },
-        {
-            "predicate": {
-                "pulling": 1,
-                "pull": 0.9
-            },
-            "model": "item/bow_pulling_2"
-        }
-    ]
+    {"predicate": {"pulling": 1}, "model": "item/bow_pulling_0"},
+    {"predicate": {"pulling": 1, "pull": 0.65}, "model": "item/bow_pulling_1"},
+    {"predicate": {"pulling": 1, "pull": 0.9}, "model": "item/bow_pulling_2"}
+  ]
 }
