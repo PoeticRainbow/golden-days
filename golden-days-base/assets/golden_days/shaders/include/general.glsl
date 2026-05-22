@@ -23,9 +23,19 @@ float goldenDaysLight(float light_level, float ambient) {
 // -------------------
 float goldenDaysLinearFogFactor(float vertexDistance, float fogEnd) {
     float fogStart = fogEnd * 0.25; // todo: for overworld, 0 for nether/end
-    if (vertexDistance <= fogStart) {
+    if(vertexDistance <= fogStart) {
         return 0.0;
-    } else if (vertexDistance >= fogEnd) {
+    } else if(vertexDistance >= fogEnd) {
+        return 1.0;
+    }
+    return clamp((vertexDistance - fogStart) / (fogEnd - fogStart), 0.0, 1.0);
+}
+
+float goldenDaysNetherFogFactor(float vertexDistance, float fogEnd) {
+    float fogStart = 0.0; // 0 for nether/end
+    if(vertexDistance <= fogStart) {
+        return 0.0;
+    } else if(vertexDistance >= fogEnd) {
         return 1.0;
     }
     return clamp((vertexDistance - fogStart) / (fogEnd - fogStart), 0.0, 1.0);
@@ -35,21 +45,28 @@ float goldenDaysExpFogFactor(float vertexDistance, float density) {
     return 1.0 - clamp(exp(-density * vertexDistance), 0.0, 1.0);
 }
 
-vec4 goldenDaysApplyFog(vec4 color, float vertexDistance, float renderDistance, float environmentDistance, vec4 fogColor) {
-    if (fogColor.a <= 0.0) return color;
+vec4 goldenDaysApplyFog(vec4 color, float vertexDistance, float renderDistance, float environmentStart, float environmentEnd, vec4 fogColor) {
+    if(fogColor.a <= 0.0)
+        return color;
+
     float factor = 0.0;
-    // TODO: try and make nether use linear fog
-    // <96 incorrectly triggers linear fog when underwater
-    // >=96 incorrectly triggers exp fog in the nether
-    if (environmentDistance > 96.0) {
+    if(environmentEnd > 96.0) {
+        // OVERWORLD / DEFAULT FOG
+        factor = goldenDaysLinearFogFactor(vertexDistance, renderDistance);
+    } else if(environmentEnd == 96.0 && environmentStart == 10) {
+        // NETHER FOG
+        factor = goldenDaysNetherFogFactor(vertexDistance, renderDistance);
+    } else if(environmentEnd == 96.0 && environmentStart == 0) {
+        // BOSS FOG IN THE END
         factor = goldenDaysLinearFogFactor(vertexDistance, renderDistance);
     } else {
-        // thick fog
+        // THICK FOG, LIQUID FOG
         // lava fog color (0.6, 0.1, 0)
         bool inLava = fogColor.r >= 0.6 && fogColor.g <= 0.1 && fogColor.b == 0.0;
         float density = inLava ? 2.0 : 0.1; // inLava ? 2.0 : (inWater ? 0.1 : 1.0);
         factor = goldenDaysExpFogFactor(vertexDistance, density);
     }
+
     return vec4(mix(color.rgb, fogColor.rgb, factor), color.a);
 }
 
@@ -57,19 +74,21 @@ vec4 goldenDaysApplyFog(vec4 color, float vertexDistance, float renderDistance, 
 // |     SKY FOG     |
 // -------------------
 float goldenDaysLinearSkyFogFactor(float vertexDistance, float fogEnd) {
-    if (fogEnd <= 64.0) return 1.0; // no sky renders on short or tiny in beta
+    if(fogEnd <= 64.0)
+        return 1.0; // no sky renders on short or tiny in beta
     float fogStart = 0.0;
     fogEnd = fogEnd * 0.8;
-    if (vertexDistance <= fogStart) {
+    if(vertexDistance <= fogStart) {
         return 0.0;
-    } else if (vertexDistance >= fogEnd) {
+    } else if(vertexDistance >= fogEnd) {
         return 1.0;
     }
     return clamp((vertexDistance - fogStart) / (fogEnd - fogStart), 0.0, 1.0);
 }
 
 vec4 goldenDaysApplySkyFog(vec4 color, float vertexDistance, float renderDistance, float environmentDistance, vec4 fogColor) {
-    if (fogColor.a <= 0.0) return color;
+    if(fogColor.a <= 0.0)
+        return color;
     float factor = goldenDaysLinearSkyFogFactor(vertexDistance, min(renderDistance, environmentDistance));
     return vec4(mix(color.rgb, fogColor.rgb, factor), color.a);
 }
@@ -101,3 +120,32 @@ vec4 goldenDaysApplySkyFog(vec4 color, float vertexDistance, float renderDistanc
 //      params is a single integer or floating-point value that specifies density,
 //      the fog density used in both exponential fog equations. Only nonnegative
 //      densities are accepted. The initial fog density is 1. 
+
+// fog environments
+// nether
+//      environmentalStart = 10
+//      environmentalEnd = 96
+// thick fog in spectator (lava, powdered snow)
+//      environmentalStart = -8.0
+//      environmentalEnd = renderDistance * 0.5
+// lava with fire resistance
+//      environmentalStart = 0.0
+//      environmentalEnd = 5.0
+// lava
+//      environmentalStart = 0.25
+//      environmentalEnd = 1.0
+// water
+//      environmentalStart = -8.0
+//      environmentalEnd = 96.0 * [player.getWaterVision(), 0.25]
+// powdered snow 
+//      environmentalStart = 0.0
+//      environmentalEnd = 2.0
+// blindness
+//      environmentalStart = [5.0, renderDistance] * 0.25
+//      environmentalEnd = [5.0, renderDistance]
+// darkness
+//      environmentalStart = [15.0, renderDistance] * 0.75
+//      environmentalEnd = [15.0, renderDistance]
+// boss fog
+//      environmentalStart = Math.min(fog.environmentalStart, 10.0F);
+//      environmentalEnd = Math.min(fog.environmentalEnd, 96.0F);

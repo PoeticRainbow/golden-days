@@ -10,5 +10,5 @@ in vec4 vertexColor;
 out vec4 fragColor;
 
 void main() {
-    fragColor = goldenDaysApplyFog(vertexColor, vertexDistance, FogRenderDistanceEnd, FogEnvironmentalEnd, FogColor);
+    fragColor = goldenDaysApplyFog(vertexColor, vertexDistance, FogRenderDistanceEnd, FogEnvironmentalStart, FogEnvironmentalEnd, FogColor);
 }

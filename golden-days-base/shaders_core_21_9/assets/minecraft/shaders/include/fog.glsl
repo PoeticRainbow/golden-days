@@ -21,7 +21,7 @@ float total_fog_value(float sphericalVertexDistance, float cylindricalVertexDist
 }
 
 vec4 apply_fog(vec4 inColor, float sphericalVertexDistance, float cylindricalVertexDistance, float environmentalStart, float environmentalEnd, float renderDistanceStart, float renderDistanceEnd, vec4 fogColor) {
-    return goldenDaysApplyFog(inColor, sphericalVertexDistance, renderDistanceEnd, environmentalEnd, fogColor);
+    return goldenDaysApplyFog(inColor, sphericalVertexDistance, renderDistanceEnd, environmentalStart, environmentalEnd, fogColor);
 }
 
 float fog_spherical_distance(vec3 pos) {
