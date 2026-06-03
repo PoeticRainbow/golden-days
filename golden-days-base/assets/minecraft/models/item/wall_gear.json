@@ -1,0 +1,16 @@
+{
+  "ambientocclusion": false,
+  "textures": {"texture": "item/gear"},
+  "elements": [
+    {
+      "from": [-1.5, -1.5, 8],
+      "to": [17.5, 17.5, 8],
+      "shade": false,
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#texture"},
+        "south": {"uv": [16, 0, 0, 16], "texture": "#texture"}
+      }
+    }
+  ],
+  "display": {"fixed": {"scale": [2, 2, 2]}}
+}

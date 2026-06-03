@@ -5,12 +5,32 @@
     "component": "custom_name",
     "cases": [
       {
-        "when": ["Gear", "Gear Clockwise"],
-        "model": {"type": "model", "model": "item/gear"}
+        "when": ["55", "Gear", "Gear Clockwise"],
+        "model": {
+          "type": "select",
+          "property": "display_context",
+          "cases": [
+            {
+              "when": ["fixed", "none"],
+              "model": {"type": "model", "model": "item/wall_gear"}
+            }
+          ],
+          "fallback": {"type": "model", "model": "item/gear"}
+        }
       },
       {
-        "when": ["Gear Flipped", "Gear Opposite", "Gear Counterclockwise"],
-        "model": {"type": "model", "model": "item/gear_flipped"}
+        "when": ["55:1", "Gear Flipped", "Gear Opposite", "Gear Counterclockwise"],
+        "model": {
+          "type": "select",
+          "property": "display_context",
+          "cases": [
+            {
+              "when": ["fixed", "none"],
+              "model": {"type": "model", "model": "item/wall_gear_flipped"}
+            }
+          ],
+          "fallback": {"type": "model", "model": "item/gear_flipped"}
+        }
       }
     ],
     "fallback": {"type": "model", "model": "item/redstone"}
