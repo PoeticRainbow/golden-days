@@ -1,0 +1,18 @@
+{
+  "model": {
+    "type": "select",
+    "property": "component",
+    "component": "custom_name",
+    "cases": [
+      {
+        "when": ["Gear", "Gear Clockwise"],
+        "model": {"type": "model", "model": "item/gear"}
+      },
+      {
+        "when": ["Gear Flipped", "Gear Opposite", "Gear Counterclockwise"],
+        "model": {"type": "model", "model": "item/gear_flipped"}
+      }
+    ],
+    "fallback": {"type": "model", "model": "item/redstone"}
+  }
+}
