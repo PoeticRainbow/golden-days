@@ -3,8 +3,8 @@
   "textures": {"texture": "item/gear"},
   "elements": [
     {
-      "from": [-1.5, -1.5, 7],
-      "to": [17.5, 17.5, 7],
+      "from": [-2, -2, 7],
+      "to": [18, 18, 7],
       "shade": false,
       "faces": {
         "north": {"uv": [0, 0, 16, 16], "texture": "#texture"},
