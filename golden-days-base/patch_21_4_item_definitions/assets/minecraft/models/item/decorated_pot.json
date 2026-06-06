@@ -1,0 +1,4 @@
+{
+  "parent": "block/block",
+  "textures": {"particle": "entity/decorated_pot/decorated_pot_side"}
+}
