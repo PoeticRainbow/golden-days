@@ -1,0 +1,73 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "dirt": "block/dirt",
+    "flowerpot": "block/flower_pot",
+    "particle": "#flowerpot"
+  },
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "cullface": "down",
+          "texture": "#flowerpot",
+          "uv": [5, 10, 11, 16]
+        },
+        "east": {"texture": "#flowerpot", "uv": [5, 10, 11, 16]},
+        "north": {"texture": "#flowerpot", "uv": [5, 10, 11, 16]},
+        "south": {"texture": "#flowerpot", "uv": [5, 10, 11, 16]},
+        "up": {"texture": "#flowerpot", "uv": [5, 5, 11, 11]},
+        "west": {"texture": "#flowerpot", "uv": [5, 10, 11, 16]}
+      },
+      "from": [5, 0, 5],
+      "to": [11, 6, 11]
+    },
+    {
+      "faces": {
+        "north": {"texture": "#plant", "tintindex": 0, "uv": [0, 0, 16, 16]},
+        "south": {"texture": "#plant", "tintindex": 0, "uv": [0, 0, 16, 16]}
+      },
+      "from": [2.6, 4, 8],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [8, 8, 8],
+        "rescale": true
+      },
+      "shade": false,
+      "to": [13.4, 16, 8]
+    },
+    {
+      "faces": {
+        "east": {"texture": "#plant", "tintindex": 0, "uv": [0, 0, 16, 16]},
+        "west": {"texture": "#plant", "tintindex": 0, "uv": [0, 0, 16, 16]}
+      },
+      "from": [8, 4, 2.6],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [8, 8, 8],
+        "rescale": true
+      },
+      "shade": false,
+      "to": [8, 16, 13.4]
+    },
+    {
+      "faces": {"up": {"texture": "#dirt", "uv": [6, 6, 10, 10]}},
+      "from": [6, 0, 6],
+      "to": [10, 4, 10]
+    },
+    {
+      "faces": {
+        "east": {"texture": "#flowerpot", "uv": [6, 10, 10, 16]},
+        "north": {"texture": "#flowerpot", "uv": [10, 10, 6, 16]},
+        "south": {"texture": "#flowerpot", "uv": [10, 10, 6, 16]},
+        "west": {"texture": "#flowerpot", "uv": [6, 10, 10, 16]}
+      },
+      "from": [10, 0, 6],
+      "rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 0]},
+      "shade": false,
+      "to": [6, 6, 10]
+    }
+  ]
+}
