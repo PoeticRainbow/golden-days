@@ -93,6 +93,13 @@
         "max_format": 420
       },
       {
+        "directory": "shaders_core_26_2",
+        "polytone_condition": "modOn('minecraft', '[26.2, 26.3)') && config('golden_days:use_shaders') && !(modOn('sodium') || modOn('embeddium'))",
+        "formats": [88, 420],
+        "min_format": 88,
+        "max_format": 420
+      },
+      {
         "directory": "shaders_light_21_9",
         "polytone_condition": {
           "override": false,
