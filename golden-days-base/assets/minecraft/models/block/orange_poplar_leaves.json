@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_leaves",
+  "textures": {
+    "all": "block/orange_poplar_leaves",
+    "bushy": "block/orange_poplar_leaves_bushy"
+  }
+}
