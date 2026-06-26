@@ -1,0 +1,25 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "#texture",
+    "texture": "block/shelf_mushroom_stage0"
+  },
+  "elements": [
+    {
+      "from": [3, 7, 9],
+      "to": [13, 10, 16],
+      "faces": {
+        "north": {"uv": [0, 5, 5, 6.5], "texture": "#texture"},
+        "east": {"uv": [5, 0, 8.5, 1.5], "texture": "#texture"},
+        "south": {
+          "uv": [0, 1.5, 5, 0],
+          "texture": "#texture",
+          "cullface": "south"
+        },
+        "west": {"uv": [5, 5, 8.5, 6.5], "texture": "#texture"},
+        "up": {"uv": [5, 5, 0, 1.5], "texture": "#texture"},
+        "down": {"uv": [5, 6.5, 0, 10], "texture": "#texture"}
+      }
+    }
+  ]
+}
