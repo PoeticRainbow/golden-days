@@ -3,7 +3,7 @@
   "textures": {
     "top": "block/scaffolding_top",
     "side": "block/scaffolding_side",
-    "particle": "#top"
+    "particle": "#side"
   },
   "elements": [
     {
@@ -26,23 +26,34 @@
       }
     },
     {
-      "name": "cube inverted",
-      "from": [16, 16, 16],
-      "to": [0, 0, 0],
+      "from": [15.99, 13.99, 15.99],
+      "to": [0.01, 0.01, 0.01],
       "faces": {
         "north": {
-          "uv": [0, 16, 16, 0],
+          "uv": [0, 16, 15.98, 2.02],
           "texture": "#side",
           "cullface": "south"
         },
-        "east": {"uv": [0, 16, 16, 0], "texture": "#side", "cullface": "west"},
+        "east": {
+          "uv": [0, 16, 15.98, 2.02],
+          "texture": "#side",
+          "cullface": "west"
+        },
         "south": {
-          "uv": [0, 16, 16, 0],
+          "uv": [0, 16, 15.98, 2.02],
           "texture": "#side",
           "cullface": "north"
         },
-        "west": {"uv": [0, 16, 16, 0], "texture": "#side", "cullface": "east"},
-        "down": {"uv": [16, 0, 0, 16], "texture": "#top", "cullface": "up"}
+        "west": {
+          "uv": [0, 16, 15.98, 2.02],
+          "texture": "#side",
+          "cullface": "east"
+        },
+        "down": {
+          "uv": [16, 0, 0.02, 15.98],
+          "texture": "#top",
+          "cullface": "up"
+        }
       }
     }
   ]
