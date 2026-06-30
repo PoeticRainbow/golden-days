@@ -80,23 +80,30 @@
       },
       {
         "directory": "shaders_core_21_9",
-        "polytone_condition": "modOn('minecraft', '[1.21.9, 26.3)') && config('golden_days:use_shaders') && !(modOn('sodium') || modOn('embeddium'))",
+        "polytone_condition": "modOn('minecraft', '[1.21.9, 26.4)') && config('golden_days:use_shaders') && !(modOn('sodium') || modOn('embeddium'))",
         "formats": [69, 420],
         "min_format": 69,
         "max_format": 420
       },
       {
         "directory": "shaders_core_21_11",
-        "polytone_condition": "modOn('minecraft', '[1.21.11, 26.3)') && config('golden_days:use_shaders') && !(modOn('sodium') || modOn('embeddium'))",
+        "polytone_condition": "modOn('minecraft', '[1.21.11, 26.4)') && config('golden_days:use_shaders') && !(modOn('sodium') || modOn('embeddium'))",
         "formats": [75, 420],
         "min_format": 75,
         "max_format": 420
       },
       {
         "directory": "shaders_core_26_2",
-        "polytone_condition": "modOn('minecraft', '[26.2, 26.3)') && config('golden_days:use_shaders') && !(modOn('sodium') || modOn('embeddium'))",
+        "polytone_condition": "modOn('minecraft', '[26.2, 26.4)') && config('golden_days:use_shaders') && !(modOn('sodium') || modOn('embeddium'))",
         "formats": [88, 420],
         "min_format": 88,
+        "max_format": 420
+      },
+      {
+        "directory": "shaders_core_26_3",
+        "polytone_condition": "modOn('minecraft', '[26.3, 26.4)') && config('golden_days:use_shaders') && !(modOn('sodium') || modOn('embeddium'))",
+        "formats": [90, 420],
+        "min_format": 90,
         "max_format": 420
       },
       {
