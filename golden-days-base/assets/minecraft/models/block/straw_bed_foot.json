@@ -1,0 +1,4 @@
+{
+  "parent": "block/straw_bed_head",
+  "textures": {"top": "block/hay_block_top"}
+}
