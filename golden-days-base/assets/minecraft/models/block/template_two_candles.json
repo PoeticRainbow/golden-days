@@ -1,35 +1,31 @@
 {
-  "parent": "block/block",
-  "ambientocclusion": false,
-  "textures": {"particle": "#all"},
+  "parent": "block/block", "ambientocclusion": false, "textures": { "particle": "#all" },
   "elements": [
     {
-      "from": [5, 0, 7],
-      "to": [7, 6, 9],
-      "shade": false,
-      "rotation": {"angle": 0, "axis": "y", "origin": [5, 6, 7]},
+      "from": [ 5, 0, 7 ], "to": [ 7, 6, 9 ], "shade": false,
+      "rotation": { "angle": 0, "axis": "y", "origin": [ 5, 6, 7 ] },
       "faces": {
-        "north": {"uv": [7, 8, 9, 14], "texture": "#all"},
-        "east": {"uv": [7, 8, 9, 14], "texture": "#all"},
-        "south": {"uv": [7, 8, 9, 14], "texture": "#all"},
-        "west": {"uv": [7, 8, 9, 14], "texture": "#all"},
-        "up": {"uv": [7, 14, 9, 16], "texture": "#all"},
-        "down": {"uv": [7, 14, 9, 16], "texture": "#all", "cullface": "down"}
-      }
+        "north": { "uv": [ 7, 8, 9, 14 ], "texture": "#all" },
+        "east": { "uv": [ 7, 8, 9, 14 ], "texture": "#all" },
+        "south": { "uv": [ 7, 8, 9, 14 ], "texture": "#all" },
+        "west": { "uv": [ 7, 8, 9, 14 ], "texture": "#all" },
+        "up": { "uv": [ 7, 14, 9, 16 ], "texture": "#all" },
+        "down": { "uv": [ 7, 14, 9, 16 ], "texture": "#all", "cullface": "down" }
+      },
+      "shade_direction_override": "up"
     },
     {
-      "from": [9, 0, 6],
-      "to": [11, 7, 8],
-      "shade": false,
-      "rotation": {"angle": 0, "axis": "y", "origin": [9, 6, 6]},
+      "from": [ 9, 0, 6 ], "to": [ 11, 7, 8 ], "shade": false,
+      "rotation": { "angle": 0, "axis": "y", "origin": [ 9, 6, 6 ] },
       "faces": {
-        "north": {"uv": [7, 8, 9, 15], "texture": "#all"},
-        "east": {"uv": [7, 8, 9, 15], "texture": "#all"},
-        "south": {"uv": [7, 8, 9, 15], "texture": "#all"},
-        "west": {"uv": [7, 8, 9, 15], "texture": "#all"},
-        "up": {"uv": [7, 14, 9, 16], "texture": "#all"},
-        "down": {"uv": [7, 14, 9, 16], "texture": "#all", "cullface": "down"}
-      }
+        "north": { "uv": [ 7, 8, 9, 15 ], "texture": "#all" },
+        "east": { "uv": [ 7, 8, 9, 15 ], "texture": "#all" },
+        "south": { "uv": [ 7, 8, 9, 15 ], "texture": "#all" },
+        "west": { "uv": [ 7, 8, 9, 15 ], "texture": "#all" },
+        "up": { "uv": [ 7, 14, 9, 16 ], "texture": "#all" },
+        "down": { "uv": [ 7, 14, 9, 16 ], "texture": "#all", "cullface": "down" }
+      },
+      "shade_direction_override": "up"
     }
   ]
 }

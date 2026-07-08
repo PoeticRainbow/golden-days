@@ -1,53 +1,48 @@
 {
-  "parent": "block/cube",
-  "ambientocclusion": false,
-  "textures": {"rod": "block/end_rod", "particle": "#rod"},
+  "parent": "block/cube", "ambientocclusion": false,
+  "textures": { "rod": "block/end_rod", "particle": "#rod" },
   "elements": [
     {
-      "from": [0, 0, 7],
-      "to": [16, 16, 7],
-      "shade": false,
-      "light_emission": 15,
-      "faces": {"north": {"uv": [0, 0, 16, 16], "texture": "#rod"}}
-    },
-    {
-      "from": [9, 0, 0],
-      "to": [9, 16, 16],
-      "shade": false,
-      "light_emission": 15,
-      "faces": {"east": {"uv": [0, 0, 16, 16], "texture": "#rod"}}
-    },
-    {
-      "from": [0, 0, 9],
-      "to": [16, 16, 9],
-      "shade": false,
-      "light_emission": 15,
-      "faces": {"south": {"uv": [0, 0, 16, 16], "texture": "#rod"}}
-    },
-    {
-      "from": [7, 0, 0],
-      "to": [7, 16, 16],
-      "shade": false,
-      "light_emission": 15,
-      "faces": {"west": {"uv": [0, 0, 16, 16], "texture": "#rod"}}
-    },
-    {
-      "from": [7, 0, 7],
-      "to": [9, 0, 9],
-      "shade": false,
-      "light_emission": 15,
+      "from": [ 0, 0, 7 ], "to": [ 16, 16, 7 ], "shade": false, "light_emission": 15,
       "faces": {
-        "down": {"uv": [7, 14, 9, 16], "texture": "#rod", "cullface": "down"}
-      }
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#rod" }
+      },
+      "shade_direction_override": "up"
     },
     {
-      "from": [7, 16, 7],
-      "to": [9, 16, 9],
-      "shade": false,
-      "light_emission": 15,
+      "from": [ 9, 0, 0 ], "to": [ 9, 16, 16 ], "shade": false, "light_emission": 15,
       "faces": {
-        "up": {"uv": [7, 0, 9, 2], "texture": "#rod", "cullface": "up"}
-      }
+        "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#rod" }
+      },
+      "shade_direction_override": "up"
+    },
+    {
+      "from": [ 0, 0, 9 ], "to": [ 16, 16, 9 ], "shade": false, "light_emission": 15,
+      "faces": {
+        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#rod" }
+      },
+      "shade_direction_override": "up"
+    },
+    {
+      "from": [ 7, 0, 0 ], "to": [ 7, 16, 16 ], "shade": false, "light_emission": 15,
+      "faces": {
+        "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#rod" }
+      },
+      "shade_direction_override": "up"
+    },
+    {
+      "from": [ 7, 0, 7 ], "to": [ 9, 0, 9 ], "shade": false, "light_emission": 15,
+      "faces": {
+        "down": { "uv": [ 7, 14, 9, 16 ], "texture": "#rod", "cullface": "down" }
+      },
+      "shade_direction_override": "up"
+    },
+    {
+      "from": [ 7, 16, 7 ], "to": [ 9, 16, 9 ], "shade": false, "light_emission": 15,
+      "faces": {
+        "up": { "uv": [ 7, 0, 9, 2 ], "texture": "#rod", "cullface": "up" }
+      },
+      "shade_direction_override": "up"
     }
   ]
 }

@@ -1,16 +1,16 @@
 {
-  "ambientocclusion": false,
-  "textures": {"texture": "item/gear"},
+  "ambientocclusion": false, "textures": { "texture": "item/gear" },
   "elements": [
     {
-      "from": [-2, -2, 7],
-      "to": [18, 18, 7],
-      "shade": false,
+      "from": [ -2, -2, 7 ], "to": [ 18, 18, 7 ], "shade": false,
       "faces": {
-        "north": {"uv": [0, 0, 16, 16], "texture": "#texture"},
-        "south": {"uv": [16, 0, 0, 16], "texture": "#texture"}
-      }
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 16, 0, 0, 16 ], "texture": "#texture" }
+      },
+      "shade_direction_override": "up"
     }
   ],
-  "display": {"fixed": {"scale": [2, 2, 2]}}
+  "display": {
+    "fixed": { "scale": [ 2, 2, 2 ] }
+  }
 }

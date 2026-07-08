@@ -1,13 +1,12 @@
 {
-  "ambientocclusion": false,
-  "textures": {"particle": "#fire"},
+  "ambientocclusion": false, "textures": { "particle": "#fire" },
   "elements": [
     {
-      "from": [0, 0, 0.01],
-      "to": [16, 22.4, 0.01],
-      "shade": false,
-      "light_emission": 15,
-      "faces": {"north": {"uv": [0, 0, 16, 16], "texture": "#fire"}}
+      "from": [ 0, 0, 0.01 ], "to": [ 16, 22.4, 0.01 ], "shade": false, "light_emission": 15,
+      "faces": {
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#fire" }
+      },
+      "shade_direction_override": "up"
     }
   ]
 }
