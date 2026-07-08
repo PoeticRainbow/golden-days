@@ -1,7 +1,7 @@
 {
   "parent": "block/block",
   "textures": {
-    "top": "block/straw_bed",
+    "top": "block/straw_bed_head",
     "side": "block/hay_block_side",
     "bottom": "block/hay_block_top",
     "particle": "#bottom"
