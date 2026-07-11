@@ -1,0 +1,31 @@
+{
+  "targets": {"swap": {}},
+  "passes": [
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "golden_days:post/crt",
+      "inputs": [{"sampler_name": "In", "target": "minecraft:main"}],
+      "output": "swap",
+      "uniforms": {
+        "CrtConfig": [
+          {"name": "Curvature", "type": "vec2", "value": [3.0, 3.0]}
+        ]
+      }
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "minecraft:post/blit",
+      "inputs": [{"sampler_name": "In", "target": "swap"}],
+      "uniforms": {
+        "BlitConfig": [
+          {
+            "name": "ColorModulate",
+            "type": "vec4",
+            "value": [1.0, 1.0, 1.0, 1.0]
+          }
+        ]
+      },
+      "output": "minecraft:main"
+    }
+  ]
+}

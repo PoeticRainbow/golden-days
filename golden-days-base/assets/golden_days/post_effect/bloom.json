@@ -1,0 +1,49 @@
+{
+  "targets": {"swap": {}, "bloom": {"width": 512, "height": 512}},
+  "passes": [
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "golden_days:post/blur",
+      "inputs": [
+        {"sampler_name": "In", "target": "minecraft:main", "bilinear": true}
+      ],
+      "output": "bloom",
+      "uniforms": {
+        "BlurConfig": [
+          {"name": "ValueThreshold", "type": "float", "value": 0.94},
+          {"name": "Quality", "type": "int", "value": 8},
+          {"name": "SpreadRadius", "type": "float", "value": 8.0}
+        ]
+      }
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "golden_days:post/bloom",
+      "inputs": [
+        {"sampler_name": "Main", "target": "minecraft:main"},
+        {"sampler_name": "Bloom", "target": "bloom", "bilinear": true}
+      ],
+      "output": "swap",
+      "uniforms": {
+        "BloomConfig": [
+          {"name": "BloomStrength", "type": "float", "value": 1.0}
+        ]
+      }
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "minecraft:post/blit",
+      "inputs": [{"sampler_name": "In", "target": "swap", "bilinear": true}],
+      "uniforms": {
+        "BlitConfig": [
+          {
+            "name": "ColorModulate",
+            "type": "vec4",
+            "value": [1.0, 1.0, 1.0, 1.0]
+          }
+        ]
+      },
+      "output": "minecraft:main"
+    }
+  ]
+}
