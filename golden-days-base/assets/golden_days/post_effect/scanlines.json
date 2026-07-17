@@ -1,0 +1,18 @@
+{
+  "targets": {},
+  "passes": [
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "golden_days:post/scanlines",
+      "inputs": [{"sampler_name": "In", "target": "minecraft:main"}],
+      "output": "minecraft:main",
+      "uniforms": {
+        "ScanLinesConfig": [
+          {"name": "Speed", "type": "float", "value": 2.0},
+          {"name": "MinimumValue", "type": "float", "value": 0.7},
+          {"name": "MaximumValue", "type": "float", "value": 1.1}
+        ]
+      }
+    }
+  ]
+}
