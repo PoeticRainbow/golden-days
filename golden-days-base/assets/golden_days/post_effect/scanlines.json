@@ -1,11 +1,11 @@
 {
-  "targets": {},
+  "targets": {"swap": {}},
   "passes": [
     {
       "vertex_shader": "minecraft:core/screenquad",
       "fragment_shader": "golden_days:post/scanlines",
       "inputs": [{"sampler_name": "In", "target": "minecraft:main"}],
-      "output": "minecraft:main",
+      "output": "swap",
       "uniforms": {
         "ScanLinesConfig": [
           {"name": "Speed", "type": "float", "value": 2.0},
@@ -13,6 +13,21 @@
           {"name": "MaximumValue", "type": "float", "value": 1.1}
         ]
       }
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "minecraft:post/blit",
+      "inputs": [{"sampler_name": "In", "target": "swap"}],
+      "uniforms": {
+        "BlitConfig": [
+          {
+            "name": "ColorModulate",
+            "type": "vec4",
+            "value": [1.0, 1.0, 1.0, 1.0]
+          }
+        ]
+      },
+      "output": "minecraft:main"
     }
   ]
 }
