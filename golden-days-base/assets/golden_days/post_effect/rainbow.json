@@ -1,0 +1,12 @@
+{
+  "targets": {},
+  "passes": [
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "golden_days:post/rainbow",
+      "inputs": [{"sampler_name": "In", "target": "minecraft:main"}],
+      "output": "minecraft:main",
+      "uniforms": {}
+    }
+  ]
+}
