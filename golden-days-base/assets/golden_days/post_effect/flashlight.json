@@ -1,0 +1,17 @@
+{
+  "targets": {},
+  "passes": [
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "golden_days:post/flashlight",
+      "inputs": [{"sampler_name": "In", "target": "minecraft:main"}],
+      "output": "minecraft:main",
+      "uniforms": {
+        "FlashlightConfig": [
+          {"name": "CircleRadius", "type": "float", "value": 2.0},
+          {"name": "Multiplier", "type": "float", "value": 2.4}
+        ]
+      }
+    }
+  ]
+}
