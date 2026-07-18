@@ -16,14 +16,16 @@ vec4 calculateFinalColor(vec4 color) {
     #ifdef OIT_ACCUMULATE
     color = sampleColorForAccumulation(color);
     #endif
-    return goldenDaysApplyFog(color, vertexDistance, FogRenderDistanceEnd, FogEnvironmentalStart, FogEnvironmentalEnd, FogColor);
+    return color;
 }
 
 void main() {
     vec4 color = vertexColor;
     #ifndef OIT_DEPTH_BOUNDS
-    color.a *= 1.0f - linear_fog_value(vertexDistance, 0, FogCloudsEnd);
+    color.a *= 1.0 - linear_fog_value(vertexDistance, 0, FogCloudsEnd);
     #endif
+
+    color = goldenDaysApplyFog(color, vertexDistance, FogRenderDistanceEnd, FogEnvironmentalStart, FogEnvironmentalEnd, FogColor);
 
     #ifdef OIT_ALPHA_ONLY
     executeAlphaOnlyPhase(gl_FragCoord.z, color.a);
