@@ -1,10 +1,15 @@
 #version 330
+#extension GL_ARB_separate_shader_objects : require
 
 const float PI = 3.14159;
 
 uniform sampler2D InSampler;
 
+#ifdef VULKAN
+layout(location = 0) in vec2 texCoord;
+#else
 in vec2 texCoord;
+#endif
 
 layout(std140) uniform SamplerInfo {
     vec2 InSize;
@@ -15,7 +20,11 @@ layout(std140) uniform CrtConfig {
     vec2 Curvature;
 };
 
+#ifdef VULKAN
+layout(location = 0) out vec4 fragColor;
+#else
 out vec4 fragColor;
+#endif
 
 vec2 curveRemapUV(vec2 uv) {
     // as we near the edge of our screen apply greater distortion using a cubic function    uv = uv * 2.0–1.0;

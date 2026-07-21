@@ -1,8 +1,13 @@
 #version 330
+#extension GL_ARB_separate_shader_objects : require
 
 uniform sampler2D InSampler;
 
+#ifdef VULKAN
+layout(location = 0) in vec2 texCoord;
+#else
 in vec2 texCoord;
+#endif
 
 layout(std140) uniform SamplerInfo {
     vec2 InSize;
@@ -13,7 +18,11 @@ layout(std140) uniform QuantizeConfig {
     vec3 ColorResolution;
 };
 
+#ifdef VULKAN
+layout(location = 0) out vec4 fragColor;
+#else
 out vec4 fragColor;
+#endif
 
 float bayerDither(ivec2 coord) {
     int x = coord.x & 3;

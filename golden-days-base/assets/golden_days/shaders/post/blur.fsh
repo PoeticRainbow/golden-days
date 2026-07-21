@@ -1,10 +1,15 @@
 #version 330
+#extension GL_ARB_separate_shader_objects : require
 
-#moj_import <minecraft:globals.glsl>
+#include <minecraft:globals.glsl>
 
 uniform sampler2D InSampler;
 
+#ifdef VULKAN
+layout(location = 0) in vec2 texCoord;
+#else
 in vec2 texCoord;
+#endif
 
 layout(std140) uniform SamplerInfo {
     vec2 InSize;
@@ -20,7 +25,11 @@ layout(std140) uniform BlurConfig {
 float Iterations = pow(Quality * 2 + 1, 2.0);
 float InvertedThreshold = 1.0 / (1.0 - ValueThreshold);
 
+#ifdef VULKAN
+layout(location = 0) out vec4 fragColor;
+#else
 out vec4 fragColor;
+#endif
 
 void main() {
     float pixelSize = SpreadRadius / ScreenSize.y;

@@ -1,21 +1,22 @@
 #version 330
+#extension GL_ARB_separate_shader_objects : require
 
 // made by fayer3
 // edited for Golden Days
 // https://github.com/fayer3/1.10-End-Portal
 // MIT Licensed
 
-#moj_import <minecraft:fog.glsl>
-#moj_import <minecraft:projection.glsl>
-#moj_import <minecraft:dynamictransforms.glsl>
+#include <minecraft:fog.glsl>
+#include <minecraft:projection.glsl>
+#include <minecraft:dynamictransforms.glsl>
 
-in vec3 Position;
+layout(location = 0) in vec3 Position;
 
-out vec4 texProj0;
-out float sphericalVertexDistance;
-out float cylindricalVertexDistance;
-out vec3 pos;
-out vec4 posNear;
+layout(location = 0) out vec4 texProj0;
+layout(location = 1) out float sphericalVertexDistance;
+layout(location = 2) out float cylindricalVertexDistance;
+layout(location = 3) out vec3 pos;
+layout(location = 4) out vec4 posNear;
 
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
