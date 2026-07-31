@@ -1,6 +1,6 @@
 {
   "loader": "neoforge:obj",
-  "model": "models/obj/torch_wall_unlit.obj",
+  "model": "minecraft:models/obj/torch_wall_unlit.obj",
   "shade_quads": false,
   "automatic_culling": false,
   "emissive_ambient": false,
