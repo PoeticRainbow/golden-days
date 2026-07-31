@@ -1,4 +1,3 @@
 {
-  "forge:conditions": [{"type": "forge:never"}],
   "parent": "block/template_torch_wall_lit"
 }
