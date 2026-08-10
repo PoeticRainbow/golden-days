@@ -350,5 +350,144 @@
         "max_format": 420
       }
     ]
+  },
+  "polytone": {
+    "title": {
+      "text": "Golden Days Base",
+      "color": "yellow",
+      "bold": true
+    },
+    "content": {
+      "text": "",
+      "extra": [
+        {"text": "\ue000", "font": "golden_days:logo", "color": "white"},
+        "\n\n",
+        {
+          "text": "Golden Days is a texture pack for Minecraft: Java Edition that sends your game back in time. It changes blocks, items, mobs, sounds, music, GUI elements, and even more to be inspired by the past.",
+          "color": "white"
+        },
+        "\n\n",
+        {
+          "text": "Golden Days takes advantage of many advanced features introduced to recreate the original Minecraft experience as much as possible. There is also mod support to allow customizable toggleable options in the game via the PolyTone mod! Use these options to tweak your game to send yourself to the exact version of Minecraft makes you feel the most nostalgic or coziest.",
+          "color": "white"
+        },
+        "\n\n",
+        {
+          "text": "Official Golden Days Links",
+          "color": "yellow",
+          "bold": true,
+          "underlined": true
+        },
+        "\n\n",
+        "Golden Days Base: ",
+        {
+          "text": "[ Modrinth ]",
+          "color": "#1bd96a",
+          "underlined": true,
+          "click_event": {
+            "action": "open_url",
+            "url": "https://modrinth.com/resourcepack/golden-days"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Open Modrinth in Browser..."
+          }
+        },
+        " ",
+        {
+          "text": "[ CurseForge ]",
+          "color": "#f16436",
+          "underlined": true,
+          "click_event": {
+            "action": "open_url",
+            "url": "https://www.curseforge.com/minecraft/texture-packs/golden-days"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Open CurseForge in Browser..."
+          }
+        },
+        "\n",
+        "Golden Days Alpha: ",
+        {
+          "text": "[ Modrinth ]",
+          "color": "#1bd96a",
+          "underlined": true,
+          "click_event": {
+            "action": "open_url",
+            "url": "https://modrinth.com/resourcepack/golden-days-alpha"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Open Modrinth in Browser..."
+          }
+        },
+        " ",
+        {
+          "text": "[ CurseForge ]",
+          "color": "#f16436",
+          "underlined": true,
+          "click_event": {
+            "action": "open_url",
+            "url": "https://www.curseforge.com/minecraft/texture-packs/golden-days-alpha"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Open CurseForge in Browser..."
+          }
+        },
+        "\n",
+        "\n",
+        {
+          "text": "Check out more from PoeticRainbow!",
+          "color": "yellow",
+          "bold": true,
+          "underlined": true
+        },
+        "\n",
+        "\n",
+        {
+          "text": "[ Website ]",
+          "color": "#e7c12e",
+          "underlined": true,
+          "click_event": {
+            "action": "open_url",
+            "url": "https://poeticrainbow.github.io/"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Open PoeticRainbow's website in Browser..."
+          }
+        },
+        " ",
+        {
+          "text": "[ Modrinth ]",
+          "color": "#1bd96a",
+          "underlined": true,
+          "click_event": {
+            "action": "open_url",
+            "url": "https://modrinth.com/user/PoeticRainbow"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Open Modrinth in Browser..."
+          }
+        },
+        " ",
+        {
+          "text": "[ CurseForge ]",
+          "color": "#f16436",
+          "underlined": true,
+          "click_event": {
+            "action": "open_url",
+            "url": "https://www.curseforge.com/members/thepoeticrainbow/projects"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Open CurseForge in Browser..."
+          }
+        }
+      ]
+    }
   }
 }

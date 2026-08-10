@@ -1,0 +1,33 @@
+{
+  "providers": [
+    {"type": "space", "advances": {" ": -1}},
+    {
+      "type": "bitmap",
+      "file": "golden_days:font/logo.png",
+      "height": 64,
+      "ascent": 64,
+      "chars": ["\ue000"]
+    },
+    {
+      "type": "bitmap",
+      "file": "golden_days:font/cover_left.png",
+      "height": 64,
+      "ascent": 64,
+      "chars": ["\ue001"]
+    },
+    {
+      "type": "bitmap",
+      "file": "golden_days:font/cover_right.png",
+      "height": 64,
+      "ascent": 64,
+      "chars": ["\ue002"]
+    },
+    {
+      "type": "bitmap",
+      "file": "golden_days:font/pack_order.png",
+      "height": 98,
+      "ascent": 98,
+      "chars": ["\ue003"]
+    }
+  ]
+}
