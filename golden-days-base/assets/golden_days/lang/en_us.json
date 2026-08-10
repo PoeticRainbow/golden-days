@@ -32,6 +32,8 @@
   "config.golden_days.modern_bow_holding.tooltip": "Indev -> Beta 1.7: false\nBeta 1.8+: true\n\nChanges the way Bows are held",
   "config.golden_days.oak_log_tops": "Oak Log Tops",
   "config.golden_days.oak_log_tops.tooltip": "Classic -> Release 1.6: true\nRelease 1.7+: false\n\nMakes all Overworld logs have Oak Log tops",
+  "config.golden_days.old_fence_connections": "Old Fence Connections",
+  "config.golden_days.old_fence_connections.tooltip": "Alpha -> Beta 1.8: true\nRelease 1.0+: false\n\nMakes fences only connect to other Fences or Fence Gates",
   "config.golden_days.picture_perfect": "§e[WIP]§r Picture Perfect",
   "config.golden_days.picture_perfect.tooltip": "§cReplaces EVERY block in the game with one from Beta... only intended for screenshots",
   "config.golden_days.shadowed_leaves": "Shadowed Leaves",

@@ -298,6 +298,13 @@
         "max_format": 0
       },
       {
+        "directory": "option_old_fence_connections",
+        "polytone_condition": "config('golden_days:old_fence_connections')",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
         "directory": "option_bushy_leaves",
         "polytone_condition": "config('golden_days:bushy_leaves') && !config('golden_days:shadowed_leaves')",
         "formats": [0, 0],
