@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "": {
+      "type": "polytone:expression",
+      "fabric:type": "polytone:expression",
+      "cases": [
+        {
+          "when": "o.relative(-1, -1, -1).block() == 'minecraft:gold_block' && o.relative(-1, -1, 1).block() == 'minecraft:gold_block' && o.relative(1, -1, -1).block() == 'minecraft:gold_block' && o.relative(1, -1, 1).block() == 'minecraft:gold_block'",
+          "model": {"model": "block/nether_reactor_core"}
+        }
+      ],
+      "fallback": {"model": "block/lodestone"},
+      "model": "block/lodestone"
+    }
+  }
+}
