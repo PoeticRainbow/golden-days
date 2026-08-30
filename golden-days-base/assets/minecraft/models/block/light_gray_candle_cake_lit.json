@@ -1,0 +1,4 @@
+{
+  "parent": "block/template_cake_with_candle_lit",
+  "textures": {"candle": "block/light_gray_candle"}
+}
