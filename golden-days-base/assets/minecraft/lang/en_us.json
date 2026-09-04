@@ -110,6 +110,8 @@
   "block.minecraft.white_glazed_terracotta": "White Glazed Clay",
   "block.minecraft.white_terracotta": "White Stained Clay",
   "block.minecraft.white_wool": "Wool",
+  "block.minecraft.white_wool_slab": "Wool Stairs",
+  "block.minecraft.white_wool_stairs": "Wool Slab",
   "block.minecraft.yellow_glazed_terracotta": "Yellow Glazed Clay",
   "block.minecraft.yellow_terracotta": "Yellow Stained Clay",
   "chat.type.advancement.challenge": "%s got grand achievement %s",
