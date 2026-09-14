@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Textures for the Friends button and screen (26.2+)
 - Nether Reactor Core easter egg (PolyTone)
 - Option for Old Fence Connections (PolyTone)
+- Option for Title Screen Panorama (PolyTone)
 - Pack info screen (PolyTone)
 ### Changes
 - Updated pack to 26.3
