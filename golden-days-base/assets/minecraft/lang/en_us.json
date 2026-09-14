@@ -187,5 +187,6 @@
   "subtitles.entity.zombified_piglin.ambient": "Zombie Pigman grunts",
   "subtitles.entity.zombified_piglin.angry": "Zombie Pigman grunts angrily",
   "subtitles.entity.zombified_piglin.death": "Zombie Pigman dies",
-  "subtitles.entity.zombified_piglin.hurt": "Zombie Pigman hurts"
+  "subtitles.entity.zombified_piglin.hurt": "Zombie Pigman hurts",
+  "title.credits": "Copyright Mojang AB. Do not distribute."
 }

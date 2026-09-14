@@ -13,6 +13,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Changes
 - Updated pack to 26.3
 - Optimized textures
+- Title Screen copyright text now matches Beta
 ### Fixes
 - Candles on Cakes being invisible (#139)
 - Polished Cinnabar and Sulfur Slabs using wrong side texture
