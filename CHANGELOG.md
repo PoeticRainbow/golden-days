@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 ### New
 - Textures for Explorer Maps (26.3+)
-- Texture for the Friends button (26.2+)
+- Textures for the Friends button and screen (26.2+)
 - Nether Reactor Core easter egg (PolyTone)
 - Option for Old Fence Connections (PolyTone)
 - Pack info screen (PolyTone)
