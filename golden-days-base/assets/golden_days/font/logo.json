@@ -25,8 +25,8 @@
     {
       "type": "bitmap",
       "file": "golden_days:font/pack_order.png",
-      "height": 98,
-      "ascent": 98,
+      "height": 196,
+      "ascent": 196,
       "chars": ["\ue003"]
     }
   ]

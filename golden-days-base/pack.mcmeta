@@ -367,6 +367,7 @@
     "content": {
       "text": "",
       "extra": [
+        "\n\n\n\n\n\n\n",
         {"text": "\ue000", "font": "golden_days:logo", "color": "white"},
         "\n\n",
         {
@@ -378,6 +379,8 @@
           "text": "Golden Days takes advantage of many advanced features introduced to recreate the original Minecraft experience as much as possible. There is also mod support to allow customizable toggleable options in the game via the PolyTone mod! Use these options to tweak your game to send yourself to the exact version of Minecraft makes you feel the most nostalgic or coziest.",
           "color": "white"
         },
+        "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+        {"text": "\ue003", "font": "golden_days:logo", "color": "white"},
         "\n\n",
         {
           "text": "Official Golden Days Links",
