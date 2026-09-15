@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### New
 - Textures for Explorer Maps (26.3+)
 - Textures for the Friends button and screen (26.2+)
+- Title Screen shader to scale the dirt background (26.3+)
 - Nether Reactor Core easter egg (PolyTone)
 - Option for Old Fence Connections (PolyTone)
 - Option for Title Screen Panorama (PolyTone)
