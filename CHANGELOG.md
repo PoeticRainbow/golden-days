@@ -4,8 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
+### New
+- Textures for the Pause Screen icons (26.3+)
 ### Changes
-- Retextured the Friends and Remove Friend buttons
+- Retextured the Friends and Remove Friend buttons (26.2+)
 
 ## [Golden Days 16.3 for 1.20+]
 ### New
