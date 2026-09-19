@@ -5,6 +5,10 @@
     "component": "custom_name",
     "cases": [
       {
+        "when": ["Redstone Dust", "Redstone Wire"],
+        "model": {"type": "model", "model": "golden_days:item/redstone_wire"}
+      },
+      {
         "when": ["55", "Gear", "Gear Clockwise"],
         "model": {
           "type": "select",
@@ -19,7 +23,12 @@
         }
       },
       {
-        "when": ["55:1", "Gear Flipped", "Gear Opposite", "Gear Counterclockwise"],
+        "when": [
+          "55:1",
+          "Gear Flipped",
+          "Gear Opposite",
+          "Gear Counterclockwise"
+        ],
         "model": {
           "type": "select",
           "property": "display_context",
