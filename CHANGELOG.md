@@ -6,6 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 ### New
 - Textures for the Pause Screen icons (26.3+)
+- Options for Pocket Edition Grass and Pocket Edition Atmosphere
 ### Changes
 - Retextured the Friends and Remove Friend buttons (26.2+)
 

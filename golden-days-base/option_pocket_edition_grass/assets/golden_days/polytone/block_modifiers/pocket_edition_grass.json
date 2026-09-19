@@ -1,0 +1,7 @@
+{
+  "targets": [
+    {"id": "minecraft:spruce_leaves", "required": false},
+    {"id": "minecraft:birch_leaves", "required": false}
+  ],
+  "colormap": "#339933"
+}
