@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Crops",
+        "model": {"type": "minecraft:model", "model": "golden_days:item/crops"}
+      }
+    ],
+    "fallback": {"type": "minecraft:model", "model": "item/wheat_seeds"}
+  }
+}
