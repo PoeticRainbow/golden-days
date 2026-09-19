@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Bed",
+        "model": {"type": "minecraft:model", "model": "golden_days:item/bed"}
+      }
+    ],
+    "fallback": {"type": "minecraft:model", "model": "item/red_bed"}
+  }
+}
