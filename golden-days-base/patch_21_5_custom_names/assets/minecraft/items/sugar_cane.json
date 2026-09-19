@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": ["Reeds", "Sugar Canes"],
+        "model": {"type": "minecraft:model", "model": "golden_days:item/reeds"}
+      }
+    ],
+    "fallback": {"type": "minecraft:model", "model": "item/sugar_cane"}
+  }
+}
