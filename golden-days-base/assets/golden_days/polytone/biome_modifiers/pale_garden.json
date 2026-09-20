@@ -1,18 +1,34 @@
 {
   "targets": [{"id": "minecraft:pale_garden", "required": false}],
-  "grass_color": 11184810,
-  "fog_radius": "1-(RENDER_DISTANCE/(RENDER_DISTANCE+2))",
-  "fog_fade": 8,
+  "grass_color": "#aaaaaa",
   "particle": {
     "options": {"type": "golden_days:white_eyes"},
     "probability": 5E-05
   },
   "attributes_modifiers": {
-    "minecraft:visual/ambient_particles": {
-      "modifier": "override",
-      "argument": [
-        {"particle": {"type": "golden_days:white_eyes"}, "probability": 5E-05}
-      ]
+    "base": {
+      "minecraft:visual/fog_color": {
+        "argument": "#eeeeff",
+        "modifier": "override"
+      },
+      "minecraft:visual/sky_color": {
+        "argument": "#aaaabb",
+        "modifier": "override"
+      },
+      "minecraft:visual/fog_end_distance": {
+        "argument": "96.0",
+        "modifier": "override"
+      },
+      "minecraft:visual/ambient_particles": {
+        "modifier": "override",
+        "argument": [
+          {
+            "particle": {"type": "golden_days:white_eyes"},
+            "probability": 5E-05
+          }
+        ]
+      }
     }
-  }
+  },
+  "priority": 1
 }
