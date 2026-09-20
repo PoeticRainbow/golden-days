@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "": {
+      "type": "polytone:expression",
+      "fabric:type": "polytone:expression",
+      "cases": [
+        {
+          "when": "o.down().block() == 'minecraft:cobblestone'",
+          "model": {
+            "model": "golden_days:block/cobblestone_enchanting_table_bare"
+          }
+        },
+        {
+          "when": "o.down().block() == 'minecraft:red_wool'",
+          "model": {
+            "model": "golden_days:block/cobblestone_enchanting_table_cloth"
+          }
+        }
+      ],
+      "fallback": {"model": "block/enchanting_table"},
+      "model": "block/enchanting_table"
+    }
+  }
+}

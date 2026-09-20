@@ -1,0 +1,9 @@
+{
+  "parent": "block/enchanting_table",
+  "textures": {
+    "top": "block/enchanting_table_top",
+    "side": "golden_days:block/enchanting_table/cloth_side",
+    "bottom": "golden_days:block/enchanting_table/bottom",
+    "particle": "#bottom"
+  }
+}
