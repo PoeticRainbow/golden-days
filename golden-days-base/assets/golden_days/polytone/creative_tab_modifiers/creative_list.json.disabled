@@ -1,0 +1,281 @@
+{
+  "icon": "minecraft:crafting_table",
+  "search_bar": true,
+  "name": "Golden Days",
+  "additions": [
+    {
+      "items": [
+        {
+          "id": "minecraft:grass_block",
+          "components": {"minecraft:custom_name": "Grass"}
+        },
+        {
+          "id": "minecraft:water_bucket",
+          "components": {"minecraft:custom_name": "Water"}
+        },
+        {
+          "id": "minecraft:lava_bucket",
+          "components": {"minecraft:custom_name": "Lava"}
+        },
+        {
+          "id": "minecraft:red_bed",
+          "components": {"minecraft:custom_name": "Bed"}
+        },
+        {
+          "id": "minecraft:short_grass",
+          "components": {"minecraft:custom_name": ""}
+        },
+        {
+          "id": "minecraft:short_grass",
+          "components": {"minecraft:custom_name": "Unnamed"}
+        },
+        {"id": "minecraft:piston", "components": {"minecraft:custom_name": ""}},
+        {
+          "id": "minecraft:piston",
+          "components": {"minecraft:custom_name": "Piston Head"}
+        },
+        {
+          "id": "minecraft:piston",
+          "components": {"minecraft:custom_name": "Unnamed"}
+        },
+        {
+          "id": "minecraft:piston",
+          "components": {"minecraft:custom_name": "Block 36"}
+        },
+        {
+          "id": "minecraft:piston",
+          "components": {"minecraft:custom_name": "Moving Piston"}
+        },
+        {
+          "id": "minecraft:smooth_stone",
+          "components": {"minecraft:custom_name": ""}
+        },
+        {
+          "id": "minecraft:smooth_stone_slab",
+          "components": {"minecraft:custom_name": ""}
+        },
+        {
+          "id": "minecraft:smooth_stone",
+          "components": {"minecraft:custom_name": "Double Stone Slab"}
+        },
+        {
+          "id": "minecraft:smooth_stone_slab",
+          "components": {"minecraft:custom_name": "Double Stone Slab"}
+        },
+        {
+          "id": "minecraft:smooth_stone",
+          "components": {"minecraft:custom_name": "Unnamed"}
+        },
+        {
+          "id": "minecraft:smooth_stone_slab",
+          "components": {"minecraft:custom_name": "Unnamed"}
+        },
+        {
+          "id": "minecraft:torch",
+          "components": {"minecraft:custom_name": "Wall Torch"}
+        },
+        {
+          "id": "minecraft:soul_torch",
+          "components": {"minecraft:custom_name": "Wall Soul Torch"}
+        },
+        {
+          "id": "minecraft:copper_torch",
+          "components": {"minecraft:custom_name": "Wall Copper Torch"}
+        },
+        {
+          "id": "minecraft:fire_charge",
+          "components": {"minecraft:custom_name": "Fire"}
+        },
+        {
+          "id": "minecraft:flint_and_steel",
+          "components": {"minecraft:custom_name": "Fire"}
+        },
+        {
+          "id": "minecraft:redstone",
+          "components": {"minecraft:custom_name": "Redstone Dust"}
+        },
+        {
+          "id": "minecraft:redstone",
+          "components": {"minecraft:custom_name": "Redstone Wire"}
+        },
+        {
+          "id": "minecraft:redstone",
+          "components": {"minecraft:custom_name": "55"}
+        },
+        {
+          "id": "minecraft:redstone",
+          "components": {"minecraft:custom_name": "Gear"}
+        },
+        {
+          "id": "minecraft:redstone",
+          "components": {"minecraft:custom_name": "Gear Clockwise"}
+        },
+        {
+          "id": "minecraft:redstone",
+          "components": {"minecraft:custom_name": "55:1"}
+        },
+        {
+          "id": "minecraft:redstone",
+          "components": {"minecraft:custom_name": "Gear Counterclockwise"}
+        },
+        {
+          "id": "minecraft:redstone",
+          "components": {"minecraft:custom_name": "Gear Flipped"}
+        },
+        {
+          "id": "minecraft:redstone",
+          "components": {"minecraft:custom_name": "Gear Opposite"}
+        },
+        {
+          "id": "minecraft:redstone",
+          "components": {"minecraft:custom_name": "55"}
+        },
+        {
+          "id": "minecraft:redstone",
+          "components": {"minecraft:custom_name": "Gear"}
+        },
+        {
+          "id": "minecraft:redstone",
+          "components": {"minecraft:custom_name": "Gear Clockwise"}
+        },
+        {
+          "id": "minecraft:redstone",
+          "components": {"minecraft:custom_name": "55:1"}
+        },
+        {
+          "id": "minecraft:redstone",
+          "components": {"minecraft:custom_name": "Gear Counterclockwise"}
+        },
+        {
+          "id": "minecraft:redstone",
+          "components": {"minecraft:custom_name": "Gear Flipped"}
+        },
+        {
+          "id": "minecraft:redstone",
+          "components": {"minecraft:custom_name": "Gear Opposite"}
+        },
+        {
+          "id": "minecraft:wheat_seeds",
+          "components": {"minecraft:custom_name": "Crops"}
+        },
+        {
+          "id": "minecraft:redstone_torch",
+          "components": {"minecraft:custom_name": "Wall Redstone Torch"}
+        },
+        {
+          "id": "minecraft:sugar_cane",
+          "components": {"minecraft:custom_name": "Reeds"}
+        },
+        {
+          "id": "minecraft:sugar_cane",
+          "components": {"minecraft:custom_name": "Sugar Canes"}
+        },
+        {
+          "id": "minecraft:fire_charge",
+          "components": {"minecraft:custom_name": "Portal"}
+        },
+        {
+          "id": "minecraft:flint_and_steel",
+          "components": {"minecraft:custom_name": "Portal"}
+        },
+        {
+          "id": "minecraft:cake",
+          "components": {"minecraft:custom_name": "Cake"}
+        },
+        {
+          "id": "minecraft:paper",
+          "components": {"minecraft:custom_name": "tile.missingTex"}
+        },
+        {
+          "id": "minecraft:paper",
+          "components": {"minecraft:custom_name": "tile.missingTex.name"}
+        },
+        {
+          "id": "minecraft:paper",
+          "components": {"minecraft:custom_name": "tile.missingtex"}
+        },
+        {
+          "id": "minecraft:paper",
+          "components": {"minecraft:custom_name": "tile.missingtex.name"}
+        },
+        {
+          "id": "minecraft:wooden_axe",
+          "components": {"minecraft:custom_name": "Wooden Battle Axe"}
+        },
+        {
+          "id": "minecraft:wooden_axe",
+          "components": {"minecraft:custom_name": "Wooden Battleaxe"}
+        },
+        {
+          "id": "minecraft:stone_axe",
+          "components": {"minecraft:custom_name": "Stone Battle Axe"}
+        },
+        {
+          "id": "minecraft:stone_axe",
+          "components": {"minecraft:custom_name": "Stone Battleaxe"}
+        },
+        {
+          "id": "minecraft:copper_axe",
+          "components": {"minecraft:custom_name": "Copper Battle Axe"}
+        },
+        {
+          "id": "minecraft:copper_axe",
+          "components": {"minecraft:custom_name": "Copper Battleaxe"}
+        },
+        {
+          "id": "minecraft:iron_axe",
+          "components": {"minecraft:custom_name": "Iron Battle Axe"}
+        },
+        {
+          "id": "minecraft:iron_axe",
+          "components": {"minecraft:custom_name": "Iron Battleaxe"}
+        },
+        {
+          "id": "minecraft:diamond_axe",
+          "components": {"minecraft:custom_name": "Diamond Battle Axe"}
+        },
+        {
+          "id": "minecraft:diamond_axe",
+          "components": {"minecraft:custom_name": "Diamond Battleaxe"}
+        },
+        {
+          "id": "minecraft:golden_axe",
+          "components": {"minecraft:custom_name": "Golden Battle Axe"}
+        },
+        {
+          "id": "minecraft:golden_axe",
+          "components": {"minecraft:custom_name": "Golden Battleaxe"}
+        },
+        {
+          "id": "minecraft:netherite_axe",
+          "components": {"minecraft:custom_name": "Netherite Battle Axe"}
+        },
+        {
+          "id": "minecraft:netherite_axe",
+          "components": {"minecraft:custom_name": "Netherite Battleaxe"}
+        },
+        {
+          "id": "minecraft:paper",
+          "components": {"minecraft:custom_name": "item.missingTex"}
+        },
+        {
+          "id": "minecraft:paper",
+          "components": {"minecraft:custom_name": "item.missingTex.name"}
+        },
+        {
+          "id": "minecraft:paper",
+          "components": {"minecraft:custom_name": "item.missingtex"}
+        },
+        {
+          "id": "minecraft:paper",
+          "components": {"minecraft:custom_name": "item.missingtex.name"}
+        },
+        {
+          "id": "minecraft:paper",
+          "components": {"minecraft:custom_name": "missingtex"}
+        }
+      ]
+    }
+  ],
+  "create_new": true
+}
