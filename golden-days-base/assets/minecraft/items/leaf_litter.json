@@ -1,12 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "minecraft:item/leaf_litter",
-    "tints": [
-      {
-        "type": "minecraft:constant",
-        "value": 8431445
-      }
-    ]
+    "model": "minecraft:item/leaf_litter"
   }
 }

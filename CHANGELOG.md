@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Options for Pocket Edition Grass and Pocket Edition Atmosphere (PolyTone)
 ### Changes
 - Retextured the Friends and Remove Friend buttons (26.2+)
+- Leaf Litter tint is now premultiplied instead of using a colormap
 
 ## [Golden Days 16.3 for 1.20+]
 ### New
