@@ -1,0 +1,15 @@
+{
+  "targets": [{"id": "#minecraft:is_overworld", "required": false}],
+  "attributes_modifiers": {
+    "base": {
+      "minecraft:visual/fog_color": {
+        "argument": "golden_days:fog_color",
+        "modifier": "override"
+      },
+      "minecraft:visual/sky_color": {
+        "argument": "golden_days:sky_color",
+        "modifier": "override"
+      }
+    }
+  }
+}
