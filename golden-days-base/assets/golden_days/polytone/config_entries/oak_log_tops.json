@@ -1,9 +1,22 @@
 {
+  "section": "textures",
   "default_value": false,
   "presets": {
     "early_beta": true,
     "late_beta": true,
     "early_release": true,
     "late_release": false
+  },
+  "tooltip_images": {
+    "true": {
+      "texture": "golden_days:preview/oak_log_tops/enabled.png",
+      "width": 80,
+      "height": 80
+    },
+    "false": {
+      "texture": "golden_days:preview/oak_log_tops/disabled.png",
+      "width": 80,
+      "height": 80
+    }
   }
 }

@@ -1,9 +1,22 @@
 {
+  "section": "models",
   "default_value": false,
   "presets": {
     "early_beta": false,
     "late_beta": false,
     "early_release": true,
     "late_release": true
+  },
+  "tooltip_images": {
+    "true": {
+      "texture": "golden_days:preview/modern_bow_holding/enabled.png",
+      "width": 160,
+      "height": 80
+    },
+    "false": {
+      "texture": "golden_days:preview/modern_bow_holding/disabled.png",
+      "width": 160,
+      "height": 80
+    }
   }
 }

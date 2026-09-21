@@ -1,3 +1,16 @@
 {
-  "default_value": false
+  "section": "models",
+  "default_value": false,
+  "tooltip_images": {
+    "true": {
+      "texture": "golden_days:preview/flat_candles/enabled.png",
+      "width": 160,
+      "height": 80
+    },
+    "false": {
+      "texture": "golden_days:preview/flat_candles/disabled.png",
+      "width": 160,
+      "height": 80
+    }
+  }
 }

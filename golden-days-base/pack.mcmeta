@@ -166,14 +166,14 @@
       },
       {
         "directory": "mod_emf_option_chest_use_cem",
-        "polytone_condition": "config('golden_days:chest_model') != 'beta'",
+        "polytone_condition": "config('golden_days:chest_style') != 'beta'",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
       },
       {
         "directory": "mod_emf_option_chest_fat_animated",
-        "polytone_condition": "config('golden_days:chest_model') == 'hybrid' && modOn('entity_model_features')",
+        "polytone_condition": "config('golden_days:chest_style') == 'hybrid' && modOn('entity_model_features')",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
@@ -193,36 +193,36 @@
         "max_format": 0
       },
       {
-        "directory": "option_bricks_modern",
-        "polytone_condition": "config('golden_days:bricks') == 'modern'",
+        "directory": "option_bricks_style_modern",
+        "polytone_condition": "config('golden_days:bricks_style') == 'modern'",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
       },
       {
-        "directory": "option_cobblestone_modern",
-        "polytone_condition": "config('golden_days:cobblestone') == 'modern'",
+        "directory": "option_cobblestone_style_modern",
+        "polytone_condition": "config('golden_days:cobblestone_style') == 'modern'",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
       },
       {
-        "directory": "option_cobblestone_hybrid",
-        "polytone_condition": "config('golden_days:cobblestone') == 'hybrid'",
+        "directory": "option_cobblestone_style_hybrid",
+        "polytone_condition": "config('golden_days:cobblestone_style') == 'hybrid'",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
       },
       {
-        "directory": "option_cuboid_bamboo",
-        "polytone_condition": "config('golden_days:cuboid_bamboo')",
+        "directory": "option_bamboo_style_cuboid",
+        "polytone_condition": "config('golden_days:bamboo_style') == 'cuboid'",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
       },
       {
-        "directory": "option_fast_grass",
-        "polytone_condition": "config('golden_days:fast_grass')",
+        "directory": "option_grass_block_style_fast",
+        "polytone_condition": "config('golden_days:grass_block_style') == 'fast'",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
@@ -284,8 +284,8 @@
         "max_format": 0
       },
       {
-        "directory": "option_matching_coals",
-        "polytone_condition": "config('golden_days:matching_coals')",
+        "directory": "option_charcoal_style_matching",
+        "polytone_condition": "config('golden_days:charcoal_style') == 'matching'",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0

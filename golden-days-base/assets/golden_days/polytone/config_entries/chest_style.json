@@ -1,0 +1,29 @@
+{
+  "section": "models",
+  "default_value": "beta",
+  "allowed_values": ["beta", "hybrid", "modern"],
+  "presets": {
+    "early_beta": "beta",
+    "late_beta": "beta",
+    "early_release": "modern",
+    "late_release": "modern"
+  },
+  "tooltip_images": {
+    "beta": {
+      "texture": "golden_days:preview/chest_style/beta.png",
+      "width": 160,
+      "height": 80
+    },
+    "hybrid": {
+      "texture": "golden_days:preview/chest_style/hybrid.png",
+      "width": 160,
+      "height": 80
+    },
+    "modern": {
+      "texture": "golden_days:preview/chest_style/modern.png",
+      "width": 160,
+      "height": 80
+    }
+  },
+  "display_order": 10
+}

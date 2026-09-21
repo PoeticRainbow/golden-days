@@ -1,0 +1,17 @@
+{
+  "section": "models",
+  "default_value": "cross",
+  "allowed_values": ["cross", "cuboid"],
+  "tooltip_images": {
+    "cross": {
+      "texture": "golden_days:preview/bamboo_style/cross.png",
+      "width": 160,
+      "height": 80
+    },
+    "cuboid": {
+      "texture": "golden_days:preview/bamboo_style/cuboid.png",
+      "width": 160,
+      "height": 80
+    }
+  }
+}

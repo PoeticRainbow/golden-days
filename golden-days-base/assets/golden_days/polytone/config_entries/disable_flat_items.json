@@ -1,10 +1,23 @@
 {
+  "section": "models",
   "default_value": false,
   "presets": {
     "early_beta": false,
     "late_beta": false,
     "early_release": false,
     "late_release": true
+  },
+  "tooltip_images": {
+    "true": {
+      "texture": "golden_days:preview/disable_flat_items/enabled.png",
+      "width": 160,
+      "height": 80
+    },
+    "false": {
+      "texture": "golden_days:preview/disable_flat_items/disabled.png",
+      "width": 160,
+      "height": 80
+    }
   },
   "display_order": -2
 }

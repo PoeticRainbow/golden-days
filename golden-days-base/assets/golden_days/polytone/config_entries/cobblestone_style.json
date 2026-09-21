@@ -1,0 +1,28 @@
+{
+  "section": "textures",
+  "default_value": "classic",
+  "allowed_values": ["classic", "hybrid", "modern"],
+  "presets": {
+    "early_beta": "classic",
+    "late_beta": "modern",
+    "early_release": "modern",
+    "late_release": "modern"
+  },
+  "tooltip_images": {
+    "classic": {
+      "texture": "golden_days:preview/cobblestone_style/classic.png",
+      "width": 80,
+      "height": 80
+    },
+    "hybrid": {
+      "texture": "golden_days:preview/cobblestone_style/hybrid.png",
+      "width": 80,
+      "height": 80
+    },
+    "modern": {
+      "texture": "golden_days:preview/cobblestone_style/modern.png",
+      "width": 80,
+      "height": 80
+    }
+  }
+}

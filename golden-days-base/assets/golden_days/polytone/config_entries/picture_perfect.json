@@ -1,4 +1,17 @@
 {
+  "section": "experimental",
   "default_value": false,
+  "tooltip_images": {
+    "true": {
+      "texture": "golden_days:preview/picture_perfect/enabled.png",
+      "width": 160,
+      "height": 80
+    },
+    "false": {
+      "texture": "golden_days:preview/picture_perfect/disabled.png",
+      "width": 160,
+      "height": 80
+    }
+  },
   "display_order": 20
 }

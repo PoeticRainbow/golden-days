@@ -1,4 +1,17 @@
 {
+  "section": "models",
   "default_value": false,
+  "tooltip_images": {
+    "true": {
+      "texture": "golden_days:preview/bushy_leaves/enabled.png",
+      "width": 160,
+      "height": 80
+    },
+    "false": {
+      "texture": "golden_days:preview/bushy_leaves/disabled.png",
+      "width": 160,
+      "height": 80
+    }
+  },
   "display_order": -3
 }

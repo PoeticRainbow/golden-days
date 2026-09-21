@@ -1,4 +1,4 @@
 {
-  "texture": "minecraft:hud/.*_bar_.*",
-  "height_inc": -999
+  "texture": "minecraft:.*hud/.*_bar_.*",
+  "height_inc": -999.0
 }

@@ -1,9 +1,22 @@
 {
+  "section": "textures",
   "default_value": false,
   "presets": {
     "early_beta": true,
     "late_beta": true,
     "early_release": true,
     "late_release": false
+  },
+  "tooltip_images": {
+    "true": {
+      "texture": "golden_days:preview/solid_items/enabled.png",
+      "width": 80,
+      "height": 80
+    },
+    "false": {
+      "texture": "golden_days:preview/solid_items/disabled.png",
+      "width": 80,
+      "height": 80
+    }
   }
 }

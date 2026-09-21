@@ -1,9 +1,22 @@
 {
+  "section": "experimental",
   "default_value": false,
   "presets": {
     "early_beta": true,
     "late_beta": true,
     "early_release": true,
     "late_release": false
+  },
+  "tooltip_images": {
+    "true": {
+      "texture": "golden_days:preview/flatten_skin_layers/enabled.png",
+      "width": 160,
+      "height": 80
+    },
+    "false": {
+      "texture": "golden_days:preview/flatten_skin_layers/disabled.png",
+      "width": 160,
+      "height": 80
+    }
   }
 }

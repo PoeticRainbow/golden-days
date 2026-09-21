@@ -1,0 +1,23 @@
+{
+  "section": "textures",
+  "default_value": "fancy",
+  "allowed_values": ["fast", "fancy"],
+  "presets": {
+    "early_beta": "fast",
+    "late_beta": "fancy",
+    "early_release": "fancy",
+    "late_release": "fancy"
+  },
+  "tooltip_images": {
+    "fast": {
+      "texture": "golden_days:preview/grass_block_style/fast.png",
+      "width": 80,
+      "height": 80
+    },
+    "fancy": {
+      "texture": "golden_days:preview/grass_block_style/fancy.png",
+      "width": 80,
+      "height": 80
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "section": "textures",
+  "default_value": "alpha",
+  "allowed_values": ["alpha", "modern"],
+  "presets": {
+    "early_beta": "alpha",
+    "late_beta": "modern",
+    "early_release": "modern",
+    "late_release": "modern"
+  },
+  "tooltip_images": {
+    "alpha": {
+      "texture": "golden_days:preview/bricks_style/alpha.png",
+      "width": 80,
+      "height": 80
+    },
+    "modern": {
+      "texture": "golden_days:preview/bricks_style/modern.png",
+      "width": 80,
+      "height": 80
+    }
+  }
+}

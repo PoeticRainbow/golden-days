@@ -1,4 +1,22 @@
 {
+  "section": "textures",
   "default_value": "classic",
-  "allowed_values": ["classic", "consistent", "smooth"]
+  "allowed_values": ["classic", "consistent", "smooth"],
+  "tooltip_images": {
+    "classic": {
+      "texture": "golden_days:preview/bamboo_planks_style/classic.png",
+      "width": 80,
+      "height": 80
+    },
+    "consistent": {
+      "texture": "golden_days:preview/bamboo_planks_style/consistent.png",
+      "width": 80,
+      "height": 80
+    },
+    "smooth": {
+      "texture": "golden_days:preview/bamboo_planks_style/smooth.png",
+      "width": 80,
+      "height": 80
+    }
+  }
 }

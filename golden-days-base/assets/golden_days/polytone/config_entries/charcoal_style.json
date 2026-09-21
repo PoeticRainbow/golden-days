@@ -1,0 +1,23 @@
+{
+  "section": "textures",
+  "default_value": "unique",
+  "allowed_values": ["unique", "matching"],
+  "presets": {
+    "early_beta": "matching",
+    "late_beta": "matching",
+    "early_release": "matching",
+    "late_release": "unique"
+  },
+  "tooltip_images": {
+    "unique": {
+      "texture": "golden_days:preview/charcoal_style/unique.png",
+      "width": 128,
+      "height": 64
+    },
+    "matching": {
+      "texture": "golden_days:preview/charcoal_style/matching.png",
+      "width": 128,
+      "height": 64
+    }
+  }
+}

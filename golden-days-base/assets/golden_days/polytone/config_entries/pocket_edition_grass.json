@@ -5,5 +5,17 @@
     "late_beta": false,
     "early_release": false,
     "late_release": false
+  },
+  "tooltip_images": {
+    "true": {
+      "texture": "golden_days:preview/pocket_edition_grass/enabled.png",
+      "width": 160,
+      "height": 80
+    },
+    "false": {
+      "texture": "golden_days:preview/pocket_edition_grass/disabled.png",
+      "width": 160,
+      "height": 80
+    }
   }
 }

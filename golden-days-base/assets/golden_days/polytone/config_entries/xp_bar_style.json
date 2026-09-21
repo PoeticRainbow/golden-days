@@ -7,5 +7,22 @@
     "early_release": "modern",
     "late_release": "modern"
   },
+  "tooltip_images": {
+    "hidden": {
+      "texture": "golden_days:preview/xp_bar_style/hidden.png",
+      "width": 183,
+      "height": 39
+    },
+    "custom": {
+      "texture": "golden_days:preview/xp_bar_style/custom.png",
+      "width": 183,
+      "height": 39
+    },
+    "modern": {
+      "texture": "golden_days:preview/xp_bar_style/modern.png",
+      "width": 183,
+      "height": 39
+    }
+  },
   "display_order": 10
 }
