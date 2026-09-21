@@ -340,14 +340,14 @@
         "max_format": 0
       },
       {
-        "directory": "option_end_modern",
+        "directory": "option_end_style_modern",
         "polytone_condition": "config('golden_days:end_style') == 'modern'",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
       },
       {
-        "directory": "option_end_custom",
+        "directory": "option_end_style_custom",
         "polytone_condition": "config('golden_days:end_style') == 'custom'",
         "formats": [0, 0],
         "min_format": 0,
