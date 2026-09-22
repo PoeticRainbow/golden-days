@@ -5,21 +5,10 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": "Iron Battleaxe",
-        "model": {"type": "minecraft:model", "model": "item/iron_battleaxe"}
-      },
-      {
-        "when": "Iron Battle Axe",
+        "when": ["Iron Battleaxe", "Iron Battle Axe"],
         "model": {"type": "minecraft:model", "model": "item/iron_battleaxe"}
       }
     ],
-    "fallback": {
-      "type": "minecraft:condition",
-      "property": "minecraft:component",
-      "predicate": "minecraft:enchantments",
-      "value": [{"enchantments": "minecraft:sharpness", "levels": {"min": 1}}],
-      "on_true": {"type": "minecraft:model", "model": "item/iron_battleaxe"},
-      "on_false": {"type": "minecraft:model", "model": "item/iron_axe"}
-    }
+    "fallback": {"type": "minecraft:model", "model": "item/iron_axe"}
   }
 }

@@ -5,21 +5,10 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": "Wooden Battleaxe",
-        "model": {"type": "minecraft:model", "model": "item/wooden_battleaxe"}
-      },
-      {
-        "when": "Wooden Battle Axe",
+        "when": ["Wooden Battleaxe", "Wooden Battle Axe"],
         "model": {"type": "minecraft:model", "model": "item/wooden_battleaxe"}
       }
     ],
-    "fallback": {
-      "type": "minecraft:condition",
-      "property": "minecraft:component",
-      "predicate": "minecraft:enchantments",
-      "value": [{"enchantments": "minecraft:sharpness", "levels": {"min": 1}}],
-      "on_true": {"type": "minecraft:model", "model": "item/wooden_battleaxe"},
-      "on_false": {"type": "minecraft:model", "model": "item/wooden_axe"}
-    }
+    "fallback": {"type": "minecraft:model", "model": "item/wooden_axe"}
   }
 }

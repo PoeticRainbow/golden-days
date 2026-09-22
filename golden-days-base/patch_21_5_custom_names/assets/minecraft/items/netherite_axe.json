@@ -5,30 +5,13 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": "Netherite Battleaxe",
-        "model": {
-          "type": "minecraft:model",
-          "model": "item/netherite_battleaxe"
-        }
-      },
-      {
-        "when": "Netherite Battle Axe",
+        "when": ["Netherite Battleaxe", "Netherite Battle Axe"],
         "model": {
           "type": "minecraft:model",
           "model": "item/netherite_battleaxe"
         }
       }
     ],
-    "fallback": {
-      "type": "minecraft:condition",
-      "property": "minecraft:component",
-      "predicate": "minecraft:enchantments",
-      "value": [{"enchantments": "minecraft:sharpness", "levels": {"min": 1}}],
-      "on_true": {
-        "type": "minecraft:model",
-        "model": "item/netherite_battleaxe"
-      },
-      "on_false": {"type": "minecraft:model", "model": "item/netherite_axe"}
-    }
+    "fallback": {"type": "minecraft:model", "model": "item/netherite_axe"}
   }
 }

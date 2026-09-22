@@ -5,21 +5,10 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": "Copper Battleaxe",
-        "model": {"type": "minecraft:model", "model": "item/copper_battleaxe"}
-      },
-      {
-        "when": "Copper Battle Axe",
+        "when": ["Copper Battleaxe", "Copper Battle Axe"],
         "model": {"type": "minecraft:model", "model": "item/copper_battleaxe"}
       }
     ],
-    "fallback": {
-      "type": "minecraft:condition",
-      "property": "minecraft:component",
-      "predicate": "minecraft:enchantments",
-      "value": [{"enchantments": "minecraft:sharpness", "levels": {"min": 1}}],
-      "on_true": {"type": "minecraft:model", "model": "item/copper_battleaxe"},
-      "on_false": {"type": "minecraft:model", "model": "item/copper_axe"}
-    }
+    "fallback": {"type": "minecraft:model", "model": "item/copper_axe"}
   }
 }

@@ -5,21 +5,10 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": "Golden Battleaxe",
-        "model": {"type": "minecraft:model", "model": "item/golden_battleaxe"}
-      },
-      {
-        "when": "Golden Battle Axe",
+        "when": ["Golden Battleaxe", "Golden Battle Axe"],
         "model": {"type": "minecraft:model", "model": "item/golden_battleaxe"}
       }
     ],
-    "fallback": {
-      "type": "minecraft:condition",
-      "property": "minecraft:component",
-      "predicate": "minecraft:enchantments",
-      "value": [{"enchantments": "minecraft:sharpness", "levels": {"min": 1}}],
-      "on_true": {"type": "minecraft:model", "model": "item/golden_battleaxe"},
-      "on_false": {"type": "minecraft:model", "model": "item/golden_axe"}
-    }
+    "fallback": {"type": "minecraft:model", "model": "item/golden_axe"}
   }
 }
