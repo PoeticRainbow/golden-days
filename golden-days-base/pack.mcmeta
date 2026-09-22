@@ -243,7 +243,7 @@
       },
       {
         "directory": "option_xp_bar_style_hidden",
-        "polytone_condition": "config('golden_days:xp_bar_style') == 'hidden' && !modOn('retrotweaks')",
+        "polytone_condition": "config('golden_days:xp_bar_style') == 'hidden' && modOn('minecraft', '[1.21.11, ]') && !modOn('retrotweaks')",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
