@@ -5,23 +5,11 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": "",
+        "when": ["", "Unnamed", "Piston Head", "Block 34", "34"],
         "model": {"type": "minecraft:model", "model": "item/piston_head"}
       },
       {
-        "when": "Unnamed",
-        "model": {"type": "minecraft:model", "model": "item/piston_head"}
-      },
-      {
-        "when": "Piston Head",
-        "model": {"type": "minecraft:model", "model": "item/piston_head"}
-      },
-      {
-        "when": "Block 36",
-        "model": {"type": "minecraft:model", "model": "item/moving_piston"}
-      },
-      {
-        "when": "Moving Piston",
+        "when": ["Moving Piston", "Block 36", "36"],
         "model": {"type": "minecraft:model", "model": "item/moving_piston"}
       }
     ],
