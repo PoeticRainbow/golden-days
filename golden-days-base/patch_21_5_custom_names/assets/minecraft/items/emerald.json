@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Ruby",
+        "model": {"type": "minecraft:model", "model": "golden_days:item/ruby"}
+      }
+    ],
+    "fallback": {"type": "minecraft:model", "model": "item/emerald"}
+  }
+}
