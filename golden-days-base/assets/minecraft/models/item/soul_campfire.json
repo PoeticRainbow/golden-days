@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "block/soul_fire_0",
+    "layer1": "golden_days:block/soul_campfire"
+  }
+}
