@@ -32,11 +32,23 @@
         {"id": "minecraft:piston", "components": {"minecraft:custom_name": ""}},
         {
           "id": "minecraft:piston",
+          "components": {"minecraft:custom_name": "34"}
+        },
+        {
+          "id": "minecraft:piston",
+          "components": {"minecraft:custom_name": "Block 34"}
+        },
+        {
+          "id": "minecraft:piston",
           "components": {"minecraft:custom_name": "Piston Head"}
         },
         {
           "id": "minecraft:piston",
           "components": {"minecraft:custom_name": "Unnamed"}
+        },
+        {
+          "id": "minecraft:piston",
+          "components": {"minecraft:custom_name": "36"}
         },
         {
           "id": "minecraft:piston",
@@ -53,6 +65,22 @@
         {
           "id": "minecraft:smooth_stone_slab",
           "components": {"minecraft:custom_name": ""}
+        },
+        {
+          "id": "minecraft:smooth_stone",
+          "components": {"minecraft:custom_name": "43"}
+        },
+        {
+          "id": "minecraft:smooth_stone_slab",
+          "components": {"minecraft:custom_name": "43"}
+        },
+        {
+          "id": "minecraft:smooth_stone",
+          "components": {"minecraft:custom_name": "Block 43"}
+        },
+        {
+          "id": "minecraft:smooth_stone_slab",
+          "components": {"minecraft:custom_name": "Block 43"}
         },
         {
           "id": "minecraft:smooth_stone",
@@ -253,6 +281,10 @@
         {
           "id": "minecraft:netherite_axe",
           "components": {"minecraft:custom_name": "Netherite Battleaxe"}
+        },
+        {
+          "id": "minecraft:emerald",
+          "components": {"minecraft:custom_name": "Ruby"}
         },
         {
           "id": "minecraft:paper",
