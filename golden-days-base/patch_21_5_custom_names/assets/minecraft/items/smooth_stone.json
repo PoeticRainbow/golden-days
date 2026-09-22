@@ -5,21 +5,7 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": "",
-        "model": {
-          "type": "minecraft:model",
-          "model": "block/smooth_stone_slab_double"
-        }
-      },
-      {
-        "when": "Unnamed",
-        "model": {
-          "type": "minecraft:model",
-          "model": "block/smooth_stone_slab_double"
-        }
-      },
-      {
-        "when": "Double Stone Slab",
+        "when": ["", "Unnamed", "Double Stone Slab", "Block 43", "43"],
         "model": {
           "type": "minecraft:model",
           "model": "block/smooth_stone_slab_double"
