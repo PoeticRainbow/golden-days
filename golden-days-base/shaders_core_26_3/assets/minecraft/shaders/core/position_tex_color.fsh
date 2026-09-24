@@ -2,7 +2,17 @@
 #extension GL_ARB_separate_shader_objects : require
 
 // GD
-#include <minecraft:globals.glsl>
+//#include <minecraft:globals.glsl>
+// used in early loading, so we copy here as said below
+layout(std140) uniform Globals {
+    ivec3 CameraBlockPos;
+    float GlintAlpha;
+    vec3 CameraOffset;
+    float GameTime;
+    vec2 ScreenSize;
+    int MenuBlurRadius;
+    int UseRgss;
+};
 // end GD
 
 // Can't moj_import in things used during startup, when resource packs don't exist.
