@@ -1,5 +1,8 @@
 {
-  "targets": ["minecraft:swamp", "minecraft:mangrove_swamp"],
+  "targets": [
+    {"id": "minecraft:swamp", "required": false},
+    {"id": "minecraft:mangrove_swamp", "required": false}
+  ],
   "grass_color": "#5fc648",
   "foliage_color": "#38b71b"
 }
