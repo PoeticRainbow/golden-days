@@ -1,12 +1,9 @@
 {
   "parent": "block/orientable",
   "textures": {
-    "up": "block/loom_top",
-    "down": "block/oak_planks",
-    "north": "block/loom_front",
-    "east": "block/loom_side",
-    "south": "block/loom_side",
-    "west": "block/loom_side",
-    "particle": "#north"
+    "top": "block/loom_top",
+    "bottom": "block/oak_planks",
+    "front": "block/loom_front",
+    "side": "block/loom_side"
   }
 }

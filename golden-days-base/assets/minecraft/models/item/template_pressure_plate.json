@@ -1,6 +1,6 @@
 {
   "parent": "block/thin_block",
-  "textures": {"particle": "#texture"},
+  "textures": {"texture": "missingno", "particle": "#texture"},
   "elements": [
     {
       "from": [0, 6, 0],

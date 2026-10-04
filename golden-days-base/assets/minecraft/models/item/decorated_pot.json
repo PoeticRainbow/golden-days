@@ -1,6 +1,6 @@
 {
   "parent": "builtin/entity",
-  "textures": {"particle": "entity/decorated_pot/decorated_pot_side"},
+  "textures": {"particle": "block/terracotta"},
   "display": {
     "gui": {"rotation": [30, -45, 0], "scale": [0.625, 0.625, 0.625]},
     "ground": {"translation": [0, 1, 0], "scale": [0.25, 0.25, 0.25]},
