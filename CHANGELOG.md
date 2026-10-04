@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
+### changes
+- Retexture the inside of Shelf blocks
 ### Fixes
 - Missing Poplar Pressure Plate item model
 - Missing particle texture model errors
