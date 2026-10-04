@@ -101,9 +101,16 @@
       },
       {
         "directory": "shaders_core_26_3",
-        "polytone_condition": "modOn('minecraft', '[26.3, 26.4)') && config('golden_days:use_shaders') && !(modOn('sodium') || modOn('embeddium'))",
+        "polytone_condition": "modOn('minecraft', '[26.3, 27.1)') && config('golden_days:use_shaders') && !(modOn('sodium') || modOn('embeddium'))",
         "formats": [96, 420],
         "min_format": 96,
+        "max_format": 420
+      },
+      {
+        "directory": "shaders_core_26_4",
+        "polytone_condition": "modOn('minecraft', '[26.4, 27.1)') && config('golden_days:use_shaders') && !(modOn('sodium') || modOn('embeddium'))",
+        "formats": [99, 420],
+        "min_format": 99,
         "max_format": 420
       },
       {
