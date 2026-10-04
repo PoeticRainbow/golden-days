@@ -5,8 +5,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 ### Fixes
-- Fix missing Poplar Pressure Plate item model
-- Missing particle texture errors
+- Missing Poplar Pressure Plate item model
+- Missing particle texture model errors
+- Missing miscellanous model errors
 
 ## [Golden Days 16.4 for 1.20+]
 ### New

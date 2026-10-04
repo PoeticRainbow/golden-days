@@ -1,10 +1,6 @@
 {
-  "parent": "builtin/entity",
   "textures": {"particle": "block/oak_planks"},
   "gui_light": "front",
-  "overrides": [
-    {"predicate": {"blocking": 1}, "model": "item/shield_blocking"}
-  ],
   "display": {
     "thirdperson_righthand": {
       "rotation": [45, 155, 0],
