@@ -3,14 +3,14 @@
   "parent": "item/generated",
   "display": {
     "firstperson_righthand": {
-      "rotation": [0, 90, -35],
-      "translation": [0, 2, 0],
-      "scale": [0.75, 0.75, 0.75]
+      "rotation": [-60, 90, 25],
+      "translation": [3.13, 3.2, 0.13],
+      "scale": [0.68, 0.68, 0.68]
     },
     "firstperson_lefthand": {
-      "rotation": [0, -90, 35],
-      "translation": [0, 2, 0],
-      "scale": [0.75, 0.75, 0.75]
+      "rotation": [-60, 90, 115],
+      "translation": [3.13, 3.2, 0.13],
+      "scale": [0.68, 0.68, 0.68]
     },
     "thirdperson_righthand": {
       "rotation": [5, 270, -40],
