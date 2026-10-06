@@ -1,0 +1,5 @@
+{
+  "ambientocclusion": false,
+  "parent": "block/pointed_dripstone",
+  "textures": {"cross": "#side"}
+}
