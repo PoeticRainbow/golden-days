@@ -6,11 +6,14 @@
     "cases": [
       {
         "when": "Fire",
-        "model": {"type": "minecraft:model", "model": "item/fire"}
+        "model": {"type": "minecraft:model", "model": "golden_days:item/fire"}
       },
       {
         "when": "Portal",
-        "model": {"type": "minecraft:model", "model": "item/nether_portal"}
+        "model": {
+          "type": "minecraft:model",
+          "model": "golden_days:item/nether_portal"
+        }
       }
     ],
     "fallback": {"type": "minecraft:model", "model": "item/flint_and_steel"}
