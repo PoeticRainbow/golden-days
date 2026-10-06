@@ -1,0 +1,8 @@
+{
+  "parent": "golden_days:item/bugged_stairs/template",
+  "textures": {
+    "bottom": "block/cobblestone",
+    "side": "block/cobblestone",
+    "top": "block/cobblestone"
+  }
+}

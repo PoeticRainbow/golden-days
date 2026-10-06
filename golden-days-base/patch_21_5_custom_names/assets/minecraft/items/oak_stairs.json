@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Bugged Stairs",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "golden_days:item/bugged_stairs/oak_stairs"
+              }
+            }
+          ],
+          "fallback": {"type": "minecraft:model", "model": "block/oak_stairs"}
+        }
+      }
+    ],
+    "fallback": {"type": "minecraft:model", "model": "block/oak_stairs"}
+  }
+}

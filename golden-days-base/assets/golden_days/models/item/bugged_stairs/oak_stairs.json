@@ -1,0 +1,8 @@
+{
+  "parent": "golden_days:item/bugged_stairs/template",
+  "textures": {
+    "bottom": "block/oak_planks",
+    "side": "block/oak_planks",
+    "top": "block/oak_planks"
+  }
+}
