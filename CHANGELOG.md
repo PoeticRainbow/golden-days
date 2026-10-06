@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Changes
 - Retexture Chiseled Bookshelves
 - Retexture the inside of Shelf blocks
+- Move easter egg textures into own namespace
 ### Fixes
 - Missing Poplar Pressure Plate item model
 - Missing particle texture model errors

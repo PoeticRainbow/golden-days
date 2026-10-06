@@ -6,7 +6,10 @@
     "cases": [
       {
         "when": ["Wooden Battleaxe", "Wooden Battle Axe"],
-        "model": {"type": "minecraft:model", "model": "item/wooden_battleaxe"}
+        "model": {
+          "type": "minecraft:model",
+          "model": "golden_days:item/wooden_battleaxe"
+        }
       }
     ],
     "fallback": {"type": "minecraft:model", "model": "item/wooden_axe"}

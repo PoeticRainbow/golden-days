@@ -8,7 +8,7 @@
         "when": ["Netherite Battleaxe", "Netherite Battle Axe"],
         "model": {
           "type": "minecraft:model",
-          "model": "item/netherite_battleaxe"
+          "model": "golden_days:item/netherite_battleaxe"
         }
       }
     ],

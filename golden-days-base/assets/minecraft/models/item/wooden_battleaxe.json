@@ -1,4 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {"layer0": "item/wooden_battleaxe"}
-}
