@@ -16,10 +16,10 @@
           "cases": [
             {
               "when": ["fixed", "none"],
-              "model": {"type": "model", "model": "item/wall_gear"}
+              "model": {"type": "model", "model": "golden_days:item/wall_gear"}
             }
           ],
-          "fallback": {"type": "model", "model": "item/gear"}
+          "fallback": {"type": "model", "model": "golden_days:item/gear"}
         }
       },
       {
@@ -35,10 +35,16 @@
           "cases": [
             {
               "when": ["fixed", "none"],
-              "model": {"type": "model", "model": "item/wall_gear_flipped"}
+              "model": {
+                "type": "model",
+                "model": "golden_days:item/wall_gear_flipped"
+              }
             }
           ],
-          "fallback": {"type": "model", "model": "item/gear_flipped"}
+          "fallback": {
+            "type": "model",
+            "model": "golden_days:item/gear_flipped"
+          }
         }
       }
     ],

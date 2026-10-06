@@ -1,6 +1,6 @@
 {
   "ambientocclusion": false,
-  "textures": {"texture": "item/gear", "particle": "#texture"},
+  "textures": {"texture": "golden_days:item/gear", "particle": "#texture"},
   "elements": [
     {
       "from": [-2, -2, 7],

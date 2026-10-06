@@ -1,0 +1,4 @@
+{
+  "parent": "golden_days:item/wall_gear",
+  "textures": {"texture": "golden_days:item/gear_flipped"}
+}

@@ -1,4 +1,0 @@
-{
-  "parent": "item/wall_gear",
-  "textures": {"texture": "item/gear_flipped"}
-}
