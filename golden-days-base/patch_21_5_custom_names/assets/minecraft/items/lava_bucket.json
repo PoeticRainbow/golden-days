@@ -6,7 +6,7 @@
     "cases": [
       {
         "when": "Lava",
-        "model": {"type": "minecraft:model", "model": "item/lava"}
+        "model": {"type": "minecraft:model", "model": "golden_days:item/lava"}
       }
     ],
     "fallback": {"type": "minecraft:model", "model": "item/lava_bucket"}
