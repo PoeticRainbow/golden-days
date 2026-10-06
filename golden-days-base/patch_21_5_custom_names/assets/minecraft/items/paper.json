@@ -12,7 +12,10 @@
           "item.missingtex.name",
           "item.missingTex.name"
         ],
-        "model": {"type": "minecraft:model", "model": "item/missingtex"}
+        "model": {
+          "type": "minecraft:model",
+          "model": "golden_days:item/missingtex"
+        }
       },
       {
         "when": [
@@ -21,7 +24,10 @@
           "tile.missingTex.name",
           "tile.missingtex.name"
         ],
-        "model": {"type": "minecraft:model", "model": "block/missingtex"}
+        "model": {
+          "type": "minecraft:model",
+          "model": "golden_days:block/missingtex"
+        }
       }
     ],
     "fallback": {"type": "minecraft:model", "model": "item/paper"}
