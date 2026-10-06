@@ -1,0 +1,164 @@
+{
+  "model": {
+    "type": "select",
+    "property": "component",
+    "component": "potion_contents",
+    "cases": [
+      {
+        "when": [{"potion": "night_vision"}, {"potion": "long_night_vision"}],
+        "model": {
+          "type": "model",
+          "model": "item/splash_potion",
+          "tints": [{"type": "constant", "value": 2039713}]
+        }
+      },
+      {
+        "when": [{"potion": "invisibility"}, {"potion": "long_invisibility"}],
+        "model": {
+          "type": "model",
+          "model": "item/splash_potion",
+          "tints": [{"type": "constant", "value": 8356754}]
+        }
+      },
+      {
+        "when": [
+          {"potion": "leaping"},
+          {"potion": "long_leaping"},
+          {"potion": "strong_leaping"}
+        ],
+        "model": {
+          "type": "model",
+          "model": "item/splash_potion",
+          "tints": [{"type": "constant", "value": 2293580}]
+        }
+      },
+      {
+        "when": [
+          {"potion": "fire_resistance"},
+          {"potion": "long_fire_resistance"}
+        ],
+        "model": {
+          "type": "model",
+          "model": "item/splash_potion",
+          "tints": [{"type": "constant", "value": 14981690}]
+        }
+      },
+      {
+        "when": [
+          {"potion": "swiftness"},
+          {"potion": "long_swiftness"},
+          {"potion": "strong_swiftness"}
+        ],
+        "model": {
+          "type": "model",
+          "model": "item/splash_potion",
+          "tints": [{"type": "constant", "value": 8171462}]
+        }
+      },
+      {
+        "when": [
+          {"potion": "slowness"},
+          {"potion": "long_slowness"},
+          {"potion": "strong_slowness"}
+        ],
+        "model": {
+          "type": "model",
+          "model": "item/splash_potion",
+          "tints": [{"type": "constant", "value": 5926017}]
+        }
+      },
+      {
+        "when": [
+          {"potion": "water_breathing"},
+          {"potion": "long_water_breathing"}
+        ],
+        "model": {
+          "type": "model",
+          "model": "item/splash_potion",
+          "tints": [{"type": "constant", "value": 3035801}]
+        }
+      },
+      {
+        "when": [{"potion": "healing"}, {"potion": "strong_healing"}],
+        "model": {
+          "type": "model",
+          "model": "item/splash_potion",
+          "tints": [{"type": "constant", "value": 16262179}]
+        }
+      },
+      {
+        "when": [{"potion": "harming"}, {"potion": "strong_harming"}],
+        "model": {
+          "type": "model",
+          "model": "item/splash_potion",
+          "tints": [{"type": "constant", "value": 4393481}]
+        }
+      },
+      {
+        "when": [
+          {"potion": "poison"},
+          {"potion": "long_poison"},
+          {"potion": "strong_poison"}
+        ],
+        "model": {
+          "type": "model",
+          "model": "item/splash_potion",
+          "tints": [{"type": "constant", "value": 5149489}]
+        }
+      },
+      {
+        "when": [
+          {"potion": "regeneration"},
+          {"potion": "long_regeneration"},
+          {"potion": "strong_regeneration"}
+        ],
+        "model": {
+          "type": "model",
+          "model": "item/splash_potion",
+          "tints": [{"type": "constant", "value": 13458603}]
+        }
+      },
+      {
+        "when": [
+          {"potion": "strength"},
+          {"potion": "long_strength"},
+          {"potion": "strong_strength"}
+        ],
+        "model": {
+          "type": "model",
+          "model": "item/splash_potion",
+          "tints": [{"type": "constant", "value": 9643043}]
+        }
+      },
+      {
+        "when": [{"potion": "weakness"}, {"potion": "long_weakness"}],
+        "model": {
+          "type": "model",
+          "model": "item/splash_potion",
+          "tints": [{"type": "constant", "value": 4738376}]
+        }
+      },
+      {
+        "when": [{"potion": "luck"}],
+        "model": {
+          "type": "model",
+          "model": "item/splash_potion",
+          "tints": [{"type": "constant", "value": 3381504}]
+        }
+      },
+      {
+        "when": [{"potion": "slow_falling"}, {"potion": "long_slow_falling"}],
+        "model": {
+          "type": "model",
+          "model": "item/splash_potion",
+          "tints": [{"type": "constant", "value": 16773073}]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/splash_potion",
+      "tints": [{"type": "potion", "default": -13083194}]
+    }
+  }
+}
