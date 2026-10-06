@@ -6,7 +6,7 @@
     "cases": [
       {
         "when": "Water",
-        "model": {"type": "minecraft:model", "model": "item/water"}
+        "model": {"type": "minecraft:model", "model": "golden_days:item/water"}
       }
     ],
     "fallback": {"type": "minecraft:model", "model": "item/water_bucket"}
