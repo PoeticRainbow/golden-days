@@ -8,7 +8,7 @@
         "when": "Grass",
         "model": {
           "type": "minecraft:model",
-          "model": "item/grass_block_glitch"
+          "model": "golden_days:item/grass_block_glitch"
         }
       }
     ],
