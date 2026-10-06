@@ -1,0 +1,4 @@
+{
+  "parent": "golden_days:block/numbers/template",
+  "textures": {"texture": "golden_days:block/numbers/13"}
+}
