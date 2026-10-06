@@ -6,11 +6,17 @@
     "cases": [
       {
         "when": ["", "Unnamed", "Piston Head", "Block 34", "34"],
-        "model": {"type": "minecraft:model", "model": "item/piston_head"}
+        "model": {
+          "type": "minecraft:model",
+          "model": "golden_days:item/piston_head"
+        }
       },
       {
         "when": ["Moving Piston", "Block 36", "36"],
-        "model": {"type": "minecraft:model", "model": "item/moving_piston"}
+        "model": {
+          "type": "minecraft:model",
+          "model": "golden_days:item/moving_piston"
+        }
       }
     ],
     "fallback": {"type": "minecraft:model", "model": "block/piston_inventory"}
