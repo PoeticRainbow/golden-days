@@ -6,11 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 ### New
 - Packed Ice texture, made for the Ice Caves, tiles properly
-- Icicle texture (26.4)
-- Ice Crystal texture (26.4)
+- Rose Bush with Beta Roses
+- Start Winter Drop textures (26.4)
+  - Icicle texture
+  - Ice Crystal texture
+  - Ice Ball texture
+  - Frostbite texture
 ### Changes
 - Retexture Chiseled Bookshelves
 - Retexture the inside of Shelf blocks
+- Retexture Copper Bulbs
+- Tweak Chiseled Copper texture
 - Move easter egg textures into own namespace
 ### Fixes
 - Missing Poplar Pressure Plate item model
