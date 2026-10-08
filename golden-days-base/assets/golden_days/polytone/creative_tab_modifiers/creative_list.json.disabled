@@ -119,6 +119,22 @@
           "components": {"minecraft:custom_name": "Fire"}
         },
         {
+          "id": "minecraft:oak_stairs",
+          "components": {"minecraft:custom_name": "Bugged Stairs"}
+        },
+        {
+          "id": "minecraft:cobblestone_stairs",
+          "components": {"minecraft:custom_name": "Bugged Stairs"}
+        },
+        {
+          "id": "minecraft:cobblestone_stairs",
+          "components": {"minecraft:custom_name": "Bugged Stairs"}
+        },
+        {
+          "id": "minecraft:oak_stairs",
+          "components": {"minecraft:custom_name": "Bugged Stairs"}
+        },
+        {
           "id": "minecraft:redstone",
           "components": {"minecraft:custom_name": "Redstone Dust"}
         },
@@ -267,14 +283,6 @@
           "components": {"minecraft:custom_name": "Diamond Battleaxe"}
         },
         {
-          "id": "minecraft:golden_axe",
-          "components": {"minecraft:custom_name": "Golden Battle Axe"}
-        },
-        {
-          "id": "minecraft:golden_axe",
-          "components": {"minecraft:custom_name": "Golden Battleaxe"}
-        },
-        {
           "id": "minecraft:netherite_axe",
           "components": {"minecraft:custom_name": "Netherite Battle Axe"}
         },
@@ -283,8 +291,12 @@
           "components": {"minecraft:custom_name": "Netherite Battleaxe"}
         },
         {
-          "id": "minecraft:emerald",
-          "components": {"minecraft:custom_name": "Ruby"}
+          "id": "minecraft:golden_axe",
+          "components": {"minecraft:custom_name": "Golden Battle Axe"}
+        },
+        {
+          "id": "minecraft:golden_axe",
+          "components": {"minecraft:custom_name": "Golden Battleaxe"}
         },
         {
           "id": "minecraft:paper",
@@ -305,6 +317,10 @@
         {
           "id": "minecraft:paper",
           "components": {"minecraft:custom_name": "missingtex"}
+        },
+        {
+          "id": "minecraft:emerald",
+          "components": {"minecraft:custom_name": "Ruby"}
         }
       ]
     }
