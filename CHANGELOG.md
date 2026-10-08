@@ -16,7 +16,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Retexture Chiseled Bookshelves
 - Retexture the inside of Shelf blocks
 - Retexture Copper Bulbs
-- Retexture Bamboo Blocks and Stripped Bamboo Blocks
+- Retexture Bamboo, Bamboo Blocks and Stripped Bamboo Blocks
 - Tweak Chiseled Copper texture
 - Move easter egg textures into own namespace
 ### Fixes
