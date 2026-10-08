@@ -20,6 +20,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Tweak Chiseled Copper texture
 - Move easter egg textures into own namespace
 ### Fixes
+- Armor trim colors not working (26.3+)
 - Missing Poplar Pressure Plate item model
 - Missing particle texture model errors
 - Missing miscellanous model errors
