@@ -1,9 +1,0 @@
-{
-  "parent": "block/orientable",
-  "textures": {
-    "top": "block/loom_top",
-    "bottom": "block/oak_planks",
-    "front": "block/loom_front",
-    "side": "block/loom_side"
-  }
-}
