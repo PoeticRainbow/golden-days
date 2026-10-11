@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
+
+## [Golden Days 16.5 for 1.20+]
 ### New
 - Packed Ice texture, made for the Ice Caves, tiles properly
 - Rose Bush with Beta Roses
@@ -12,20 +14,24 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   - Ice Crystal texture
   - Ice Ball texture
   - Frostbite texture
+- Trident texture
 ### Changes
-- Retexture Chiseled Bookshelves
-- Retexture the inside of Shelf blocks
-- Retexture Copper Bulbs
-- Retexture Bamboo, Bamboo Blocks and Stripped Bamboo Blocks
-- Retexture Cartography Table
-- Retexture Loom
-- Tweak Chiseled Copper texture
+- Retextured Chiseled Bookshelves
+- Retextured the inside of Shelf blocks
+- Retextured Copper Bulbs
+- Retextured Bamboo, Bamboo Blocks and Stripped Bamboo Blocks
+- Retextured Cartography Table
+- Retextured Loom
+- Tweaked Chiseled Copper texture
+- Changed the color of the Cod Spawn Egg to match the Fish
+- Tweaked the position of held Spears
 - Move easter egg textures into own namespace
 ### Fixes
 - Armor trim colors not working (26.3+)
 - Missing Poplar Pressure Plate item model
 - Missing particle texture model errors
 - Missing miscellanous model errors
+- Fix shader problems
 
 ## [Golden Days 16.4 for 1.20+]
 ### New
