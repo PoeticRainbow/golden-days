@@ -17,6 +17,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Retexture the inside of Shelf blocks
 - Retexture Copper Bulbs
 - Retexture Bamboo, Bamboo Blocks and Stripped Bamboo Blocks
+- Retexture Cartography Table
+- Retexture Loom
 - Tweak Chiseled Copper texture
 - Move easter egg textures into own namespace
 ### Fixes
