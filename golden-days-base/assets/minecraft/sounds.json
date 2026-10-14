@@ -584,6 +584,30 @@
     "replace": true,
     "sounds": [{"name": "_common.silence", "type": "event"}]
   },
+  "block.blue_ice.break": {
+    "replace": true,
+    "sounds": [{"name": "_common.glass.break", "type": "event"}],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.blue_ice.fall": {
+    "replace": true,
+    "sounds": [{"name": "_common.glass.step", "type": "event"}],
+    "subtitle": "subtitles.block.generic.fall"
+  },
+  "block.blue_ice.hit": {
+    "replace": true,
+    "sounds": [{"name": "_common.glass.step", "type": "event"}],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.blue_ice.place": {
+    "replace": true,
+    "sounds": [{"name": "_common.glass.step", "type": "event"}],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.blue_ice.step": {
+    "replace": true,
+    "sounds": [{"name": "_common.glass.step", "type": "event"}]
+  },
   "block.bone_block.break": {
     "replace": true,
     "sounds": [{"name": "_common.stone.break", "type": "event"}],
@@ -608,6 +632,30 @@
     "replace": true,
     "sounds": [{"name": "_common.stone.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.brittle_ice.break": {
+    "replace": true,
+    "sounds": [{"name": "_common.glass.break", "type": "event"}],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.brittle_ice.fall": {
+    "replace": true,
+    "sounds": [{"name": "_common.glass.step", "type": "event"}],
+    "subtitle": "subtitles.block.generic.fall"
+  },
+  "block.brittle_ice.hit": {
+    "replace": true,
+    "sounds": [{"name": "_common.glass.step", "type": "event"}],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.brittle_ice.place": {
+    "replace": true,
+    "sounds": [{"name": "_common.glass.step", "type": "event"}],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.brittle_ice.step": {
+    "replace": true,
+    "sounds": [{"name": "_common.glass.step", "type": "event"}]
   },
   "block.cactus_flower.break": {
     "replace": true,
@@ -2415,6 +2463,30 @@
     "sounds": [{"name": "_common.grass.step", "type": "event"}],
     "subtitle": "subtitles.block.generic.footsteps"
   },
+  "block.packed_ice.break": {
+    "replace": true,
+    "sounds": [{"name": "_common.glass.break", "type": "event"}],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.packed_ice.fall": {
+    "replace": true,
+    "sounds": [{"name": "_common.glass.step", "type": "event"}],
+    "subtitle": "subtitles.block.generic.fall"
+  },
+  "block.packed_ice.hit": {
+    "replace": true,
+    "sounds": [{"name": "_common.glass.step", "type": "event"}],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.packed_ice.place": {
+    "replace": true,
+    "sounds": [{"name": "_common.glass.step", "type": "event"}],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.packed_ice.step": {
+    "replace": true,
+    "sounds": [{"name": "_common.glass.step", "type": "event"}]
+  },
   "block.packed_mud.break": {
     "replace": true,
     "sounds": [{"name": "_common.stone.break", "type": "event"}],
@@ -3966,7 +4038,7 @@
   },
   "entity.ice_ball.break": {
     "replace": true,
-    "sounds": [{"name": "_common.glass.break", "type": "event", "pitch": 2.0}],
+    "sounds": [{"name": "_common.glass.break", "pitch": 2.0, "type": "event"}],
     "subtitle": "subtitles.entity.ice_ball.break"
   },
   "entity.ice_ball.throw": {
