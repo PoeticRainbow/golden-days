@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
+
+## [Golden Days 16.6 for 1.20+]
 ### New
 - More Winter Drop textures (26.4)
   - Brittle Ice
