@@ -1,5 +1,5 @@
 {
-  "x_axis": "o.temperature()",
-  "y_axis": "o.downfall()",
+  "x_axis": "temperature",
+  "y_axis": "downfall",
   "triangular": false
 }
