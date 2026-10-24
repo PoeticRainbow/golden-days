@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
+### New
+- More Winter Drop textures (26.4)
+  - Brittle Ice
+  - Packed Ice Bricks
+  - Chiseled Packed Ice
+### Changes
+- Reverted Ice sounds (26.4+)
+- Reverted Jukebox (26.4+)
+### Fixes
+- Fixed Wool Stairs and Wool Slabs names being switched
+- Fixed PolyTone errors on 1.20.1 (#147)
 
 ## [Golden Days 16.5 for 1.20+]
 ### New
