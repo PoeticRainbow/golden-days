@@ -1,0 +1,53 @@
+{
+  "credit": "Made with Blockbench",
+  "textureSize": [64, 64],
+  "models": [
+    {
+      "part": "base_right",
+      "id": "base_right",
+      "invertAxis": "xy",
+      "translate": [-8, 0, -8],
+      "rotate": [-180, 0, 0],
+      "submodels": [
+        {
+          "id": "base2",
+          "invertAxis": "xy",
+          "translate": [8, 0, 8],
+          "rotate": [-180, 0, 0],
+          "boxes": [
+            {
+              "coordinates": [-16, 0, -16, 16, 11, 16],
+              "textureOffset": [0, 22]
+            }
+          ]
+        },
+        {
+          "id": "lid2",
+          "invertAxis": "xy",
+          "translate": [8, -10, 8],
+          "rotate": [-180, 0, 0],
+          "boxes": [
+            {"coordinates": [-16, 0, -16, 16, 6, 16], "textureOffset": [0, 0]}
+          ]
+        }
+      ],
+      "animations": [{"this.rx": 0, "lid2.rx": "lid_right.rx-torad(180)"}]
+    },
+    {
+      "part": "lid_right",
+      "id": "lid_right",
+      "invertAxis": "xy",
+      "translate": [-8, -9, -7],
+      "rotate": [-180, 0, 0],
+      "animations": [{"this.rx": "0"}]
+    },
+    {
+      "part": "knob_right",
+      "id": "knob_right",
+      "invertAxis": "xy",
+      "translate": [-8, -9, -7],
+      "rotate": [-180, 0, 0],
+      "animations": [{"this.rx": 0}]
+    }
+  ]
+}

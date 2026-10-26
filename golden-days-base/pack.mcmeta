@@ -179,8 +179,22 @@
         "max_format": 0
       },
       {
+        "directory": "mod_emf_option_chest_use_cem_1_21_1",
+        "polytone_condition": "config('golden_days:chest_style') != 'beta' && modOn('minecraft', '(, 1.21.4)')",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
         "directory": "mod_emf_option_chest_hybrid",
         "polytone_condition": "config('golden_days:chest_style') == 'hybrid' && modOn('entity_model_features')",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
+      },
+      {
+        "directory": "mod_emf_option_chest_hybrid_1_21_1",
+        "polytone_condition": "config('golden_days:chest_style') == 'hybrid' && modOn('entity_model_features') && modOn('minecraft', '(, 1.21.4]')",
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
