@@ -1747,6 +1747,10 @@
     "replace": true,
     "sounds": [{"name": "_common.glass.step", "type": "event"}]
   },
+  "block.ice_crystal.ambient": {
+    "replace": true,
+    "sounds": [{"name": "_common.silent", "type": "event"}]
+  },
   "block.ice_crystal.break": {
     "replace": true,
     "sounds": [{"name": "_common.glass.break", "type": "event"}],
