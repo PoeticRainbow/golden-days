@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
+### New
+- Winter Drop Textures (26.4)
+  - Snow Bricks
+### Changes
+- Tweaks to Packed Ice and Blue Ice highlights
+### Fixes
+- Quick fix to Chest Options on 1.21.1
 
 ## [Golden Days 16.6 for 1.20+]
 ### New
