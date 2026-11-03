@@ -34,5 +34,8 @@
     "purple": "ffb266e5",
     "magenta": "ffe57fd8",
     "pink": "fff2b2cc"
+  },
+  "environment": {
+    "star_size": "0.25 + r.rand() * 0.25"
   }
 }
