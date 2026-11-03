@@ -1,4 +1,4 @@
 {
   "parent": "item/generated",
-  "textures": {"layer0": "block/icicle_down_tip"}
+  "textures": {"layer0": "block/icicle_tip"}
 }
