@@ -1,0 +1,38 @@
+{
+  "targets": {"swap": {}},
+  "passes": [
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "golden_days:post/overlay",
+      "inputs": [
+        {
+          "location": "golden_days:hypercam",
+          "sampler_name": "Overlay",
+          "width": 1,
+          "height": 1,
+          "bilinear": false
+        },
+        {"sampler_name": "In", "target": "minecraft:main"}
+      ],
+      "output": "swap",
+      "uniforms": {
+        "OverlayConfig": [
+          {"name": "OverlaySize", "type": "vec2", "value": [169.0, 16.0]},
+          {"name": "OverlayPosition", "type": "vec2", "value": [0.0, 0.0]},
+          {"name": "OverlayScale", "type": "int", "value": 2}
+        ]
+      }
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "minecraft:post/blit",
+      "inputs": [{"sampler_name": "In", "target": "swap"}],
+      "uniforms": {
+        "BlitConfig": [
+          {"name": "ColorModulate", "type": "vec4", "value": [1, 1, 1, 1]}
+        ]
+      },
+      "output": "minecraft:main"
+    }
+  ]
+}
