@@ -23,7 +23,7 @@
       "output": "chroma",
       "uniforms": {
         "ResolutionConfig": [
-          {"name": "Resolution", "type": "float", "value": 108.0}
+          {"name": "Resolution", "type": "float", "value": 72.0}
         ]
       }
     },
