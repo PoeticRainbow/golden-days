@@ -1,21 +1,8 @@
 {
-  "targets": {"swap": {}, "luma": {}, "chroma": {}},
+  "targets": {"swap": {}, "chroma": {}},
   "passes": [
     {
-      "vertex_shader": "minecraft:core/screentriangle",
-      "fragment_shader": "golden_days:post/force_resolution",
-      "inputs": [
-        {"sampler_name": "In", "target": "minecraft:main", "bilinear": true}
-      ],
-      "output": "luma",
-      "uniforms": {
-        "ResolutionConfig": [
-          {"name": "Resolution", "type": "float", "value": 480.0}
-        ]
-      }
-    },
-    {
-      "vertex_shader": "minecraft:core/screentriangle",
+      "vertex_shader": "minecraft:core/screenquad",
       "fragment_shader": "golden_days:post/force_resolution",
       "inputs": [
         {"sampler_name": "In", "target": "minecraft:main", "bilinear": true}
@@ -23,21 +10,21 @@
       "output": "chroma",
       "uniforms": {
         "ResolutionConfig": [
-          {"name": "Resolution", "type": "float", "value": 240.0}
+          {"name": "Resolution", "type": "float", "value": 144.0}
         ]
       }
     },
     {
-      "vertex_shader": "minecraft:core/screentriangle",
+      "vertex_shader": "minecraft:core/screenquad",
       "fragment_shader": "golden_days:post/sample_ycc",
       "inputs": [
-        {"sampler_name": "Luma", "target": "luma"},
+        {"sampler_name": "Luma", "target": "minecraft:main"},
         {"sampler_name": "Chroma", "target": "chroma"}
       ],
       "output": "swap"
     },
     {
-      "vertex_shader": "minecraft:core/screentriangle",
+      "vertex_shader": "minecraft:core/screenquad",
       "fragment_shader": "minecraft:post/blit",
       "inputs": [{"sampler_name": "In", "target": "swap"}],
       "uniforms": {
