@@ -36,8 +36,12 @@ void main() {
         return;
     }
 
-    vec3 difference = abs(currentColor.rgb - previousColor.rgb);
     float noise = (random(texCoord) - 0.5) * 0.05;
 
-    fragColor = vec4(length(difference) + noise > Threshold ? currentColor.rgb : previousColor.rgb, 1.0);
+    vec3 difference = abs(currentColor.rgb - previousColor.rgb) + vec3(noise);
+    float red = difference.r > Threshold ? currentColor.r : previousColor.r;
+    float green = difference.g > Threshold ? currentColor.g : previousColor.g;
+    float blue = difference.b > Threshold ? currentColor.b : previousColor.b;
+
+    fragColor = vec4(vec3(red, green, blue), 1.0);
 }
