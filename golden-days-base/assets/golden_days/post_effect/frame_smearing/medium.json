@@ -1,0 +1,39 @@
+{
+  "targets": {"swap": {}, "buffer": {"persistent": true}},
+  "passes": [
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "golden_days:post/smear",
+      "inputs": [
+        {"sampler_name": "In", "target": "minecraft:main"},
+        {"sampler_name": "Previous", "target": "buffer"}
+      ],
+      "output": "swap",
+      "uniforms": {
+        "SmearConfig": [{"name": "Threshold", "type": "float", "value": 0.03}]
+      }
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "minecraft:post/blit",
+      "inputs": [{"sampler_name": "In", "target": "swap"}],
+      "uniforms": {
+        "BlitConfig": [
+          {"name": "ColorModulate", "type": "vec4", "value": [1, 1, 1, 1]}
+        ]
+      },
+      "output": "buffer"
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "minecraft:post/blit",
+      "inputs": [{"sampler_name": "In", "target": "swap"}],
+      "uniforms": {
+        "BlitConfig": [
+          {"name": "ColorModulate", "type": "vec4", "value": [1, 1, 1, 1]}
+        ]
+      },
+      "output": "minecraft:main"
+    }
+  ]
+}
