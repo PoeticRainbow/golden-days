@@ -11,6 +11,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   - Polished Calcite
   - Polished Calcite Slabs
   - Polished Calcite Bricks
+- Added new Post Effects (26.3+, used with /posteffect)
+  - Unsharp Mask, sharpens the screen in high detail areas (Low -> Extreme)
+  - Chroma Subsampling, recreates color bleeding from low quality video (72p -> 1080p)
+  - Frame Smearing, recreates smearing in low detail areas in low quality video (Lowest -> Extreme)
 ### Changes
 - Tweaks to Packed Ice and Blue Ice highlights
 ### Fixes
