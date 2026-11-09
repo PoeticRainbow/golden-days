@@ -1,0 +1,40 @@
+{
+  "targets": {"swap": {}},
+  "passes": [
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "golden_days:post/outlines",
+      "inputs": [
+        {"sampler_name": "In", "target": "minecraft:main"},
+        {
+          "sampler_name": "Depth",
+          "target": "minecraft:main",
+          "use_depth_buffer": true,
+          "bilinear": true
+        }
+      ],
+      "output": "swap",
+      "uniforms": {
+        "OutlineConfig": [
+          {"name": "OutlineDarkness", "type": "float", "value": 0.5},
+          {"name": "OutlineThickness", "type": "float", "value": 2.0}
+        ]
+      }
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "minecraft:post/blit",
+      "inputs": [{"sampler_name": "In", "target": "swap"}],
+      "uniforms": {
+        "BlitConfig": [
+          {
+            "name": "ColorModulate",
+            "type": "vec4",
+            "value": [1.0, 1.0, 1.0, 1.0]
+          }
+        ]
+      },
+      "output": "minecraft:main"
+    }
+  ]
+}
