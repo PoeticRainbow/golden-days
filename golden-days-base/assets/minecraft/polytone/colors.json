@@ -36,6 +36,6 @@
     "pink": "fff2b2cc"
   },
   "environment": {
-    "star_size": "0.25 + r.rand() * 0.25"
+    "star_size": "0.25 + ((v - 0.15) * 10.0) * 0.25"
   }
 }

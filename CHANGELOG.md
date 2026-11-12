@@ -15,7 +15,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   - Unsharp Mask, sharpens the screen in high detail areas (Low -> Extreme)
   - Chroma Subsampling, recreates color bleeding from low quality video (72p -> 1080p)
   - Frame Smearing, recreates smearing in low detail areas in low quality video (Lowest -> Extreme)
+  - Outlines, adds dark outlines (Darkness 0% -> 75%, Thickness 1 -> 3)
+- Beta Star Size (PolyTone)
 ### Changes
+- Darkened the edges between Packed Ice Bricks
 - Tweaks to Packed Ice and Blue Ice highlights
 ### Fixes
 - Quick fix to Chest Options on 1.21.1
