@@ -1,0 +1,13 @@
+{
+  "default_value": 0.25,
+  "min": 0.0,
+  "max": 0.5,
+  "step": 0.05,
+  "presets": {
+    "early_beta": 0.25,
+    "late_beta": 0.25,
+    "early_release": 0.1,
+    "late_release": 0.1
+  },
+  "display_order": 15
+}
