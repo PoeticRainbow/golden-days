@@ -4,6 +4,10 @@
 #include <minecraft:fog.glsl>
 #include <minecraft:dynamictransforms.glsl>
 
+// start GD
+#include <golden_days:options.glsl>
+// end GD
+
 layout(std140) uniform SkyOccluderInfo {
     float OcclusionStartAngle;
     float OcclusionEndAngle;
@@ -27,10 +31,15 @@ void main() {
     float fragmentAngle = degrees(asin(clamp(worldDirection.y, -1.0, 1.0)));
     
     // start GD
+    #ifdef BLUE_VOID
     float alpha = fragmentAngle > START_ANGLE ? 0.0 : 1.0;
     // void <-- --> fog
     float blend = smoothstep(START_ANGLE, END_ANGLE, fragmentAngle);
     vec3 voidColor = mix(ColorModulator.rgb, getVoidColor(ColorModulator.rgb), blend);
     fragColor = vec4(voidColor, alpha);
+    #else
+    float alpha = smoothstep(OcclusionStartAngle, OcclusionEndAngle, fragmentAngle);
+    fragColor = vec4(ColorModulator.rgb, alpha);
+    #endif
     // end GD
 }
