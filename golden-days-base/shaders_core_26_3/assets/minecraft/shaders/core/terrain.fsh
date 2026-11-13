@@ -32,7 +32,7 @@ vec4 calculateFinalColor(vec4 color) {
     #else
     vec4 fogColor = FogColor;
     #endif
-    return goldenDaysApplyFog(color, sphericalVertexDistance, FogRenderDistanceEnd, FogEnvironmentalStart, FogEnvironmentalEnd, fogColor);
+    return apply_fog(color, sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, fogColor);
 }
 
 void main() {
