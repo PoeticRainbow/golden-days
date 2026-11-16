@@ -27,6 +27,13 @@
         "formats": [0, 0],
         "min_format": 0,
         "max_format": 0
+      },
+      {
+        "directory": "option_biome_colors",
+        "polytone_condition": "config('golden_days_alpha:biome_colors')",
+        "formats": [0, 0],
+        "min_format": 0,
+        "max_format": 0
       }
     ]
   }
